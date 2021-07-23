@@ -988,6 +988,16 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@iconify-icons/mdi@^1.1.16":
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/mdi/-/mdi-1.1.16.tgz#ff35b9559fcc69b0123b730b5fbddb01a4719cde"
+  integrity sha512-sWxzdsLpiuuf5bc+1Iu6GL+Mr/pQKK990authP5qil9NjFTxjnQFRXBYm0pss7ywx1O5lp4hNisyZt7WX1GXLw==
+
+"@iconify/vue@^1":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-1.0.6.tgz#e15c36305b55ca92f51dd514f784ac926bfd6fe7"
+  integrity sha512-hqzfDXN9sEkes1bDzLPbQchOVACMPB5lwGHkk7StD4PuWLXZjgmLKybhLgsssCjWpHTHzE47dmZvB240eLZlYw==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
