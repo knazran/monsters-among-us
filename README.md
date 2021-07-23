@@ -1,4 +1,4 @@
-# monsters-among-us
+# Monsters Among Us
 
 ## Build Setup
 
