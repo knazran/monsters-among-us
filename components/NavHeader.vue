@@ -69,6 +69,8 @@
           "
         >
           <AccentButton text="Report" />
+                  
+
           <button
             type="button"
             @mouseover="mouseOver"
