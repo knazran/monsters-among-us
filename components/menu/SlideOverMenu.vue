@@ -2,11 +2,11 @@
   <transition name="slide">
     <div
       v-if="showOverlayMenu"
-      class="fixed inset-y-0 right-0 max-w-full flex z-10"
+      class="fixed inset-y-0 right-0 w-4/5 md:max-w-full flex z-10"
     >
-      <div class="relative w-screen max-w-sm border-l-2 border-mau-primary-800">
+      <div class="w-screen max-w-md border-l-2 border-mau-primary-800">
         <!-- Panel -->
-        <div class="h-full flex flex-col py-6 bg-mau-primary-700 shadow-xl">
+        <div class="h-screen flex flex-col py-6 bg-mau-primary-700 shadow-xl">
           <div class="flex justify-end px-2">
             <button @click="closeMenu">
               <iconify-icon

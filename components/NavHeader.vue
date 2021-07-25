@@ -6,7 +6,7 @@
           class="
             flex-1 flex
             items-center
-            justify-center
+            justify-between
             sm:items-stretch
             sm:justify-start
           "
@@ -23,7 +23,7 @@
               alt="Workflow"
             />
           </div>
-          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-2">
+          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-4 ">
             <a href="https://www.google.com" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"
@@ -61,13 +61,10 @@
             flex
             items-center
             pr-2
-            sm:static
-            sm:inset-auto
-            sm:ml-6
-            sm:pr-0
+
           "
         >
-          <AccentButton text="Report" />
+          <AccentButton class='hidden sm:block' text="Report" />
           <button
             type="button"
             class="
@@ -85,7 +82,7 @@
           >
             <span class="sr-only">Open main menu</span>
 
-            <h3 class="text-white text-md mx-4 font-light">Menu</h3>
+            <h3 class="text-white text-md mx-4 font-light hidden sm:block">Menu</h3>
             <iconify-icon
               :icon="icons.menu"
               height="28"
