@@ -2,7 +2,7 @@
   <transition name="slide">
     <div
       v-if="showOverlayMenu"
-      class="fixed inset-y-0 right-0 w-4/5 md:max-w-full flex z-10"
+      class="fixed inset-y-0 right-0 w-4/5 md:w-auto md:max-w-full flex z-10"
     >
       <div class="w-screen max-w-md border-l-2 border-mau-primary-800">
         <!-- Panel -->
