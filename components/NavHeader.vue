@@ -1,12 +1,12 @@
 <template>
   <nav class="bg-mau-primary-700">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="container mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-20">
         <div
           class="
             flex-1 flex
             items-center
-            justify-center
+            justify-between
             sm:items-stretch
             sm:justify-start
           "
@@ -23,7 +23,7 @@
               alt="Workflow"
             />
           </div>
-          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-2">
+          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-4 ">
             <a href="https://www.google.com" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"
@@ -56,24 +56,16 @@
         </div>
         <div
           class="
-            absolute
             inset-y-0
             right-0
             flex
             items-center
             pr-2
-            sm:static
-            sm:inset-auto
-            sm:ml-6
-            sm:pr-0
           "
         >
-          <AccentButton text="Report" />
-                  
-
+          <AccentButton class='hidden sm:block' text="Report" />
           <button
             type="button"
-            @mouseover="mouseOver"
             class="
               inline-flex
               items-center
@@ -85,17 +77,17 @@
             "
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="showMenu"
           >
             <span class="sr-only">Open main menu</span>
 
-            <h3 class="text-white text-md mx-4 font-light">Menu</h3>
+            <h3 class="text-white text-md mx-4 font-light hidden sm:block">Menu</h3>
             <iconify-icon
               :icon="icons.menu"
               height="28"
               :style="{ color: 'white' }"
             />
           </button>
-          <SlideOver :slideover="slideover" @updateSlideOver="updateSlideOver($event)"/>
         </div>
       </div>
     </div>
@@ -109,45 +101,23 @@ import facebook from '@iconify-icons/mdi/facebook'
 import youtube from '@iconify-icons/mdi/youtube'
 import twitter from '@iconify-icons/mdi/twitter'
 import instagram from '@iconify-icons/mdi/instagram'
-
 export default {
   components: { IconifyIcon },
   data() {
     return {
       icons: {
-        menu: menu,
-        facebook: facebook,
-        youtube: youtube,
-        twitter: twitter,
-        instagram: instagram,
+        menu,
+        facebook,
+        youtube,
+        twitter,
+        instagram,
       },
-      slideover:false
     }
   },
   methods: {
-        mouseOver: function(){
-           setTimeout(() => { this.slideover = true }, 300)
-        },
-        updateSlideOver: function(value){
-           this.slideover=value
-        }
-
+    showMenu (e) {
+      this.$store.commit('toggleOverlayMenu')
+    }
   }
 }
 </script>
-<style scoped>
-.slide-enter-active {
-  animation: menu-slide 0.7s;
-}
-.slide-leave-active {
-  animation: menu-slide 1s reverse;
-}
-@keyframes menu-slide {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-</style>
