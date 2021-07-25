@@ -16,6 +16,8 @@
       <PanelFive />
       <PanelSix />
       <PanelSeven />
+      <Footer />
+
 
 
     <Nuxt />
