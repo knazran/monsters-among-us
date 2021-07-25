@@ -19,23 +19,23 @@
 
           <div class="mt-6 relative flex-1">
             <MenuButton text="Home" to='index'></MenuButton>
-            <Accordion title="About Us">
+            <MenuAccordion title="About Us">
               <MenuButton text="Test" to='about-us'></MenuButton>
-            </Accordion>
-            <Accordion title="The Issue">
+            </MenuAccordion>
+            <MenuAccordion title="The Issue">
               <MenuButton text="Child Sexual Abuse" to='about-us'></MenuButton>
               <MenuButton text="Online Child Sexual Abuse" to='about-us'></MenuButton>
               <MenuButton text="Sexual and Reproductive Health Rights" to='about-us'></MenuButton>
-            </Accordion>
-            <Accordion title="Gotta Read This">
+            </MenuAccordion>
+            <MenuAccordion title="Gotta Read This">
               <MenuButton text="Test" to='about-us'></MenuButton>
-            </Accordion>
-            <Accordion title="Lapor Predator">
+            </MenuAccordion>
+            <MenuAccordion title="Lapor Predator">
               <MenuButton text="Test" to='about-us'></MenuButton>
-            </Accordion>
-            <Accordion title="Advocate with MAU">
+            </MenuAccordion>
+            <MenuAccordion title="Advocate with MAU">
               <MenuButton text="Test" to='about-us'></MenuButton>
-            </Accordion>
+            </MenuAccordion>
           </div>
           <div class='justify-self-end flex justify-center'>
               <AccentButton text="Donate"></AccentButton>
@@ -74,10 +74,10 @@ export default {
 
 <style scoped>
 .slide-enter-active {
-  animation: menu-slide 0.7s;
+  animation: menu-slide 0.5s;
 }
 .slide-leave-active {
-  animation: menu-slide 1s reverse;
+  animation: menu-slide 0.5s reverse;
 }
 @keyframes menu-slide {
   from {
