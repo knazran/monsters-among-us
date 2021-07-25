@@ -1,9 +1,7 @@
 <template>
   <page1 />
 </template>
-   <PanelOne />
-    <PanelTwo />
-     <PanelThree />
+   
 <script>
 export default {
   head() {
