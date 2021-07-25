@@ -3,11 +3,12 @@
     <div class="flex justify-end container mx-auto h-full">
       <div
         class="
-          w-1/2
+          w-full
+          md:w-1/2
           h-full
           flex flex-col
           justify-items-center justify-center
-          bg-gray-400 bg-opacity-80
+          bg-gray-600 bg-opacity-70
           px-6
         "
       >
@@ -40,7 +41,7 @@ export default {
     backgroundImage() {
       const imgUrl = new URL(`../assets/img/${this.bgImage}`, import.meta.url)
       return { 'background-image': `url(${imgUrl})` }
-    }
+    },
   },
 }
 </script>
