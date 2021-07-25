@@ -71,6 +71,7 @@
           <AccentButton text="Report" />
           <button
             type="button"
+            @mouseover="mouseOver"
             class="
               inline-flex
               items-center
@@ -92,6 +93,7 @@
               :style="{ color: 'white' }"
             />
           </button>
+          <SlideOver :slideover="slideover" @updateSlideOver="updateSlideOver($event)"/>
         </div>
       </div>
     </div>
@@ -117,7 +119,33 @@ export default {
         twitter: twitter,
         instagram: instagram,
       },
+      slideover:false
     }
   },
+  methods: {
+        mouseOver: function(){
+           setTimeout(() => { this.slideover = true }, 300)
+        },
+        updateSlideOver: function(value){
+           this.slideover=value
+        }
+
+  }
 }
 </script>
+<style scoped>
+.slide-enter-active {
+  animation: menu-slide 0.7s;
+}
+.slide-leave-active {
+  animation: menu-slide 1s reverse;
+}
+@keyframes menu-slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+</style>
