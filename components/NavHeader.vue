@@ -56,7 +56,6 @@
         </div>
         <div
           class="
-            absolute
             inset-y-0
             right-0
             flex
@@ -71,7 +70,6 @@
           <AccentButton text="Report" />
           <button
             type="button"
-            @mouseover="mouseOver"
             class="
               inline-flex
               items-center
@@ -83,6 +81,7 @@
             "
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="showMenu"
           >
             <span class="sr-only">Open main menu</span>
 
@@ -93,7 +92,7 @@
               :style="{ color: 'white' }"
             />
           </button>
-          <SlideOver :slideover="slideover" @updateSlideOver="updateSlideOver($event)"/>
+          <!-- <SlideOver :slideover="slideover" @updateSlideOver="updateSlideOver($event)"/> -->
         </div>
       </div>
     </div>
@@ -113,23 +112,19 @@ export default {
   data() {
     return {
       icons: {
-        menu: menu,
-        facebook: facebook,
-        youtube: youtube,
-        twitter: twitter,
-        instagram: instagram,
+        menu,
+        facebook,
+        youtube,
+        twitter,
+        instagram,
       },
       slideover:false
     }
   },
   methods: {
-        mouseOver: function(){
-           setTimeout(() => { this.slideover = true }, 300)
-        },
-        updateSlideOver: function(value){
-           this.slideover=value
-        }
-
+    showMenu (e) {
+      this.$store.commit('toggleOverlayMenu')
+    }
   }
 }
 </script>
