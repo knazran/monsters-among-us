@@ -92,7 +92,6 @@
               :style="{ color: 'white' }"
             />
           </button>
-          <!-- <SlideOver :slideover="slideover" @updateSlideOver="updateSlideOver($event)"/> -->
         </div>
       </div>
     </div>
@@ -118,7 +117,6 @@ export default {
         twitter,
         instagram,
       },
-      slideover:false
     }
   },
   methods: {
@@ -128,19 +126,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-.slide-enter-active {
-  animation: menu-slide 0.7s;
-}
-.slide-leave-active {
-  animation: menu-slide 1s reverse;
-}
-@keyframes menu-slide {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-</style>

@@ -2,70 +2,43 @@
   <transition name="slide">
     <div
       v-if="showOverlayMenu"
-      class="fixed inset-y-0 right-0 pl-10 max-w-full flex z-10"
+      class="fixed inset-y-0 right-0 max-w-full flex z-10"
     >
-      <div class="relative w-screen max-w-md">
-        <!--
-          Close button, show/hide based on slide-over state.
-
-          Entering: "ease-in-out duration-500"
-            From: "opacity-0"
-            To: "opacity-100"
-          Leaving: "ease-in-out duration-500"
-            From: "opacity-100"
-            To: "opacity-0"
-        -->
-        <div
-          class="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4"
-        >
-          <button
-            class="
-              rounded-md
-              text-gray-300
-              hover:text-white
-              focus:outline-none
-              focus:ring-2 focus:ring-white
-            "
-            @click='closeMenu'
-          >
-            <span class="sr-only">Close panel</span>
-            <!-- Heroicon name: outline/x -->
-            <svg
-              class="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-
+      <div class="relative w-screen max-w-sm border-l-2 border-mau-primary-800">
         <!-- Panel -->
-        <div
-          class="h-full flex flex-col py-6 bg-white shadow-xl overflow-y-scroll"
-        >
-          <div class="px-4 sm:px-6">
-            <h2 class="text-lg font-medium text-gray-900" id="slide-over-title">
-              Panel title
-            </h2>
+        <div class="h-full flex flex-col py-6 bg-mau-primary-700 shadow-xl">
+          <div class="flex justify-end px-2">
+            <button @click="closeMenu">
+              <iconify-icon
+                :icon="icons.close"
+                height="28"
+                :style="{ color: 'white' }"
+              />
+            </button>
           </div>
-          <div class="mt-6 relative flex-1 px-4 sm:px-6">
-            <!-- Replace with your content -->
-            <div class="absolute inset-0 px-4 sm:px-6">
-              <div
-                class="h-full border-2 border-dashed border-gray-200"
-                aria-hidden="true"
-              ></div>
-            </div>
-            <!-- /End replace -->
+
+          <div class="mt-6 relative flex-1">
+            <MenuButton text="Home" to='index'></MenuButton>
+            <Accordion title="About Us">
+              <MenuButton text="Test" to='about-us'></MenuButton>
+            </Accordion>
+            <Accordion title="The Issue">
+              <MenuButton text="Child Sexual Abuse" to='about-us'></MenuButton>
+              <MenuButton text="Online Child Sexual Abuse" to='about-us'></MenuButton>
+              <MenuButton text="Sexual and Reproductive Health Rights" to='about-us'></MenuButton>
+            </Accordion>
+            <Accordion title="Gotta Read This">
+              <MenuButton text="Test" to='about-us'></MenuButton>
+            </Accordion>
+            <Accordion title="Lapor Predator">
+              <MenuButton text="Test" to='about-us'></MenuButton>
+            </Accordion>
+            <Accordion title="Advocate with MAU">
+              <MenuButton text="Test" to='about-us'></MenuButton>
+            </Accordion>
+          </div>
+          <div class='justify-self-end flex justify-center'>
+              <AccentButton text="Donate"></AccentButton>
           </div>
         </div>
       </div>
@@ -74,17 +47,28 @@
 </template>
 
 <script>
+import IconifyIcon from '@iconify/vue'
+import close from '@iconify-icons/mdi/close'
+
 export default {
+  components: { IconifyIcon },
+  data() {
+    return {
+      icons: {
+        close,
+      },
+    }
+  },
   computed: {
     showOverlayMenu() {
       return this.$store.state.overlayMenu
     },
   },
   methods: {
-    closeMenu (e) {
+    closeMenu(e) {
       this.$store.commit('toggleOverlayMenu')
-    }
-  }
+    },
+  },
 }
 </script>
 
