@@ -26,8 +26,8 @@
                     <!-- Right Side with Pic -->
                     <div class="lg:my-8 lg:px-16 lg:w-1/2 sedang:visible invisible ">
                         <div class="-space-x-4 2xl:mt-3 sedang:mt-12 mt-10 xl:px-24 ">
-                            <img class="relative z-20  top-8 left-36 object-cover 2xl:w-96 2xl:h-80 sedang:h-72 sedang:w-72	border-2  rounded-md" src="../static/test.jpg" alt="Profile image"/>
-                            <img class="relative z-30 -top-10 object-cover 2xl:w-96 2xl:h-80  sedang:h-72 sedang:w-72 border-2  rounded-md" src="../static/test2.jpg" alt="Profile image"/>
+                            <img class="relative -z-20  top-8 left-36 object-cover 2xl:w-96 2xl:h-80 sedang:h-72 sedang:w-72	border-2  rounded-md" src="../static/test.jpg" alt="Profile image"/>
+                            <img class="relative -z-30 -top-10 object-cover 2xl:w-96 2xl:h-80  sedang:h-72 sedang:w-72 border-2  rounded-md" src="../static/test2.jpg" alt="Profile image"/>
                         </div>
                     </div>
                     <!--End Right side with Pic -->

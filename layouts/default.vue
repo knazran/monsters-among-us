@@ -12,6 +12,11 @@
     <PanelOne />
     <PanelTwo />
      <PanelThree />
+     <PanelFour />
+      <PanelFive />
+      <PanelSix />
+      <PanelSeven />
+
 
     <Nuxt />
   </div>
