@@ -61,7 +61,6 @@
             flex
             items-center
             pr-2
-
           "
         >
           <AccentButton class='hidden sm:block' text="Report" />
@@ -102,7 +101,6 @@ import facebook from '@iconify-icons/mdi/facebook'
 import youtube from '@iconify-icons/mdi/youtube'
 import twitter from '@iconify-icons/mdi/twitter'
 import instagram from '@iconify-icons/mdi/instagram'
-
 export default {
   components: { IconifyIcon },
   data() {

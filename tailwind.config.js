@@ -2,7 +2,47 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'xs':'531px',
+      'sm':'640px',
+      'md': '768px',
+      // => @media (min-width: 640px) { ... }
+      'sedang':'1030px',
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      '2xl': '1536px'
+      // => @media (min-width: 1280px) { ... }
+    },
+
+    fontFamily: {
+      'nunito': ['nunito', 'sans-serif'],
+    },
+    fontSize: {
+            'xs': '.75rem',
+            'sm': '.875rem',
+            'tiny': '.875rem',
+              'base': '1rem',
+              'lg': '1.125rem',
+              'xl': '1.25rem',
+              '2xl': '1.76rem',
+            '3xl': '1.875rem',
+           '4xl': '2.25rem',
+              '5xl': '3rem',
+              '6xl': '4rem',
+          '7xl': '5rem',
+            },
+
     extend: {
+      
+        height:{
+          101: '60rem',
+              100: '47rem',
+              99: '39rem',
+              98: '34rem',
+              97: '30rem'
+        },
       borderRadius: {
         '20': '20px'
       },
@@ -37,14 +77,17 @@ module.exports = {
           '600': '#F4EB3D',
           '700': '#F1E50D',
           '800': '#C0B70B',
-          '900': '#F26C50',
-          '950': '#E0573A'
-        }
+          '900': '#F26C50'
+        }},
+        width: {
+          '56.5': '14.5rem',
+          '104': '32rem'
+        
       }
     }
   },
   variants: {
-    extend: {},
+   
   },
   plugins: [],
 }

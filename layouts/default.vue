@@ -9,6 +9,10 @@
     </transition>
     <SlideOverMenu/>
     <NavHeader />
+    <PanelOne />
+    <PanelTwo />
+     <PanelThree />
+
     <Nuxt />
   </div>
 </template>
