@@ -24,8 +24,7 @@
               2xl:text-6xl
               xl:text-5xl
               lg:text-4xl
-              text-4xl
-              text-center
+              text-4xl text-center
               lg:text-left
             "
           >
@@ -36,8 +35,7 @@
               font-semibold
               xl:text-5xl
               lg:text-4xl
-              text-4xl
-              text-center
+              text-4xl text-center
               lg:text-left
               mt-2
             "
@@ -60,7 +58,6 @@
           </p>
         </div>
         <!-- Button -->
-        <!-- <div class="md:mx-64 lg:mx-0 sm:mx-48 xs:mx-32 mx-28"> -->
         <div class="flex flex-col md:flex-row items-center md:items-start">
           <AccentButtonLong text="Report With Lapor Predator" />
           <button
@@ -86,7 +83,6 @@
 
       <!-- Right Side with Pic -->
       <div class="hidden md:block lg:w-1/2">
-        <!-- <div class="-space-x-4 2xl:mt-3 sedang:mt-12 mt-10 xl:px-24"> -->
         <div class="flex flex-col justify-center items-center">
           <img
             class="
