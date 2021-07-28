@@ -1,22 +1,20 @@
 <template>
-  <div class="bg-mau-primary-100 h-99 lg:h-100">
-    <div class="container mx-auto">
+  <div class="bg-mau-primary-100 h-full">
+    <div class="container mx-auto py-8 lg:py-16 px-4">
       <div class="flex flex-wrap">
         <!-- Left Side-->
         <div
           class="
             lg:py-6
-            xl:my-8
             lg:px-8
-            xl:w-2/5
+            md:w-1/2
+            2xl:w-2/5
             text-mau-secondary-900
-            lg:mt-0
-            mt-10
-            px-7
+            px-6
           "
         >
           <div class="2xl:pr-32 xl:pr-24">
-            <p class="font-medium xl:text-6xl lg:text-5xl text-3xl">
+            <p class="font-medium xl:text-6xl lg:text-5xl text-3xl text-center md:text-left">
               Attention grabbing statement on the issue of Online Child Abuse
             </p>
           </div>
@@ -28,7 +26,8 @@
           class="
             lg:my-14
             lg:py-6
-            xl:w-3/5
+            md:w-1/2
+            2xl:w-3/5
             mt-10
             lg:px-0
             lg:ml-0
@@ -62,7 +61,7 @@
             </ul>
             <!-- End List -->
             <!-- Button -->
-            <div class="mt-24">
+            <div class="mt-12 md:mt-24 flex flex-col items-center md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-12">
               <button
                 class="
                   rounded-xl
@@ -85,7 +84,6 @@
                   2xl:w-64
                   xl:w-52
                   w-48
-                  ml-12
                   py-2
                 "
               >
