@@ -1,23 +1,19 @@
 <template>
-  <div class="bg-mau-primary-100 xl:h-100 h-102">
-    <div class="container mx-auto">
-      <div class="flex xl:justify-start justify-center mt-12">
-        <p
+  <div class="bg-mau-primary-100 h-full">
+    <div class="container mx-auto py-8 px-4 lg:px-8">
+        <h3
           class="
             font-medium
             xl:text-6xl
             lg:text-5xl
             text-4xl text-mau-primary-900
-            mt-10
             lg:text-left
             text-center
           "
         >
           Advocate with Us!
-        </p>
-      </div>
-      <div class="xl:pr-96 md:ml-6 lg:ml-20 xl:ml-0">
-        <p
+        </h3>
+        <h4
           class="
             font-thin
             xl:text-3xl
@@ -32,8 +28,7 @@
         >
           We are always looking for volunteers, colaborators, and members to
           join the cause
-        </p>
-      </div>
+        </h4>
       <div class="xl:flex xl:flex-row mt-10 xl:ml-0 ml-32">
         <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton is required -->

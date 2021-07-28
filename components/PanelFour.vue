@@ -1,6 +1,6 @@
 <template>
   <div class="bg-mau-primary-50 h-full">
-    <div class="container mx-auto py-8 px-4">
+    <div class="container mx-auto py-8 px-4 lg:px-8">
       <p
         class="
           font-medium
@@ -13,7 +13,7 @@
       >
         Our Initiatives
       </p>
-      <div class="md:flex flex-col md:flex-row md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8">
+      <div class="flex flex-col items-center md:flex-row md:items-start md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8">
         <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
         <!-- isButton is required -->
