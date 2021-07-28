@@ -7,20 +7,10 @@
         aria-hidden="true"
       ></div>
     </transition>
-    <SlideOverMenu/>
+    <SlideOverMenu />
     <NavHeader />
-    <PanelOne />
-    <PanelTwo />
-     <PanelThree />
-     <PanelFour />
-      <PanelFive />
-      <PanelSix />
-      <PanelSeven />
-      <Footer />
-
-
-
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
