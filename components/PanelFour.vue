@@ -1,42 +1,41 @@
 <template>
-  <div class="bg-mau-primary-50 xl:h-99 h-103">
-    <div class="container mx-auto">
+  <div class="bg-mau-primary-50 h-full">
+    <div class="container mx-auto py-8 px-4">
       <p
         class="
           font-medium
-          xl:text-6xl
-          lg:text-5xl
-          text-4xl text-mau-primary-700
-          mt-10
+          xl:text-4xl
+          lg:text-2xl
+          text-2xl text-mau-primary-700
           xl:text-left
           text-center
         "
       >
         Our Initiatives
       </p>
-      <div class="xl:flex xl:flex-row mt-10 xl:ml-0 ml-32">
+      <div class="md:flex flex-col md:flex-row md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8">
         <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
         <!-- isButton is required -->
         <CardsSimpleThumbnail
-          :isButton="false"
-          textTop="Lapor Predator"
-          textBot="Lapor with us Lorem Ipsum One two three"
+          :is-button="false"
+          text-top="Lapor Predator"
+          text-bot="Lapor with us Lorem Ipsum One two three"
         />
         <CardsSimpleThumbnail
-          :isButton="false"
-          textTop="Catch Em Predator"
-          textBot="Lapor with us Lorem Ipsum One two three"
+          :is-button="false"
+          text-top="Catch Em Predator"
+          text-bot="Lapor with us Lorem Ipsum One two three"
         />
         <CardsSimpleThumbnail
-          :isButton="false"
-          textTop="Color With MAU"
-          textBot="Lapor with us Lorem Ipsum One two three"
+          :is-button="false"
+          text-top="Color With MAU"
+          text-bot="Lapor with us Lorem Ipsum One two three"
         />
         <CardsSimpleThumbnail
-          :isButton="false"
-          textTop="Mau Reading Club"
-          textBot="Lapor with us Lorem Ipsum One two three"
+          :is-button="false"
+          text-top="Mau Reading Club"
+          text-bot="Lapor with us Lorem Ipsum One two three"
         />
       </div>
     </div>
