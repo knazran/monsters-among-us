@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PanelOne />
+    <MainHero />
     <PanelTwo />
     <PanelThree />
     <PanelFour />
