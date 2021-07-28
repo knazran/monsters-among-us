@@ -25,6 +25,7 @@
               xl:text-5xl
               lg:text-4xl
               text-4xl
+              text-center
               lg:text-left
             "
           >
@@ -36,6 +37,7 @@
               xl:text-5xl
               lg:text-4xl
               text-4xl
+              text-center
               lg:text-left
               mt-2
             "
@@ -58,7 +60,8 @@
           </p>
         </div>
         <!-- Button -->
-        <div class="md:mx-64 lg:mx-0 sm:mx-48 xs:mx-32 mx-28">
+        <!-- <div class="md:mx-64 lg:mx-0 sm:mx-48 xs:mx-32 mx-28"> -->
+        <div class="flex flex-col md:flex-row items-center md:items-start">
           <AccentButtonLong text="Report With Lapor Predator" />
           <button
             class="
