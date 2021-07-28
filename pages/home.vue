@@ -1,7 +1,7 @@
 <template>
   <page1 />
 </template>
-
+   
 <script>
 export default {
   head() {
