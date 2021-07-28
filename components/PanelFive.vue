@@ -29,23 +29,23 @@
           We are always looking for volunteers, colaborators, and members to
           join the cause
         </h4>
-      <div class="xl:flex xl:flex-row mt-10 xl:ml-0 ml-32">
+      <div class="flex flex-col md:flex-row md:justify-center items-center mt-10 space-y-12 md:space-y-0 md:space-x-12">
         <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton is required -->
         <CardsSimpleThumbnail
-          :isButton="true"
-          :isLong="false"
-          textButton="Volunteer"
+          :is-button="true"
+          :is-long="false"
+          text-button="Volunteer"
         />
         <CardsSimpleThumbnail
-          :isButton="true"
-          :isLong="true"
-          textButton="Collaborate with MAU"
+          :is-button="true"
+          :is-long="true"
+          text-button="Collaborate with MAU"
         />
         <CardsSimpleThumbnail
-          :isButton="true"
-          :isLong="false"
-          textButton="Be a Member"
+          :is-button="true"
+          :is-long="false"
+          text-button="Be a Member"
         />
       </div>
     </div>

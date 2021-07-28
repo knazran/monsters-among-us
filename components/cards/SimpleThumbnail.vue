@@ -3,7 +3,7 @@
   <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
   <!-- isButton is required and need to fill textButton-->
   <!-- if !isButton, need to fill up texttop and textBot-->
-  <div class="w-72 flex flex-col">
+  <div class="w-72 flex flex-col items-center">
       <!-- <div class="self-center"> -->
       <div class="">
         <img
