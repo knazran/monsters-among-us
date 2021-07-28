@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-mau-primary-500 lg:h-98 h-99">
-    <div class="container mx-auto">
-      <div class="flex flex-wrap">
+  <div class="bg-mau-primary-500 h-full">
+    <div class="container mx-auto py-8 lg:py-40 px-4">
+      <div class="flex flex-col md:flex-row items-center md:items-start">
         <!-- Left Side-->
-        <div class="lg:py-6 lg:my-24 lg:w-3/4 text-white xl:px-2 px-7 mt-10">
-          <p class="font-extralight lg:text-5xl text-4xl">
+        <div class="lg:w-3/4 text-white xl:px-2 px-6">
+          <p class="font-extralight lg:text-5xl text-3xl leading-tight md:leading-normal text-center md:text-left">
             <strong> Monsters Among Us </strong>is a Malaysian youth combating
             child sexual abuse (CSA) through advocacy and community involvement.
           </p>
@@ -12,7 +12,7 @@
         <!-- End Left Side-->
 
         <!-- Right Side Logo -->
-        <div class="xl:my-24 mt-7 mx-auto lg:mx-0 lg:my-36 lg:w-1/4">
+        <div class="lg:w-1/4 mt-8 md:mt-0">
           <img
             class="relative object-contain 2xl:w-96 2xl:h-80 h-64 w-64"
             src="../static/lapor logo.png"
