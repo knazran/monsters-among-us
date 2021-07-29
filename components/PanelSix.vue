@@ -35,12 +35,15 @@
                 ml-12
               "
             >
-              <CardsAdvancedThumbnail title="MAU Rocks" :isLarge="false" />
+              <CardsAdvancedThumbnail title="MAU Rocks" :isLarge="false" :isBlog=false
+                    />
             </div>
             <div class="mb-12 xl:mb-0 xl:ml-0 lg:ml-80 md:ml-40 sm:ml-28 ml-12">
               <CardsAdvancedThumbnail
                 title="MAU Part 1 Intro"
                 :isLarge="false"
+                :isBlog=false
+
               />
             </div>
           </slot>
@@ -133,6 +136,7 @@
               <CardsAdvancedThumbnail
                 title="MAU Part 1 Intro"
                 :isLarge="true"
+                :isBlog="false"
                 author="Admin"
                 date="17/10/2020"
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
@@ -142,6 +146,7 @@
               <CardsAdvancedThumbnail
                 title="MAU Part 1 Intro"
                 :isLarge="true"
+                :isBlog="false"
                 author="Admin"
                 date="17/10/2020"
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
@@ -151,6 +156,7 @@
               <CardsAdvancedThumbnail
                 title="MAU Part 1 Intro"
                 :isLarge="true"
+                :isBlog="false"
                 author="Admin"
                 date="17/10/2020"
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
