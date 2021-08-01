@@ -1,8 +1,6 @@
 <template>
   <div>
-
     <MainHero />
-    <!-- <PanelBlog /> -->
     <PanelTwo />
     <PanelThree />
     <PanelFour />
