@@ -5,7 +5,7 @@
                     <!-- isBlog for Tab 4 -->
                     <!-- if isLarge, required title,author,date,content-->
     <div class="rounded-xl overflow-hidden shadow-lg ml-12"  :class="isBlog ? 'max-w-lg' : 'max-w-xs'">
-      <img class="max-w-full" src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg" alt="River">
+      <img class="max-w-full" src="https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_2240,c_limit/phonepicutres-TA.jpghttps://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_2240,c_limit/phonepicutres-TA.jpg" alt="River">
       <div class="px-6 py-4">
         <div class="font-medium text-xl mb-2">{{title}}</div>
         <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>
