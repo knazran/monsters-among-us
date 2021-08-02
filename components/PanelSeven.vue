@@ -1,13 +1,12 @@
 <template>
-  <div class="bg-mau-primary-50 xl:h-99 h-100">
-    <div class="container mx-auto">
+  <div class="bg-mau-primary-50 h-full">
+    <div class="container mx-auto py-8 px-4 lg:px-8">
       <p
         class="
           font-medium
-          xl:text-6xl
-          lg:text-5xl
-          text-4xl text-mau-primary-700
-          mt-10
+          xl:text-4xl
+          lg:text-2xl
+          text-2xl text-mau-primary-700
           text-center
         "
       >
@@ -60,12 +59,3 @@
     </div>
   </div>
 </template>
-
-<script>
-</script>
-
-<style scoped>
-#describe {
-  font-size: 1.8rem;
-}
-</style>

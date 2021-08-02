@@ -72,10 +72,6 @@
         <div
           class="w-full flex flex-col items-center justify-center md:flex-row space-y-4 md:space-y-0 md:space-x-8 md:items-stretch md:px-8"
         >
-          <!-- Instruction for CardsAdvancedThumbnail-->
-          <!-- props:title,isLarge,content,title,author,date-->
-          <!-- title, isLarge are required -->
-          <!-- if isLarge, required title,author,date,content-->
             <CardsAdvancedThumbnail
               title="MAU Part 1 Intro"
               :is-large="true"
@@ -104,10 +100,3 @@
   </div>
 </template>
 
-<script></script>
-
-<style scoped>
-#describe {
-  font-size: 1.8rem;
-}
-</style>
