@@ -1718,6 +1718,11 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@open-wc/webpack-import-meta-loader@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@open-wc/webpack-import-meta-loader/-/webpack-import-meta-loader-0.4.7.tgz#d8212640a386a66bf06a2a4c101936467839b5a1"
+  integrity sha512-F3d1EHRckk2+ZpgEEAgVITp8BU9DYLBhKOhNMREeQ1BwILRIhrt+V1bebpnd0Mz595jzd7Yh1wSibLsXibkCpg==
+
 "@polka/url@^1.0.0-next.15":
   version "1.0.0-next.15"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.15.tgz#6a9d143f7f4f49db2d782f9e1c8839a29b43ae23"
@@ -5212,6 +5217,11 @@ es-abstract@^1.17.2, es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2, es-
     string.prototype.trimend "^1.0.4"
     string.prototype.trimstart "^1.0.4"
     unbox-primitive "^1.0.1"
+
+es-dirname@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/es-dirname/-/es-dirname-0.1.0.tgz#cfc5cd40ac9cca61c9f4c83d13123e1114762b00"
+  integrity sha512-tcTj4pVFXe5EdiHCybjynDTlvkwuNN6JCg9+5BVB+n9qQoMyWOtxpREoL7rGO3sCIAX55Y6CYZi4s1c30uxvPg==
 
 es-to-primitive@^1.2.1:
   version "1.2.1"
