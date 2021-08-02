@@ -3,7 +3,7 @@
                     <!-- props:title,isLarge,content,title,author,date-->
                     <!-- title, isLarge are required -->
                     <!-- if isLarge, required title,author,date,content-->
-    <div class="rounded-xl overflow-hidden max-w-xs shadow-lg ml-12">
+    <div class="rounded-xl overflow-hidden max-w-xs shadow-lg">
       <img class="max-w-full" src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg" alt="River">
       <div class="px-6 py-4">
         <div class="font-medium text-xl mb-2">{{title}}</div>

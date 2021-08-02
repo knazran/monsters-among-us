@@ -58,7 +58,7 @@
           </p>
         </div>
         <!-- Button -->
-        <div class="flex flex-col md:flex-row items-center md:items-start">
+        <div class="flex flex-col lg:flex-wrap lg:flex-row items-center lg:items-start">
           <AccentButtonLong text="Report With Lapor Predator" />
           <button
             class="
@@ -86,8 +86,8 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="
-              transform
-              translate-x-16
+              lg:transform
+              lg:translate-x-16
               -z-20
               object-cover
               2xl:w-96
@@ -102,6 +102,8 @@
           />
           <img
             class="
+              hidden 
+              lg:block
               transform
               -translate-x-16 -translate-y-12
               -z-30

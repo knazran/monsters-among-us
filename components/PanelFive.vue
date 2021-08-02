@@ -1,35 +1,45 @@
 <template>
   <div class="bg-mau-primary-100 h-full">
-    <div class="container mx-auto py-8 lg:py-24 px-4 lg:px-8">
-        <h3
-          class="
-            font-medium
-            xl:text-6xl
-            lg:text-5xl
-            text-4xl text-mau-primary-900
-            lg:text-left
-            text-center
-          "
-        >
-          Advocate with Us!
-        </h3>
-        <h4
-          class="
-            font-thin
-            xl:text-3xl
-            lg:text-2xl
-            text-xl text-mau-primary-700
-            mt-1
-            lg:text-left
-            text-center
-            xl:pr-36
-            2xl:pr-96
-          "
-        >
-          We are always looking for volunteers, colaborators, and members to
-          join the cause
-        </h4>
-      <div class="flex flex-col md:flex-row md:justify-center items-center mt-10 space-y-12 md:space-y-0 md:space-x-12">
+    <div class="container mx-auto py-8 lg:py-16 px-4 lg:px-8">
+      <h3
+        class="
+          font-medium
+          xl:text-4xl
+          lg:text-3xl
+          text-2xl text-mau-primary-900
+          lg:text-left
+          text-center
+        "
+      >
+        Advocate with Us!
+      </h3>
+      <h4
+        class="
+          font-thin
+          xl:text-2xl
+          lg:text-xl
+          text-lg text-mau-primary-700
+          mt-1
+          lg:text-left
+          text-center
+          xl:pr-36
+          2xl:pr-96
+        "
+      >
+        We are always looking for volunteers, colaborators, and members to join
+        the cause
+      </h4>
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          md:justify-center
+          items-center
+          mt-10
+          space-y-12
+          md:space-y-0 md:space-x-12
+        "
+      >
         <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton is required -->
         <CardsSimpleThumbnail
