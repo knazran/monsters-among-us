@@ -7,7 +7,7 @@
       <!-- <div class="self-center"> -->
       <div class="">
         <img
-          src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
+          :src="sectionImage"
           alt="..."
           class="shadow object-cover rounded w-full border-none"
         />
@@ -49,8 +49,9 @@ export default {
   },
   computed: {
     sectionImage() {
-      const imgUrl = new URL(`../assets/img/${this.img}`, import.meta.url)
-      return imgUrl
+      // const imgUrl = new URL(`../assets/img/${this.img}`, import.meta.url)
+      // return imgUrl
+      return "https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
     },
   },
 }

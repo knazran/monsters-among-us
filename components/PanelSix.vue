@@ -23,7 +23,6 @@
             mt-12
           "
         >
-          <slot>
             <div
               class="
                 mb-12
@@ -43,7 +42,6 @@
                 :isLarge="false"
               />
             </div>
-          </slot>
         </div>
         <!-- End LEft -->
         <!-- Right -->

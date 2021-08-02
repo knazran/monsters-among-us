@@ -1,6 +1,6 @@
 <template>
   <div class="bg-mau-primary-100 h-full">
-    <div class="container mx-auto py-8 px-4 lg:px-8">
+    <div class="container mx-auto py-8 lg:py-24 px-4 lg:px-8">
         <h3
           class="
             font-medium
