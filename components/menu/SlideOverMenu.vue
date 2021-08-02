@@ -2,7 +2,7 @@
   <transition name="slide">
     <div
       v-if="showOverlayMenu"
-      class="fixed inset-y-0 right-0 w-4/5 md:w-auto md:max-w-full flex z-10"
+      class="fixed h-screen inset-y-0 right-0 w-4/5 md:w-auto md:max-w-full flex z-10 "
     >
       <div class="w-screen max-w-md border-l-2 border-mau-primary-800">
         <!-- Panel -->
@@ -20,21 +20,27 @@
           <div class="mt-6 relative flex-1">
             <MenuButton text="Home" to='index'></MenuButton>
             <MenuAccordion title="About Us">
-              <MenuButton text="Test" to='about-us'></MenuButton>
+              <MenuButton text="Our Story" to='about-us'></MenuButton>
+              <MenuButton text="Our Milestone" to='about-us'></MenuButton>
+              <MenuButton text="Meet The Team" to='about-us'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
               <MenuButton text="Child Sexual Abuse" to='about-us'></MenuButton>
               <MenuButton text="Online Child Sexual Abuse" to='about-us'></MenuButton>
               <MenuButton text="Sexual and Reproductive Health Rights" to='about-us'></MenuButton>
+              <MenuButton text="Child Rights" to='about-us'></MenuButton>
             </MenuAccordion>
-            <MenuAccordion title="Gotta Read This">
-              <MenuButton text="Test" to='about-us'></MenuButton>
-            </MenuAccordion>
+            <MenuButton text="Gotta Read This" to='about-us'></MenuButton>
             <MenuAccordion title="Lapor Predator">
-              <MenuButton text="Test" to='about-us'></MenuButton>
+              <MenuButton text="About Lapor Predator" to='about-us'></MenuButton>
+              <MenuButton text="How to Lapor Predator" to='about-us'></MenuButton>
+              <MenuButton text="Our Journey" to='about-us'></MenuButton>
+              <MenuButton text="Our Partners" to='about-us'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Advocate with MAU">
-              <MenuButton text="Test" to='about-us'></MenuButton>
+              <MenuButton text="Volunteers and Vacancies " to='about-us'></MenuButton>
+              <MenuButton text="Collaborate with Us" to='about-us'></MenuButton>
+              <MenuButton text="Be a Member" to='about-us'></MenuButton>
             </MenuAccordion>
           </div>
           <div class='justify-self-end flex justify-center'>
