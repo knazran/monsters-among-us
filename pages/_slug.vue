@@ -1,12 +1,11 @@
 <template>
   <div>
-    <nuxt-content :document="post" />
     <!-- Component props: title, author,date ,img, content -->
     <PagePost
       :title="post.title"
       :author="post.author"
       :date="post.date"
-      :content="post.content"
+      :content="post"
       :img="post.image"
     />
   </div>

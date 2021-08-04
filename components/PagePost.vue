@@ -10,6 +10,7 @@
             md:text-6xl
             text-5xl text-mau-primary-700
             my-1
+            -mx-1
             md:text-left
             text-center
           "
@@ -33,7 +34,7 @@
           class="
             font-light
             text-md text-mau-primary-700
-            mt-1
+            md:mt-1
             md:text-left
             text-center
           "
@@ -45,6 +46,7 @@
         <img :src="img" class="my-5" />
 
         <!-- Content -->
+        
         <p
           class="
             font-normal
@@ -55,7 +57,8 @@
             text-justify
           "
         >
-          {{ content }}
+          <nuxt-content :document="content" />
+
         </p>
       </div>
     </div>
@@ -81,7 +84,7 @@ export default {
       type: String,
     },
     content: {
-      type: String,
+      type: Object,
     },
   },
 }

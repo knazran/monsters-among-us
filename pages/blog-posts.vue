@@ -25,6 +25,7 @@
          gap-1
         "
       >
+      <!-- Need to add text -->
         <div class="py-5 lg:px-12 md:px-6 mx-6" v-for="post of posts" :key="post.slug">
           <NuxtLink :to="post.slug">
             <CardsAdvancedThumbnail
@@ -33,7 +34,6 @@
               :author="post.author"
               :date="post.date"
               :title="post.title"
-              :text="post.content"
               :img="post.image"
             />
           </NuxtLink>
@@ -49,7 +49,7 @@ export default {
   async asyncData({ $content }) {
     const posts = await $content('blog').fetch()
     //const boardMembers = meetTheTeamData[0].board_members
-    console.log(posts[0])
+    console.log(typeof(posts))
     return {
       posts,
     }
