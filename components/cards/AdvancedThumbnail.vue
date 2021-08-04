@@ -5,7 +5,7 @@
                     <!-- isBlog for Tab 4 -->
                     <!-- if isLarge, required title,author,date,content-->
     <div class="rounded-xl overflow-hidden shadow-lg ml-12"  :class="isBlog ? 'max-w-lg' : 'max-w-xs'">
-      <img class="object-none h-80 w-full " :src=img />
+      <img class="object-cover h-56 w-full " :src=img />
       <div class="px-6 py-4">
         <div class="font-medium text-xl mb-2">{{title}}</div>
         <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>
