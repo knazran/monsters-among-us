@@ -5,7 +5,7 @@
   <!-- isBlog for Tab 4 -->
   <!-- if isLarge, required title,author,date,content-->
   <div
-    class="rounded-xl overflow-hidden shadow-lg ml-12"
+    class="rounded-xl overflow-hidden shadow-lg "
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
     <img class="object-cover h-56 w-full" :src="img" />

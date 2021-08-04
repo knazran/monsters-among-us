@@ -7,8 +7,8 @@
           xl:text-4xl
           text-2xl text-mau-primary-700
           my-5
-          sm:mx-12
-          ml-10
+          lg:mx-28
+          md:mx-24
           md:text-left
           text-center
         "
@@ -20,13 +20,12 @@
           grid
           md:grid-cols-2
           2xl:grid-cols-3
-          px-24
-          sm:-mx-24
-          -mx-8
-          gap-4 gap-1
+          px-36
+          -mx-24
+         gap-1
         "
       >
-        <div class="py-5" v-for="post of posts" :key="post.slug">
+        <div class="py-5 lg:px-12 md:px-6 mx-6" v-for="post of posts" :key="post.slug">
           <NuxtLink :to="post.slug">
             <CardsAdvancedThumbnail
               :isLarge="true"
