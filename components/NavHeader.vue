@@ -57,6 +57,8 @@
           <!-- <NuxtLink :to="{ path: `${$route.path}`, hash: '#webchat_widget' }">
             <AccentButton class="hidden sm:block" text="Report" />
           </NuxtLink> -->
+          <nuxt-link to="#webchat_widget"><AccentButton class="hidden sm:block" text="Report" /></nuxt-link>
+          <nuxt-link :to="{path: `${$route.path}`, hash: '#webchat_widget'}"><AccentButton class="hidden sm:block" text="Report" /></nuxt-link>
           <a href="#webchat_widget">
             <AccentButton class="hidden sm:block" text="Report" />
           </a>
