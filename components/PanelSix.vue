@@ -6,7 +6,18 @@
       <div class="mx-auto flex md:flex-row md:my-8 flex-col-reverse">
         <!-- Left -->
 
-        <div class="md:w-3/5 flex flex-col items-center md:flex-row space-y-4 md:space-y-0 md:space-x-4 md:items-stretch md:px-8">
+        <div
+          class="
+            md:w-3/5
+            flex flex-col
+            items-center
+            md:flex-row
+            space-y-4
+            md:space-y-0 md:space-x-4
+            md:items-stretch
+            md:px-8
+          "
+        >
           <CardsAdvancedThumbnail title="MAU Rocks" :is-large="false" />
 
           <CardsAdvancedThumbnail title="MAU Part 1 Intro" :is-large="false" />
@@ -14,7 +25,17 @@
         <!-- End LEft -->
         <!-- Right -->
 
-        <div class="w-full flex flex-col items-center md:items-start md:w-2/5 md:px-8 mb-8">
+        <div
+          class="
+            w-full
+            flex flex-col
+            items-center
+            md:items-start
+            md:w-2/5
+            md:px-8
+            mb-8
+          "
+        >
           <p
             class="
               font-medium
@@ -70,29 +91,39 @@
           </p>
         </div>
         <div
-          class="w-full flex flex-col items-center justify-center md:flex-row space-y-4 md:space-y-0 md:space-x-8 md:items-stretch md:px-8"
+          class="
+            w-full
+            flex flex-col
+            items-center
+            justify-center
+            md:flex-row
+            space-y-4
+            md:space-y-0 md:space-x-8
+            md:items-stretch
+            md:px-8
+          "
         >
-            <CardsAdvancedThumbnail
-              title="MAU Part 1 Intro"
-              :is-large="true"
-              author="Admin"
-              date="17/10/2020"
-              content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            />
-            <CardsAdvancedThumbnail
-              title="MAU Part 1 Intro"
-              :is-large="true"
-              author="Admin"
-              date="17/10/2020"
-              content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            />
-            <CardsAdvancedThumbnail
-              title="MAU Part 1 Intro"
-              :is-large="true"
-              author="Admin"
-              date="17/10/2020"
-              content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-            />
+          <CardsAdvancedThumbnail
+            title="MAU Part 1 Intro"
+            :is-large="true"
+            author="Admin"
+            date="17/10/2020"
+            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+          />
+          <CardsAdvancedThumbnail
+            title="MAU Part 1 Intro"
+            :is-large="true"
+            author="Admin"
+            date="17/10/2020"
+            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+          />
+          <CardsAdvancedThumbnail
+            title="MAU Part 1 Intro"
+            :is-large="true"
+            author="Admin"
+            date="17/10/2020"
+            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+          />
         </div>
       </div>
       <!-- END BOT -->

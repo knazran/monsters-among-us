@@ -2,7 +2,7 @@
 <template>
   <section class="bg-mau-primary-50 h-full my-2">
     <div class="container mx-auto">
-      <div class=" px-12 md:px-24 lg:px-56 my-5">
+      <div class="px-12 md:px-24 lg:px-56 my-5">
         <!-- Title -->
         <p
           class="
@@ -41,14 +41,15 @@
           {{ date }}
         </p>
         <!-- Image -->
-      
-          <img :src="img" class="my-5"/>
+
+        <img :src="img" class="my-5" />
 
         <!-- Content -->
         <p
           class="
             font-normal
-            md:text-xl text-lg text-mau-primary-700
+            md:text-xl
+            text-lg text-mau-primary-700
             my-4
             py-6
             text-justify

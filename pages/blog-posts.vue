@@ -28,16 +28,15 @@
       >
         <div class="py-5" v-for="post of posts" :key="post.slug">
           <NuxtLink :to="post.slug">
-          <CardsAdvancedThumbnail
-            :isLarge="true"
-            :isBlog="true"
-            :author="post.author"
-            :date="post.date"
-            :title="post.title"
-            :text="post.content"
-            :img="post.image"
-
-          />
+            <CardsAdvancedThumbnail
+              :isLarge="true"
+              :isBlog="true"
+              :author="post.author"
+              :date="post.date"
+              :title="post.title"
+              :text="post.content"
+              :img="post.image"
+            />
           </NuxtLink>
         </div>
       </div>
