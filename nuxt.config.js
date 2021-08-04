@@ -18,14 +18,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      {
-        src: "https://cdn.chatapi.net/webchat/widget/widget.js?cId=0fee1c214e2c15f1608c9f41ddd03ddb44a022e9c698783023570c0197eba769",
-        id: "webchat__widget", 
-        async: true,
-        body: true
-      },
-    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

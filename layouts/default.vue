@@ -16,9 +16,28 @@
 
 <script>
 export default {
+  head() {
+      return {
+        script: this.headScript,
+      }
+    },
   computed: {
     showOverlayMenu() {
       return this.$store.state.overlayMenu
+    },
+    headScript() {
+      if (process.env.NODE_ENV === 'production') {
+        return [
+          {
+            src: 'https://cdn.chatapi.net/webchat/widget/widget.js?cId=0fee1c214e2c15f1608c9f41ddd03ddb44a022e9c698783023570c0197eba769',
+            id: 'webchat__widget',
+            async: true,
+            body: true,
+          },
+        ]
+      } else {
+        return []
+      }
     },
   },
 }

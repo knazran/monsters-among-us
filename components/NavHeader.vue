@@ -7,8 +7,7 @@
             flex-1 flex
             items-center
             justify-between
-            sm:items-stretch
-            sm:justify-start
+            sm:items-stretch sm:justify-start
           "
         >
           <div class="flex-shrink-0 flex items-center">
@@ -23,7 +22,7 @@
               alt="Workflow"
             />
           </div>
-          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-4 ">
+          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-4">
             <a href="https://www.google.com" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"
@@ -54,16 +53,11 @@
             </a>
           </div>
         </div>
-        <div
-          class="
-            inset-y-0
-            right-0
-            flex
-            items-center
-            pr-2
-          "
-        >
-          <AccentButton class='hidden sm:block' text="Report" />
+        <div class="inset-y-0 right-0 flex items-center pr-2">
+          <NuxtLink to="#webchat_widget">
+            <AccentButton class="hidden sm:block" text="Report" />
+          </NuxtLink>
+
           <button
             type="button"
             class="
@@ -72,8 +66,7 @@
               justify-center
               p-2
               rounded-md
-              focus:outline-none
-              focus:ring-2 focus:ring-inset focus:ring-white
+              focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
             "
             aria-controls="mobile-menu"
             aria-expanded="false"
@@ -81,7 +74,9 @@
           >
             <span class="sr-only">Open main menu</span>
 
-            <h3 class="text-white text-md mx-4 font-light hidden sm:block">Menu</h3>
+            <h3 class="text-white text-md mx-4 font-light hidden sm:block">
+              Menu
+            </h3>
             <iconify-icon
               :icon="icons.menu"
               height="28"
@@ -115,9 +110,9 @@ export default {
     }
   },
   methods: {
-    showMenu (e) {
+    showMenu(e) {
       this.$store.commit('toggleOverlayMenu')
-    }
-  }
+    },
+  },
 }
 </script>
