@@ -2,13 +2,13 @@
 <template>
   <section class="bg-mau-primary-50 h-full my-2">
     <div class="container mx-auto">
-      <div class=" px-12 sm:px-24 lg:px-56 my-5">
+      <div class=" px-12 md:px-24 lg:px-56 my-5">
         <!-- Title -->
         <p
           class="
             font-medium
-            xl:text-6xl
-            text-3xl text-mau-primary-700
+            md:text-6xl
+            text-5xl text-mau-primary-700
             my-1
             md:text-left
             text-center
