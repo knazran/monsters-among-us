@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="inset-y-0 right-0 flex items-center pr-2">
-          <NuxtLink to="#webchat_widget">
+          <NuxtLink :to="{ path: `${$route.path}`, hash: '#webchat_widget' }">
             <AccentButton class="hidden sm:block" text="Report" />
           </NuxtLink>
 

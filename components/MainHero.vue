@@ -59,7 +59,7 @@
         </div>
         <!-- Button -->
         <div class="flex flex-col lg:flex-wrap lg:flex-row items-center lg:items-start">
-          <NuxtLink to='#webchat_widget'>
+          <NuxtLink :to="{ path: '/', hash: '#webchat_widget' }">
             <AccentButtonLong text="Report With Lapor Predator" />
           </NuxtLink>
           
