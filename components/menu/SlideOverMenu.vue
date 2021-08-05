@@ -20,7 +20,7 @@
           <div class="mt-6 relative flex-1">
             <MenuButton text="Home" to='index'></MenuButton>
             <MenuAccordion title="About Us">
-              <MenuButton text="Our Story" to='about-us'></MenuButton>
+              <MenuButton text="Our Story" to='meet-the-team'></MenuButton>
               <MenuButton text="Our Milestone" to='about-us'></MenuButton>
               <MenuButton text="Meet The Team" to='about-us'></MenuButton>
             </MenuAccordion>
@@ -30,7 +30,7 @@
               <MenuButton text="Sexual and Reproductive Health Rights" to='about-us'></MenuButton>
               <MenuButton text="Child Rights" to='about-us'></MenuButton>
             </MenuAccordion>
-            <MenuButton text="Gotta Read This" to='about-us'></MenuButton>
+            <MenuButton text="Gotta Read This" to='blog'></MenuButton>
             <MenuAccordion title="Lapor Predator">
               <MenuButton text="About Lapor Predator" to='about-us'></MenuButton>
               <MenuButton text="How to Lapor Predator" to='about-us'></MenuButton>

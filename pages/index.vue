@@ -2,7 +2,6 @@
   <div>
 
     <MainHero />
-    <!-- <PanelBlog /> -->
     <PanelTwo />
     <PanelThree />
     <PanelFour />
