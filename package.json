@@ -17,7 +17,8 @@
     "@open-wc/webpack-import-meta-loader": "^0.4.7",
     "core-js": "^3.15.1",
     "es-dirname": "^0.1.0",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",

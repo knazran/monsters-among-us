@@ -21,11 +21,12 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
+  css: ['~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
+  '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css' 
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
+  plugins: [ 
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,6 +42,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-vite'

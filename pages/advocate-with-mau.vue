@@ -15,27 +15,24 @@
               "
       />
     </PageSplitSection>
-     <PageSplitSection id="advocate-mau" img="kid-hero.jpg">
+    <PageSplitSection id="advocate-mau" img="kid-hero.jpg">
       <SplitSectionText
         title="Be a Member"
         text="If you find our work resonating with you, join the MAU team as a member today, you will receive exclusive opportunities for capacity building,leading projects, networking with subject matter experts in child protection, and also make friends with people who are also passionate about the cause. 
               "
       />
     </PageSplitSection>
-    
+    <div class="pb-24 md:px-16 px-12">
+      <ImageCarousel />
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
-    const meetTheTeamData = await $content('meet-the-team').fetch()
-    const boardMembers = meetTheTeamData[0].board_members
 
-    return {
-      boardMembers,
-    }
-  },
-}
+export default {}
 </script>
 
+<style scoped>
+
+</style>
