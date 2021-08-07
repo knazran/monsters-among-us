@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto md:flex my-8 md:my-18 p-6">
+  <div class="container mx-auto my-8 sm:pr-12 pr-7 pl-6 ">
     <ul
       class="text-justify text-lg md:text-xl text-mau-primary-700 font-normal"
     >
