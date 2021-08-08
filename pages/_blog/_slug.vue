@@ -58,15 +58,6 @@
       </p>
     </div>
   </div>
-  <!-- <div>
-    <PagePost
-      :title="post.title"
-      :author="post.author"
-      :date="post.date"
-      :content="post"
-      :img="post.image"
-    />
-  </div> -->
 </template>
 
 <script>
