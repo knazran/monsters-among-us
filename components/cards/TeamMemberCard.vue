@@ -9,9 +9,13 @@
     "
   >
     <div class="flex justify-center sm:justify-start w-full sm:w-2/5 2xl:w-1/5">
-      <img
+      <!-- <img
         class="h-full rounded-l object-cover max-h-96"
         src="https://picsum.photos/500"
+      /> -->
+      <img
+        class="h-full rounded-l object-cover max-h-96"
+        :src="image"
       />
     </div>
     <div class="w-full sm:w-3/5 2xl:w-4/5 px-6 py-4">
@@ -36,6 +40,10 @@ export default {
       required: true,
     },
     title: {
+      type: String,
+      required: true,
+    },
+    image: {
       type: String,
       required: true,
     },

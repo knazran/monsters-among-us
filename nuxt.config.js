@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'monsters-among-us',
+    title: 'Monsters Among Us',
     htmlAttrs: {
       lang: 'en'
     },
