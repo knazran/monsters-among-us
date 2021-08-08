@@ -1,11 +1,11 @@
 <template>
-  <div class="w-72 flex flex-col items-center">
+  <div class="w-72 flex flex-col items-center justify-between">
       <!-- <div class="self-center"> -->
-      <div class="">
+      <div class="w-full rounded shadow">
         <img
-          :src="sectionImage"
+          :src="image"
           alt="..."
-          class="shadow object-cover rounded w-full border-none"
+          class=" object-cover w-full border-none"
         />
       </div>
 
@@ -42,6 +42,10 @@ export default {
     textBot: {
       type: String,
     },
+    image: {
+      type: String,
+      default: "https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
+    }
   },
   computed: {
     sectionImage() {

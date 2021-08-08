@@ -13,28 +13,14 @@
       >
         Our Initiatives
       </p>
-      <div class="flex flex-col items-center md:flex-row md:items-start md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8">
-        <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
-        <!-- isButton is required -->
+      <div class="flex flex-col md:flex-row md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8 items-stretch">
         <SimpleThumbnailCard
+          v-for="initiative in initiatives"
+          :key="initiative.title"
           :is-button="false"
-          text-top="Lapor Predator"
-          text-bot="Lapor with us Lorem Ipsum One two three"
-        />
-        <SimpleThumbnailCard
-          :is-button="false"
-          text-top="Catch Em Predator"
-          text-bot="Lapor with us Lorem Ipsum One two three"
-        />
-        <SimpleThumbnailCard
-          :is-button="false"
-          text-top="Color With MAU"
-          text-bot="Lapor with us Lorem Ipsum One two three"
-        />
-        <SimpleThumbnailCard
-          :is-button="false"
-          text-top="Mau Reading Club"
-          text-bot="Lapor with us Lorem Ipsum One two three"
+          :text-top="initiative.title"
+          :text-bot="initiative.description"
+          :image="initiative.image"
         />
       </div>
     </div>
@@ -42,6 +28,17 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      initiatives: [],
+    }
+  },
+  async fetch() {
+    const data = await this.$content('initiatives').fetch()
+    this.initiatives = data[0].initiatives
+  },
+}
 </script>
 
 <style scoped>

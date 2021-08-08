@@ -35,7 +35,7 @@ board_members:
       title: Head of Human Resource
       blurb: >-
         Mahera Rafiqa is psychology undergraduate from International Islamic University Malaysia (IIUM) which believes we as a community need to have the motivation to protect our children who are vulnerable from harm and violence. She believes that doing advocacy is one of the way to rise awareness on Child Sexual Abuse. As a psychology student, she wants to know how motivation can impact a human being and what drives the human brain to take action. 
-    - image: /img/team/Adillah.jpg
+    - image: /img/team/Anith.JPG
       name: Anith Najhan Razak
       title: Ast of Human Resource
       blurb: >-
