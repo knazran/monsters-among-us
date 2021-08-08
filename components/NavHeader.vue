@@ -1,28 +1,31 @@
 <template>
   <nav class="bg-mau-primary-700">
     <div class="container mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between h-20">
+      <div class="flex justify-between min-h-20 items-stretch">
         <div
           class="
             flex-1 flex
-            items-center
+            align-baseline
+            items-start
             justify-between
             sm:items-stretch sm:justify-start
+            flex-col
+            md:flex-row
           "
         >
-          <div class="flex-shrink-0 flex items-center">
-            <img
-              class="block lg:hidden h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-              alt="Workflow"
-            />
-            <img
-              class="hidden lg:block h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-              alt="Workflow"
-            />
+          <div class="flex items-center">
+            <NuxtLink to="/">
+              <img
+                class="block h-36 md:h-32 w-auto"
+                src="../static/mau-logo-horizontal.png"
+                alt="Logo"
+              />
+            </NuxtLink>
           </div>
-          <div id="social-media" class="flex flex-shrink-0 space-x-1 mx-4">
+          <div
+            id="social-media"
+            class="flex space-x-1 mb-4 md:mb-0 mx-4 items-start md:items-center"
+          >
             <a href="https://www.google.com" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"

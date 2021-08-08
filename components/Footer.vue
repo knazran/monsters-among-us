@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-mau-primary-700 lg:h-72">
+  <div class="bg-mau-primary-700 py-8 lg:py-16">
     <div class="container mx-auto">
-      <div class="lg:flex lg:flex-wrap">
-        <div class="my-10 px-10 lg:w-1/3 w-full">
+      <div class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:space-x-10">
+        <div class="lg:w-1/3 w-full">
           <div class="px-12">
             <p class="text-white font-thin">
               <strong>Monsters Among Us </strong>Youth Advocates is a youth-led
@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="my-10 px-10 lg:w-1/3 w-full lg:mx-0 mx-12">
+        <div class="lg:w-1/3 w-full">
           <p class="text-white font-base">Follow us on social media</p>
           <div id="social-media" class="flex flex-shrink-0 space-x-1 mt-3">
             <a href="https://www.google.com" target="_blank">
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="my-10 px-10 lg:w-1/3 w-full lg:mx-0 mx-12">
+        <div class="lg:w-1/3 w-full">
           <ul class="text-white font-thin">
             <li><p>Privacy Policy</p></li>
             <li><p>Enquiries</p></li>

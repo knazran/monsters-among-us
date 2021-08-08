@@ -30,10 +30,8 @@
             2xl:w-3/5
             mt-10
             lg:px-0
-            lg:ml-0
             lg:mt-18
             px-5
-            ml-5
           "
         >
           <div class="2xl:pr-12 xl:pr-20">
@@ -41,7 +39,8 @@
             <ul
               class="
                 list-decimal
-                font-thin
+                list-inside
+                font-light
                 lg:text-2xl
                 text-xl text-mau-primary-700
               "
