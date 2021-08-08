@@ -33,7 +33,11 @@ export default {
   components: {
     dirs: [
       '~/components',
-      '~/components/menu'
+      '~/components/menu',
+      '~/components/ui',
+      '~/components/cards',
+      '~/components/button',
+      '~/components/homepage'
     ]
   },
 

@@ -17,7 +17,7 @@
             <NuxtLink to="/">
               <img
                 class="block h-36 md:h-32 w-auto"
-                src="../static/mau-logo-horizontal.png"
+                src="~/static/mau-logo-horizontal.png"
                 alt="Logo"
               />
             </NuxtLink>

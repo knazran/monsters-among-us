@@ -20,9 +20,9 @@
           <div class="mt-6 relative flex-1">
             <MenuButton text="Home" to='index'></MenuButton>
             <MenuAccordion title="About Us">
-              <MenuButton text="Our Story" to='meet-the-team'></MenuButton>
+              <MenuButton text="Our Story" to='about-us'></MenuButton>
               <MenuButton text="Our Milestone" to='about-us'></MenuButton>
-              <MenuButton text="Meet The Team" to='about-us'></MenuButton>
+              <MenuButton text="Meet The Team" to='meet-the-team'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
               <MenuButton text="Child Sexual Abuse" to='about-us'></MenuButton>

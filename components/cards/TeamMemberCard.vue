@@ -5,22 +5,22 @@
       shadow-lg
       drop-shadow-xl
       border border-mau-primary-200
-      flex
+      sm:flex
     "
   >
-    <div class="w-2/5">
+    <div class="flex justify-center sm:justify-start w-full sm:w-2/5 2xl:w-1/5">
       <img
-        class="h-full rounded-l object-cover max-h-80"
+        class="h-full rounded-l object-cover max-h-96"
         src="https://picsum.photos/500"
       />
     </div>
-    <div class="w-3/5 px-6 py-4">
+    <div class="w-full sm:w-3/5 2xl:w-4/5 px-6 py-4">
       <div>
-        <h4 class="text-lg md:text-xl text-mau-primary-700 font-semibold">
+        <h4 class="text-xl md:text-xl text-mau-primary-700 font-semibold">
           {{ name }}
         </h4>
-        <p class="text-sm text-mau-primary-500 font-light mb-6">{{ title }}</p>
-        <p class="text-sm text-mau-primary-500 font-light mb-6">
+        <p class="text-sm sm:text-md text-mau-primary-500 font-light mb-6">{{ title }}</p>
+        <p class="text-md text-mau-primary-500 font-light mb-6">
           {{ blurb }}
         </p>
       </div>

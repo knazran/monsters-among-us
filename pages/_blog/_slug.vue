@@ -1,6 +1,64 @@
 <template>
-  <div>
-    <!-- Component props: title, author,date ,img, content -->
+  <div class="container mx-auto">
+    <div class="px-12 md:px-24 lg:px-56 my-5">
+      <!-- Title -->
+      <p
+        class="
+          font-medium
+          md:text-6xl
+          text-5xl text-mau-primary-700
+          my-1
+          -mx-1
+          md:text-left
+          text-center
+        "
+      >
+        {{ post.title }}
+      </p>
+      <!-- Author -->
+      <p
+        class="
+          font-light
+          text-md text-mau-primary-700
+          mt-1
+          md:text-left
+          text-center
+        "
+      >
+        By: {{ post.author }}
+      </p>
+      <!-- Date -->
+      <p
+        class="
+          font-light
+          text-md text-mau-primary-700
+          md:mt-1 md:text-left
+          text-center
+        "
+      >
+        {{ post.date }}
+      </p>
+      <!-- Image -->
+
+      <img :src="post.img" class="my-5" />
+
+      <!-- Content -->
+
+      <p
+        class="
+          font-normal
+          md:text-xl
+          text-lg text-mau-primary-700
+          my-4
+          py-6
+          text-justify
+        "
+      >
+        <nuxt-content :document="post" />
+      </p>
+    </div>
+  </div>
+  <!-- <div>
     <PagePost
       :title="post.title"
       :author="post.author"
@@ -8,7 +66,7 @@
       :content="post"
       :img="post.image"
     />
-  </div>
+  </div> -->
 </template>
 
 <script>
