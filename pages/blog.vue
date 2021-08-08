@@ -16,7 +16,7 @@
       <!-- Need to add text -->
       <div v-for="post of posts" :key="post.slug">
         <NuxtLink :to="`blog/${post.slug}`">
-          <CardsAdvancedThumbnail
+          <AdvancedThumbnailCard
             :is-large="true"
             :is-blog="true"
             :author="post.author"

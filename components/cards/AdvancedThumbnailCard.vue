@@ -1,5 +1,5 @@
 <template>
-  <!-- Instruction for CardsAdvancedThumbnail-->
+  <!-- Instruction for AdvancedThumbnailCard-->
   <!-- props:title,isLarge,content,title,author,date,isBlog,img-->
   <!-- title, isLarge,isBlog are required -->
   <!-- isBlog for Tab 4 -->

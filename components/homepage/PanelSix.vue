@@ -18,9 +18,9 @@
             md:px-8
           "
         >
-          <CardsAdvancedThumbnail title="MAU Rocks" :is-large="false" />
+          <AdvancedThumbnailCard title="MAU Rocks" :is-large="false" />
 
-          <CardsAdvancedThumbnail title="MAU Part 1 Intro" :is-large="false" />
+          <AdvancedThumbnailCard title="MAU Part 1 Intro" :is-large="false" />
         </div>
         <!-- End LEft -->
         <!-- Right -->
@@ -103,21 +103,21 @@
             md:px-8
           "
         >
-          <CardsAdvancedThumbnail
+          <AdvancedThumbnailCard
             title="MAU Part 1 Intro"
             :is-large="true"
             author="Admin"
             date="17/10/2020"
             content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
           />
-          <CardsAdvancedThumbnail
+          <AdvancedThumbnailCard
             title="MAU Part 1 Intro"
             :is-large="true"
             author="Admin"
             date="17/10/2020"
             content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
           />
-          <CardsAdvancedThumbnail
+          <AdvancedThumbnailCard
             title="MAU Part 1 Intro"
             :is-large="true"
             author="Admin"

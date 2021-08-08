@@ -13,7 +13,6 @@
         As Featured In
       </p>
       <div class="xl:flex xl:flex-row mt-10 xl:ml-0 xl:mt-20 container">
-        <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
         <!-- isButton is required -->
       </div>

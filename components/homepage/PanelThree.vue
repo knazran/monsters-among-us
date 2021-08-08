@@ -15,7 +15,7 @@
         <div class="lg:w-1/4 mt-8 md:mt-0">
           <img
             class="relative object-contain 2xl:w-96 2xl:h-80 h-64 w-64"
-            src="../static/mau-logo.png"
+            src="../../static/mau-logo.png"
             alt="MAU logo"
           />
         </div>

@@ -40,19 +40,18 @@
           md:space-y-0 md:space-x-12
         "
       >
-        <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton is required -->
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="true"
           :is-long="false"
           text-button="Volunteer"
         />
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="true"
           :is-long="true"
           text-button="Collaborate with MAU"
         />
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="true"
           :is-long="false"
           text-button="Be a Member"

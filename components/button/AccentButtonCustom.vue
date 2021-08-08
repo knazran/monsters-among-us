@@ -1,7 +1,4 @@
 <template>
-  <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
-  <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
-  <!-- isButton is required -->
   <div>
     <div v-if="!long" class="2xl:mx-14 xl:mx-8 sm:mx-14 mx-8">
       <button

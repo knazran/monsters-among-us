@@ -100,7 +100,7 @@
               border-2
               rounded-md
             "
-            src="../static/test.jpg"
+            src="../../static/test.jpg"
             alt="Profile image"
           />
           <img
@@ -118,7 +118,7 @@
               border-2
               rounded-md
             "
-            src="../static/test2.jpg"
+            src="../../static/test2.jpg"
             alt="Profile image"
           />
         </div>

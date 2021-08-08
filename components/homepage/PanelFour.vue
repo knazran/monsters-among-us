@@ -14,25 +14,24 @@
         Our Initiatives
       </p>
       <div class="flex flex-col items-center md:flex-row md:items-start md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8">
-        <!-- How to use CardsSimpleThumbnail? isButton,isLong,textButton,textTop,textBot -->
         <!-- isButton:true==button,false==text isLong(forbutton):true==forlongbuttontext,false==forshortbuttontext-->
         <!-- isButton is required -->
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="false"
           text-top="Lapor Predator"
           text-bot="Lapor with us Lorem Ipsum One two three"
         />
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="false"
           text-top="Catch Em Predator"
           text-bot="Lapor with us Lorem Ipsum One two three"
         />
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="false"
           text-top="Color With MAU"
           text-bot="Lapor with us Lorem Ipsum One two three"
         />
-        <CardsSimpleThumbnail
+        <SimpleThumbnailCard
           :is-button="false"
           text-top="Mau Reading Club"
           text-bot="Lapor with us Lorem Ipsum One two three"
