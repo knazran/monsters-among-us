@@ -1,21 +1,29 @@
 <template>
-  <div >
-    <PageSplitSection id="advocate-mau" img="kid-hero.jpg">
+  <div class="mx-auto container px-4">
+    <PageSplitSection id="advocate-mau" :img="contents.image">
       <SplitSectionText
-        title="Be a Member"
-        text="If you find our work resonating with you, join the MAU team as a member today, you will receive exclusive opportunities for capacity building,leading projects, networking with subject matter experts in child protection, and also make friends with people who are also passionate about the cause. 
-              "
+        :title="contents.title"
+        :text="contents.description"
       />
     </PageSplitSection>
-    <div class="pb-24 md:px-16 px-12">
-      <ImageCarousel />
+    <div class="px-4">
+      <ImageCarousel  :images="contents.carousel"/>
     </div>
+     <div class="w-full my-8">
+        <nuxt-content class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-center " :document="contents" />
+      </div>
   </div>
 </template>
 
 <script>
-export default {}
-</script>
+export default {
+  async asyncData({ $content }) {
+    const contents = await $content('advocate-with-mau/be-a-member').fetch()
+    return {
+      contents,
+    }
+  },
+}</script>
 
 <style scoped>
 </style>

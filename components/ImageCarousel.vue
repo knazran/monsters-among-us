@@ -1,11 +1,9 @@
 <template>
-  <div class="pb-24 md:px-16 px-12 md:mr-8">
+  <div class="md:py-8 ">
     <VueSlickCarousel v-bind="settings">
-      <div><img class="w-full px-2" src="../assets/img/kid-hero.jpg" /></div>
-      <div><img class="w-full px-2" src="../assets/img/together.jpg" /></div>
-      <div><img class="w-full px-2" src="../assets/img/forum.jpg" /></div>
-      <div><img class="w-full px-2" src="../assets/img/discuss.jpg" /></div>
-      <div><img class="w-full px-2" src="../assets/img/activity.jpg" /></div>
+      <div  v-for="specificImage in images" :key="specificImage.image">
+      <div><img class="w-full px-2" :src="specificImage.image" /></div>
+      </div>
     </VueSlickCarousel>
   </div>
 </template>
@@ -18,6 +16,12 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
   name: 'MyComponent',
   components: { VueSlickCarousel },
+  props: {
+    images: {
+      type: Array
+     
+    }
+  },
   data: function () {
     return {
       settings: {

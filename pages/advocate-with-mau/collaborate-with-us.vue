@@ -1,19 +1,31 @@
 <template>
-  <div>
-    <PageSplitSection :reverse="true" id="advocate-mau" img="discuss.jpg">
-      <SplitSectionText
-        title="Collaborate With Us"
-        text="Let’s create change! 
-              Reach out to our Public Relations Officer (kaiser@laporpredator.org) to explore how we can create magic together!
-              "
-      />
-    </PageSplitSection>
-  
-  </div>
-</template>
+  <div class="mx-auto container">
+
+      <PageSplitSection :reverse="false" id="advocate-mau" :img="contents.image">
+        <SplitSectionText
+          :title="contents.title"
+          :text="contents.description
+                "
+        />
+      </PageSplitSection>
+      <div class="w-full px-2 my-12">
+        <nuxt-content class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-justify" :document="contents" />
+      </div>
+    </div>
+  </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content }) {
+    const contents = await $content('advocate-with-mau/collaborate-with-us').fetch()
+    return {
+      contents,
+    }
+  },
+}
+</script>
+  
+}
 </script>
 
 <style scoped>
