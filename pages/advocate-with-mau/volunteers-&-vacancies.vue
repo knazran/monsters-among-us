@@ -1,19 +1,14 @@
 <template>
   <div class="mx-auto container">
     <PageSplitSection id="advocate-mau" :img="contents.thumbnail">
-      <SplitSectionText
-        :title="contents.title"
-        :text="contents.content"
-      />
+      <SplitSectionText :title="contents.title" :text="contents.content" />
     </PageSplitSection>
-     <div class="w-full px-6 my-12">
+    <div class="w-full px-6 my-12">
       <nuxt-content
         class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-justify"
         :document="contents"
       />
     </div>
-
-  
   </div>
 </template>
 
@@ -27,7 +22,8 @@ export default {
       contents,
     }
   },
-}</script>
+}
+</script>
 
 <style scoped>
 </style>
