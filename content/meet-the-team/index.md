@@ -25,11 +25,11 @@ board_members:
         Shreya Menon Krisnan is a law graduate from Brickfields Asia College where she obtained her law degree from University of London. In the past years, she has worked as a freelance writer while pursuing her law degree. She is waiting to actively pursue her Certificate of Legal Practice in Malaysia while volunteering with MAU. 
         
         She has been passionate about upholding children’s rights and dispelling educational inequality in Malaysia. Her work in Monsters Among Us revolves around creating educational content regarding Child Sexual Abuse and Sexual and Reproductive Health and Rights that could be used as a teaching guide for parents and educators as well as youth. 
-    - image: /img/team/Izzah.jpg
-      name: Nurul Izzah Halimi
+    - image: /img/team/Lekha.jpg
+      name: Lekha
       title: Head of Social Media
       blurb: >-
-        Nurul Izzah is a student of Early Childhood Education at Management and Science University Shah Alam. She joined MAU in January 2020 as part of the Social Media Officer. She is passionate about creating colourful and creative posters for MAU content. She believes that she can spread informative information and awareness about the issue through the posters that she made. 
+        Your typical science nerd who has an obsession with arts and crafts. She is currently a Chemistry undergraduate (duh!) Other than watching sunset and planting mints she also actively advocates for education inequality and is now working to pave a safer childhood together with MAU. She strongly believes that an inclusive, accepting and safer community is able to be formed through continuous advocacy and is aware of the positive impact social media has. Lekha also aims to use social media ethically to spread awareness.
     - image: /img/team/Mahera_.jpg
       name: Mahera Rafiqah
       title: Head of Human Resource
@@ -61,11 +61,23 @@ board_members:
       blurb: >-
         Nina Duvernoy is a trained cross-cultural clinical psychologist. The values of Humanity, Respect and Caring guide her practice. For the past 4 years, she has been working with several South East Asian NGOs and Social Enterprises providing support to marginalized communities. Her working experiences encompassed providing psychological support to refugees and asylum seekers, facilitating expressive arts workshops for vulnerable children and teenagers and more recently developing and implementing community-based programmes geared towards capacity building, awareness raising and volunteer engagement. Through her work, Nina aims to provide aid in empowering individuals and bringing communities together.
 lapor_predator_members: 
+    - image: /img/team/Firzana.jpg
+      name: Firzana Redzuan
+      title: Project Director
+      blurb: >-
+        Firzana Redzuan (Fir) is the Founder of Monsters Among Us (MAU), a youth-led NGO that upholds children's rights and combats child sexual abuse. Currently, she functions as the secretary of the mainboard. 
+        
+        Fir is now a Social Media Consultant at Asian-Pacific Resource and Research Centre for Women (ARROW). She was admitted to the Bar in 2021 and she is currently enrolled in Diploma in Syariah and Practice at Universiti Teknologi MARA (UiTM) in pursuit of advocating for Muslim women and families in Malaysia. She has also been selected as P.097 Selayang representative for Dewan Muda Malaysia organised by UNDI18. 
     - image: /img/team/Tasha.jpeg
       name: Anastasha Abraham
       title: Secretary
       blurb: >-
         Tasha is a psychology graduate who is currently working at an NGO. She has been a long-time volunteer for MAU and is very passionate about ensuring that all people are healthy physically, mentally and emotionally. She champions women empowerment and advocates for safer and healthier childhoods. These missions led her to involve herself with like-minded people and social causes. 
+    - image: /img/team/Deshan.jpg
+      name: Deshan
+      title: Treasurer
+      blurb: >-
+        Deshan is a final year accounting student at Universiti Malaya while pursuing his ICAEW qualification to be recognised as a chartered accountant. A long time admirer of Warren Buffet, he shares his financial knowledge on his small YouTube channel during his free time. Presently, he serves as the treasurer of MAU with the vision to create a safe environment for the young and upcoming generation to protect their rights by ensuring the sustainability and development of the organisation. 
     - image: /img/team/Xing Jei.jpg
       name: Xing Jei
       title: Social Media Officer
