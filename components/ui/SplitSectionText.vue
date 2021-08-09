@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h2 class="text-xl md:text-2xl text-mau-primary-700 font-semibold mb-6">
+    <h2 class="prose prose-sm lg:prose-lg xl:prose-2xl  text-mau-primary-700 font-semibold mb-6">
       {{ title }}
     </h2>
     <div>
       <p
-        class="text-justify text-lg md:text-xl text-mau-primary-700 font-light"
+        class="text-justify prose prose-sm lg:prose-lg xl:prose-xl  text-mau-primary-700 font-light"
       >
         {{ text }}
       </p>
