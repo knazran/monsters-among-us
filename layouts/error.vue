@@ -1,8 +1,9 @@
 <template>
-  <div class="container mx-auto">
-    <h1 v-if="error.statusCode === 404">Page not found</h1>
-    <h1 v-else>An error occurred</h1>
-    <NuxtLink to="/">Home page</NuxtLink>
+  <div class="container mx-auto flex flex-col justify-center items-center h-80">
+    <h1 class='my-8 text-xl text-mau-primary-700'>Hmmm we can't find the page you are looking for...</h1>
+    <NuxtLink to="/">
+      <AccentButton text='Return to Home Page'/>
+    </NuxtLink>
   </div>
 </template>
 
