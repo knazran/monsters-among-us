@@ -13,7 +13,17 @@
       >
         Our Initiatives
       </p>
-      <div class="flex flex-col md:flex-row md:justify-between mt-10 space-y-12 md:space-y-0 md:space-x-8 items-stretch">
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          md:justify-between
+          mt-10
+          space-y-12
+          md:space-y-0 md:space-x-8
+          items-stretch
+        "
+      >
         <SimpleThumbnailCard
           v-for="initiative in initiatives"
           :key="initiative.title"

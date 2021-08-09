@@ -5,27 +5,42 @@
   <!-- isBlog for Tab 4 -->
   <!-- if isLarge, required title,author,date,content-->
   <div
-    class="rounded-xl overflow-hidden shadow-lg "
+    class="rounded-xl overflow-hidden shadow-lg"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
     <img class="object-cover h-56 w-full" :src="img" />
     <div class="px-6 py-4">
-      <div class="font-medium text-xl mb-2">{{ title }}</div>
+      <div class="font-medium xl:text-xl text-base mb-2">
+        {{ title.length > 15 ? title.substring(0, 18) + '..' : title }}
+      </div>
       <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>
 
-      <p v-if="isLarge" class="text-gray-700 text-base">
-        {{ content }}
-      </p>
+      <div
+        v-if="isLarge"
+        class="
+          text-gray-700
+          xl:text-base
+          text-sm
+          overflow-clip overflow-hidden
+          h-36
+        "
+      >
+        <nuxt-content :document="content" />
+      </div>
     </div>
+    <!-- Need to edit -->
     <div v-if="isLarge" class="px-6 pt-4 pb-2 flex justify-between">
       <span
         class="
           inline-block
           font-base
           py-1
-          text-sm text-mau-secondary-950
-          mr-2
+          xl:text-sm
+          text-mau-secondary-950 text-xs
           mb-2
+          md:h-10
+          md:w-24
+          lg:w-full
         "
         >{{ author }}</span
       >
@@ -34,8 +49,12 @@
           inline-block
           font-base
           py-1
-          text-sm text-mau-secondary-950
-          mr-2
+          lg:visible
+          md:invisible
+          visible
+          xl:text-sm
+          text-xs text-mau-secondary-950
+          px-2
           mb-2
         "
         >{{ date }}</span
@@ -56,7 +75,7 @@ export default {
       required: false,
     },
     content: {
-      type: String,
+      type: Object,
     },
     author: {
       type: String,
