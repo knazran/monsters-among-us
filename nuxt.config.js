@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'monsters-among-us',
+    title: 'Monsters Among Us',
     htmlAttrs: {
       lang: 'en'
     },
@@ -34,7 +34,11 @@ export default {
   components: {
     dirs: [
       '~/components',
-      '~/components/menu'
+      '~/components/menu',
+      '~/components/ui',
+      '~/components/cards',
+      '~/components/button',
+      '~/components/homepage'
     ]
   },
 
@@ -45,7 +49,8 @@ export default {
 
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    'nuxt-vite'
+    'nuxt-vite',
+    '@nuxtjs/imagemin',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

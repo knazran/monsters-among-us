@@ -9,7 +9,10 @@
     </transition>
     <SlideOverMenu />
     <NavHeader />
-    <Nuxt />
+    <div class="min-h-screen">
+      <Nuxt />
+    </div>
+    
     <Footer />
   </div>
 </template>

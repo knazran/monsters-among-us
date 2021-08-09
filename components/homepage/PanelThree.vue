@@ -1,0 +1,35 @@
+<template>
+  <div class="bg-mau-primary-500 h-full">
+    <div class="container mx-auto py-8 lg:py-40 px-4">
+      <div class="flex flex-col md:flex-row items-center md:items-start">
+        <!-- Left Side-->
+        <div class="lg:w-3/4 text-white xl:px-2 px-6">
+          <p class="font-extralight lg:text-5xl text-3xl leading-tight md:leading-normal text-center md:text-left">
+            <strong> Monsters Among Us </strong>is a Malaysian youth combating
+            child sexual abuse (CSA) through advocacy and community involvement.
+          </p>
+        </div>
+        <!-- End Left Side-->
+
+        <!-- Right Side Logo -->
+        <div class="lg:w-1/4 mt-8 md:mt-0">
+          <img
+            class="relative object-contain 2xl:w-96 2xl:h-80 h-64 w-64"
+            src="../../static/mau-logo.png"
+            alt="MAU logo"
+          />
+        </div>
+        <!--End Right side with Logo -->
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+</script>
+
+<style scoped>
+#describe {
+  font-size: 1.8rem;
+}
+</style>

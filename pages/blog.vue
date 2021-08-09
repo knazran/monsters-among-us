@@ -1,48 +1,34 @@
 <template>
-  <section class="bg-mau-primary-50 h-full my-2">
-    <div class="container mx-auto">
-      <p
-        class="
-          font-medium
-          xl:text-4xl
-          text-2xl text-mau-primary-700
-          my-5
-          lg:mx-28
-          md:mx-24
-          md:text-left
-          text-center
-        "
-      >
-        Gotta Read This!
-      </p>
-      <div
-        class="
-          grid
-          md:grid-cols-2
-          2xl:grid-cols-3
-          px-36
-          -mx-24
-         gap-1
-        "
-      >
+  <PageSection id="blog-posts">
+    <p
+      class="
+        font-medium
+        xl:text-4xl
+        text-2xl text-mau-primary-700
+        my-6
+        md:text-left
+        text-center
+      "
+    >
+      Gotta Read This!
+    </p>
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 py-8">
       <!-- Need to add text -->
-        <div v-for="post of posts" :key="post.slug" class="py-5 lg:px-12 md:px-6 mx-6">
-          <NuxtLink :to="`blog/${post.slug}`">
-            <CardsAdvancedThumbnail
-              :is-large="true"
-              :is-blog="true"
-              :author="post.author"
-              :date="post.date"
-              :title="post.title"
-              :img="post.image"
-            />
-          </NuxtLink>
-        </div>
+      <div v-for="post of posts" :key="post.slug">
+        <NuxtLink :to="`blog/${post.slug}`">
+          <AdvancedThumbnailCard
+            :is-large="true"
+            :is-blog="true"
+            :author="post.author"
+            :date="post.date"
+            :title="post.title"
+            :img="post.image"
+          />
+        </NuxtLink>
       </div>
     </div>
-  </section>
+  </PageSection>
 </template>
-
 
 <script>
 export default {
