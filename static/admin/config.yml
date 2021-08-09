@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+local_backend: true
 
 media_folder: static/img
 public_folder: /img
@@ -25,7 +26,9 @@ collections:
           default: "kid-hero.jpg",
           }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: landing_page_about
+  - name: 'advocate'
+    label: 'Advocate With Us'
+    folder: 'content/advocate-with-mau'
     file: 'content/advocate-with-mau/volunteers-&-vacancies.md'
     delete: false
     fields:
