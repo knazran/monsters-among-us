@@ -1,8 +1,8 @@
 <template>
-  <div class="md:py-8 ">
+  <div class="md:py-8">
     <VueSlickCarousel v-bind="settings">
-      <div  v-for="specificImage in images" :key="specificImage.image">
-      <div><img class="w-full px-2" :src="specificImage.image" /></div>
+      <div v-for="specificImage in images" :key="specificImage.image">
+        <div><img class="w-full px-2" :src="specificImage.image" /></div>
       </div>
     </VueSlickCarousel>
   </div>
@@ -18,9 +18,8 @@ export default {
   components: { VueSlickCarousel },
   props: {
     images: {
-      type: Array
-     
-    }
+      type: Array,
+    },
   },
   data: function () {
     return {
