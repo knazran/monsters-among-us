@@ -3,8 +3,8 @@
     <div v-if='!reverse' class="w-full md:w-1/2 px-6 mb-4 md:mb-0">
       <slot></slot>
     </div>
-    <div class="w-full md:w-1/2 p-6 md:p-12 flex flex-col">
-      <img class="w-full object-contain min-h-0 rounded-lg" :src="sectionImage" />
+    <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
+      <img class="w-full object-contain min-h-0 rounded-lg" :src="img" />
     </div>
     <div v-if='reverse' class="w-full md:w-1/2 px-6">
       <slot></slot>
@@ -17,7 +17,7 @@ export default {
   props: {
     img: {
       type: String,
-      default: 'kid-hero.jpg',
+      default: '/img/kid-hero.jpg',
     },
     reverse: {
         type: Boolean,
@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     sectionImage() {
-      const imgUrl = new URL(`../assets/img/${this.img}`, import.meta.url)
+      const imgUrl = new URL(`../../static/img/${this.img}`, import.meta.url)
       return imgUrl
     },
   },

@@ -43,19 +43,7 @@
       <img :src="post.img" class="my-5" />
 
       <!-- Content -->
-
-      <p
-        class="
-          font-normal
-          md:text-xl
-          text-lg text-mau-primary-700
-          my-4
-          py-6
-          text-justify
-        "
-      >
-        <nuxt-content :document="post" />
-      </p>
+      <nuxt-content class="prose prose-sm lg:prose-lg xl:prose-xl" :document="post" />
     </div>
   </div>
 </template>
