@@ -25,4 +25,16 @@ collections:
           default: "kid-hero.jpg",
           }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  
+    - name: landing_page_about
+      file: 'content/advocate-with-mau/volunteers-&-vacancies.md'
+      delete: false
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Content', name: 'content', widget: 'string' }
+        - {label: "Featured Image",
+                name: "thumbnail",
+                widget: "image",
+                choose_url: true,
+                default: "kid-hero.jpg",
+                }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
