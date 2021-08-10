@@ -1,12 +1,11 @@
 <template>
   <div class="container mx-auto">
-    <div class="px-12 md:px-24 lg:px-56 my-5">
+    <div class="px-12 md:px-24 lg:px-56 my-8">
       <!-- Title -->
       <p
         class="
           font-medium
-          md:text-6xl
-          text-5xl text-mau-primary-700
+          text-3xl text-mau-primary-700
           my-1
           -mx-1
           md:text-left

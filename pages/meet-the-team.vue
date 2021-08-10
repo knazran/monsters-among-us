@@ -3,7 +3,7 @@
     <!-- <PageHero title="Meet The Team" description="" bg-image="kid-hero.jpg" /> -->
 
     <PageSection id="board-members">
-      <h2 class="text-2xl md:text-3xl text-mau-primary-700 font-semibold mb-6 text-center md:text-left">
+      <h2 class="text-2xl md:text-3xl text-mau-primary-700 font-semibold my-6 text-center md:text-left">
         MAU Mainboard
       </h2>
       <div class="grid grid-cols-1 gap-8 my-12">
