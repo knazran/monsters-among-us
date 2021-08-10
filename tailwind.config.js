@@ -39,15 +39,18 @@ module.exports = {
         DEFAULT: {
           css: {
             maxWidth: null,
-            color: '#46818A',
+            color: '#5B958A',
             h1: {
-              color: '#34564F',
+              color: '#46818A',
             },
             h2: {
-              color: '#34564F',
+              color: '#46818A',
             },
             h3: {
-              color: '#34564F',
+              color: '#46818A',
+            },
+            li: {
+              color: '#5B958A',
             },
           },
         },

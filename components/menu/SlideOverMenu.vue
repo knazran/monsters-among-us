@@ -20,22 +20,22 @@
           <div class="mt-6 relative flex-1">
             <MenuButton text="Home" to='index'></MenuButton>
             <MenuAccordion title="About Us">
-              <MenuButton text="Our Story" to='our-story'></MenuButton>
-              <MenuButton text="Our Milestone" to='our-milestone'></MenuButton>
-              <MenuButton text="Meet The Team" to='meet-the-team'></MenuButton>
+              <MenuButton text="Our Story" to='/our-story'></MenuButton>
+              <MenuButton text="Our Milestone" to='/our-milestone'></MenuButton>
+              <MenuButton text="Meet The Team" to='/meet-the-team'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
-              <MenuButton text="Child Sexual Abuse" to='about-us'></MenuButton>
-              <MenuButton text="Online Child Sexual Abuse" to='about-us'></MenuButton>
-              <MenuButton text="Sexual and Reproductive Health Rights" to='about-us'></MenuButton>
-              <MenuButton text="Child Rights" to='about-us'></MenuButton>
+              <MenuButton text="Child Sexual Abuse" to='/about-us'></MenuButton>
+              <MenuButton text="Online Child Sexual Abuse" to='/about-us'></MenuButton>
+              <MenuButton text="Sexual and Reproductive Health Rights" to='/about-us'></MenuButton>
+              <MenuButton text="Child Rights" to='/about-us'></MenuButton>
             </MenuAccordion>
-            <MenuButton text="Gotta Read This" to='blog'></MenuButton>
+            <MenuButton text="Gotta Read This" to='/blog'></MenuButton>
             <MenuAccordion title="Lapor Predator">
-              <MenuButton text="About Lapor Predator" to='lapor-predator'></MenuButton>
-              <MenuButton text="How to Lapor Predator" to='lapor-predator/how-to'></MenuButton>
-              <MenuButton text="Our Journey" to='lapor-predator/our-journey'></MenuButton>
-              <MenuButton text="Our Partners" to='lapor-predator/our-partners'></MenuButton>
+              <MenuButton text="About Lapor Predator" to='/lapor-predator'></MenuButton>
+              <MenuButton text="How to Lapor Predator" to='/lapor-predator/how-to'></MenuButton>
+              <MenuButton text="Our Journey" to='/lapor-predator/our-journey'></MenuButton>
+              <MenuButton text="Our Partners" to='/lapor-predator/our-partners'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Advocate with MAU">
               <MenuButton text="Volunteers and Vacancies " to='about-us'></MenuButton>

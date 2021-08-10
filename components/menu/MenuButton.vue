@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     goToLink() {
-      this.$router.push({ name: this.to })
+      this.$router.push({ path: this.to })
       this.$store.commit('toggleOverlayMenu')
     },
   },
