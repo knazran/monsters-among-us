@@ -8,7 +8,7 @@
         />
       </PageSplitSection>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-8">
         <div v-for="partner in content.partners" :key='partner.name' class='bg-white rounded-lg shadow-lg border-2 border-mau-purple-500 p-4 flex justify-center'>
           <img class="w-full object-contain min-h-0 h-72 rounded-lg" :src="partner.image" />
         </div>

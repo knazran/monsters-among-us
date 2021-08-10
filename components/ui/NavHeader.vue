@@ -26,28 +26,28 @@
             id="social-media"
             class="flex space-x-1 mb-4 md:mb-0 mx-4 items-start md:items-center"
           >
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.facebook.com/MonstersAmongUsMY" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.instagram.com/monstersamongus_my" target="_blank">
               <iconify-icon
                 :icon="icons.instagram"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://twitter.com/mau17_my" target="_blank">
               <iconify-icon
                 :icon="icons.twitter"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.youtube.com/channel/UCvw1lAGU1waLvbyc2UHlJOA" target="_blank">
               <iconify-icon
                 :icon="icons.youtube"
                 height="28"
