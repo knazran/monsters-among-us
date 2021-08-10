@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-col items-center">
     <h3
       class="
         text-3xl
@@ -13,7 +13,17 @@
     >
       {{ title }}
     </h3>
-    <p class="text-lg text-mau-purple-600 mb-4 font-light"> {{ description }}</p>
+    <p
+      class="
+        text-lg text-mau-purple-600
+        mb-4
+        font-light
+        text-center
+        md:text-left
+      "
+    >
+      {{ description }}
+    </p>
     <div class="rounded-full bg-mau-secondary-500 w-24 h-1"></div>
   </div>
 </template>
