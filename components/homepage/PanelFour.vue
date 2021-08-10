@@ -4,7 +4,8 @@
       <p
         class="
           font-medium
-          xl:text-4xl
+          2xl:text-4xl
+          xl:text-3xl
           lg:text-2xl
           text-2xl text-mau-primary-700
           xl:text-left

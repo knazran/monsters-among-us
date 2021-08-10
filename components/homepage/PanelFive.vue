@@ -4,7 +4,6 @@
       <h3
         class="
           font-medium
-          xl:text-4xl
           lg:text-3xl
           text-2xl text-mau-primary-900
           lg:text-left
@@ -16,7 +15,6 @@
       <h4
         class="
           font-thin
-          xl:text-2xl
           lg:text-xl
           text-lg text-mau-primary-700
           mt-1

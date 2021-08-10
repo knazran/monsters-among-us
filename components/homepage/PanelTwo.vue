@@ -14,7 +14,7 @@
           "
         >
           <div class="2xl:pr-32 xl:pr-24">
-            <p class="font-medium xl:text-6xl lg:text-5xl text-3xl text-center md:text-left">
+            <p class="font-medium xl:text-5xl lg:text-4xl text-3xl text-center md:text-left">
               Attention grabbing statement on the issue of Online Child Abuse
             </p>
           </div>
@@ -24,13 +24,11 @@
         <!-- Right Side with List and button -->
         <div
           class="
-            lg:my-14
+            lg:my-4
             lg:py-6
             md:w-1/2
             2xl:w-3/5
-            mt-10
             lg:px-0
-            lg:mt-18
             px-5
           "
         >
@@ -41,7 +39,6 @@
                 list-decimal
                 list-inside
                 font-light
-                lg:text-2xl
                 text-xl text-mau-primary-700
               "
             >

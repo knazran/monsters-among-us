@@ -43,7 +43,7 @@
       <img :src="post.img" class="my-5" />
 
       <!-- Content -->
-      <nuxt-content class="prose prose-sm lg:prose-lg xl:prose-xl" :document="post" />
+      <nuxt-content class="prose prose-sm lg:prose-lg" :document="post" />
     </div>
   </div>
 </template>

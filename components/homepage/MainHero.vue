@@ -21,10 +21,10 @@
           <p
             class="
               font-medium
-              2xl:text-6xl
-              xl:text-5xl
-              lg:text-4xl
-              text-4xl text-center
+              2xl:text-5xl
+              xl:text-4xl
+              lg:text-3xl
+              text-3xl text-center
               lg:text-left
             "
           >
@@ -33,9 +33,10 @@
           <p
             class="
               font-semibold
-              xl:text-5xl
-              lg:text-4xl
-              text-4xl text-center
+              2xl:text-5xl
+              xl:text-4xl
+              lg:text-3xl
+              text-3xl text-center
               lg:text-left
               mt-2
             "
@@ -47,7 +48,7 @@
           <p
             class="
               font-thin
-              2xl:text-4xl
+              2xl:text-3xl
               lg:text-2xl
               text-xl
               lg:text-left

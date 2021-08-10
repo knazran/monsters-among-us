@@ -4,8 +4,7 @@
       <p
         class="
           font-medium
-          xl:text-4xl
-          lg:text-2xl
+          lg:text-3xl
           text-2xl text-mau-primary-700
           text-center
         "

@@ -13,7 +13,7 @@
         </template>
       </PageSplitSection>
       <div class="w-full px-4 mb-8 md:mb-20">
-        <nuxt-content class="w-full prose prose-lp prose-sm lg:prose-lg xl:prose-xl" :document="content" />
+        <nuxt-content class="w-full prose prose-lp prose-sm lg:prose-lg" :document="content" />
       </div>
     </PageSection>
   </div>

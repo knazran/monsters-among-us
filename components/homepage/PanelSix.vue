@@ -13,7 +13,7 @@
             items-center
             md:flex-row
             space-y-4
-            md:space-y-0 md:space-x-4
+            md:space-y-0 md:space-x-8
             md:items-stretch
             md:px-8
           "
@@ -39,8 +39,6 @@
           <p
             class="
               font-medium
-              xl:text-5xl
-              lg:text-4xl
               text-3xl text-mau-primary-900
             "
           >
@@ -49,8 +47,6 @@
           <p
             class="
               font-medium
-              xl:text-5xl
-              lg:text-4xl
               text-3xl text-mau-primary-900
             "
           >
@@ -82,7 +78,6 @@
             class="
               text-center
               font-semibold
-              xl:text-4xl
               lg:text-3xl
               text-2xl text-mau-primary-700
             "

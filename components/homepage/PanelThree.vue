@@ -1,10 +1,10 @@
 <template>
   <div class="bg-mau-primary-500 h-full">
-    <div class="container mx-auto py-8 lg:py-40 px-4">
+    <div class="container mx-auto py-8 lg:py-20 px-4">
       <div class="flex flex-col md:flex-row items-center md:items-start">
         <!-- Left Side-->
-        <div class="lg:w-3/4 text-white xl:px-2 px-6">
-          <p class="font-extralight lg:text-5xl text-2xl leading-tight md:leading-normal text-center md:text-left">
+        <div class="lg:w-3/4 text-white xl:px-16 px-6">
+          <p class="font-extralight lg:text-4xl text-2xl leading-tight md:leading-normal text-center md:text-left">
             <strong> Monsters Among Us </strong>is a Malaysian youth combating
             child sexual abuse (CSA) through advocacy and community involvement.
           </p>
