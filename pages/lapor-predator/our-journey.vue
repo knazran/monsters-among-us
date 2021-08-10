@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-purple-300">
+  <div class="bg-mau-purple-300 min-h-screen">
     <PageSection id="about-lapor-predator">
       <PageSplitSection :img="content.main_poster">
         <PageTitleAlt
@@ -18,7 +18,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const content = await $content('lapor-predator/about').fetch()
+      const content = await $content('lapor-predator/our-journey').fetch()
       return {
         content,
       }

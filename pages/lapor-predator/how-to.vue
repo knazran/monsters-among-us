@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-purple-300">
+  <div class="bg-mau-purple-300 min-h-screen">
     <PageSection id="about-lapor-predator">
       <PageSplitSection :img="content.main_poster">
         <PageTitleAlt
