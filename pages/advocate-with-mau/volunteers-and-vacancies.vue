@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto container">
     <PageSplitSection id="advocate-mau" :img="contents.thumbnail">
-      <SplitSectionText :title="contents.title" :text="contents.content" />
+      <PageTitle :title="contents.title" :description="contents.description" />
     </PageSplitSection>
     <div class="w-full px-6 my-12">
       <nuxt-content

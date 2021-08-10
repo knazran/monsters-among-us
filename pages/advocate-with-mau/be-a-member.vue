@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto container px-4">
     <PageSplitSection id="advocate-mau" :img="contents.image">
-      <SplitSectionText :title="contents.title" :text="contents.description" />
+      <PageTitle :title="contents.title" :description="contents.description" />
     </PageSplitSection>
     <div class="px-4">
       <ImageCarousel :images="contents.carousel" />
