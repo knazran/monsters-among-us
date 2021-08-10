@@ -1,6 +1,6 @@
 ---
 title: Volunteers & Vacancies
-content: From our symposium days to helping children and families through our
+description: From our symposium days to helping children and families through our
   Lapor Predator chatbot, we could not have accomplished all of it without the
   support from our dedicated and supportive volunteers. We believe in the power
   of people and we are looking for youths and individuals of any background that

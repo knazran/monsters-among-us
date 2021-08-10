@@ -6,7 +6,7 @@
     <div class="px-4">
       <ImageCarousel :images="contents.carousel" />
     </div>
-    <div class="w-full my-8">
+    <div class="w-full px-8 my-8">
       <nuxt-content
         class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-center"
         :document="contents"

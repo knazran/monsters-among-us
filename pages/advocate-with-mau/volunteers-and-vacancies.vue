@@ -3,7 +3,7 @@
     <PageSplitSection id="advocate-mau" :img="contents.thumbnail">
       <PageTitle :title="contents.title" :description="contents.description" />
     </PageSplitSection>
-    <div class="w-full px-6 my-12">
+    <div class="w-full px-8 my-8">
       <nuxt-content
         class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-justify"
         :document="contents"
