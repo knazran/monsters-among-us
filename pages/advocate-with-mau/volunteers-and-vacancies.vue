@@ -16,7 +16,7 @@
 export default {
   async asyncData({ $content }) {
     const contents = await $content(
-      'advocate-with-mau/editable/volunteers-&-vacancies'
+      'advocate-with-mau/editable/volunteers-and-vacancies'
     ).fetch()
     return {
       contents,
