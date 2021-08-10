@@ -3,12 +3,11 @@
     <PageSection id="catch-em-predator">
       <PageSplitSection :img="content.main_poster">
         <PageTitle
-          title="Catch Em' Predator"
-          description="Something something something"
+          :title="content.title"
+          :description="content.description"
         />
       </PageSplitSection>
-
-      <div class="w-full px-2">
+      <div class="w-full px-4 mb-8 md:mb-20">
         <nuxt-content class="w-full prose prose-sm lg:prose-lg xl:prose-xl" :document="content" />
       </div>
     </PageSection>
@@ -24,7 +23,7 @@ export default {
         content,
       }
     } catch (e) {
-      error({ message: 'Blog Post not found' })
+      error({ message: 'Content not found' })
     }
   },
 }

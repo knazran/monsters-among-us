@@ -4,7 +4,7 @@
       <slot></slot>
     </div>
     <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
-      <img class="w-full object-contain min-h-0 rounded-lg" :src="img" />
+      <img class="w-full object-contain min-h-0 max-h-96 rounded-lg" :src="img" />
     </div>
     <div v-if='reverse' class="w-full md:w-1/2 px-6">
       <slot></slot>
