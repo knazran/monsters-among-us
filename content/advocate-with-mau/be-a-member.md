@@ -10,4 +10,4 @@ carousel:
 ---
 
 What are you waiting for? Just click the link below!  
-(membership link: <http://bit.ly/sayamaujoinmau> )
+(membership link: http://bit.ly/sayamaujoinmau> )

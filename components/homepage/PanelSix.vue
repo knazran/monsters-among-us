@@ -128,7 +128,6 @@ export default {
   },
   async fetch() {
     const data = await this.$content('blog').limit(4).fetch()
-    console.log(data)
     this.posts = data
   },
 }
