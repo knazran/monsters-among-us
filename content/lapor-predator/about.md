@@ -3,6 +3,17 @@ title: About Lapor Predator
 description: Lapor with us Lorem Ipsum One two three
 logo: /img/initiative/Lapor Predator Logo.png
 main_poster: /img/initiative/Lapor Predator Logo.png
+partners:
+    - name: Child Safe Alliance
+      image: /img/lapor-predator/alliance-square.png
+    - name: SeaFam
+      image: /img/lapor-predator/seafam-logo.png
+    - name: Cybersecurity Malaysia
+      image: /img/lapor-predator/cybersecurity.jpeg
+    - name: Kampung Tunku
+      image: /img/lapor-predator/kg-tunku.jpeg
+    - name: World Child Hood Foundation
+      image: /img/lapor-predator/wcf-logo.png
 ---
 
 Welcome aboard our mission to fight online sexual crimes against children. We hereby introduce our automated Chatbot. The chatbot functions as a convenient online reporting medium for online sexual exploitation and abuse of children (OCSEA).

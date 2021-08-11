@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto container">
-    <PageSplitSection :reverse="false" id="advocate-mau" :img="contents.image">
+    <PageSplitSection :reverse="true" id="advocate-mau" :img="contents.image">
       <PageTitle :title="contents.title" :description="contents.description" />
     </PageSplitSection>
     <div class="w-full px-8 my-8">
