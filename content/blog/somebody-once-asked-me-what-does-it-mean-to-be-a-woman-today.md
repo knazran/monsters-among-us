@@ -3,8 +3,7 @@ title: >
     Somebody once asked me, ‘what does it mean to be a woman today?’
 image: /img/blog/blog-woman.png
 author: Farzana
-date: 02/15/2021
-     
+date: 2021-05-15T17:16:31.032Z
 
 ---
 

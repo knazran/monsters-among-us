@@ -5,11 +5,11 @@
   <!-- isBlog for Tab 4 -->
   <!-- if isLarge, required title,author,date,content-->
   <div
-    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full"
+    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full bg-white"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
-    <img class="object-cover h-56 w-full" :src="img" />
-    <div class="px-6 py-4 flex-grow">
+    <img class="object-cover h-72 w-full" :src="img" />
+    <div class="p-6 flex-grow">
       <div class="font-medium xl:text-xl text-base mb-2">
         {{ title }}
       </div>
@@ -38,8 +38,7 @@
           xl:text-sm
           text-mau-secondary-950 text-xs
           mb-2
-          md:h-10
-          md:w-24
+          md:h-10 md:w-24
           lg:w-full
         "
         >{{ author }}</span
@@ -57,7 +56,7 @@
           px-2
           mb-2
         "
-        >{{ date }}</span
+        >{{ formattedPublishedDate }}</span
       >
     </div>
   </div>
@@ -91,6 +90,14 @@ export default {
       type: String,
       default:
         'https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_2240,c_limit/phonepicutres-TA.jpg',
+    },
+  },
+  computed: {
+    formattedPublishedDate() {
+      const dateString = Date.parse(this.date)
+      const today = new Date(dateString)
+
+      return today.toLocaleDateString('en-GB')
     },
   },
 }
