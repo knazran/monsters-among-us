@@ -4,7 +4,7 @@
       <slot name='default'></slot>
     </div>
     <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
-      <img v-if="img === ''" class="w-full object-contain min-h-0 max-h-96 rounded-lg" :src="img" />
+      <img v-if="img !== ''" class="w-full object-contain min-h-0 max-h-96 rounded-lg" :src="img" />
       <slot name='media'></slot>
     </div>
     <div v-if='reverse' class="w-full md:w-1/2 px-6">
