@@ -24,14 +24,19 @@
           items-stretch
         "
       >
-        <SimpleThumbnailCard
+        <NuxtLink
           v-for="initiative in initiatives"
           :key="initiative.title"
-          :is-button="false"
-          :text-top="initiative.title"
-          :text-bot="initiative.description"
-          :image="initiative.image"
-        />
+          class="flex justify-center"
+          :to="initiative.link"
+        >
+          <SimpleThumbnailCard
+            :is-button="false"
+            :text-top="initiative.title"
+            :text-bot="initiative.description"
+            :image="initiative.logo"
+          />
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -45,8 +50,10 @@ export default {
     }
   },
   async fetch() {
-    const data = await this.$content('initiatives').fetch()
-    this.initiatives = data[0].initiatives
+    const initiatives = await this.$content('initiatives')
+      .sortBy('order')
+      .fetch()
+    this.initiatives = initiatives
   },
 }
 </script>
