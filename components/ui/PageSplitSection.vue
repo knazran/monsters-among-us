@@ -1,13 +1,14 @@
 <template>
   <div class="container mx-auto md:flex my-8 md:my-18">
     <div v-if='!reverse' class="w-full md:w-1/2 px-6 mb-4 md:mb-0">
-      <slot></slot>
+      <slot name='default'></slot>
     </div>
     <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
-      <img class="w-full object-contain min-h-0 rounded-lg" :src="img" />
+      <img v-if="img === ''" class="w-full object-contain min-h-0 max-h-96 rounded-lg" :src="img" />
+      <slot name='media'></slot>
     </div>
     <div v-if='reverse' class="w-full md:w-1/2 px-6">
-      <slot></slot>
+      <slot name='default'></slot>
     </div>
   </div>
 </template>
@@ -17,7 +18,7 @@ export default {
   props: {
     img: {
       type: String,
-      default: '/img/kid-hero.jpg',
+      default: '',
     },
     reverse: {
         type: Boolean,

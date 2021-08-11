@@ -3,6 +3,8 @@ title: Catch 'Em Predator
 description: Lapor with us Lorem Ipsum One two three
 logo: /img/initiative/Catch Em Predator.png
 main_poster: /img/initiative/Catch_em_predator_poster.png
+link: /initiatives/catch-em-predator
+order: 2
 ---
 
 

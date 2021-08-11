@@ -1,17 +1,34 @@
 <template>
-  <div>
-    <PageHero title="Our Partners" description="" bg-image="kid-hero.jpg" />
+  <div class="bg-mau-purple-300 min-h-screen">
+    <PageSection id="about-lapor-predator">
+      <PageSplitSection>
+        <PageTitleAlt
+          :title="content.title"
+          :description="content.description"
+        />
+      </PageSplitSection>
 
-    <PageSection id="our-partners">
-      <h2 class="text-2xl md:text-3xl text-mau-primary-700 font-semibold mb-6 text-center md:text-left">
-        Our Partners
-      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-8">
+        <div v-for="partner in content.partners" :key='partner.name' class='bg-white rounded-lg shadow-lg border-2 border-mau-purple-500 p-4 flex justify-center'>
+          <img class="w-full object-contain min-h-0 h-72 rounded-lg" :src="partner.image" />
+        </div>
+      </div>
     </PageSection>
   </div>
 </template>
 
 <script>
 export default {
+  async asyncData({ $content, params, error }) {
+    try {
+      const content = await $content('lapor-predator/our-partners').fetch()
+      return {
+        content,
+      }
+    } catch (e) {
+      error({ message: 'Content not found' })
+    }
+  },
 }
 </script>
 

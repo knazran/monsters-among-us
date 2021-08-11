@@ -39,18 +39,45 @@ module.exports = {
         DEFAULT: {
           css: {
             maxWidth: null,
-            color: '#46818A',
+            color: '#5B958A',
             h1: {
-              color: '#34564F',
+              color: '#46818A',
             },
             h2: {
-              color: '#34564F',
+              color: '#46818A',
             },
             h3: {
-              color: '#34564F',
+              color: '#46818A',
+            },
+            li: {
+              color: '#5B958A',
             },
           },
         },
+        'lp': {
+          css: {
+            maxWidth: null,
+            color: '#644488',
+            h1: {
+              color: '#4D2D52',
+            },
+            h2: {
+              color: '#4D2D52',
+            },
+            h3: {
+              color: '#4D2D52',
+            },
+            li: {
+              color: '#644488',
+            },
+            ul: {
+              color: '#644488',
+            },
+            'ul > li::before': {
+              backgroundColor: '#F7F06D',
+            }
+          },
+        }
       },
       height: {
         106: '210rem',
@@ -72,7 +99,9 @@ module.exports = {
         cream: '#F4E9CD',
         'mau-orange': 'F26C50',
         'mau-purple': {
+          300: "#D3CBDD",
           500: '#A799B7',
+          600: '#644488',
           700: '#4D2D52',
         },
         'mau-primary': {

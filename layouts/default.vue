@@ -3,7 +3,7 @@
     <transition name="fade">
       <div
         v-if="showOverlayMenu"
-        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity min-h-screen h-full"
         aria-hidden="true"
       ></div>
     </transition>
@@ -12,7 +12,6 @@
     <div class="min-h-screen">
       <Nuxt />
     </div>
-    
     <Footer />
   </div>
 </template>

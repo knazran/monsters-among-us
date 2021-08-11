@@ -16,8 +16,7 @@
       <div
         class="
           flex flex-col
-          md:flex-row
-          md:justify-between
+          md:flex-row md:justify-between
           mt-10
           space-y-12
           md:space-y-0 md:space-x-8
@@ -50,9 +49,7 @@ export default {
     }
   },
   async fetch() {
-    const initiatives = await this.$content('initiatives')
-      .sortBy('order')
-      .fetch()
+    const initiatives = await this.$content('initiatives').sortBy('order').fetch()
     this.initiatives = initiatives
   },
 }

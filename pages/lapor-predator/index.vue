@@ -1,17 +1,31 @@
 <template>
-  <div>
-    <PageHero title="About Lapor Predator" description="" bg-image="kid-hero.jpg" />
-
+  <div class="bg-mau-purple-300">
     <PageSection id="about-lapor-predator">
-      <h2 class="text-2xl md:text-3xl text-mau-primary-700 font-semibold mb-6 text-center md:text-left">
-        About Lapor Predator
-      </h2>
+      <PageSplitSection :img="content.main_poster">
+        <PageTitleAlt
+          :title="content.title"
+          :description="content.description"
+        />
+      </PageSplitSection>
+      <div class="w-full px-4 mb-8 md:mb-20">
+        <nuxt-content class="w-full prose prose-lp prose-sm lg:prose-lg xl:prose-xl" :document="content" />
+      </div>
     </PageSection>
   </div>
 </template>
 
 <script>
 export default {
+  async asyncData({ $content, params, error }) {
+    try {
+      const content = await $content('lapor-predator/about').fetch()
+      return {
+        content,
+      }
+    } catch (e) {
+      error({ message: 'Content not found' })
+    }
+  },
 }
 </script>
 

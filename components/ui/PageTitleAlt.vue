@@ -4,7 +4,7 @@
       class="
         text-3xl
         md:text-4xl
-        text-mau-primary-700
+        text-mau-purple-700
         font-semibold
         tracking-wider
         text-center
@@ -15,7 +15,7 @@
     </h3>
     <p
       class="
-        text-lg text-mau-primary-500
+        text-lg text-mau-purple-600
         mb-4
         font-light
         text-center
@@ -24,7 +24,7 @@
     >
       {{ description }}
     </p>
-    <div class="rounded-full bg-mau-secondary-900 w-24 h-1"></div>
+    <div class="rounded-full bg-mau-secondary-500 w-24 h-1"></div>
   </div>
 </template>
 

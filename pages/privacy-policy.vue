@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <PageSection id="catch-em-predator">
-      <PageSplitSection :img="content.main_poster">
+  <div class="my-4 md:my-8">
+    <PageSection id="about-lapor-predator">
         <PageTitle
           :title="content.title"
           :description="content.description"
         />
-      </PageSplitSection>
-      <div class="w-full px-4 mb-8 md:mb-20">
-        <nuxt-content class="w-full prose prose-sm lg:prose-lg xl:prose-xl" :document="content" />
+      <div class="w-full my-12">
+        <nuxt-content class="w-full prose prose-sm lg:prose-lg" :document="content" />
       </div>
     </PageSection>
   </div>
@@ -18,7 +16,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const content = await $content('initiatives/catch-em-predator').fetch()
+      const content = await $content('privacy-policy').fetch()
       return {
         content,
       }
@@ -28,3 +26,4 @@ export default {
   },
 }
 </script>
+
