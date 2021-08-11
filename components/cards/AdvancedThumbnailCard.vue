@@ -5,7 +5,7 @@
   >
     <img v-if="img !== ''" class="object-cover h-72 w-full" :src="img" />
     <div class="p-6 flex-grow">
-      <div class="font-medium xl:text-xl text-base mb-2">
+      <div class="font-medium text-xl text-base mb-2">
         {{ title }}
       </div>
       <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>

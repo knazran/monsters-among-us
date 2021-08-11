@@ -55,7 +55,7 @@
       <!-- End TOP -->
       <!-- BOT -->
       <div class="mx-auto mt-12 lg:mt-24">
-        <div class="md:flex md:justify-center mb-8">
+        <div class="md:flex md:justify-center mb-12">
           <p
             class="
               text-center
