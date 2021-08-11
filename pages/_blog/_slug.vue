@@ -39,7 +39,7 @@
       </p>
       <!-- Image -->
 
-      <img :src="post.img" class="my-5" />
+      <img :src="post.image" class="my-5" />
 
       <!-- Content -->
       <nuxt-content class="prose prose-sm lg:prose-lg" :document="post" />

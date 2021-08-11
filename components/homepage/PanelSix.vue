@@ -98,30 +98,32 @@
             md:px-8
           "
         >
-          <AdvancedThumbnailCard
-            title="MAU Part 1 Intro"
-            :is-large="true"
-            author="Admin"
-            date="17/10/2020"
-            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          />
-          <AdvancedThumbnailCard
-            title="MAU Part 1 Intro"
-            :is-large="true"
-            author="Admin"
-            date="17/10/2020"
-            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          />
-          <AdvancedThumbnailCard
-            title="MAU Part 1 Intro"
-            :is-large="true"
-            author="Admin"
-            date="17/10/2020"
-            content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
-          />
+          <div v-for="post of posts" :key="post.slug">
+            <AdvancedThumbnailCard
+              :title="post.title"
+              :is-large="true"
+              :author="post.author"
+              :date="post.date"
+              :content="post"
+            />
+          </div>
         </div>
       </div>
       <!-- END BOT -->
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      posts: [],
+    }
+  },
+  async fetch() {
+    const data = await this.$content('blog').limit(4).fetch()
+    this.posts = data
+  },
+}
+</script>
