@@ -1,17 +1,12 @@
 <template>
-  <!-- Instruction for AdvancedThumbnailCard-->
-  <!-- props:title,isLarge,content,title,author,date,isBlog,img-->
-  <!-- title, isLarge,isBlog are required -->
-  <!-- isBlog for Tab 4 -->
-  <!-- if isLarge, required title,author,date,content-->
   <div
-    class="rounded-xl overflow-hidden shadow-lg"
+    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full bg-white"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
-    <img class="object-cover h-56 w-full" :src="img" />
-    <div class="px-6 py-4">
-      <div class="font-medium xl:text-xl text-base mb-2">
-        {{ title.length > 15 ? title.substring(0, 18) + '..' : title }}
+    <img v-if="img !== ''" class="object-cover h-72 w-full" :src="img" />
+    <div class="p-6 flex-grow">
+      <div class="font-medium text-xl text-base mb-2">
+        {{ title }}
       </div>
       <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>
 
@@ -38,8 +33,7 @@
           xl:text-sm
           text-mau-secondary-950 text-xs
           mb-2
-          md:h-10
-          md:w-24
+          md:h-10 md:w-24
           lg:w-full
         "
         >{{ author }}</span
@@ -57,7 +51,7 @@
           px-2
           mb-2
         "
-        >{{ date }}</span
+        >{{ formattedPublishedDate }}</span
       >
     </div>
   </div>
@@ -90,7 +84,15 @@ export default {
     img: {
       type: String,
       default:
-        'https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_2240,c_limit/phonepicutres-TA.jpg',
+        '',
+    },
+  },
+  computed: {
+    formattedPublishedDate() {
+      const dateString = Date.parse(this.date)
+      const today = new Date(dateString)
+
+      return today.toLocaleDateString('en-GB')
     },
   },
 }

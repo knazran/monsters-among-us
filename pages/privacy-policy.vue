@@ -6,7 +6,7 @@
           :description="content.description"
         />
       <div class="w-full my-12">
-        <nuxt-content class="w-full prose prose-sm lg:prose-lg" :document="content" />
+        <nuxt-content class="w-full prose prose-mau prose-sm lg:prose-lg" :document="content" />
       </div>
     </PageSection>
   </div>

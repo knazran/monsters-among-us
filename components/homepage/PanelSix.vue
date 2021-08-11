@@ -13,9 +13,7 @@
             items-center
             md:flex-row
             space-y-4
-            md:space-y-0 md:space-x-8
-            md:items-stretch
-            md:px-8
+            md:space-y-0 md:space-x-8 md:items-stretch md:px-8
           "
         >
           <AdvancedThumbnailCard title="MAU Rocks" :is-large="false" />
@@ -30,28 +28,12 @@
             w-full
             flex flex-col
             items-center
-            md:items-start
-            md:w-2/5
-            md:px-8
+            md:items-start md:w-2/5 md:px-8
             mb-8
           "
         >
-          <p
-            class="
-              font-medium
-              text-3xl text-mau-primary-900
-            "
-          >
-            What's
-          </p>
-          <p
-            class="
-              font-medium
-              text-3xl text-mau-primary-900
-            "
-          >
-            Happening?
-          </p>
+          <p class="font-medium text-3xl text-mau-primary-900">What's</p>
+          <p class="font-medium text-3xl text-mau-primary-900">Happening?</p>
           <div class="mt-6">
             <button
               class="
@@ -73,7 +55,7 @@
       <!-- End TOP -->
       <!-- BOT -->
       <div class="mx-auto mt-12 lg:mt-24">
-        <div class="md:flex md:justify-center mb-8">
+        <div class="md:flex md:justify-center mb-12">
           <p
             class="
               text-center
@@ -93,19 +75,21 @@
             justify-center
             md:flex-row
             space-y-4
-            md:space-y-0 md:space-x-8
-            md:items-stretch
-            md:px-8
+            md:space-y-0 md:space-x-8 md:items-stretch md:px-8
           "
         >
           <div v-for="post of posts" :key="post.slug">
-            <AdvancedThumbnailCard
-              :title="post.title"
-              :is-large="true"
-              :author="post.author"
-              :date="post.date"
-              :content="post"
-            />
+            <NuxtLink :to="`blog/${post.slug}`">
+              <AdvancedThumbnailCard
+                :is-large="true"
+                :is-blog="true"
+                :author="post.author"
+                :date="post.date"
+                :title="post.title"
+                :img="post.image"
+                :content="post"
+              />
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -122,7 +106,7 @@ export default {
     }
   },
   async fetch() {
-    const data = await this.$content('blog').limit(4).fetch()
+    const data = await this.$content('blog').sortBy('date').limit(4).fetch()
     this.posts = data
   },
 }
