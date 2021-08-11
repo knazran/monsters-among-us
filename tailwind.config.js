@@ -36,7 +36,7 @@ module.exports = {
 
     extend: {
       typography: {
-        DEFAULT: {
+        'mau': {
           css: {
             maxWidth: null,
             color: '#5B958A',

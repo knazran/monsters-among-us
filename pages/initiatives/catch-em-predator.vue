@@ -8,7 +8,7 @@
         />
       </PageSplitSection>
       <div class="w-full px-4 mb-8 md:mb-20">
-        <nuxt-content class="w-full prose prose-sm lg:prose-lg" :document="content" />
+        <nuxt-content class="w-full prose prose-mau prose-sm lg:prose-lg" :document="content" />
       </div>
     </PageSection>
   </div>

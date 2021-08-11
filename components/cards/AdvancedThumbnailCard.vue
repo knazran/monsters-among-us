@@ -1,14 +1,9 @@
 <template>
-  <!-- Instruction for AdvancedThumbnailCard-->
-  <!-- props:title,isLarge,content,title,author,date,isBlog,img-->
-  <!-- title, isLarge,isBlog are required -->
-  <!-- isBlog for Tab 4 -->
-  <!-- if isLarge, required title,author,date,content-->
   <div
     class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full bg-white"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
-    <img class="object-cover h-72 w-full" :src="img" />
+    <img v-if="img !== ''" class="object-cover h-72 w-full" :src="img" />
     <div class="p-6 flex-grow">
       <div class="font-medium xl:text-xl text-base mb-2">
         {{ title }}
@@ -89,7 +84,7 @@ export default {
     img: {
       type: String,
       default:
-        'https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_2240,c_limit/phonepicutres-TA.jpg',
+        '',
     },
   },
   computed: {
