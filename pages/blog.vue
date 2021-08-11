@@ -15,6 +15,7 @@
               :date="post.date"
               :title="post.title"
               :img="post.image"
+              :content="post"
             />
           </NuxtLink>
         </div>

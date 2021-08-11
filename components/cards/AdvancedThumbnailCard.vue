@@ -5,13 +5,13 @@
   <!-- isBlog for Tab 4 -->
   <!-- if isLarge, required title,author,date,content-->
   <div
-    class="rounded-xl overflow-hidden shadow-lg"
+    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
     <img class="object-cover h-56 w-full" :src="img" />
-    <div class="px-6 py-4">
+    <div class="px-6 py-4 flex-grow">
       <div class="font-medium xl:text-xl text-base mb-2">
-        {{ title.length > 15 ? title.substring(0, 18) + '..' : title }}
+        {{ title }}
       </div>
       <div v-if="!isLarge" class="font-bold text-xl xl:my-48 my-24"></div>
 
