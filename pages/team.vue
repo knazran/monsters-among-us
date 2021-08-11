@@ -20,7 +20,7 @@
         text-mau-primary-700
         font-semibold
         mt-12
-        sm:mb-24
+        sm:mb-18
         mb-12
         text-center
       "
@@ -32,7 +32,8 @@
         grid
         gap-10
         mx-auto
-        xl:max-w-screen-2xl
+        2xl:max-w-screen-2xl
+        xl:max-w-screen-xl
         lg:max-w-screen-lg
         sm:grid-cols-2
         xl:grid-cols-4
@@ -52,7 +53,7 @@
       class="
         text-2xl
         md:text-3xl
-        sm:my-24
+        sm:my-18
         my-12
         text-mau-primary-700
         font-semibold
@@ -66,7 +67,8 @@
         grid
         gap-10
         mx-auto
-        xl:max-w-screen-2xl
+        2xl:max-w-screen-2xl
+        xl:max-w-screen-xl
         lg:max-w-screen-lg
         sm:grid-cols-2
         xl:grid-cols-4
