@@ -1,6 +1,6 @@
 ---
 title: Collaborate With Us
-image: /img/advocate/activity.jpg
+image: /img/advocate/forum.jpg
 description: Let’s create change! 
             Reach out to our Public Relations Officer (kaiser@laporpredator.org) to explore how we can create magic together!
 ---

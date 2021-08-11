@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto container px-4">
-    <PageSplitSection id="advocate-mau" :img="contents.image">
+    <PageSplitSection id="advocate-mau"  :img="contents.images">
       <PageTitle :title="contents.title" :description="contents.description" />
     </PageSplitSection>
     <div class="px-4">

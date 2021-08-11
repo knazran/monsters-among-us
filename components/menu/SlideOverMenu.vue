@@ -38,9 +38,9 @@
               <MenuButton text="Our Partners" to='/lapor-predator/our-partners'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Advocate with MAU">
-              <MenuButton text="Volunteers and Vacancies " to='advocate-with-mau/volunteers-and-vacancies'></MenuButton>
-              <MenuButton text="Collaborate with Us" to='advocate-with-mau/collaborate-with-us'></MenuButton>
-              <MenuButton text="Be a Member" to='advocate-with-mau/be-a-member'></MenuButton>
+              <MenuButton text="Volunteers and Vacancies " to='/advocate-with-mau/volunteers-and-vacancies'></MenuButton>
+              <MenuButton text="Collaborate with Us" to='/advocate-with-mau/collaborate-with-us'></MenuButton>
+              <MenuButton text="Be a Member" to='/advocate-with-mau/be-a-member'></MenuButton>
             </MenuAccordion>
           </div>
           <div class='justify-self-end flex justify-center'>
