@@ -1,6 +1,6 @@
 ---
 title: How to LAPOR PREDATOR? 
-description: Lapor with us Lorem Ipsum One two three
+description: Reporting may be scary. But we are here to help.
 logo: /img/initiative/Lapor Predator Logo.png
 main_poster: /img/initiative/Lapor Predator Logo.png
 ---

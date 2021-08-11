@@ -70,12 +70,11 @@
         <div
           class="
             w-full
-            flex flex-col
-            items-center
-            justify-center
-            md:flex-row
-            space-y-4
-            md:space-y-0 md:space-x-8 md:items-stretch md:px-8
+            grid
+            grid-cols-3
+            gap-8
+            md:items-stretch 
+            md:px-8
           "
         >
           <div v-for="post of posts" :key="post.slug">
@@ -106,7 +105,7 @@ export default {
     }
   },
   async fetch() {
-    const data = await this.$content('blog').sortBy('date').limit(4).fetch()
+    const data = await this.$content('blog').sortBy('date', 'desc').limit(3).fetch()
     this.posts = data
   },
 }

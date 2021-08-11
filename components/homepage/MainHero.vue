@@ -94,14 +94,13 @@
               lg:translate-x-16
               -z-20
               object-cover
-              2xl:w-96
-              2xl:h-80
               xl:h-72
-              xl:w-72
+              2xl:h-96
               border-2
+              border-mau-primary-700
               rounded-md
             "
-            src="../../static/test.jpg"
+            src="../../static/img/IMG_4630.jpg"
             alt="Profile image"
           />
           <img
@@ -112,14 +111,13 @@
               -translate-x-16 -translate-y-12
               -z-30
               object-cover
-              2xl:w-96
-              2xl:h-80
               xl:h-72
-              xl:w-72
+              2xl:h-96
               border-2
+              border-mau-primary-700
               rounded-md
             "
-            src="../../static/test2.jpg"
+            src="../../static/img/IMG_4683.jpg"
             alt="Profile image"
           />
         </div>

@@ -27,7 +27,7 @@
         <NuxtLink
           v-for="initiative in initiatives"
           :key="initiative.title"
-          class="flex justify-center"
+          class="flex justify-center hover:shadow-2xl hover:border hover:border-mau-primary-400"
           :to="initiative.link"
         >
           <SimpleThumbnailCard

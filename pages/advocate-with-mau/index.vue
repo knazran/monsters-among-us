@@ -9,7 +9,7 @@
     </PageSplitSection>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-justify"
+        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
         :document="volunteersContent"
       />
     </div>
@@ -26,7 +26,7 @@
     </PageSplitSection>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-justify"
+        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
         :document="collaborateContent"
       />
     </div>
@@ -42,7 +42,7 @@
     </div>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm lg:prose-lg xl:prose-xl text-center"
+        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-center"
         :document="beMemberContent"
       />
     </div>

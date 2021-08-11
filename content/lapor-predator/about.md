@@ -1,6 +1,6 @@
 ---
 title: About Lapor Predator
-description: Lapor with us Lorem Ipsum One two three
+description: Lapor with us. Safer internet, safer childhoods.
 logo: /img/initiative/Lapor Predator Logo.png
 main_poster: /img/initiative/Lapor Predator Logo.png
 partners:

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full bg-white"
+    class="flex flex-col rounded-xl overflow-hidden shadow-lg h-full bg-white hover:shadow-2xl hover:border hover:border-mau-primary-400"
     :class="isBlog ? 'max-w-lg' : 'max-w-xs'"
   >
     <img v-if="img !== ''" class="object-cover h-72 w-full" :src="img" />

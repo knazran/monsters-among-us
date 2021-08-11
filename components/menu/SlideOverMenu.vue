@@ -11,7 +11,7 @@
         md:w-auto
         md:max-w-full
         flex
-        z-10
+        z-30
       "
     >
       <div class="w-screen max-w-md border-l-2 border-mau-primary-800">

@@ -3,7 +3,7 @@
     <transition name="fade">
       <div
         v-if="showOverlayMenu"
-        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity min-h-screen h-full"
+        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity min-h-screen h-full z-20"
         aria-hidden="true"
       ></div>
     </transition>

@@ -14,7 +14,7 @@
       </h3>
       <h4
         class="
-          font-thin
+          font-light
           lg:text-xl
           text-lg text-mau-primary-700
           mt-1
@@ -42,17 +42,20 @@
         <SimpleThumbnailCard
           :is-button="true"
           :is-long="false"
-          text-button="Volunteer"
+          text-button="Vacancies"
+          image="/img/advocate/activity.jpg"
         />
         <SimpleThumbnailCard
           :is-button="true"
           :is-long="true"
           text-button="Collaborate with MAU"
+          image="/img/advocate/forum.jpg"
         />
         <SimpleThumbnailCard
           :is-button="true"
           :is-long="false"
           text-button="Be a Member"
+          image="/img/advocate/together.jpg"
         />
       </div>
     </div>

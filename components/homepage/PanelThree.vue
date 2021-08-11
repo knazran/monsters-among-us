@@ -5,8 +5,7 @@
         <!-- Left Side-->
         <div class="lg:w-3/4 text-white xl:px-16 px-6">
           <p class="font-extralight lg:text-4xl text-2xl leading-tight md:leading-normal text-center md:text-left">
-            <strong> Monsters Among Us </strong>is a Malaysian youth combating
-            child sexual abuse (CSA) through advocacy and community involvement.
+            <strong>Monsters Among Us (MAU)</strong> is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.
           </p>
         </div>
         <!-- End Left Side-->
