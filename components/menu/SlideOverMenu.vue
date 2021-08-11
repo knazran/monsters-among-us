@@ -22,7 +22,14 @@
             <MenuAccordion title="About Us">
               <MenuButton text="Our Story" to='/our-story'></MenuButton>
               <MenuButton text="Our Milestone" to='/our-milestone'></MenuButton>
+              <MenuButton text="Our Policies" to='/our-milestone'></MenuButton>
               <MenuButton text="Meet The Team" to='/meet-the-team'></MenuButton>
+            </MenuAccordion>
+            <MenuAccordion title="Our Initiatives">
+              <MenuButton text="Lapor Predator" to='/lapor-predator'></MenuButton>
+              <MenuButton text="Catch Em' Predator" to='/initiatives/catch-em-predator'></MenuButton>
+              <MenuButton text="Colour With MAU" to='/initiatives/colour-with-mau'></MenuButton>
+              <MenuButton text="MAU Reading Club" to='/initiatives/mau-reading-club'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
               <MenuButton text="Child Sexual Abuse" to='/about-us'></MenuButton>
@@ -34,8 +41,6 @@
             <MenuAccordion title="Lapor Predator">
               <MenuButton text="About Lapor Predator" to='/lapor-predator'></MenuButton>
               <MenuButton text="How to Lapor Predator" to='/lapor-predator/how-to'></MenuButton>
-              <MenuButton text="Our Journey" to='/lapor-predator/our-journey'></MenuButton>
-              <MenuButton text="Our Partners" to='/lapor-predator/our-partners'></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Advocate with MAU">
               <MenuButton text="Volunteers and Vacancies " to='advocate-with-mau/volunteers-and-vacancies'></MenuButton>
