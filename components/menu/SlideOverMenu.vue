@@ -2,7 +2,17 @@
   <transition name="slide">
     <div
       v-if="showOverlayMenu"
-      class="fixed h-screen inset-y-0 right-0 w-4/5 md:w-auto md:max-w-full flex z-10 "
+      class="
+        fixed
+        h-screen
+        inset-y-0
+        right-0
+        w-4/5
+        md:w-auto
+        md:max-w-full
+        flex
+        z-10
+      "
     >
       <div class="w-screen max-w-md border-l-2 border-mau-primary-800">
         <!-- Panel -->
@@ -18,38 +28,61 @@
           </div>
 
           <div class="mt-6 relative flex-1">
-            <MenuButton text="Home" to='index'></MenuButton>
+            <MenuButton text="Home" to="index"></MenuButton>
             <MenuAccordion title="About Us">
-              <MenuButton text="Our Story" to='/our-story'></MenuButton>
-              <MenuButton text="Our Milestone" to='/our-milestone'></MenuButton>
-              <MenuButton text="Our Policies" to='/our-milestone'></MenuButton>
-              <MenuButton text="Meet The Team" to='/meet-the-team'></MenuButton>
+              <MenuButton text="Our Story" to="/our-story"></MenuButton>
+              <MenuButton text="Our Milestone" to="/our-milestone"></MenuButton>
+              <MenuButton text="Our Policies" to="/our-milestone"></MenuButton>
+              <MenuButton text="Meet The Team" to="/meet-the-team"></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Our Initiatives">
-              <MenuButton text="Lapor Predator" to='/lapor-predator'></MenuButton>
-              <MenuButton text="Catch Em' Predator" to='/initiatives/catch-em-predator'></MenuButton>
-              <MenuButton text="Colour With MAU" to='/initiatives/colour-with-mau'></MenuButton>
-              <MenuButton text="MAU Reading Club" to='/initiatives/mau-reading-club'></MenuButton>
+              <MenuButton
+                text="Lapor Predator"
+                to="/lapor-predator"
+              ></MenuButton>
+              <MenuButton
+                text="Catch Em' Predator"
+                to="/initiatives/catch-em-predator"
+              ></MenuButton>
+              <MenuButton
+                text="Colour With MAU"
+                to="/initiatives/colour-with-mau"
+              ></MenuButton>
+              <MenuButton
+                text="MAU Reading Club"
+                to="/initiatives/mau-reading-club"
+              ></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
-              <MenuButton text="Child Sexual Abuse" to='/about-us'></MenuButton>
-              <MenuButton text="Online Child Sexual Abuse" to='/about-us'></MenuButton>
-              <MenuButton text="Sexual and Reproductive Health Rights" to='/about-us'></MenuButton>
-              <MenuButton text="Child Rights" to='/about-us'></MenuButton>
+              <MenuButton text="Child Sexual Abuse" to="/about-us"></MenuButton>
+              <MenuButton
+                text="Online Child Sexual Abuse"
+                to="/about-us"
+              ></MenuButton>
+              <MenuButton
+                text="Sexual and Reproductive Health Rights"
+                to="/about-us"
+              ></MenuButton>
+              <MenuButton text="Child Rights" to="/about-us"></MenuButton>
             </MenuAccordion>
-            <MenuButton text="Gotta Read This" to='/blog'></MenuButton>
+            <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
             <MenuAccordion title="Lapor Predator">
-              <MenuButton text="About Lapor Predator" to='/lapor-predator'></MenuButton>
-              <MenuButton text="How to Lapor Predator" to='/lapor-predator/how-to'></MenuButton>
+              <MenuButton
+                text="About Lapor Predator"
+                to="/lapor-predator"
+              ></MenuButton>
+              <MenuButton
+                text="How to Lapor Predator"
+                to="/lapor-predator/how-to"
+              ></MenuButton>
             </MenuAccordion>
-            <MenuAccordion title="Advocate with MAU">
-              <MenuButton text="Volunteers and Vacancies " to='advocate-with-mau/volunteers-and-vacancies'></MenuButton>
-              <MenuButton text="Collaborate with Us" to='advocate-with-mau/collaborate-with-us'></MenuButton>
-              <MenuButton text="Be a Member" to='advocate-with-mau/be-a-member'></MenuButton>
-            </MenuAccordion>
+            <MenuButton
+              text="Advocate with MAU"
+              to="/advocate-with-mau"
+            ></MenuButton>
           </div>
-          <div class='justify-self-end flex justify-center'>
-              <AccentButton text="Donate"></AccentButton>
+          <div class="justify-self-end flex justify-center">
+            <AccentButton text="Donate"></AccentButton>
           </div>
         </div>
       </div>
