@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     backgroundImage() {
-      const url = `../../assets/img/${this.bgImage}`
+      const url = `../assets/img/${this.bgImage}`
       const imgUrl = new URL(url, import.meta.url).href
       return { 'background-image': `url(${imgUrl})` }
     },

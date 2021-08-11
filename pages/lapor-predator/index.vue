@@ -1,6 +1,6 @@
 <template>
   <div class="bg-mau-purple-300">
-    <PageSection id="about-lapor-predator">
+      <PageSection id="about-lapor-predator">
       <PageSplitSection :img="aboutContent.main_poster">
         <PageTitleAlt
           :title="aboutContent.title"
@@ -9,7 +9,7 @@
       </PageSplitSection>
       <div class="w-full px-4 mb-8 md:mb-20">
         <nuxt-content
-          class="w-full prose prose-lp prose-sm lg:prose-lg"
+          class="w-full prose prose-lp prose-sm lg:prose-lg xl:prose-xl max-w-none"
           :document="aboutContent"
         />
       </div>
@@ -51,6 +51,7 @@
         </div>
       </div>
     </PageSection>
+    
   </div>
 </template>
 
