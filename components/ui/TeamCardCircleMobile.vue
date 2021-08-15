@@ -45,6 +45,7 @@
             bg-white
             outline-none
             focus:outline-none
+            px-12
           "
         >
           <!--body-->
