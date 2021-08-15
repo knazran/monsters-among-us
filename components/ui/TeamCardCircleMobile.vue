@@ -30,6 +30,7 @@
         justify-center
         items-center
         flex
+        px-12
       "
     >
       <div class="relative w-auto my-6 mx-auto max-w-6xl">
@@ -45,7 +46,6 @@
             bg-white
             outline-none
             focus:outline-none
-            px-12
           "
         >
           <!--body-->
