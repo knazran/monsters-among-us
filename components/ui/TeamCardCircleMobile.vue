@@ -48,6 +48,52 @@
             focus:outline-none
           "
         >
+          <!--header-->
+          <div
+            class="
+              flex
+              items-start
+              justify-between
+              p-5
+              border-b border-solid border-blueGray-200
+              rounded-t
+            "
+          >
+            <h3 class="text-3xl font-semibold">Profile</h3>
+            <button
+              class="
+                p-1
+                ml-auto
+                bg-transparent
+                border-0
+                text-black
+                opacity-5
+                float-right
+                text-3xl
+                leading-none
+                font-semibold
+                outline-none
+                focus:outline-none
+              "
+              v-on:click="toggleModal()"
+            >
+              <span
+                class="
+                  bg-transparent
+                  text-black
+                  opacity-5
+                  h-6
+                  w-6
+                  text-2xl
+                  block
+                  outline-none
+                  focus:outline-none
+                "
+              >
+                ×
+              </span>
+            </button>
+          </div>
           <!--body-->
           <div class="relative p-6 flex-auto">
             <p class="my-4 text-blueGray-500 text-lg leading-relaxed">
