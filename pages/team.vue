@@ -35,18 +35,19 @@
         2xl:max-w-screen-2xl
         xl:max-w-screen-xl
         lg:max-w-screen-lg
-        sm:grid-cols-2
-        xl:grid-cols-4
-        lg:grid-cols-3
+        max-w-screen-md
+        lg:grid-cols-2
+        xl:grid-cols-3
       "
     >
-      <TeamCardCircle
+      <TeamCardBase
         v-for="member in boardMembers"
         :key="member.name"
         :name="member.name"
         :title="member.title"
         :img="member.image"
         :description="member.blurb"
+        :isDesktop="$device.isDesktop"
       />
     </div>
     <h2
@@ -70,25 +71,27 @@
         2xl:max-w-screen-2xl
         xl:max-w-screen-xl
         lg:max-w-screen-lg
-        sm:grid-cols-2
-        xl:grid-cols-4
-        lg:grid-cols-3
+        lg:grid-cols-2
+        xl:grid-cols-3
       "
     >
-      <TeamCardCircle
+      <TeamCardBase
         v-for="member in lpMembers"
         :key="member.name"
         :name="member.name"
         :title="member.title"
         :img="member.image"
         :description="member.blurb"
+        :isDesktop="$device.isDesktop"
       />
     </div>
   </div>
 </template>
 
 <script>
+import TeamCardBase from '../components/ui/TeamCardBase.vue'
 export default {
+  components: { TeamCardBase },
   async asyncData({ $content }) {
     const meetTheTeamData = await $content('meet-the-team').fetch()
     const boardMembers = meetTheTeamData[0].board_members

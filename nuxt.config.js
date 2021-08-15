@@ -51,6 +51,9 @@ export default {
     '@nuxtjs/tailwindcss',
     'nuxt-vite',
     '@nuxtjs/imagemin',
+    //https://github.com/nuxt-community/device-module
+    '@nuxtjs/device',
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
