@@ -50,7 +50,7 @@
         >          
           <!--body-->
           <div class="relative p-6 flex-auto">
-            <p class="my-4 text-blueGray-500 text-sm leading-relaxed">
+            <p class="my-4  text-xs leading-relaxed">
               <strong>Bio: </strong> {{ description }}
             </p>
           </div>
