@@ -13,7 +13,7 @@
           shadow-lg
           drop-shadow-xl
           border-2 border-mau-primary-700
-          max-h-96
+          max-w-96
         "
         :src="image"
       />
