@@ -92,9 +92,7 @@
 </template>
 
 <script>
-import TeamCardBase from '../components/ui/TeamCardBase.vue'
 export default {
-  components: { TeamCardBase },
   async asyncData({ $content }) {
     const meetTheTeamData = await $content('meet-the-team').fetch()
     const boardMembers = meetTheTeamData[0].board_members
