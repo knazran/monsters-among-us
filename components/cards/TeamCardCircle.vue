@@ -1,9 +1,8 @@
 <template>
   <!-- isDesktop -->
-  <div>
+  <div class="mx-auto">
     <div class="hidden md:block">
       <!-- Overlay -->
-
       <div
         class="
           relative
@@ -62,6 +61,7 @@
     </div>
     <!-- End isDesktop -->
     <!-- Not isDesktop -->
+
     <div class="block md:hidden">
       <img
         class="
@@ -126,8 +126,12 @@
 
       <!-- Show modal -->
       <div class="flex flex-col items-center my-4">
-        <p class="text-lg font-bold">{{ name }}</p>
-        <p class="text-sm text-gray-800">{{ title }}</p>
+        <h4 class="text-xl md:text-xl text-mau-primary-700 font-semibold">
+          {{ name }}
+        </h4>
+        <p class="text-sm sm:text-md text-mau-primary-500 font-light mb-6">
+          {{ title }}
+        </p>
       </div>
 
       <div
@@ -140,6 +144,11 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      showModal: false,
+    }
+  },
   props: {
     name: {
       type: String,
@@ -152,6 +161,11 @@ export default {
     },
     img: {
       type: String,
+    },
+  },
+  methods: {
+    toggleModal: function () {
+      this.showModal = !this.showModal
     },
   },
 }

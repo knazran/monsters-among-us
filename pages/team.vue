@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="hidden md:block">
       <div
         class="
           px-4
@@ -86,8 +85,6 @@
           />
         </div>
       </div>
-    </div>
-    <div class="block md:hidden"></div>
   </div>
 </template>
 
