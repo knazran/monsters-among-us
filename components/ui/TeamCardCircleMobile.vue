@@ -21,6 +21,7 @@
       v-on:click="toggleModal()"
       class="
         cursor-pointer
+        align-middle	
         overflow-x-hidden overflow-y-auto
         fixed
         inset-0
