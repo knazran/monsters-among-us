@@ -50,7 +50,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-vite',
-    '@nuxtjs/imagemin',
+    '@nuxtjs/imagemin'
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

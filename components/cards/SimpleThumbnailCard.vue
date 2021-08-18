@@ -1,26 +1,27 @@
 <template>
   <div class="flex flex-col items-center justify-between h-full">
-      <!-- <div class="self-center"> -->
-      <div class="w-full">
-        <img
-          :src="image"
-          alt="..."
-          class=" object-contain w-full border-none rounded h-72"
-        />
-      </div>
+    <!-- <div class="self-center"> -->
+    <div class="w-full">
+      <img
+        :src="image"
+        alt="..."
+        class="object-contain w-full border-none rounded h-72"
+      />
+    </div>
 
-      <div v-if="!isButton" class="my-4 flex-grow">
-        <p class="text-center text-mau-primary-700 text-xl font-bold mb-2">{{ textTop }}</p>
-        <p class="text-center font-light text-mau-primary-600 text-lg">{{ textBot }}</p>
-      </div>
-      <div v-if="!isButton">
-        
-      </div>
+    <div v-if="!isButton" class="my-4 flex-grow">
+      <p class="text-center text-mau-primary-700 text-xl font-bold mb-2">
+        {{ textTop }}
+      </p>
+      <p class="text-center font-light text-mau-primary-600 text-lg">
+        {{ textBot }}
+      </p>
+    </div>
+    <div v-if="!isButton"></div>
 
-      <div v-if="isButton" class="mt-8">
-        <AccentButtonCustom :long="isLong" :text="textButton" />
-      </div>
-
+    <div v-if="isButton" class="mt-8">
+      <AccentButtonCustom :long="isLong" :text="textButton" />
+    </div>
   </div>
 </template>
 
@@ -45,8 +46,9 @@ export default {
     },
     image: {
       type: String,
-      default: "https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
-    }
+      default:
+        'https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg',
+    },
   },
 }
 </script>
