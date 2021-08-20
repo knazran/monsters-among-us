@@ -35,7 +35,7 @@
     </PageSection>
     <PageSection id="timeline">
       <PageTitleAlt title="Our Journey" />
-      <div class="relative wrap overflow-hidden p-10 h-full">
+      <div class="relative wrap overflow-hidden px-6 my-6 h-full">
         <div
           class="
             border-2-2

@@ -2,7 +2,6 @@
   <!-- left timeline -->
   <div
     class="
-      mb-8
       flex
       md:justify-between
       md:flex-row-reverse
@@ -13,39 +12,27 @@
     "
   >
     <div class="order-1 w-5/12"></div>
+
     <div
       class="
         z-20
         flex
         items-center
         order-1
-        bg-gray-800
+        bg-mau-purple-700
         shadow-xl
-        w-36
-        h-36
+        w-6
+        h-6
         rounded-full
       "
-    >
-      <img
-        :src="journey.img"
-        alt=""
-        class="
-          h-36
-          w-36
-          object-cover
-          rounded-full
-          shadow-md
-          border-4 border-white
-        "
-      />
-    </div>
+    ></div>
     <div
       class="
+        mt-6
         z-20
         order-1
         bg-white
         rounded-lg
-        my-3
         md:my-0
         shadow-xl
         md:w-5/12
@@ -55,6 +42,8 @@
         border-2 border-mau-purple-500
       "
     >
+      <img :src="journey.img" class="w-90 h-90 rounded-lg shadow-md mb-4" />
+
       <nuxt-content
         class="w-full prose prose-lp prose-sm lg:prose-lg"
         :document="journey"
