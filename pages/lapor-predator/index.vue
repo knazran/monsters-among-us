@@ -33,6 +33,29 @@
         />
       </div>
     </PageSection>
+    <PageSection id="timeline">
+      <PageTitleAlt title="Our Journey" />
+      <div class="relative wrap overflow-hidden p-10 h-full">
+        <div
+          class="
+            border-2-2
+            absolute
+            border-opacity-20 border-gray-700
+            h-full
+            border
+          "
+          style="left: 50%"
+        ></div>
+        <div v-for="(info, index) in journeyInfo" :key="info.title">
+          <div v-if="index % 2 == 0">
+            <RightTimeline :journey="info" />
+          </div>
+          <div v-else>
+            <LeftTimeline :journey="info" />
+          </div>
+        </div>
+      </div>
+    </PageSection>
     <PageSection id="about-lapor-predator">
       <PageTitleAlt title="Our Partners" />
 
@@ -68,9 +91,15 @@ export default {
       const journeyContent = await $content(
         'lapor-predator/our-journey'
       ).fetch()
+      const journeyInfo = await $content('lapor-predator/our-journeys')
+        .sortBy('id')
+        .fetch()
+      console.log(journeyInfo[0])
+
       return {
         aboutContent,
         journeyContent,
+        journeyInfo,
       }
     } catch (e) {
       error({ message: 'Content not found' })
