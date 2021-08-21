@@ -20,20 +20,7 @@
         />
       </div>
     </PageSection>
-
-    <PageSection id="about-lapor-predator">
-      <PageTitleAlt
-        :title="journeyContent.title"
-        :description="journeyContent.description"
-      />
-      <div class="w-full px-4 my-8 md:mb-20">
-        <nuxt-content
-          class="w-full prose prose-lp prose-sm lg:prose-lg"
-          :document="journeyContent"
-        />
-      </div>
-    </PageSection>
-    <PageSection id="timeline">
+    <PageSection id="our-journey">
       <PageTitleAlt title="Our Journey" />
       <div class="relative wrap overflow-hidden px-6 my-6 h-full">
         <div
@@ -56,7 +43,7 @@
         </div>
       </div>
     </PageSection>
-    <PageSection id="about-lapor-predator">
+    <PageSection id="our-partners">
       <PageTitleAlt title="Our Partners" />
 
       <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-8 my-8">
