@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-secondary-100 h-full">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
     <div
       class="
         container
@@ -130,7 +130,21 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import TextureBeige from '~/static/img/textures/texture-beige-2.png'
+export default {
+  data() {
+    return {
+      bgBeige: TextureBeige,
+    };
+  },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgBeige})`;
+    },
+  },
+}
+</script>
 
 <style scoped>
 #describe {

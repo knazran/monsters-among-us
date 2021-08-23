@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-primary-100 h-full">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
     <div class="container mx-auto py-8 lg:py-16 px-4">
       <div class="flex flex-wrap">
         <!-- Left Side-->
@@ -107,7 +107,21 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import TextureGreen from '~/static/img/textures/texture-green-2.png'
+export default {
+  data() {
+    return {
+      bgGreen: TextureGreen,
+    };
+  },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgGreen})`;
+    },
+  },
+}
+</script>
 
 <style scoped>
 #describe {

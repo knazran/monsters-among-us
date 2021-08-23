@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-purple-300">
+  <div :style="{ backgroundImage: getBackgroundImage}">
     <PageSection id="about-lapor-predator">
       <PageSplitSection :img="aboutContent.main_poster">
         <PageTitleAlt
@@ -71,6 +71,7 @@
 </template>
 
 <script>
+import TexturePurple from '~/static/img/textures/texture-purple-2.png'
 export default {
   async asyncData({ $content, params, error }) {
     try {
@@ -91,6 +92,17 @@ export default {
     } catch (e) {
       error({ message: 'Content not found' })
     }
+  },
+  data() {
+    return {
+      posts: [],
+      bgPurple: TexturePurple,
+    }
+  },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgPurple})`;
+    },
   },
 }
 </script>

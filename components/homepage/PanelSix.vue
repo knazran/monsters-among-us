@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-secondary-100 h-full">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
     <div class="container mx-auto py-8 px-4 lg:px-8">
       <!-- TOP -->
 
@@ -98,15 +98,23 @@
 </template>
 
 <script>
+import TextureBeige from '~/static/img/textures/texture-beige-2.png'
 export default {
   data() {
     return {
       posts: [],
+      bgBeige: TextureBeige,
     }
   },
   async fetch() {
     const data = await this.$content('blog').sortBy('date', 'desc').limit(3).fetch()
     this.posts = data
   },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgBeige})`;
+    },
+  },
 }
+
 </script>
