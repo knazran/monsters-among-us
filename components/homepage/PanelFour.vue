@@ -33,7 +33,7 @@
           <SimpleThumbnailCard
             :is-button="false"
             :text-top="initiative.title"
-            :text-bot="initiative.description"
+            :text-bot="initiative.preview"
             :image="initiative.logo"
           />
         </NuxtLink>

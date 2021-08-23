@@ -28,7 +28,7 @@
               lg:text-left
             "
           >
-            Every day, XX child is...
+            1 in 10 children in Malaysia have been victims of child sexual abuse
           </p>
           <p
             class="
@@ -41,7 +41,7 @@
               mt-2
             "
           >
-            So do something about it
+            
           </p>
         </div>
         <div class="mb-12">
@@ -55,15 +55,22 @@
               text-center
             "
           >
-            Join us in combating online child sexual abuse
+            Here’s how you can join us in combating child sexual abuse.
           </p>
         </div>
         <!-- Button -->
-        <div class="flex flex-col lg:flex-wrap lg:flex-row items-center lg:items-start">
+        <div
+          class="
+            flex flex-col
+            lg:flex-wrap lg:flex-row
+            items-center
+            lg:items-start
+          "
+        >
           <a href="#webchat_widget">
             <AccentButtonLong text="Lapor Predator" />
           </a>
-          
+
           <button
             class="
               rounded-xl
@@ -72,8 +79,7 @@
               2xl:w-64
               xl:w-52
               w-64
-              xl:ml-5
-              xl:mt-0
+              xl:ml-5 xl:mt-0
               mt-3
               py-2
             "
@@ -90,14 +96,12 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="
-              lg:transform
-              lg:translate-x-16
+              lg:transform lg:translate-x-16
               -z-20
               object-cover
               xl:h-72
               2xl:h-96
-              border-2
-              border-mau-primary-700
+              border-2 border-mau-primary-700
               rounded-md
             "
             src="../../static/img/IMG_4630.jpg"
@@ -105,7 +109,7 @@
           />
           <img
             class="
-              hidden 
+              hidden
               lg:block
               transform
               -translate-x-16 -translate-y-12
@@ -113,8 +117,7 @@
               object-cover
               xl:h-72
               2xl:h-96
-              border-2
-              border-mau-primary-700
+              border-2 border-mau-primary-700
               rounded-md
             "
             src="../../static/img/IMG_4683.jpg"
@@ -127,8 +130,7 @@
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 #describe {

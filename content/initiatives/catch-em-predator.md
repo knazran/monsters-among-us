@@ -1,5 +1,6 @@
 ---
 title: Catch Em' Predator
+preview: Safeguarding online spaces for Malaysian children and youth through rights-based advocacy.
 description: Safeguarding Malaysian children and youth online through rights advocacy
 logo: /img/initiative/Catch Em Predator.png
 main_poster: /img/initiative/Catch_em_predator_poster.png

@@ -3,7 +3,7 @@
     <h3
       class="
         text-3xl
-        md:text-4xl
+        2xl:text-4xl
         text-mau-primary-700
         font-semibold
         tracking-wider
