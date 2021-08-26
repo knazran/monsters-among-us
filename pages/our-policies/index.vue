@@ -2,7 +2,7 @@
   <div class="my-4">
     <PageSection id="policy">
       <PageTitle title="Our Policies" />
-      <div class="grid py-4 md:grid-cols-2 gap-5">
+      <div class="grid py-4 md:grid-cols-2 gap-6">
         <!-- Need to add text -->
         <div class="py-2" v-for="policy of policies" :key="policy.slug">
           <NuxtLink :to="`our-policies/${policy.slug}`">
