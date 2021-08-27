@@ -33,7 +33,7 @@
         </div>
 
         <nuxt-content
-          class="prose prose-md lg:prose-lg max-w-none"
+          class=" prose prose-md lg:prose-lg max-w-none"
           :document="policy"
         />
       </div>
