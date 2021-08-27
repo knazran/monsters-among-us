@@ -1,17 +1,32 @@
 <template>
-  <div>
-    <PageHero title="MAU Reading Club" description="" bg-image="kid-hero.jpg" />
-
+  <div class="container mx-auto">
     <PageSection id="reading-club">
-      <h2 class="text-2xl md:text-3xl text-mau-primary-700 font-semibold mb-6 text-center md:text-left">
-        MAU Reading Club
-      </h2>
+      <PageSplitSection :img="content.main_poster">
+        <PageTitle :title="content.title" :description="content.description" />
+      </PageSplitSection>
+      <div class="py-8 px-8">
+        <nuxt-content
+          class="prose-mau-primary-800 prose prose-md lg:prose-lg max-w-none"
+          :document="content"
+        />
+      </div>
+      <!-- Content -->
     </PageSection>
   </div>
 </template>
 
 <script>
 export default {
+  async asyncData({ $content, params, error }) {
+    try {
+      const content = await $content('initiatives/mau-reading-club').fetch()
+      return {
+        content,
+      }
+    } catch (e) {
+      error({ message: 'Content not found' })
+    }
+  },
 }
 </script>
 
