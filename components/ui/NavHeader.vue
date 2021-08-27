@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-mau-primary-700">
+  <nav class="bg-mau-primary-700 fixed w-full z-50">
     <div class="container mx-auto px-2 sm:px-6 lg:px-8">
       <div class="flex justify-between min-h-20 items-stretch">
         <div
@@ -16,7 +16,7 @@
           <div class="flex items-center">
             <NuxtLink to="/">
               <img
-                class="block h-36 md:h-32 w-auto"
+                class="block h-20 xl:h-32 w-auto"
                 src="~/static/mau-logo-horizontal.png"
                 alt="Logo"
               />

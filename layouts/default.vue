@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='font-nunito'>
     <transition name="fade">
       <div
         v-if="showOverlayMenu"
@@ -9,7 +9,7 @@
     </transition>
     <SlideOverMenu />
     <NavHeader />
-    <div class="min-h-screen">
+    <div class="min-h-screen pt-20 xl:pt-28">
       <Nuxt />
     </div>
     <Footer />

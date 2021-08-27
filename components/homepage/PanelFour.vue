@@ -16,12 +16,11 @@
       </p>
       <div
         class="
-          flex flex-col
-          md:flex-row md:justify-between
           mt-10
           space-y-12
           md:space-y-0 md:space-x-8
           items-stretch
+          grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 py-8
         "
       >
         <NuxtLink
