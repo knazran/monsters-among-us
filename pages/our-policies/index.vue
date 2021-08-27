@@ -1,12 +1,18 @@
 <template>
   <div class="my-4">
     <PageSection id="policy">
-      <PageTitle title="Our Policies" />
-      <div class="grid py-4 md:grid-cols-2 gap-6">
+      <PageSplitSection img="/img/policy/policy.jpg">
+        <PageTitle title="Our policies" />
+      </PageSplitSection>
+      <div class="grid py-4 px-12 md:grid-cols-2 gap-6">
         <!-- Need to add text -->
-        <div class="py-2" v-for="policy of policies" :key="policy.slug">
+        <div class="py-2 px-12" v-for="policy of policies" :key="policy.slug">
           <NuxtLink :to="`our-policies/${policy.slug}`">
-            <ImageThumbnail :title="policy.title" :img="policy.image" />
+            <AdvancedThumbnailCard
+              :is-large="false"
+              :title="policy.title"
+              :img="policy.image"
+            />
           </NuxtLink>
         </div>
       </div>
