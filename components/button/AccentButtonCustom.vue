@@ -28,7 +28,7 @@
           w-48
           py-1
           mx-2
-          text-xs
+          text-sm
           xl:text-base
           hover:font-bold
           hover:bg-mau-secondary-950

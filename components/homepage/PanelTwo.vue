@@ -1,18 +1,18 @@
 <template>
-  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
     <div class="container mx-auto py-8 lg:py-16 px-4">
-      <div class="flex flex-wrap">
+      <div class="flex items-center">
         <!-- Left Side-->
         <div
-          class="lg:py-6 lg:px-8 md:w-1/2 2xl:w-2/5 text-mau-secondary-900 px-6"
+          class="lg:py-6 lg:px-12 md:w-1/2 2xl:w-2/5 text-mau-secondary-900 px-6"
         >
           <div class="2xl:pr-32 xl:pr-24">
             <p
               class="font-medium lg:text-4xl text-3xl text-center md:text-left"
             >
-              Malaysia scored 0 out of 100 for Internet Protection in the Out of
-              the Shadows Index and only 20 out of a 100 for accessible support
-              programmes for victims.
+              Malaysia scored 0/100 for Internet Protection in the Out of the
+              Shadows Index and 20/100 for accessible support programmes for
+              victims.
             </p>
           </div>
         </div>
@@ -21,41 +21,37 @@
         <!-- Right Side with List and button -->
         <div class="lg:my-4 lg:py-6 md:w-1/2 2xl:w-3/5 lg:px-0 px-5">
           <div class="2xl:pr-12 xl:pr-20">
-            <h4 class="mb-5 text-xl text-mau-primary-700 underline font-semibold">
-              Facts about Online Child Sexual Abuse and Exploitation 
+            <h4
+              class="mb-5 text-xl text-mau-primary-700 underline font-semibold"
+            >
+              Facts about Online Child Sexual Abuse (CSA) and Exploitation
             </h4>
             <!-- List -->
             <ul
               class="
                 list-decimal list-inside
                 font-light
-                text-xl text-mau-primary-700
+                text-lg 2xl:text-xl text-mau-primary-700
               "
             >
               <li class="mb-5">
-                <!-- <strong>60% of this </strong> Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s -->
-                <strong>Internet service providers </strong>are not necessarily
-                required to block and delete child sexual abuse and exploitation
-                materials.
+                Internet service providers are
+                <strong
+                  >not required to block and/or remove CSA and exploitation
+                  materials</strong
+                >.
               </li>
               <li class="mb-5">
-                <!-- It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. -->
                 Sexual harassment is
-                <strong>not legally acknowledeged in Malaysia</strong>, as the
-                Sexual Harassment Bill and it’s specificities have not been
-                passed as a law yet.
+                <strong>yet to receive legal recognition</strong> in Malaysia.
               </li>
               <li>
-                <!-- The standard chunk of Lorem Ipsum used since the 1500s is
-                reproduced below for <strong> those interested.</strong> -->
-                Though sexual intercourse with a child is strictly prohibited,
+                Although sex with (or rather, the rape of) a child is strictly
+                prohibited, the Penal Code
                 <strong
-                  >our Penal Code exempts sexual intercourse between a man and a
+                  >exempts intercourse between a man and his underage
                   wife</strong
-                >, further legalising and exempting the archaic concept of child
-                marriage.
+                >, further vindicating child marriages.
               </li>
             </ul>
             <!-- End List -->
@@ -63,7 +59,6 @@
             <div
               class="
                 mt-12
-                md:mt-24
                 flex flex-col
                 items-center
                 md:flex-row md:items-start
@@ -84,20 +79,6 @@
               >
                 Read More
               </button>
-
-              <button
-                class="
-                  rounded-xl
-                  bg-mau-primary-700
-                  text-center text-white
-                  2xl:w-64
-                  xl:w-52
-                  w-48
-                  py-2
-                "
-              >
-                In The Press
-              </button>
             </div>
           </div>
         </div>
@@ -113,11 +94,11 @@ export default {
   data() {
     return {
       bgGreen: TextureGreen,
-    };
+    }
   },
   computed: {
     getBackgroundImage() {
-      return `url(${this.bgGreen})`;
+      return `url(${this.bgGreen})`
     },
   },
 }

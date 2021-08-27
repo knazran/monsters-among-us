@@ -1,9 +1,10 @@
 <template>
   <div class="bg-mau-primary-50 h-full">
-    <div class="container mx-auto py-8 px-4 lg:px-8">
+    <div class="container mx-auto py-8 lg:py-12 px-4 lg:px-8">
       <p
         class="
-          font-medium
+          font-semibold
+          underline
           2xl:text-4xl
           xl:text-3xl
           lg:text-2xl

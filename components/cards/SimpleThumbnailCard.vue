@@ -5,7 +5,7 @@
       <img
         :src="image"
         alt="..."
-        class="object-contain w-full border-none rounded h-72"
+        class="object-scale-down w-full border-none rounded h-72"
       />
     </div>
 
@@ -19,7 +19,7 @@
     </div>
     <div v-if="!isButton"></div>
 
-    <div v-if="isButton" class="mt-8">
+    <div v-if="isButton" class="">
       <AccentButtonCustom :long="isLong" :text="textButton" />
     </div>
   </div>

@@ -20,7 +20,7 @@
         <div class="mb-5">
           <p
             class="
-              font-medium
+              font-bold
               2xl:text-5xl
               xl:text-4xl
               lg:text-3xl
@@ -28,7 +28,7 @@
               lg:text-left
             "
           >
-            1 in 10 children in Malaysia have been victims of child sexual abuse
+            1 in every 10 children in Malaysia is a victim of sexual abuse at the hands of someone they know.
           </p>
           <p
             class="
@@ -48,14 +48,13 @@
           <p
             class="
               font-thin
-              2xl:text-3xl
-              lg:text-2xl
-              text-xl
+              2xl:text-2xl
+              lg:text-xl
               lg:text-left
               text-center
             "
           >
-            Here’s how you can join us in combating child sexual abuse.
+            Here’s how you can join us in the fight against CSA.
           </p>
         </div>
         <!-- Button -->
@@ -104,7 +103,7 @@
               border-2 border-mau-primary-700
               rounded-md
             "
-            src="../../static/img/IMG_4630.jpg"
+            src="../../static/img/homepage/Home_Panel1.1.jpg"
             alt="Profile image"
           />
           <img
@@ -120,7 +119,7 @@
               border-2 border-mau-primary-700
               rounded-md
             "
-            src="../../static/img/IMG_4683.jpg"
+            src="../../static/img/homepage/Home_Panel1.2.jpg"
             alt="Profile image"
           />
         </div>
