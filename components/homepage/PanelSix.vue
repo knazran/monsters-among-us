@@ -69,7 +69,7 @@
         </div>
         <div
           class="
-            grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 py-8
+            grid md:grid-cols-2 xl:grid-cols-3  gap-8 py-8
           "
         >
           <div v-for="post of posts" :key="post.slug">

@@ -38,7 +38,9 @@
               lg:text-3xl
               text-3xl text-center
               lg:text-left
-              mt-2
+              mt-8
+              lg:mt-16
+              2xl:mt-24
             "
           >
             

@@ -4,9 +4,7 @@
       <div class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:space-x-10 px-12">
         <div class="lg:w-1/3 w-full">
             <p class="text-white font-thin">
-              <strong>Monsters Among Us </strong>Youth Advocates is a youth-led
-              organisation in Malaysia combating child sexual abuse through
-              advocacy, education and community development
+              <strong>Monsters Among Us (MAU) </strong> is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.
             </p>
         </div>
 
