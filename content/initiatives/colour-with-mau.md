@@ -43,5 +43,5 @@ The 9 artists contributing are:-
 
 The book would not have been made a reality without the talent of these artists, so check them out and support them as you do MAU! 
 
-Upon its release, you may purchase Colour with MAU  <a href="https://www.w3schools.com">here</a> at the price of RM50.00.
+Upon its release, you may purchase Colour with MAU  <a style="color:#45818A" href="https://www.w3schools.com">here</a> at the price of RM50.00.
 The target demographic for Colour with MAU is children aged 10 years old or older. 
