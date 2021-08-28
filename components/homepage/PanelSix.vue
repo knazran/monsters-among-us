@@ -55,7 +55,7 @@
       <!-- End TOP -->
       <!-- BOT -->
       <div class="mx-auto mt-12 lg:mt-24">
-        <div class="md:flex md:justify-center mb-12">
+        <div class="md:flex md:justify-center mb-8">
           <p
             class="
               text-center
@@ -69,7 +69,7 @@
         </div>
         <div
           class="
-            grid md:grid-cols-2 xl:grid-cols-3  gap-8 py-8
+            grid md:grid-cols-2 xl:grid-cols-3 gap-8 py-8
           "
         >
           <div v-for="post of posts" :key="post.slug">

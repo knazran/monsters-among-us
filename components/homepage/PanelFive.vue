@@ -41,7 +41,7 @@
         <div
           v-for="card in cards"
           :key="card.title"
-          class="rounded-20 border bg-mau-secondary-900 w-1/3 h-72 hover:shadow-lg hover:border-mau-primary-500"
+          class="rounded-20 border bg-mau-primary-700 w-full md:w-1/3 h-72 hover:shadow-lg hover:border-mau-primary-500"
         >
         <NuxtLink :to='card.link'>
           <img

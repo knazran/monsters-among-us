@@ -16,7 +16,7 @@
     >
       <!-- Left Side-->
 
-      <div class="lg:w-1/2 text-mau-primary-700 py-8 2xl:py-16">
+      <div class="lg:w-1/2 text-mau-primary-700 px-4 md:px-8 py-8 2xl:py-16">
         <div class="mb-5">
           <p
             class="
@@ -30,23 +30,8 @@
           >
             1 in every 10 children in Malaysia is a victim of sexual abuse at the hands of someone they know.
           </p>
-          <p
-            class="
-              font-semibold
-              2xl:text-5xl
-              xl:text-4xl
-              lg:text-3xl
-              text-3xl text-center
-              lg:text-left
-              mt-8
-              lg:mt-16
-              2xl:mt-24
-            "
-          >
-            
-          </p>
         </div>
-        <div class="mb-12">
+        <div class="my-12">
           <p
             class="
               font-thin
