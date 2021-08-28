@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto container px-4">
     <!-- Volunteers & Vacancies -->
-    <PageSplitSection id="advocate-mau" :img="volunteersContent.thumbnail">
+    <PageSplitSection id="vacancies" :img="volunteersContent.thumbnail">
       <PageTitle
         :title="volunteersContent.title"
         :description="volunteersContent.description"
@@ -15,8 +15,8 @@
     </div>
     <!-- Collaborate With Us -->
     <PageSplitSection
+      
       :reverse="true"
-      id="advocate-mau"
       :img="collaborateContent.image"
     >
       <PageTitle
@@ -24,14 +24,14 @@
         :description="collaborateContent.description"
       />
     </PageSplitSection>
-    <div class="w-full px-8 my-8">
+    <div id="collaborate" class="w-full px-8 my-8" >
       <nuxt-content
         class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
         :document="collaborateContent"
       />
     </div>
     <!-- Be a member -->
-    <PageSplitSection id="advocate-mau" :img="beMemberContent.image">
+    <PageSplitSection :img="beMemberContent.image">
       <PageTitle
         :title="beMemberContent.title"
         :description="beMemberContent.description"
@@ -40,7 +40,7 @@
     <div class="px-4">
       <ImageCarousel :images="beMemberContent.carousel" />
     </div>
-    <div class="w-full px-8 my-8">
+    <div id="be-a-member" class="w-full px-8 my-8">
       <nuxt-content
         class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-center"
         :document="beMemberContent"
