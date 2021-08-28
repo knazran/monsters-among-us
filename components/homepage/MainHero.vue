@@ -21,7 +21,7 @@
           <p
             class="
               font-bold
-              2xl:text-5xl
+
               xl:text-4xl
               lg:text-3xl
               text-3xl text-center
@@ -35,7 +35,7 @@
           <p
             class="
               font-thin
-              2xl:text-2xl
+
               lg:text-xl
               lg:text-left
               text-center
@@ -86,7 +86,7 @@
               -z-20
               object-cover
               xl:h-72
-              2xl:h-96
+              2xl:h-80
               border-2 border-mau-primary-700
               rounded-md
             "
@@ -102,7 +102,7 @@
               -z-30
               object-cover
               xl:h-72
-              2xl:h-96
+              2xl:h-80
               border-2 border-mau-primary-700
               rounded-md
             "

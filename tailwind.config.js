@@ -1,3 +1,10 @@
+const round = (num) =>
+  num
+    .toFixed(7)
+    .replace(/(\.[0-9]+?)0+$/, '$1')
+    .replace(/\.0$/, '')
+const em = (px, base) => `${round(px / base)}em`
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -49,8 +56,26 @@ module.exports = {
             h3: {
               color: '#46818A',
             },
+            strong: {
+              color: '#46818A',
+            },
+            a: {
+              color: '#46818A',
+            },
             li: {
-              color: '#5B958A',
+              color: '#46818A',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ol: {
+              color: '#46818A',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ul: {
+              color: '#46818A',
+              marginTop: em(4, 14),
+              marginBottom: em(4, 14),
             },
           },
         },
