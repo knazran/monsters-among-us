@@ -1,5 +1,7 @@
 <template>
-  <div class="mx-auto container px-4">
+  <div class="my-4">
+  <PageSection id="advocate">
+
     <!-- Volunteers & Vacancies -->
     <PageSplitSection id="advocate-mau" :img="volunteersContent.thumbnail">
       <PageTitle
@@ -9,7 +11,7 @@
     </PageSplitSection>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
+        class="w-full prose  prose-mau prose-lg xl:prose-xl text-justify"
         :document="volunteersContent"
       />
     </div>
@@ -26,7 +28,7 @@
     </PageSplitSection>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
+        class="w-full prose-mau prose-lg xl:prose-xl text-justify"
         :document="collaborateContent"
       />
     </div>
@@ -36,16 +38,19 @@
         :title="beMemberContent.title"
         :description="beMemberContent.description"
       />
+      <div class="py-4  -mx-2 flex md:justify-start justify-center "><a href="https://github.com"><AccentButton text="Be A Member"/></a></div>
     </PageSplitSection>
-    <div class="px-4">
+    <div class="px-3">
       <ImageCarousel :images="beMemberContent.carousel" />
     </div>
     <div class="w-full px-8 my-8">
       <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-center"
+        class="w-full prose-mau prose-lg xl:prose-xl text-center"
         :document="beMemberContent"
       />
     </div>
+  </PageSection>
+
   </div>
 </template>
 
@@ -76,4 +81,7 @@ export default {
 </script>
 
 <style scoped>
+/* .buttonAccent{
+  background-color: #45818A;
+} */
 </style>

@@ -10,4 +10,5 @@ carousel:
 ---
 
 What are you waiting for? Just click the link below!  
-(membership link: http://bit.ly/sayamaujoinmau> )
+<a style="color:#45818A" href="http://bit.ly/sayamaujoinmau">(membership link)</a> 
+
