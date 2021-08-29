@@ -81,7 +81,7 @@
                 md:space-y-0 md:space-x-12
               "
             >
-              <NuxtLink to="/issue/online-child-sexual-abuse">
+              <NuxtLink to="/focus-area/online-child-sexual-abuse">
                 <button
                   class="
                     rounded-xl

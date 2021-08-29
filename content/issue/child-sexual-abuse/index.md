@@ -40,7 +40,7 @@ Sexual abuse and sexual assault may overlap and be interchangeable, as they are 
 ### (3.0) Legal definition of CSA:
 
 In Malaysia, the [Sexual Offences Against Children Act 2017 (SOAC)](https://cljlaw.com/files/bills/pdf/2017/MY_FS_BIL_2017_06.pdf) was enforced on the 10th of July, 2017 to protect children from sexual crimes. 
-It is worthy to note that the act does not explicitly specify CSA in legal terms. However, the act does specify what child pornography (or CSA material, which is the term we prefer) means. To read more about this, [click here](/issue/online-child-sexual-abuse)
+It is worthy to note that the act does not explicitly specify CSA in legal terms. However, the act does specify what child pornography (or CSA material, which is the term we prefer) means. To read more about this, [click here](/focus-area/online-child-sexual-abuse)
 
 ### (3.1) Key takeaways of the Act [^10]
 
@@ -109,7 +109,7 @@ These are the following type of CSA [^11] [^12]
 -  Child exploitation (acquisition of power, money or social capital via the exploitation of a child)
 
 ## Child Sexual Grooming
-Child sexual grooming is the process during which a person draws a child into a sexual relationship, whether implicitly or explicitly, and the child is then coerced to keep the relationship a secret. Child sexual grooming can occur both online and in person. To learn more about Online Child Sexual Grooming, do head over to our [Online Child Sexual Abuse and Exploitation content](/issue/online-child-sexual-abuse) 
+Child sexual grooming is the process during which a person draws a child into a sexual relationship, whether implicitly or explicitly, and the child is then coerced to keep the relationship a secret. Child sexual grooming can occur both online and in person. To learn more about Online Child Sexual Grooming, do head over to our [Online Child Sexual Abuse and Exploitation content](/focus-area/online-child-sexual-abuse) 
 
 ### Grooming can occur in 6 stages.
 [^13]

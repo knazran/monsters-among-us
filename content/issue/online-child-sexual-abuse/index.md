@@ -32,7 +32,7 @@ Although the advancement of technology has greatly assisted humankind, it also f
 
 ### 1. Online Child Sexual Grooming
 
-Online child sexual grooming is similar to [child sexual grooming](/issue/child-sexual-abuse#child-sexual-grooming), but is carried out virtually. This form of grooming happens when perpetrators use social media sites, instant messaging apps, dating apps or online gaming platforms to identify victims. The terms ‘solicitation’ and ‘cyber enticement’ are used interchangeably to describe the use of technological means by adult perpetrators to sexually abuse or exploit a child. The perpetrator may send hundreds of messages to various users or targeted child users and wait to see who responds. This is then followed by a series of actions that are deliberately carried out to establish an emotional connection to encourage the child’s compliance and maintain the child’s secrecy to avoid disclosure.
+Online child sexual grooming is similar to [child sexual grooming](/focus-area/child-sexual-abuse#child-sexual-grooming), but is carried out virtually. This form of grooming happens when perpetrators use social media sites, instant messaging apps, dating apps or online gaming platforms to identify victims. The terms ‘solicitation’ and ‘cyber enticement’ are used interchangeably to describe the use of technological means by adult perpetrators to sexually abuse or exploit a child. The perpetrator may send hundreds of messages to various users or targeted child users and wait to see who responds. This is then followed by a series of actions that are deliberately carried out to establish an emotional connection to encourage the child’s compliance and maintain the child’s secrecy to avoid disclosure.
 
 #### What kind of information are the groomers looking for?
 
@@ -103,11 +103,11 @@ Online CSA and exploitation are governed and regulated by multiple documents of 
 Below, we look into relevant crimes under the respective laws and the legal ramifications they entail in Malaysia. 
 
 ### 1. Online Child Sexual Grooming 
-Online child sexual grooming is primarily regulated by the SOAC under Sections 11, 12 and 13 which in essence **prohibit any form of sexual communication, even in jest or under pretence, or communication that involves meeting up with a child with the intention to sexually abuse them.** This is further explained in the [Key Takeaways of the Sexual Offences Against a Child Act 2017 section](/issue/child-sexual-abuse#31-key-takeaways-of-the-act).
+Online child sexual grooming is primarily regulated by the SOAC under Sections 11, 12 and 13 which in essence **prohibit any form of sexual communication, even in jest or under pretence, or communication that involves meeting up with a child with the intention to sexually abuse them.** This is further explained in the [Key Takeaways of the Sexual Offences Against a Child Act 2017 section](/focus-area/child-sexual-abuse#31-key-takeaways-of-the-act).
 
 ### 2. CSA Material
 
-CSA material, legally recognised in Malaysia as child pornography, is prohibited by the SOAC. By virtue of Sections 4, 5, 6, 7, 8, 9 and 10, the SOAC **prohibits the production, distribution, consumption or use in any way of CSA materials.** Each legal provision is explained in detail under the section [Key Takeaways of the Sexual Offences Against a Child Act 2017 section](/issue/child-sexual-abuse#31-key-takeaways-of-the-act).
+CSA material, legally recognised in Malaysia as child pornography, is prohibited by the SOAC. By virtue of Sections 4, 5, 6, 7, 8, 9 and 10, the SOAC **prohibits the production, distribution, consumption or use in any way of CSA materials.** Each legal provision is explained in detail under the section [Key Takeaways of the Sexual Offences Against a Child Act 2017 section](/focus-area/child-sexual-abuse#31-key-takeaways-of-the-act).
 
 ### 3. Cyber-bullying 
 Malaysia does not have a specific law against cyber-bullying. Reliance may instead be placed on the [^10]CMA, specifically Section 233 which **dictates that sharing any obscene, indecent, false, menacing or offensive content is an offence in Malaysia. **

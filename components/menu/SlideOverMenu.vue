@@ -31,7 +31,7 @@
             <MenuAccordion title="About Us">
               <MenuButton text="Our Story" to="/our-story"></MenuButton>
               <MenuButton text="Our Milestone" to="/our-milestone"></MenuButton>
-              <MenuButton text="Our Policies" to="/our-milestone"></MenuButton>
+              <MenuButton text="Our Policies" to="/our-policies"></MenuButton>
               <MenuButton text="Meet The Team" to="/meet-the-team"></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Our Initiatives">
@@ -52,22 +52,22 @@
                 to="/initiatives/mau-reading-club"
               ></MenuButton>
             </MenuAccordion>
-            <MenuAccordion title="The Issue">
+            <MenuAccordion title="Focus Areas">
               <MenuButton
                 text="Child Sexual Abuse"
-                to="/issue/child-sexual-abuse"
+                to="/focus-area/child-sexual-abuse"
               ></MenuButton>
               <MenuButton
                 text="Online Child Sexual Abuse"
-                to="/issue/online-child-sexual-abuse"
+                to="/focus-area/online-child-sexual-abuse"
               ></MenuButton>
               <MenuButton
                 text="Sexual and Reproductive Health Rights"
-                to="/issue/sexual-and-reproductive-health-rights"
+                to="/focus-area/sexual-and-reproductive-health-rights"
               ></MenuButton>
               <!-- <MenuButton
                 text="Child Rights"
-                to="/issue/child-rights"
+                to="/focus-area/child-rights"
               ></MenuButton> -->
             </MenuAccordion>
             <MenuButton text="Gotta Read This" to="/blog"></MenuButton>

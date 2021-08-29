@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-lp-secondary-300 min-h-screen">
+  <div class="min-h-screen" :style="{ backgroundImage: getBackgroundImage}">
     <PageSection id="about-lapor-predator">
       <PageSplitSection>
         <PageTitleAlt
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import TextureGreen from '~/static/img/textures/texture-green-2.png'
 export default {
   async asyncData({ $content, params, error }) {
     try {
@@ -39,6 +40,16 @@ export default {
     } catch (e) {
       error({ message: 'Content not found' })
     }
+  },
+  data() {
+    return {
+      bgGreen: TextureGreen,
+    }
+  },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgGreen})`;
+    },
   },
 }
 </script>
