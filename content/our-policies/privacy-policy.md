@@ -2,6 +2,7 @@
 id: 3
 title: Privacy Policy
 image: /img/advocate/activity.jpg
+link: /our-policies/privacy-policy
 ---
 
 ### Non Disclosure Notice for Lapor Predator Users

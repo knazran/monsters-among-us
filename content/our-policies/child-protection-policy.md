@@ -2,6 +2,7 @@
 id: 1
 title: Child Protection Policy
 image: /img/advocate/forum.jpg
+link: https://drive.google.com/file/d/1KT71HswjoZCDCZ34_jqrAAMmhPPAVQ9g/view
 ---
 
 ## 2020

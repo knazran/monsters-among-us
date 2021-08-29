@@ -28,26 +28,26 @@
     ></div>
     <div
       class="
-        mt-6
         z-20
         order-1
-        bg-white
-        rounded-lg
+        my-3
         md:my-0
+        rounded-20
         shadow-xl
         md:w-5/12
         w-full
-        px-6
-        py-4
-        border-2 border-mau-purple-500
+        bg-mau-purple-300
+        border-mau-purple-500 border-2
       "
     >
-      <img :src="journey.img" class="w-90 h-90 rounded-lg shadow-md mb-4" />
-
-      <nuxt-content
+      <img :src="journey.img" class="w-90 h-90 rounded-t-20 shadow-md" />
+      <div class="px-6 py-8 ">
+        <nuxt-content
         class="w-full prose prose-lp prose-sm lg:prose-lg"
         :document="journey"
       />
+      </div>
+      
     </div>
   </div>
 </template>

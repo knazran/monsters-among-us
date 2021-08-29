@@ -2,6 +2,7 @@
 id: 4
 title:  Gender and Disability Inclusivity Policy 
 image: /img/advocate/together.jpg
+link: /our-policies/gender-policy
 ---
 
 ## 2020
