@@ -7,7 +7,7 @@ description: From our symposium days to helping children and families through ou
   are interested to help out in making a difference. If you're on break, still
   studying, or simply looking for something to invest your time and energy in,
   CSA prevention might just be your thing.
-thumbnail: /img/advocate/activity.jpg
+thumbnail: /img/advocate/Advocate_Vacancies.jpg
 ---
 
 From our symposium days to helping children and families through our
@@ -20,4 +20,4 @@ CSA prevention might just be your thing.
 
 We provide volunteering and job opportunities with different levels of workload and challenges, and we promise there is something for everyone. If this sounds like a great opportunity to you, hop on board to join us, and we shall work together soon.
 
-No postings available currently. But if you are interested to join us, <a style="color:#45818A" href="http://bit.ly/sayamaujoinmau">click here.</a> 
+No postings available currently. But if you are interested to join us, Just click [sign up here](http://bit.ly/sayamaujoinmau)!
