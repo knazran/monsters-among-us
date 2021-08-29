@@ -143,6 +143,10 @@ module.exports = {
           600: '#644488',
           700: '#4D2D52',
         },
+        'mau-lp-secondary': {
+          300: '#9AD4D6',
+          700: '#004E64'
+        },
         'mau-primary': {
           DEFAULT: '#77ACA2',
           50: '#FFFFFF',
@@ -179,6 +183,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [require('@tailwindcss/typography')],
 }

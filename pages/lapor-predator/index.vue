@@ -1,5 +1,6 @@
 <template>
-  <div :style="{ backgroundImage: getBackgroundImage}">
+  <!-- <div :style="{ backgroundImage: getBackgroundImage}"> -->
+  <div class='bg-mau-lp-secondary-300'>
     <PageSection id="about-lapor-predator">
       <PageSplitSection :img="aboutContent.main_poster">
         <PageTitleAlt
