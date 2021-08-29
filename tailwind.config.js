@@ -85,6 +85,12 @@ module.exports = {
               marginTop: em(4, 14),
               marginBottom: em(4, 14),
             },
+            blockquote: {
+              fontWeight: '500',
+              fontStyle: 'italic',
+              color: '#5B958A',
+              borderLeftWidth: '0.25rem',
+            },
           },
         },
         'lp': {

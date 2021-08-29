@@ -19,28 +19,19 @@
         <PageTitle :title="content.title" />
       </PageSplitSection>
 
-      <div class="flex flex-col md:flex-row py-4">
-        <!-- Left Side-->
-        <div class="md:w-1/2 2xl:w-2/5 text-mau-secondary-900 px-6 mb-8">
-          <div class="md:pr-20">
-            <p class="font-medium lg:text-4xl text-3xl text-left">
-              {{ fiveFacts.title }}
-            </p>
-          </div>
-        </div>
-        <!-- End Left Side-->
-
-        <!-- Right Side with List and button -->
-        <div class="md:w-1/2 2xl:w-1/2 lg:px-0 px-5">
-          <div class="2xl:pr-12 xl:pr-20">
-            <nuxt-content
-              class="prose prose-mau prose-md lg:prose-lg max-w-none"
-              :document="fiveFacts"
-            />
-          </div>
-        </div>
-        <!--End Right side with Pic -->
-      </div>
+      <TextSplitSection>
+        <template #left>
+          <h2 class="font-medium lg:text-4xl text-3xl text-left">
+            {{ fiveFacts.title }}
+          </h2>
+        </template>
+        <template #right>
+          <nuxt-content
+            class="prose prose-mau prose-md lg:prose-lg max-w-none"
+            :document="fiveFacts"
+          />
+        </template>
+      </TextSplitSection>
 
       <!-- Content -->
       <div class="flex flex-col-reverse md:flex-row md:py-12">

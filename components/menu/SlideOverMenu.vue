@@ -54,16 +54,16 @@
               ></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
-              <MenuButton text="Child Sexual Abuse" to="/about-us"></MenuButton>
+              <MenuButton text="Child Sexual Abuse" to="/issue/child-sexual-abuse"></MenuButton>
               <MenuButton
                 text="Online Child Sexual Abuse"
-                to="/about-us"
+                to="/issue/online-child-sexual-abuse"
               ></MenuButton>
               <MenuButton
                 text="Sexual and Reproductive Health Rights"
-                to="/about-us"
+                to="/issue/sexual-and-reproductive-health-rights"
               ></MenuButton>
-              <MenuButton text="Child Rights" to="/about-us"></MenuButton>
+              <MenuButton text="Child Rights" to="/issue/child-rights"></MenuButton>
             </MenuAccordion>
             <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
             <MenuAccordion title="Lapor Predator">
