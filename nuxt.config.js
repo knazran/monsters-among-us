@@ -19,6 +19,51 @@ export default {
           'Monsters Among Us (MAU) is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.',
       },
       { hid: 'keywords', name: 'keywords', content: 'ngo, malaysia, child sexual abuse, advocacy, awareness, child rights' },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Monsters Among Us'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Monsters Among Us (MAU) is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/static/mau-logo.png'
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'Monsters Among Us'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Monsters Among Us'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Monsters Among Us (MAU) is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/static/mau-logo.png'
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: '/static/mau-logo.png'
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: 'Monsters Among Us'
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
