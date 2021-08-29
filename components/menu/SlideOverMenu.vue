@@ -31,6 +31,7 @@
             <MenuButton text="Home" to="index"></MenuButton>
             <MenuAccordion title="About Us">
               <MenuButton text="MAU" to="/about-us"></MenuButton>
+              <MenuButton text="Our Policies" to="/our-policies"></MenuButton>
               <MenuButton text="Meet The Team" to="/meet-the-team"></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Our Initiatives">
