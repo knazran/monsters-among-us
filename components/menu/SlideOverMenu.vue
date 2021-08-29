@@ -65,10 +65,10 @@
                 text="Sexual and Reproductive Health Rights"
                 to="/issue/sexual-and-reproductive-health-rights"
               ></MenuButton>
-              <MenuButton
+              <!-- <MenuButton
                 text="Child Rights"
                 to="/issue/child-rights"
-              ></MenuButton>
+              ></MenuButton> -->
             </MenuAccordion>
             <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
             <MenuAccordion title="Lapor Predator">
