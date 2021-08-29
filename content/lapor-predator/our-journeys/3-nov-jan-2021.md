@@ -1,6 +1,6 @@
 ---
 title: 3-nov-jan-2021
-img: /img/advocate/discuss.jpg
+img:  /img/our-journey/LP_Protoype.jpeg
 id: 3
 ---
 ### Nov to January 2021 - Live Prototype Testing

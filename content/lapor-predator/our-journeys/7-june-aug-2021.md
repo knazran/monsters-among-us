@@ -1,6 +1,6 @@
 ---
 title: 7-jun-aug-2021
-img: /img/advocate/together.jpg
+img: /img/our-journey/LP_Catch Em Predator Workshop.png
 id: 7
 ---
 

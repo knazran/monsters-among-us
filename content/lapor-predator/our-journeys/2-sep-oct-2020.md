@@ -1,6 +1,6 @@
 ---
 title: 2-sep-oct-2020
-img: /img/advocate/activity.jpg
+img:  /img/our-journey/LP_Building.jpg
 id: 2
 ---
 
