@@ -15,7 +15,7 @@
     </h3>
     <p
       class="
-        text-lg text-mau-primary-500
+        text-lg text-mau-primary-600
         mb-4
         font-light
         text-center

@@ -6,7 +6,7 @@
       </PageSplitSection>
       <div class="py-8 px-8">
         <nuxt-content
-          class=" text-mau-primary-700 prose prose-md lg:prose-lg max-w-none"
+          class="prose prose-mau prose-md lg:prose-lg max-w-none"
           :document="content"
         />
       </div>

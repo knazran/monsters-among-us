@@ -2,7 +2,7 @@
 title: MAU Reading Club
 preview: A safe space for young people to discuss issues close to them and further develop their advocacy skills.
 description: A safe space for young people to discuss issues close to them and further develop their advocacy skills.
-logo: /img/initiative/Catch Em Predator.png
+logo: /img/initiative/MAU Reading Club.png
 main_poster: /img/initiative/Our Initiatives_RC.png
 link: /initiatives/mau-reading-club
 order: 4
@@ -28,5 +28,5 @@ MAU has had a broad range of speakers such as:-
 - **Laven** from Kau Ok Tak?  and MAU member
     - Who spoke about Pride 2021 and learning about gender and sexuality in school. 
 
-MAU are always more than happy to welcome speakers from all diversities to speak about anything that they are passionate about, however, we would like to emphasize that any speakers that partake in our weekly Reading Club session are required to provide a source of information that could be shared with the members regarding the topic that would be discussed by the respective speakers. If you would like to be a speaker for our weekly Reading Club session, you can sign up <a href="https://www.w3schools.com">here</a>! If you’d like to join our weekly session which is held via Google Meet, feel free to tune in on Fridays at 9 pm <a href="https://www.w3schools.com">here</a>
+MAU are always more than happy to welcome speakers from all diversities to speak about anything that they are passionate about, however, we would like to emphasize that any speakers that partake in our weekly Reading Club session are required to provide a source of information that could be shared with the members regarding the topic that would be discussed by the respective speakers. If you would like to be a speaker for our weekly Reading Club session, you can sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSdcvw19FPICTMxRY4mCPxchlADiHpzy5I1eM4Kq3KFqbLsSgQ/viewform)! If you’d like to join our weekly session which is held via Google Meet, feel free to tune in on Fridays at 9 pm [here](https://meet.google.com/yow-uoki-hfi?authuser=7)
 

@@ -11,7 +11,7 @@
       />
       <slot name="media"></slot>
     </div>
-    <div v-if="reverse" class="w-full md:w-1/2 px-6">
+    <div v-if="reverse" class="w-full md:w-1/2 px-6 mb-4 md:mb-0">
       <slot name="default"></slot>
     </div>
   </div>

@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import TexturePurple from '~/static/img/textures/texture-purple-2.png'
+import TextureGreen from '~/static/img/textures/texture-green-2.png'
 export default {
   async asyncData({ $content, params, error }) {
     try {
@@ -82,7 +82,6 @@ export default {
       const journeyInfo = await $content('lapor-predator/our-journeys')
         .sortBy('id')
         .fetch()
-      console.log(journeyInfo[0])
 
       return {
         aboutContent,
@@ -96,12 +95,12 @@ export default {
   data() {
     return {
       posts: [],
-      bgPurple: TexturePurple,
+      bgGreen: TextureGreen,
     }
   },
   computed: {
     getBackgroundImage() {
-      return `url(${this.bgPurple})`;
+      return `url(${this.bgGreen})`;
     },
   },
 }

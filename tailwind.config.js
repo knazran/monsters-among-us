@@ -1,6 +1,18 @@
+const round = (num) =>
+  num
+    .toFixed(7)
+    .replace(/(\.[0-9]+?)0+$/, '$1')
+    .replace(/\.0$/, '')
+const em = (px, base) => `${round(px / base)}em`
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  variants: {
+    extend: {
+      borderWidth: ['last'],
+    }
+  },
   theme: {
     screens: {
       xs: '531px',
@@ -49,8 +61,35 @@ module.exports = {
             h3: {
               color: '#46818A',
             },
+            h4: {
+              color: '#46818A',
+            },
+            strong: {
+              color: '#46818A',
+            },
+            a: {
+              color: '#46818A',
+            },
             li: {
+              color: '#46818A',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ol: {
+              color: '#46818A',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ul: {
+              color: '#46818A',
+              marginTop: em(4, 14),
+              marginBottom: em(4, 14),
+            },
+            blockquote: {
+              fontWeight: '500',
+              fontStyle: 'italic',
               color: '#5B958A',
+              borderLeftWidth: '0.25rem',
             },
           },
         },
@@ -104,6 +143,10 @@ module.exports = {
           600: '#644488',
           700: '#4D2D52',
         },
+        'mau-lp-secondary': {
+          300: '#9AD4D6',
+          700: '#004E64'
+        },
         'mau-primary': {
           DEFAULT: '#77ACA2',
           50: '#FFFFFF',
@@ -140,6 +183,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [require('@tailwindcss/typography')],
 }

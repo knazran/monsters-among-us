@@ -5,7 +5,6 @@
         class="
           font-semibold
           underline
-          2xl:text-4xl
           xl:text-3xl
           lg:text-2xl
           text-2xl text-mau-primary-700
@@ -21,7 +20,7 @@
           space-y-12
           md:space-y-0 md:space-x-8
           items-stretch
-          grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 py-8
+          grid md:grid-cols-2 xl:grid-cols-4  gap-8 py-8
         "
       >
         <NuxtLink

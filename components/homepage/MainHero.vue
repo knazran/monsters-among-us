@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
     <div
       class="
         container
@@ -16,44 +16,23 @@
     >
       <!-- Left Side-->
 
-      <div class="lg:w-1/2 text-mau-primary-700 py-8 2xl:py-16">
+      <div class="lg:w-1/2 text-mau-primary-700 px-4 md:px-8 py-8 2xl:py-16">
         <div class="mb-5">
           <p
             class="
               font-bold
-              2xl:text-5xl
               xl:text-4xl
               lg:text-3xl
               text-3xl text-center
               lg:text-left
             "
           >
-            1 in every 10 children in Malaysia is a victim of sexual abuse at the hands of someone they know.
-          </p>
-          <p
-            class="
-              font-semibold
-              2xl:text-5xl
-              xl:text-4xl
-              lg:text-3xl
-              text-3xl text-center
-              lg:text-left
-              mt-2
-            "
-          >
-            
+            1 in every 10 children in Malaysia is a victim of sexual abuse at
+            the hands of someone they know.
           </p>
         </div>
-        <div class="mb-12">
-          <p
-            class="
-              font-thin
-              2xl:text-2xl
-              lg:text-xl
-              lg:text-left
-              text-center
-            "
-          >
+        <div class="my-12">
+          <p class="font-thin lg:text-xl lg:text-left text-center">
             Here’s how you can join us in the fight against CSA.
           </p>
         </div>
@@ -70,21 +49,26 @@
             <AccentButtonLong text="Lapor Predator" />
           </a>
 
-          <button
-            class="
-              rounded-xl
-              bg-mau-primary-700
-              text-center text-white
-              2xl:w-64
-              xl:w-52
-              w-64
-              xl:ml-5 xl:mt-0
-              mt-3
-              py-2
-            "
+          <a
+            href="https://www.sedunia.me/campaigns/lapor-predator-reporting-tool-for-online-child-sexual-abuse/about"
+            target="_blank"
           >
-            Donate
-          </button>
+            <button
+              class="
+                rounded-xl
+                bg-mau-primary-700
+                text-center text-white
+                2xl:w-64
+                xl:w-52
+                w-64
+                xl:ml-5 xl:mt-0
+                mt-3
+                py-2
+              "
+            >
+              Donate
+            </button>
+          </a>
         </div>
         <!-- End Button -->
       </div>
@@ -99,7 +83,7 @@
               -z-20
               object-cover
               xl:h-72
-              2xl:h-96
+              2xl:h-80
               border-2 border-mau-primary-700
               rounded-md
             "
@@ -115,7 +99,7 @@
               -z-30
               object-cover
               xl:h-72
-              2xl:h-96
+              2xl:h-80
               border-2 border-mau-primary-700
               rounded-md
             "
@@ -135,11 +119,11 @@ export default {
   data() {
     return {
       bgBeige: TextureBeige,
-    };
+    }
   },
   computed: {
     getBackgroundImage() {
-      return `url(${this.bgBeige})`;
+      return `url(${this.bgBeige})`
     },
   },
 }

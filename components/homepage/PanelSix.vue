@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full" :style="{ backgroundImage: getBackgroundImage}">
+  <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
     <div class="container mx-auto py-8 px-4 lg:px-8">
       <!-- TOP -->
 
@@ -8,7 +8,7 @@
 
         <div
           class="
-            md:w-3/5
+            w-full
             flex flex-col
             items-center
             md:flex-row
@@ -16,9 +16,10 @@
             md:space-y-0 md:space-x-8 md:items-stretch md:px-8
           "
         >
-          <AdvancedThumbnailCard title="MAU Rocks" :is-large="false" />
-
-          <AdvancedThumbnailCard title="MAU Part 1 Intro" :is-large="false" />
+          <div class='md:flex'>
+            <div class='mx-4' style="position:relative; max-width:400px; min-width:100px;"><iframe src='https://www.instagram.com/p/CTGrNElHxe1/embed/'  allowtransparency='true' allowfullscreen='true' frameborder='0' height='681' data-instgrm-payload-id='instagram-media-payload-0' scrolling='yes' style='background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;'></iframe></div>
+            <div class='mx-4' style="position:relative; max-width:400px; min-width:100px;"><iframe src='https://www.instagram.com/p/CTFCsjhJ3s7/embed/'  allowtransparency='true' allowfullscreen='true' frameborder='0' height='681' data-instgrm-payload-id='instagram-media-payload-0' scrolling='yes' style='background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;'></iframe></div>
+          </div>
         </div>
         <!-- End LEft -->
         <!-- Right -->
@@ -35,6 +36,7 @@
           <p class="font-medium text-3xl text-mau-primary-900">What's</p>
           <p class="font-medium text-3xl text-mau-primary-900">Happening?</p>
           <div class="mt-6">
+            <a href="https://www.instagram.com/monstersamongus_my/" target="_blank"></a>
             <button
               class="
                 rounded-xl
@@ -55,7 +57,7 @@
       <!-- End TOP -->
       <!-- BOT -->
       <div class="mx-auto mt-12 lg:mt-24">
-        <div class="md:flex md:justify-center mb-12">
+        <div class="md:flex md:justify-center mb-8">
           <p
             class="
               text-center
@@ -67,11 +69,7 @@
             Gotta Read This!
           </p>
         </div>
-        <div
-          class="
-            grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 py-8
-          "
-        >
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 py-8">
           <div v-for="post of posts" :key="post.slug">
             <NuxtLink :to="`blog/${post.slug}`">
               <AdvancedThumbnailCard
@@ -102,14 +100,30 @@ export default {
     }
   },
   async fetch() {
-    const data = await this.$content('blog').sortBy('date', 'desc').limit(3).fetch()
+    const data = await this.$content('blog')
+      .sortBy('date', 'desc')
+      .limit(3)
+      .fetch()
     this.posts = data
+  },
+  head() {
+    return {
+      script: this.headScript,
+    }
   },
   computed: {
     getBackgroundImage() {
-      return `url(${this.bgBeige})`;
+      return `url(${this.bgBeige})`
+    },
+    headScript() {
+      return [
+        {
+          src: '//www.instagram.com/embed.js',
+          id: 'instagram_embed',
+          async: true,
+        },
+      ]
     },
   },
 }
-
 </script>
