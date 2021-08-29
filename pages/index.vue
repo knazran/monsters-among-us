@@ -15,10 +15,22 @@
 export default {
   head() {
     return {
-      script: [
-        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
-      ],
+      script: this.headScript,
     }
   },
+  computed: {
+    headScript() {
+        return [
+          {
+            src: '//www.instagram.com/embed.js',
+            id: 'instagram_embed',
+            async: true,
+          },
+          { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+        ]
+
+    },
+  },
+  
 }
 </script>
