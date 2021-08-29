@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4">
+  <div class="pt-4">
     <PageSection id="about-us">
       <PageSplitSection :reverse="true" img="/img/about-us/About_Mission.jpg">
         <div class="py-4 md:py-0">
@@ -45,20 +45,69 @@
         </div>
       </PageSplitSection>
     </PageSection>
+    <div class="w-full" :style="{ backgroundImage: getBackgroundImage }">
+      <PageSection id="milestone">
+        <div class="py-6">
+          <PageTitle :title="timelineContent.title" />
+        </div>
+        <vue-horizontal class="horizontal" responsive scroll :button="false">
+          <section
+            class="relative sm:px-48 mx-24 px-2"
+            v-for="(info, index) in timelineContent.milestone"
+            :key="info.title"
+          >
+            <div
+              class="
+                relative
+                md:mx-44
+                mx-56
+                z-20
+                bg-mau-primary-700
+                w-16
+                h-6
+                rounded-md
+              "
+            >
+              <p class="text-center text-white">{{ info.year }}</p>
+            </div>
+
+            <div
+              v-if="index < 4"
+              class="
+                timeline
+                z-0
+                border-opacity-100 border-mau-primary-400 border
+                absolute
+                top-3
+                md:left-0
+                left-12
+              "
+            ></div>
+
+            <HorizontalTimelines :blurb="info.blurb" :image="info.image" />
+          </section>
+        </vue-horizontal>
+      </PageSection>
+    </div>
   </div>
 </template>
 
 <script>
-// import { VueHorizontalTimeline } from "vue-horizontal-timeline";
-
+import VueHorizontal from 'vue-horizontal'
+import TextureBeige from '~/static/img/textures/texture-beige-2.png'
 export default {
-  //     components: {
-  //     VueHorizontalTimeline,
-  //   },
+  components: {
+    VueHorizontal,
+  },
   data: function () {
     return {
-      items: [],
+      bgGreen: TextureBeige,
     }
+  },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgGreen})`
+    },
   },
   async asyncData({ $content, params, error }) {
     //
@@ -67,12 +116,15 @@ export default {
       const storyContent = await $content('about-us/story').fetch()
       const commitmentContent = await $content('about-us/commitment').fetch()
       const timelineContent = await $content('about-us/milestone').fetch()
-
+      const journeyInfo = await $content('lapor-predator/our-journeys')
+        .sortBy('id')
+        .fetch()
       return {
         missionContent,
         storyContent,
         commitmentContent,
         timelineContent,
+        journeyInfo,
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -80,8 +132,16 @@ export default {
   }, //
 }
 </script>
+!-- Content Design -->
 <style scoped>
-li {
-  color: #458189;
+@media (min-width: 480px) {
+  .timeline {
+    width: 28rem !important;
+  }
+}
+@media (min-width: 0px) {
+  .timeline {
+    width: 100rem !important;
+  }
 }
 </style>
