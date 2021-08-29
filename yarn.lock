@@ -13924,6 +13924,18 @@ vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.9.0:
     lodash "^4.17.21"
     semver "^6.3.0"
 
+vue-horizontal-timeline@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/vue-horizontal-timeline/-/vue-horizontal-timeline-0.10.0.tgz#9ab99dfaa2b0d16389cfb3a3a2d9c3d665ec84a3"
+  integrity sha512-v/8E8XRLRuZbC2yZlTgt6F+bbgUe3AFpBqeEAG2bUtOhebIS5VAUPAo6NefQij84xE1eLehx1Uxptt3m+FzgrA==
+  dependencies:
+    vue "^2.6.12"
+
+vue-horizontal@^0.8.10:
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/vue-horizontal/-/vue-horizontal-0.8.10.tgz#bbe889db0accb188c4d1d4c73f1a73bac39fe8e8"
+  integrity sha512-YfgLTovdhOhwi1NxZwI1MUwWWz2bygBkVbfMYwv3+xnCp4dSa4FUuW9wDPR5HraokyDGnpWNsJMpXiyGdpDj2Q==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"

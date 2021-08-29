@@ -26,6 +26,7 @@
         rounded-full
       "
     ></div>
+    <!--Card-->
     <div
       class="
         z-20
@@ -49,6 +50,8 @@
         :document="journey"
       />
     </div>
+        <!--Card-->
+
   </div>
 </template>
 
