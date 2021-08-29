@@ -8,8 +8,7 @@
         inset-y-0
         right-0
         w-4/5
-        md:w-auto
-        md:max-w-full
+        md:w-auto md:max-w-full
         flex
         z-30
       "
@@ -54,7 +53,10 @@
               ></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="The Issue">
-              <MenuButton text="Child Sexual Abuse" to="/issue/child-sexual-abuse"></MenuButton>
+              <MenuButton
+                text="Child Sexual Abuse"
+                to="/issue/child-sexual-abuse"
+              ></MenuButton>
               <MenuButton
                 text="Online Child Sexual Abuse"
                 to="/issue/online-child-sexual-abuse"
@@ -63,7 +65,10 @@
                 text="Sexual and Reproductive Health Rights"
                 to="/issue/sexual-and-reproductive-health-rights"
               ></MenuButton>
-              <MenuButton text="Child Rights" to="/issue/child-rights"></MenuButton>
+              <MenuButton
+                text="Child Rights"
+                to="/issue/child-rights"
+              ></MenuButton>
             </MenuAccordion>
             <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
             <MenuAccordion title="Lapor Predator">
@@ -82,7 +87,12 @@
             ></MenuButton>
           </div>
           <div class="justify-self-end flex justify-center">
-            <AccentButton text="Donate"></AccentButton>
+            <a
+              href="https://www.sedunia.me/campaigns/lapor-predator-reporting-tool-for-online-child-sexual-abuse/about"
+              target="_blank"
+            >
+              <AccentButton text="Donate" />
+            </a>
           </div>
         </div>
       </div>
