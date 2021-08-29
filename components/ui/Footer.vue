@@ -44,7 +44,7 @@
 
         <div class="lg:w-1/3 w-full">
           <ul class="text-white font-thin">
-            <NuxtLink to='privacy-policy'><li>Privacy Policy</li></NuxtLink>
+            <NuxtLink to='/our-policies/privacy-policy'><li>Privacy Policy</li></NuxtLink>
             
             <li><p>Enquiries</p></li>
           </ul>
