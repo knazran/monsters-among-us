@@ -41,13 +41,12 @@
                     mb-2
                   "
                   for="grid-password"
-                  name="name"
                 >
                   Name
                 </label>
 
                 <input
-                  
+                  name="name"
                   @keypress="removeErrorName($event)"
                   placeholder="Your name :)"
                   v-bind:class="errorsName ? 'error-border' : ''"
@@ -79,7 +78,6 @@
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
                 <label
-                name="email"
                   class="
                     block
                     tracking-wide
@@ -92,6 +90,7 @@
                   E-mail
                 </label>
                 <input
+                  name="email"
                   @keypress="removeErrorEmail($event)"
                   v-bind:class="errorsEmail ? 'error-border' : ''"
                   placeholder="jane@example.com"
@@ -123,7 +122,6 @@
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
                 <label
-                name="message"
                   class="
                     block
                     tracking-wide
@@ -136,6 +134,7 @@
                   Message
                 </label>
                 <textarea
+                  name="message"
                   @keypress="removeErrorMessage($event)"
                   v-bind:class="errorsMessage ? 'error-border' : ''"
                   class="
