@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <h3 class="text-xl text-mau-primary-700 font-bold tracking-wider">
       {{ title }}
     </h3>
