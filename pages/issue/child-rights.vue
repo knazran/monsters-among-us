@@ -19,7 +19,7 @@
         <PageTitle :title="content.title" />
       </PageSplitSection>
 
-      <TextSplitSection>
+      <!-- <TextSplitSection>
         <template #left>
           <h2 class="font-medium lg:text-4xl text-3xl text-left">
             {{ fiveFacts.title }}
@@ -31,7 +31,7 @@
             :document="fiveFacts"
           />
         </template>
-      </TextSplitSection>
+      </TextSplitSection> -->
 
       <!-- Content -->
       <div class="flex flex-col-reverse md:flex-row md:py-12">
@@ -62,9 +62,9 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const content = await $content('issue/child-sexual-abuse/index').fetch()
+      const content = await $content('issue/child-rights/index').fetch()
       const fiveFacts = await $content(
-        'issue/child-sexual-abuse/five-facts'
+        'issue/child-rights/five-facts'
       ).fetch()
       
       const tableOfContent = content.toc.filter((item) => { return item.depth === 2 })
