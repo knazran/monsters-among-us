@@ -145,7 +145,7 @@
             </div>
             <div class="md:flex md:items-center">
               <div class="md:w-2/3">
-                <input
+                <button
                 @submit.prevent="processForm"
                   class="
                     form-button
@@ -158,9 +158,8 @@
                     hover:font-bold
                     hover:bg-mau-secondary-950
                   "
-                  type="submit"
-                  value="Submit"
-                />
+                 
+                >Submit</button>
               </div>
               <div class="md:w-2/3"></div>
             </div>
