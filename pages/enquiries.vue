@@ -21,10 +21,9 @@
         <div class="flex py-8">
           <form
             class="w-full max-w-lg"
-            name="contact"
-            action=""
+            id="app"
+            @submit="checkForm"
             method="post"
-            netlify
           >
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
@@ -44,7 +43,9 @@
                 </label>
 
                 <input
+                  @keypress="removeErrorName($event)"
                   placeholder="Your name :)"
+                  v-bind:class="errorsName ? 'error-border' : ''"
                   class="
                     appearance-none
                     block
@@ -62,8 +63,12 @@
                     focus:border-gray-500
                   "
                   id="name"
-                  type="text" v-model="name"
+                  type="text"
+                  v-model="name"
                 />
+                <p class="text-red-500" v-if="errorsName">
+                  Please correct the following error(s): {{ errorsName }}
+                </p>
               </div>
             </div>
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -81,6 +86,8 @@
                   E-mail
                 </label>
                 <input
+                  @keypress="removeErrorEmail($event)"
+                  v-bind:class="errorsEmail ? 'error-border' : ''"
                   placeholder="jane@example.com"
                   class="
                     appearance-none
@@ -100,8 +107,11 @@
                   "
                   id="email"
                   type="email"
-                   v-model="email"
+                  v-model="email"
                 />
+                <p class="text-red-500" v-if="errorsEmail">
+                  Please correct the following error(s): {{ errorsEmail }}
+                </p>
               </div>
             </div>
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -119,6 +129,8 @@
                   Message
                 </label>
                 <textarea
+                  @keypress="removeErrorMessage($event)"
+                  v-bind:class="errorsMessage ? 'error-border' : ''"
                   class="
                     no-resize
                     appearance-none
@@ -139,14 +151,16 @@
                     resize-none
                   "
                   id="message"
-                   v-model="message"
+                  v-model="message"
                 ></textarea>
+                <p class="text-red-500" v-if="errorsMessage">
+                  Please correct the following error(s): {{ errorsMessage }}
+                </p>
               </div>
             </div>
             <div class="md:flex md:items-center">
               <div class="md:w-2/3">
-                <button
-                @submit.prevent="processForm"
+                <input
                   class="
                     form-button
                     rounded-lg
@@ -158,8 +172,9 @@
                     hover:font-bold
                     hover:bg-mau-secondary-950
                   "
-                 
-                >Submit</button>
+                  type="submit"
+                  value="Submit"
+                />
               </div>
               <div class="md:w-2/3"></div>
             </div>
@@ -172,20 +187,53 @@
 
 <script>
 import TextureGreen from '~/static/img/textures/texture-green-2.png'
+
 export default {
   data() {
     return {
       bgGreen: TextureGreen,
-       name: '',
-        email: '',
-        message:''
+      name: '',
+      email: '',
+      message: '',
+      errorsName: '',
+      errorsEmail: '',
+      errorsMessage: '',
     }
   },
-   methods: {
-    processForm: function() {
-      console.log({ name: this.name, email: this.email });
-      alert('Processing!');
-    }
+  methods: {
+    checkForm: function (e) {
+      this.errorsName = ''
+      this.errorsEmail = ''
+      this.errorsMessage = ''
+
+      if (!this.name) {
+        this.errorsName = 'Name required.'
+      }
+      if (!this.email) {
+        this.errorsEmail = 'Email required.'
+      } else if (!this.validEmail(this.email)) {
+        this.errorsEmail = 'Email Invalid.'
+      }
+      if (!this.message) {
+        this.errorsMessage = 'Message required.'
+      }
+
+      e.preventDefault()
+    },
+    validEmail: function (email) {
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      return re.test(email)
+    },
+    removeErrorName: function ($event) {
+      this.errorsName = ''
+    },
+    removeErrorEmail: function ($event) {
+      this.errorsEmail = ''
+    },
+    removeErrorMessage: function ($event) {
+      this.errorsMessage = ''
+    },
   },
   computed: {
     getBackgroundImage() {
@@ -194,3 +242,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.error-border {
+  border-color: red;
+}
+</style>
