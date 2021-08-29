@@ -11,28 +11,28 @@
         <div class="lg:w-1/3 w-full">
           <p class="text-white font-base">Follow us on social media</p>
           <div id="social-media" class="flex flex-shrink-0 space-x-1 mt-3">
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.facebook.com/MonstersAmongUsMY" target="_blank">
               <iconify-icon
                 :icon="icons.facebook"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.instagram.com/monstersamongus_my" target="_blank">
               <iconify-icon
                 :icon="icons.instagram"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://twitter.com/mau17_my" target="_blank">
               <iconify-icon
                 :icon="icons.twitter"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.youtube.com/channel/UCvw1lAGU1waLvbyc2UHlJOA" target="_blank">
               <iconify-icon
                 :icon="icons.youtube"
                 height="28"
