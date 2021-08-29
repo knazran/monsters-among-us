@@ -6,7 +6,7 @@
     <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
       <img
         v-if="img !== ''"
-        class="w-full object-contain min-h-0 max-h-96 rounded-lg"
+        class="w-full object-contain min-h-0 max-h-96 w-full rounded-lg"
         :src="img"
       />
       <slot name="media"></slot>
