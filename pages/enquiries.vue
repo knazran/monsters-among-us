@@ -24,7 +24,7 @@
           data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
             id="app"
-           
+            @submit="checkForm"
             method="post"
           >
             <div class="flex flex-wrap -mx-3 mb-6">
