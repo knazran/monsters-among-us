@@ -20,4 +20,4 @@ CSA prevention might just be your thing.
 
 We provide volunteering and job opportunities with different levels of workload and challenges, and we promise there is something for everyone. If this sounds like a great opportunity to you, hop on board to join us, and we shall work together soon.
 
-No postings available currently. But if you are interested to join us, <http://bit.ly/sayamaujoinmau>[](http://localhost:3000/advocate-with-mau/bit.ly/sayamaujoinmau)
+No postings available currently. But if you are interested to join us, <a style="color:#45818A" href="http://bit.ly/sayamaujoinmau">click here.</a> 

@@ -1,5 +1,6 @@
 <template>
-  <div class="my-4">
+<div class="py-12 bg-scroll lg:bg-fill bg-no-repeat lg:bg-right bg-top" style="background-image: url(img//img_bg/gotta_read_this_bg.png)">
+  <div class="md:py-4 py-12">
     <PageSection id="blog-posts">
       <PageTitle title="Gotta Read This!" />
       <div
@@ -22,6 +23,7 @@
       </div>
     </PageSection>
   </div>
+</div>
 </template>
 
 <script>
