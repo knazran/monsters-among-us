@@ -14,12 +14,13 @@
     >
       <PageSection>
         <PageTitle
-          description="We are here because we care you. Keep in touch with us!"
+          description="We are here because we care for you. Keep in touch with us!"
           title="Contact Us"
         />
 
         <div class="flex py-8">
           <form
+          data-netlify="true"
             class="w-full max-w-lg"
             id="app"
             @submit="checkForm"
@@ -202,6 +203,11 @@ export default {
   },
   methods: {
     checkForm: function (e) {
+      if(this.name && this.message && this.email && this.validEmail(this.email)){
+          this.$refs.form.submit()
+          return true
+
+      }
       this.errorsName = ''
       this.errorsEmail = ''
       this.errorsMessage = ''
