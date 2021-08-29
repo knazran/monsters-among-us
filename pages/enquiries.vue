@@ -20,9 +20,9 @@
 
         <div class="flex py-8">
           <form
-          name="contact"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
+            name="contact"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
             id="app"
             @submit="checkForm"
@@ -41,11 +41,13 @@
                     mb-2
                   "
                   for="grid-password"
+                  name="name"
                 >
                   Name
                 </label>
 
                 <input
+                  
                   @keypress="removeErrorName($event)"
                   placeholder="Your name :)"
                   v-bind:class="errorsName ? 'error-border' : ''"
@@ -77,6 +79,7 @@
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
                 <label
+                name="email"
                   class="
                     block
                     tracking-wide
@@ -120,6 +123,7 @@
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
                 <label
+                name="message"
                   class="
                     block
                     tracking-wide
@@ -205,10 +209,14 @@ export default {
   },
   methods: {
     checkForm: function (e) {
-      if(this.name && this.message && this.email && this.validEmail(this.email)){
-          this.$refs.form.submit()
-          return true
-
+      if (
+        this.name &&
+        this.message &&
+        this.email &&
+        this.validEmail(this.email)
+      ) {
+        this.$refs.form.submit()
+        return true
       }
       this.errorsName = ''
       this.errorsEmail = ''
