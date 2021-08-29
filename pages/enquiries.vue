@@ -20,6 +20,7 @@
 
         <div class="flex py-8">
           <form
+          name="contact"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
