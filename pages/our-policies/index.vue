@@ -1,19 +1,26 @@
 <template>
-  <div class="my-4">
+  <div class="my-4 min-h-full">
     <PageSection id="policy">
       <PageSplitSection>
-        <PageTitle title="Our policies" />
+        <PageTitle title="Our Policies" />
       </PageSplitSection>
-      <div class="grid py-4 px-12 md:grid-cols-2 gap-6">
+      <div class="grid py-4 px-4 mb-12 md:grid-cols-2 xl:grid-cols-3  gap-8 ">
         <!-- Need to add text -->
-        <div v-for="policy of policies" :key="policy.slug" class="py-2 px-12">
-          <NuxtLink :to="`our-policies/${policy.slug}`">
-            <AdvancedThumbnailCard
-              :is-large="false"
-              :title="policy.title"
-              :img="policy.image"
-            />
-          </NuxtLink>
+        <div
+          v-for="policy of policies"
+          :key="policy.slug"
+          class="rounded-20 border bg-mau-primary-700 w-full h-72 hover:shadow-lg hover:border-mau-primary-500"
+        >
+        <a :href="policy.link">
+          <p class="text-center py-4 text-md md:text-lg text-white">{{ policy.title }}</p>
+          <img
+            :src="policy.image"
+            alt="..."
+            class="w-full rounded-b-20 h-4/5 object-cover"
+          />
+          
+        </a>
+          
         </div>
       </div>
     </PageSection>
@@ -23,7 +30,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const policies = await $content('our-policies').sortBy('id').fetch()
+    const policies = await $content('our-policies').sortBy('id').limit(3).fetch()
     return {
       policies,
     }
