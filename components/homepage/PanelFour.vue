@@ -5,7 +5,6 @@
         class="
           font-semibold
           underline
-          2xl:text-4xl
           xl:text-3xl
           lg:text-2xl
           text-2xl text-mau-primary-700
