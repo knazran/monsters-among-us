@@ -7,27 +7,31 @@ export default {
   head: {
     title: 'Monsters Among Us',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Monsters Among Us (MAU) is a non-profit organisation that combats systemic violence against children in Malaysia through youth-led child rights advocacy.',
+      },
+      { hid: 'keywords', name: 'keywords', content: 'ngo, malaysia, child sexual abuse, advocacy, awareness, child rights' },
+      { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
-  '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css' 
+  css: [
+    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
+    '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [ 
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   // components: true,
@@ -38,8 +42,8 @@ export default {
       '~/components/ui',
       '~/components/cards',
       '~/components/button',
-      '~/components/homepage'
-    ]
+      '~/components/homepage',
+    ],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -50,8 +54,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     'nuxt-vite',
-    '@nuxtjs/imagemin'
-
+    '@nuxtjs/imagemin',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -60,7 +63,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -76,11 +78,11 @@ export default {
       config.module.rules.push({
         test: /\.js$/,
         loader: require.resolve('@open-wc/webpack-import-meta-loader'),
-      },)
+      })
       // Sets webpack's mode to development if `isDev` is true.
       if (isDev) {
         config.mode = 'development'
       }
-    }
-  }
+    },
+  },
 }
