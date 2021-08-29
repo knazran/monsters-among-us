@@ -61,8 +61,8 @@
                     focus:bg-white
                     focus:border-gray-500
                   "
-                  id="nick"
-                  type="text"
+                  id="name"
+                  type="text" v-model="name"
                 />
               </div>
             </div>
@@ -100,6 +100,7 @@
                   "
                   id="email"
                   type="email"
+                   v-model="email"
                 />
               </div>
             </div>
@@ -138,12 +139,14 @@
                     resize-none
                   "
                   id="message"
+                   v-model="message"
                 ></textarea>
               </div>
             </div>
             <div class="md:flex md:items-center">
               <div class="md:w-2/3">
                 <input
+                @submit.prevent="processForm"
                   class="
                     form-button
                     rounded-lg
@@ -174,6 +177,15 @@ export default {
   data() {
     return {
       bgGreen: TextureGreen,
+       name: '',
+        email: '',
+        message:''
+    }
+  },
+   methods: {
+    processForm: function() {
+      console.log({ name: this.name, email: this.email });
+      alert('Processing!');
     }
   },
   computed: {

@@ -46,7 +46,7 @@
           <ul class="text-white font-thin">
             <NuxtLink to='/our-policies/privacy-policy'><li>Privacy Policy</li></NuxtLink>
             
-           <NuxtLink to='/enquiry'><li>Enquiries</li></NuxtLink>
+           <NuxtLink to='/enquiries'><li>Enquiries</li></NuxtLink>
           </ul>
         </div>
       </div>
