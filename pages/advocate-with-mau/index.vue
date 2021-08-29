@@ -1,50 +1,48 @@
 <template>
   <div class="mx-auto container px-4">
     <!-- Volunteers & Vacancies -->
-    <PageSplitSection id="vacancies" :img="volunteersContent.thumbnail">
-      <PageTitle
-        :title="volunteersContent.title"
-        :description="volunteersContent.description"
-      />
-    </PageSplitSection>
-    <div class="w-full px-8 my-8">
-      <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
-        :document="volunteersContent"
-      />
+    <div class="mb-8 lg:mb-20 xl:mb-36">
+      <PageSplitSection id="vacancies" :img="volunteersContent.thumbnail">
+        <PageTitle :title="volunteersContent.title" />
+      </PageSplitSection>
+      <div class="w-full md:w-4/5 px-8 my-8">
+        <nuxt-content
+          class="w-full prose prose-mau lg:prose-lg max-w-none text-justify"
+          :document="volunteersContent"
+        />
+      </div>
     </div>
+
     <!-- Collaborate With Us -->
-    <PageSplitSection
-      
-      :reverse="true"
-      :img="collaborateContent.image"
-    >
-      <PageTitle
-        :title="collaborateContent.title"
-        :description="collaborateContent.description"
-      />
-    </PageSplitSection>
-    <div id="collaborate" class="w-full px-8 my-8" >
-      <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-justify"
-        :document="collaborateContent"
-      />
+    <div class="mb-8 lg:mb-20 xl:mb-36">
+      <PageSplitSection :reverse="true" :img="collaborateContent.image">
+        <PageTitle
+          :title="collaborateContent.title"
+          :description="collaborateContent.description"
+        />
+      </PageSplitSection>
+      <div id="collaborate" class="w-full md:w-4/5 px-8 my-8">
+        <nuxt-content
+          class="w-full prose prose-mau lg:prose-lg max-w-none text-justify"
+          :document="collaborateContent"
+        />
+      </div>
     </div>
+
     <!-- Be a member -->
-    <PageSplitSection :img="beMemberContent.image">
-      <PageTitle
-        :title="beMemberContent.title"
-        :description="beMemberContent.description"
-      />
-    </PageSplitSection>
-    <div class="px-4">
+    <div class="mb-8 lg:mb-20 xl:mb-36">
+      <PageSplitSection id="vacancies" :img="beMemberContent.image">
+        <PageTitle :title="beMemberContent.title" />
+      </PageSplitSection>
+      <div class="w-full md:w-4/5 px-8 my-8">
+        <nuxt-content
+          class="w-full prose prose-mau lg:prose-lg max-w-none text-justify"
+          :document="beMemberContent"
+        />
+      </div>
+      <div class="px-4">
       <ImageCarousel :images="beMemberContent.carousel" />
     </div>
-    <div id="be-a-member" class="w-full px-8 my-8">
-      <nuxt-content
-        class="w-full prose prose-sm prose-mau lg:prose-lg xl:prose-xl text-center"
-        :document="beMemberContent"
-      />
     </div>
   </div>
 </template>
@@ -75,5 +73,4 @@ export default {
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -2,8 +2,10 @@
 title: Collaborate With Us
 image: /img/advocate/activity.jpg
 description: Let’s create change! 
-            Reach out to our Public Relations Officer (kaiser@laporpredator.org) to explore how we can create magic together!
+           
 ---
+
+Reach out to our Public Relations Officer (kaiser@laporpredator.org) to explore how we can create magic together!
 
 We have learnt that involving the community around us in advocating for children’s rights is the starting point for raising and spreading awareness. With that, we would love to have your company, community group, school or organization to learn more about MAU and be a part of our cause in combating systemic violence against children. We welcome any opportunity to share our mission and the various ways for the public to get involved to make a difference in the lives of children and the youth.
 
