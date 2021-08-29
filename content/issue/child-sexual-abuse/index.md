@@ -5,18 +5,18 @@ author: Loong Dien Min
 ---
 
 
-## Conceptualizing CSA:
+## Conceptualizing CSA
 
-### (1.0) Bite-Sized Definition (7 words):
+### (1.0) Bite-Sized Definition
 A self-gratifying[^6] act through sexually exploiting a child.
 
-### (2.0) Analytical Definition:
+### (2.0) Analytical Definition
 An act is considered CSA when it involves the following aspects[^7]:
 - **Child** : An individual under the age of 18. 
 - **Sexual**: The act is sexual in terms of the person’s physical or mental gratification, whether  deferred, immediate or temporally, and is also sexual in terms of the child’s experience.
 - **Abuse**: Conduct which exploits the child’s inability to give informed consent using the power imbalance between an adult and a child.
 
-### (2.1) Key Agents in CSA:
+### (2.1) Key Agents in CSA
 
 **Who is a child?**
 
@@ -41,9 +41,9 @@ Sexual abuse and sexual assault may overlap and be interchangeable, as they are 
 In Malaysia, the [Sexual Offences Against Children Act 2017 (SOAC)](https://cljlaw.com/files/bills/pdf/2017/MY_FS_BIL_2017_06.pdf) was enforced on the 10th of July, 2017 to protect children from sexual crimes. 
 It is worthy to note that the act does not explicitly specify CSA in legal terms. However, the act does specify what child pornography (or CSA material, which is the term we prefer) means. To read more about this, **click here (to insert link to Shreya’s OCSEA section- developer :)).**
 
-### (3.1) Key takeaways of the Act[^10]:
+### (3.1) Key takeaways of the Act [^10]
 
-**1. Involvement in CSA material (including where any person is portrayed as a child as defined in Section 4) is prohibited.**
+#### 1. Involvement in CSA material (including where any person is portrayed as a child as defined in Section 4) is prohibited
 
 <ol type="a" class='pl-8'>
   <li>Section 5 <strong>prohibits</strong> all forms of involvement in <strong>creating</strong> CSA material.</li>
@@ -82,7 +82,8 @@ It is worthy to note that the act does not explicitly specify CSA in legal terms
 **5. Not reporting abuse is an offence.**
 -  Section 19 of the SOAC makes indifference to/ignorance of abuse (or the intention to abuse) a criminal offence. The punishment is a RM5000 fine.
 
-## Types of CSA[^11][^12]: 
+## Types of CSA
+These are the following type of CSA [^11] [^12] 
 
 ### Contact: Situations whereby the abuser makes physical contact with a child
 -  Touching or fondling of genitals 
@@ -94,9 +95,9 @@ It is worthy to note that the act does not explicitly specify CSA in legal terms
     - makes a child touch any part of the body of the abuser or of any other person  makes a child touch any part of the child’s own body
     - Incest: the above acts committed by a relative of the child
   
-### Non-contact: Situations in which the abuser harms the child without physical contact**
+### Non-contact: Situations in which the abuser harms the child without physical contact
 
-### In Person:
+### In Person
 -  Sexual exploitation of the child for material gain (prostitution, the production of CSA material)
 -  Voyeurism (i.e., covertly watching the child undress or bathe be it in person or virtually)
 -  Exhibitionism (i.e., nudity or the adult disrobing in front of a child, exposing their genitals to a child or masturbating in front of a child whether in person or virtually)
@@ -109,44 +110,47 @@ It is worthy to note that the act does not explicitly specify CSA in legal terms
 ## Child Sexual Grooming
 Child sexual grooming is the process during which a person draws a child into a sexual relationship, whether implicitly or explicitly, and the child is then coerced to keep the relationship a secret. Child sexual grooming can occur both online and in person. To learn more about Online Child Sexual Grooming, do head over to our Online Child Sexual Abuse and Exploitation content (Link Online Child Sexual Grooming in OCSEA here - developer :) ) 
 
-### Grooming can occur in 6 stages.[^13]
-**Stage 1**
+### Grooming can occur in 6 stages.
+[^13]
+
+#### Stage 1
 
 **The child victim is targeted by the perpetrator** based on vulnerability shown by the child. This vulnerability could range from emotional neediness to the child’s perceived isolation from loved ones or having low confidence or self-esteem. 
 
-**Stage 2**
+#### Stage 2
 
 **The perpetrator will then attempt to gain the trust of the child** by regularly observing and gathering information on the child’s needs or desires. Perpetrators could come across as being warm and attentive as well as affectionate caregivers. However, it is very important to keep an eye out for caregivers, teachers or family members who may be paying too much personal attention to a child. 
 
-**Stage 3**
+#### Stage 3
 
 **The perpetrator will then try to be a “hero” for the child by giving them attention** and perhaps even showering them with gifts that they may have asked for. This would encourage the child to trust the perpetrator and establish a closer relationship with the perpetrator. 
 
-**Stage 4**
+#### Stage 4
 
 In this stage, **the perpetrator will maneuver situations so as to enable them to isolate the child from others by spending time alone with the child.** By this stage, the child would have formed a trusting relationship with the perpetrator for quite some time. This isolation would further reinforce the “special” relationship between the child and the perpetrator. This may lull the child into a false sense of security and make the child feel like they are important to and appreciated by the perpetrator. 
 
-**Stage 5**
+#### Stage 5
 
 With the trust established in Stage 4, **the perpetrator will now slowly begin to sexualise the relationship.** The sexualisation may often appear innocent at first with acts such as having personal conversations or taking pictures of the child in compromising situations or in questionable attire. The perpetrator will eventually take advantage of the child’s natural curiosity with personal touches and teach the child to respond to their sexual needs and accommodate their sexual preferences. The relationship established will now proceed on sexual terms established by the perpetrator. 
 
-**Stage 6**
+#### Stage 6
 
 Once a sexual relationship has been established, **the perpetrator would begin guilting the child into keeping the relationship a secret to protect the perpetrator from repercussions.** Children who have been sexually groomed are often threatened by their abuser with anger, shame that they may bring to their family or loved ones, blame or the threat of ending the relationship. The victim would normally feel confused and conflicted as they fear that they may lose the “secure” relationship that they have established with the perpetrator. The fear of humiliation or bringing shame to their loved ones also keeps them from reporting the abuse that has occurred.
 
 
-### Characteristics of CSA[^14]:
+### Characteristics of CSA[^14]
+
 1. Lack of (informed) consent
 2. Exploitation
 3. Mixed feelings regarding the abuse
 4. Force/coercion/trickery
 5. Secrecy to keep the relationship private
 
-## Indicators of CSA:
+## Indicators of CSA
 
 The most reliable indicator is verbal and non-verbal messages from a child. These include physical indicators, sexual psychosocial indicators and non-sexual psychosocial indicators.
 
-### 1. Physical Indicators:
+### 1. Physical Indicators
 
 *Information provided on our site is not a substitute for professional medical advice, diagnosis or treatment. All content including text, graphics, images and information on or available through our website is for the sole purpose of information.*
 
@@ -207,7 +211,7 @@ The most reliable indicator is verbal and non-verbal messages from a child. Thes
   <li>Swollen lymph nodes in the neck</li>
 </ol>
 
-### 2.  Sexual psychosocial indicators:
+### 2.  Sexual psychosocial indicators
 
 1. Sexually precocious remarks 
 2. Sexually explicit drawings or comments
@@ -234,7 +238,7 @@ The most reliable indicator is verbal and non-verbal messages from a child. Thes
 
 As the child may be fearful of disclosing the abuse, the general rule of thumb is to **identify any drastic change(s) in behaviour or any sudden deviation from usual routines or habitual reactions.**
 
-### Effects of CSA on a child:
+### Effects of CSA on a child
 
 - low self-esteem
 - anxiety
@@ -245,7 +249,7 @@ As the child may be fearful of disclosing the abuse, the general rule of thumb i
   
 However, the commonality of the above symptoms of CSA with symptoms of a number of psychological disorders may present a difficulty for identification.
 
-### Other effects:
+### Other effects
 1. Traumatic sexualization
    
 <ol type="a" class='pl-8'>

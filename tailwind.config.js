@@ -8,6 +8,11 @@ const em = (px, base) => `${round(px / base)}em`
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  variants: {
+    extend: {
+      borderWidth: ['last'],
+    }
+  },
   theme: {
     screens: {
       xs: '531px',
@@ -54,6 +59,9 @@ module.exports = {
               color: '#46818A',
             },
             h3: {
+              color: '#46818A',
+            },
+            h4: {
               color: '#46818A',
             },
             strong: {
