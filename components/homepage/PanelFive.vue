@@ -1,31 +1,8 @@
 <template>
   <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
     <div class="container mx-auto py-8 lg:py-16 px-4 lg:px-8">
-      <h3
-        class="
-          font-semibold
-          lg:text-3xl
-          text-2xl text-mau-primary-900
-          lg:text-left
-          text-center
-        "
-      >
-        Advocate with Us!
-      </h3>
-      <h4
-        class="
-          lg:text-xl
-          text-lg text-mau-primary-700
-          mt-1
-          lg:text-left
-          text-center
-          xl:pr-36
-          2xl:pr-96
-        "
-      >
-        We are always looking for volunteers, colaborators, and members to join
-        the cause
-      </h4>
+     <PageTitle title="Advocate With Us" description=" We are always looking for volunteers, colaborators, and members to join
+        the cause"/>
       <div
         class="
           mt-8

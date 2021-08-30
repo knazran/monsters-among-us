@@ -1,19 +1,7 @@
 <template>
   <div class="bg-mau-primary-50 h-full">
     <div class="container mx-auto py-8 lg:py-12 px-4 lg:px-8">
-      <p
-        class="
-          font-semibold
-          underline
-          xl:text-3xl
-          lg:text-2xl
-          text-2xl text-mau-primary-700
-          xl:text-left
-          text-center
-        "
-      >
-        Our Initiatives
-      </p>
+    <PageTitle title="Our Initiatives"/>
       <div
         class="
           mt-10
