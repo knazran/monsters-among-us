@@ -20,6 +20,8 @@ In 2018, the Guttmacher-Lancet Commission on Sexual and Reproductive Health and 
 
 This means that SRHR does not only include sexual practices and rights, but also includes issues like abortion, HIV and other sexually transmitted infections (STIs), maternal health and rights, contraceptive access, gender-based violence, discrimination and stigma, and more. As such, SRHR comprises the nine (9) sections below as depicted in the diagram found in the background document for the Nairobi Summit on ICPD25 - Accelerating the Promise, titled: Sexual Health and Reproductive Rights: An Essential Element of Universal Health Coverage.
 
+![Nairobi Summit](/img/issues/shrh.png)
+
 ### Analytical Definition
 
 Considered separately or distinctly, one can understand the term from the following 4 facets[^7]:

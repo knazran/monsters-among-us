@@ -1,31 +1,43 @@
 <template>
-  <div class="min-h-screen" :style="{ backgroundImage: getBackgroundImage}">
-    <PageSection id="about-lapor-predator">
-      <PageSplitSection>
-        <PageTitleAlt
-          :title="content.title"
-          :description="content.description"
-        />
-        <!-- <template #media>
-          <div class="w-full h-96">
-            <Video title='test' src="https://www.youtube.com/embed/641nm_sDejU"/>
+  <BackgroundWrapper color="green">
+    <div class="min-h-screen">
+      <PageSection id="about-lapor-predator">
+        <PageSplitSection>
+          <PageTitleAlt
+            :title="content.title"
+            :description="content.description"
+          />
+        </PageSplitSection>
+        <div class="flex justify-center items-center">
+          <div class="w-full lg:w-1/2 h-96">
+            <Video
+              title="test"
+              src="https://www.youtube.com/embed/641nm_sDejU"
+            />
           </div>
-        </template> -->
-      </PageSplitSection>
-      <div class="flex justify-center items-center">
-        <div class="w-full lg:w-1/2 h-96">
-          <Video title="test" src="https://www.youtube.com/embed/641nm_sDejU" />
         </div>
-      </div>
 
-      <div class="w-full lg:w-4/5 px-4 my-8 md:mb-20">
-        <nuxt-content
-          class="w-full prose prose-lp prose-sm lg:prose-lg max-w-none"
-          :document="content"
+        <div class="w-full lg:w-4/5 px-4 my-8 md:mb-20 relative z-10">
+          <nuxt-content
+            class="w-full prose prose-lp prose-sm lg:prose-lg max-w-none"
+            :document="content"
+          />
+        </div>
+      </PageSection>
+      <div class="md:relative w-full flex justify-center">
+        <img
+          class="
+            md:absolute md:bottom-0 md:right-0
+            object-contain
+            h-56
+            lg:h-72
+            xl:h-96
+          "
+          :src="content.bg_image"
         />
       </div>
-    </PageSection>
-  </div>
+    </div>
+  </BackgroundWrapper>
 </template>
 
 <script>
@@ -48,7 +60,7 @@ export default {
   },
   computed: {
     getBackgroundImage() {
-      return `url(${this.bgGreen})`;
+      return `url(${this.bgGreen})`
     },
   },
 }

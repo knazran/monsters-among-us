@@ -5,6 +5,7 @@ description: A basic guide to comprehensive sexuality education children from al
 logo: /img/initiative/Colour with MAU.png
 main_poster: /img/initiative/Our Initiatives_CB.png
 link: /initiatives/colour-with-mau
+bg_image: /img/initiative/color-mau-bg.png
 order: 3
 ---
 
@@ -28,5 +29,6 @@ Colour with MAU has been in production since January 2021 and will be launched o
 
 The book would not have been made a reality without the talent of these artists, so check them out and support them as you do MAU! 
 
-Upon its release, you may purchase Colour with MAU  <a style="color:#45818A" href="https://www.w3schools.com">here</a> at the price of RM50.00.
-The target demographic for Colour with MAU is children aged 10 years old or older. 
+You can start to pre-order MAU Colouring Book now till the 15th of September 2021! The early bird price is RM38 (original price: RM45)! Click the button below to order the Colouring Book today!
+
+<a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='rounded-lg my-4 px-8 text-white bg-mau-secondary-900 w-auto'>Pre-Order </button> </a>
