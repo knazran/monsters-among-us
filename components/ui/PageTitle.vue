@@ -24,7 +24,12 @@
     >
       {{ description }}
     </p>
-    <div class="rounded-full bg-mau-secondary-900 w-24 h-1"></div>
+    <div
+      v-if="center"
+      class="rounded-full mx-20 bg-mau-secondary-900 w-24 h-1"
+    ></div>
+
+    <div v-else class="rounded-full bg-mau-secondary-900 w-24 h-1"></div>
   </div>
 </template>
 
@@ -38,6 +43,10 @@ export default {
     description: {
       type: String,
       default: '',
+    },
+    center: {
+      type: Boolean,
+      default: false,
     },
   },
 }
