@@ -7,7 +7,7 @@
           :description="aboutContent.description"
         />
       </PageSplitSection>
-      <div class="w-full px-4 mb-8 md:mb-20">
+      <div class="w-full px-4 mb-8 md:mb-20 relative z-10">
         <nuxt-content
           class="
             w-full
@@ -18,6 +18,9 @@
           "
           :document="aboutContent"
         />
+      </div>
+      <div class="w-full flex justify-center md:justify-start md:transform md:-translate-y-20" >
+        <img class='object-contain w-full md:w-1/2' :src="aboutContent.bg_image">
       </div>
     </PageSection>
     <PageSection id="our-journey">
@@ -46,7 +49,7 @@
     <PageSection id="our-partners">
       <PageTitleAlt title="Our Partners" />
 
-      <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-8 my-8">
+      <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 my-8">
         <div
           v-for="partner in aboutContent.partners"
           :key="partner.name"
@@ -61,7 +64,7 @@
           "
         >
           <img
-            class="w-full object-contain min-h-0 h-72 rounded-lg"
+            class="w-full object-contain rounded-lg"
             :src="partner.image"
           />
         </div>

@@ -3,6 +3,7 @@ title: How to LAPOR PREDATOR?
 description: Reporting may be scary. But we are here to help.
 logo: /img/initiative/Lapor Predator Logo.png
 main_poster: /img/initiative/Lapor Predator Logo.png
+bg_image: /img/lapor-predator/lp-bg-1.png
 ---
 
 

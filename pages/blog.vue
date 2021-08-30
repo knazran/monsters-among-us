@@ -1,6 +1,6 @@
 <template>
-<div class="py-12 bg-scroll lg:bg-fill bg-no-repeat lg:bg-right bg-top" style="background-image: url(img//img_bg/gotta_read_this_bg.png)">
-  <div class="md:py-4 py-12">
+<div class="my-12 " >
+  <div class="md:py-4 my-12 relative z-10">
     <PageSection id="blog-posts">
       <PageTitle title="Gotta Read This!" />
       <div
@@ -23,10 +23,14 @@
       </div>
     </PageSection>
   </div>
+  <div class="md:relative w-full flex justify-center" >
+    <img class='md:absolute md:bottom-0 md:right-0 object-contain w-full md:w-1/2' :src="bgBlog">
+  </div>
 </div>
 </template>
 
 <script>
+import bgBlog from '~/static/img/img_bg/gotta_read_this_bg.png';
 export default {
   async asyncData({ $content }) {
     const posts = await $content('blog').sortBy('date', 'desc').fetch()
@@ -34,5 +38,10 @@ export default {
       posts,
     }
   },
+  data(){
+    return {
+      bgBlog
+    }
+  }
 }
 </script>

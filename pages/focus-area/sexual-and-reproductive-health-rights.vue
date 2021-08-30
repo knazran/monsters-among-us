@@ -46,13 +46,13 @@
             />
           </div>
           <div class="w-full md:w-1/4 lg:w-1/5 my-8 px-4">
-            <ul class="px-4 py-2 rounded-md border flex-grow-0">
+            <ul class="px-4 py-2 rounded-md border border-mau-secondary-900 flex-grow-0">
               <li
                 v-for="link of tableOfContent"
                 :key="link.id"
                 class="hover:underline"
                 :class="{
-                  'text-mau-primary-700 font-semibold py-4 text-sm md:text-md border-b px-2 last:border-b-0':
+                  'text-mau-primary-700 font-semibold py-4 text-sm md:text-md border-b border-mau-secondary-900 px-2 last:border-b-0':
                     link.depth === 2,
                   hidden: link.depth === 3,
                 }"

@@ -41,10 +41,10 @@
         border-mau-purple-500 border-2
       "
     >
-      <img :src="journey.img" class="w-90 h-90 rounded-t-20 shadow-md" />
+      <img :src="journey.img" class="w-full h-64 rounded-t-20 shadow-md object-cover" />
       <div class="px-6 py-8 ">
         <nuxt-content
-        class="w-full prose prose-lp prose-sm lg:prose-lg"
+        class="w-full prose prose-lp prose-sm lg:prose-md"
         :document="journey"
       />
       </div>

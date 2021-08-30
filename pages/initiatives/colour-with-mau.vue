@@ -4,13 +4,16 @@
       <PageSplitSection :img="content.main_poster">
         <PageTitle :title="content.title" :description="content.description" />
       </PageSplitSection>
-      <div class="py-8 px-8">
+      <div class="w-full lg:w-4/5 px-4 my-8 md:mb-20 relative z-10">
         <nuxt-content
           class="prose prose-mau prose-md lg:prose-lg max-w-none"
           :document="content"
         />
       </div>
     </PageSection>
+    <div class="md:relative w-full flex justify-center" >
+      <img class='md:absolute md:bottom-0 md:right-0 object-contain h-56 lg:h-72 xl:h-96' :src="content.bg_image">
+    </div>
   </div>
 </template>
 

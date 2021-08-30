@@ -5,6 +5,7 @@ description: Safeguarding Malaysian children and youth online through rights adv
 logo: /img/initiative/Catch Em Predator.png
 main_poster: /img/initiative/Catch_em_predator_poster.png
 link: /initiatives/catch-em-predator
+bg_image: /img/initiative/catch-em-bg.png
 order: 2
 ---
 
