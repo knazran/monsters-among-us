@@ -94,7 +94,7 @@ During the ICPD attended by more than 170 countries in Cairo, Egypt, points were
 
 However, Malaysia through its Pendidikan Kesihatan Reproduktif dan Sosial (PEERS) initiative deviates from the recommended design of comprehensive sexuality education (CSE) programmes. This is illustrated in the following diagram and table: 
 
-![Workshop](/img/issues/peers.png)
+![Workshop](/img/issues/peers2.png)
 *Introduction to PEERS by UNIT PJPK JABATAN PENDIDIKAN NEGERI JOHOR Source: https://www.slideshare.net/hanif5339/pengenalan-peers*
 
 | Recommended Design of CSE by ICPD      | PEERS Syllabus Coverage in Malaysia |
