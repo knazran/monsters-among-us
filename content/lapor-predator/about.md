@@ -3,6 +3,7 @@ title: About Lapor Predator
 description: Lapor with us. Safer internet, safer childhoods.
 logo: /img/initiative/Lapor Predator Logo.png
 main_poster: /img/initiative/Lapor Predator Logo.png
+bg_image: /img/initiative/lp-bg.png
 partners:
     - name: Child Safe Alliance
       image: /img/lapor-predator/alliance-square.png
