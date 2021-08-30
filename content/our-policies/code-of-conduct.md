@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Code of Conduct
-image: /img/advocate/discuss.jpg
+image: /img/policy/Policy_COC.png
 link: /our-policies/code-of-conduct
 ---
 
