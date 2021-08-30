@@ -15,4 +15,11 @@ From our symposium days to helping children and families through our Lapor Preda
 We provide volunteering and job opportunities of varying levels of workload and challenges, and we promise there is something for everyone. If this sounds like a great opportunity, reach out to us so we can work together!
 
 
-<button class='rounded-lg my-4 px-8 text-white bg-mau-primary-700 w-auto'>No Vacancies </button>
+<button class='rounded-lg
+      bg-mau-primary-700
+      text-center text-white
+      w-32
+      py-1
+      mx-2
+      hover:font-bold
+      transform hover:scale-105'>No Vacancies </button>
