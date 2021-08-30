@@ -1,7 +1,7 @@
 ---
 title: Colour with MAU
-preview: A basic guide to comprehensive sexuality education children from all diversities.
-description: A basic guide to comprehensive sexuality education children from all diversities.
+preview: A basic guide to comprehensive sexuality education for children in all their diversity.
+description: A basic guide to comprehensive sexuality education for children in all their diversity.
 logo: /img/initiative/Colour with MAU.png
 main_poster: /img/initiative/Our Initiatives_CB.png
 link: /initiatives/colour-with-mau
@@ -34,4 +34,4 @@ The book would not have been made a reality without the talent of these artists,
 You can start to pre-order MAU Colouring Book now till the 15th of September 2021! The early bird price is RM38 (original price: RM45)! Click the button below to order the Colouring Book today!
 
 <a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='transform
-                hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900 w-auto'>Pre-Order </button> </a>
+                hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Pre-Order </button> </a>

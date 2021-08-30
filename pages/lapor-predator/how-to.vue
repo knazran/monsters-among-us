@@ -8,7 +8,7 @@
             :description="content.description"
           />
         </PageSplitSection>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative z-10">
           <div class="w-full lg:w-1/2 h-96">
             <Video
               title="test"
@@ -24,15 +24,9 @@
           />
         </div>
       </PageSection>
-      <div class="md:relative w-full flex justify-center">
+      <div class="md:fixed md:bottom-0 md:right-0 py-16">
         <img
-          class="
-            md:absolute md:bottom-0 md:right-0
-            object-contain
-            h-56
-            lg:h-72
-            xl:h-96
-          "
+          class="object-contain h-56 lg:h-72 xl:h-96"
           :src="content.bg_image"
         />
       </div>

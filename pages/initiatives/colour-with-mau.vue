@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <PageSection id="reading-club">
       <PageSplitSection :img="content.main_poster">
         <PageTitle :title="content.title" :description="content.description" />
@@ -10,9 +11,10 @@
           :document="content"
         />
       </div>
+      
     </PageSection>
-    <div class="md:relative w-full flex justify-center" >
-      <img class='md:absolute md:bottom-0 md:right-0 object-contain h-56 lg:h-72 xl:h-96' :src="content.bg_image">
+    <div class="md:fixed md:bottom-0 md:right-0 py-16" style="z-index:-1">
+      <img class='object-contain h-56 lg:h-72 xl:h-96' :src="content.bg_image">
     </div>
   </div>
 </template>

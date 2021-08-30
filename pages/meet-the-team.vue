@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="md:relative w-full flex justify-center py-16" >
+    <div class="md:fixed w-full flex justify-center py-16" >
       <img class='md:transform md:translate-x-16 md:absolute md:top-0 md:left-0 object-contain h-56 lg:h-72 xl:h-96' :src="meetTheTeamData[0].bg_image_1">
     </div>
     <div class="px-4 py-8 md:px-24 lg:px-8 relative z-10">
@@ -79,9 +79,9 @@
         />
       </div>
     </div>
-    <div class="md:relative w-full flex justify-center py-16" >
+    <!-- <div class="md:relative w-full flex justify-center py-16" >
       <img class='md:transform md:translate-x-16 md:absolute md:bottom-0 md:right-0 object-contain h-56 lg:h-72 xl:h-96' :src="meetTheTeamData[0].bg_image_2">
-    </div>
+    </div> -->
   </div>
 </template>
 

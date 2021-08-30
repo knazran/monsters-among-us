@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-mau-primary-700 py-8 lg:py-16">
+  <div class="bg-mau-primary-700 py-8 lg:py-16 relative z-20">
     <div class="container mx-auto">
       <div class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:space-x-10 px-12">
         <div class="lg:w-1/3 w-full">
