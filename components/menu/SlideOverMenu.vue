@@ -9,8 +9,8 @@
         inset-y-0
         right-0
         w-4/5
-        md:w-auto
-        md:max-w-full
+        sm:w-auto
+        sm:max-w-full
         flex
         z-50
       "
