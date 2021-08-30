@@ -1,14 +1,16 @@
 <template>
-  <transition name="slide">
+  <transition id="trans" name="slide">
     <div
       v-if="showOverlayMenu"
       class="
         fixed
-        h-screen
+        min-h-screen
+        overflow-y-scroll
         inset-y-0
         right-0
         w-4/5
-        md:w-auto md:max-w-full
+        md:w-auto
+        md:max-w-full
         flex
         z-30
       "
@@ -69,7 +71,9 @@
                 to="/focus-area/child-rights"
               ></MenuButton> -->
             </MenuAccordion>
-            <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
+            <div class="bg-mau-primary-700">
+              <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
+            </div>
             <MenuAccordion title="Lapor Predator">
               <MenuButton
                 text="About Lapor Predator"
@@ -80,12 +84,16 @@
                 to="/lapor-predator/how-to"
               ></MenuButton>
             </MenuAccordion>
-            <MenuButton
-              text="Advocate with MAU"
-              to="/advocate-with-mau"
-            ></MenuButton>
+            <div class="bg-mau-primary-700">
+              <MenuButton
+                text="Advocate with MAU"
+                to="/advocate-with-mau"
+              ></MenuButton>
+            </div>
           </div>
-          <div class="justify-self-end flex justify-center">
+          <div
+            class="py-2 justify-self-end flex justify-center bg-mau-primary-700"
+          >
             <a
               href="https://www.sedunia.me/campaigns/lapor-predator-reporting-tool-for-online-child-sexual-abuse/about"
               target="_blank"

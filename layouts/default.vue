@@ -1,15 +1,23 @@
 <template>
-  <div class='font-nunito'>
+  <div class="h-screen font-nunito">
     <transition name="fade">
       <div
         v-if="showOverlayMenu"
-        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity min-h-screen h-full z-20"
+        class="
+          fixed
+          inset-0
+          bg-gray-500 bg-opacity-75
+          transition-opacity
+          h-full
+          min-h-screen
+          z-20
+        "
         aria-hidden="true"
       ></div>
     </transition>
     <SlideOverMenu />
     <NavHeader />
-      <Nuxt />
+    <Nuxt />
     <Footer />
   </div>
 </template>
@@ -17,10 +25,10 @@
 <script>
 export default {
   head() {
-      return {
-        script: this.headScript,
-      }
-    },
+    return {
+      script: this.headScript,
+    }
+  },
   computed: {
     showOverlayMenu() {
       return this.$store.state.overlayMenu
