@@ -6,9 +6,7 @@
       </PageSplitSection>
       <div class="w-full px-4 my-12">
         <PageTitle :title="missionContent.title" />
-        <div
-          class="px-4 md:px-0 grid md:grid-cols-2 gap-8 my-12"
-        >
+        <div class="px-4 md:px-0 grid md:grid-cols-2 gap-8 my-12">
           <PointsPanel
             v-for="point in missionContent.points"
             :key="point.about"
@@ -17,7 +15,7 @@
           />
         </div>
         <PageTitle :title="strategiesContent.title" />
-         <div
+        <div
           class="px-4 md:px-0 grid lg:grid-cols-5 md:grid-cols-3 gap-8 my-12"
         >
           <SimpleThumbnailCard
@@ -26,7 +24,6 @@
             :is-button="false"
             :text-top="strategy.about"
             :image="strategy.image"
-
           />
         </div>
         <PageTitle :title="storyContent.title" />
@@ -37,7 +34,7 @@
           />
         </div>
       </div>
-      <PageSplitSection :reverse='true' :img="commitmentContent.image">
+      <PageSplitSection :reverse="true" :img="commitmentContent.image">
         <PageTitle :title="commitmentContent.title" />
         <div class="w-full mb-8 md:mb-20">
           <nuxt-content
@@ -52,47 +49,37 @@
       <PageSection id="milestone">
         <div class="w-full" :style="{ backgroundImage: getBackgroundImage }">
           <div class="py-12">
-          <PageTitle :title="timelineContent.title" />
-        </div>
-        <vue-horizontal class="horizontal" responsive :button="true">
-          <div
-            v-for="(info, index) in timelineContent.milestone"
-            :key="info.title"
-            class=" sm:px-48 mx-24 px-2"
-          > 
-            <button
-              class="
-              relative
-              
-           
-                z-50
-                bg-mau-primary-700
-                rounded-md
-                py-1
-                px-4
-              "
-            >
-              <p class="text-center text-white text-lg">{{ info.year }}</p>
-            </button>
-
-            <div
-              v-if="index < 4"
-              class="
-                timeline
-                z-0
-                border-opacity-100 border-mau-primary-400 border
-                absolute
-                top-3
-                md:left-0
-                left-12
-              "
-            ></div>
-
-            <HorizontalTimelines :blurb="info.blurb" :image="info.image" />
+            <PageTitle :title="timelineContent.title" />
           </div>
-        </vue-horizontal>
+          <vue-horizontal class="horizontal" responsive :button="true">
+            <div
+              v-for="(info, index) in timelineContent.milestone"
+              :key="info.title"
+              class="sm:px-48 mx-24 px-2"
+            >
+              <button
+                class="relative z-50 bg-mau-primary-700 rounded-md py-1 px-4"
+              >
+                <p class="text-center text-white text-lg">{{ info.year }}</p>
+              </button>
+
+              <div
+                v-if="index < 4"
+                class="
+                  timeline
+                  z-0
+                  border-opacity-100 border-mau-primary-400 border
+                  absolute
+                  top-3
+                  md:left-0
+                  left-12
+                "
+              ></div>
+
+              <HorizontalTimelines :blurb="info.blurb" :image="info.image" />
+            </div>
+          </vue-horizontal>
         </div>
-        
       </PageSection>
     </div>
   </div>
@@ -123,13 +110,13 @@ export default {
         commitmentContent,
         timelineContent,
         journeyInfo,
-        strategiesContent
+        strategiesContent,
       }
     } catch (e) {
       error({ message: 'Content not found' })
     }
   },
-  data () {
+  data() {
     return {
       bgGreen: TextureBeige,
     }
