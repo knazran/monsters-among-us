@@ -2,6 +2,7 @@
   <div :style="{ backgroundImage: getBackgroundImage }">
     <div
       class="
+        min-h-screen
         py-12
         bg-scroll
         rotate-180
@@ -19,14 +20,18 @@
         />
 
         <div class="flex py-8">
+          <div v-if="isSignedUp" class="w-full max-w-lg">
+            <h4 class='text-lg text-mau-primary-700'>Thank you - we'll be in touch shortly.</h4>
+          </div>
           <form
+            v-else
+            id="app"
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
-            id="app"
-            @submit="checkForm"
             method="post"
+            @submit.prevent="handleSubmit"
           >
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
@@ -46,10 +51,11 @@
                 </label>
 
                 <input
+                  id="name"
+                  v-model="name"
                   name="name"
-                  @keypress="removeErrorName($event)"
                   placeholder="Your name :)"
-                  v-bind:class="errorsName ? 'error-border' : ''"
+                  :class="errorsName ? 'error-border' : ''"
                   class="
                     appearance-none
                     block
@@ -66,11 +72,10 @@
                     focus:bg-white
                     focus:border-gray-500
                   "
-                  id="name"
                   type="text"
-                  v-model="name"
+                  @keypress="removeErrorName($event)"
                 />
-                <p class="text-red-500" v-if="errorsName">
+                <p v-if="errorsName" class="text-red-500">
                   Please correct the following error(s): {{ errorsName }}
                 </p>
               </div>
@@ -90,9 +95,10 @@
                   E-mail
                 </label>
                 <input
+                  id="email"
+                  v-model="email"
                   name="email"
-                  @keypress="removeErrorEmail($event)"
-                  v-bind:class="errorsEmail ? 'error-border' : ''"
+                  :class="errorsEmail ? 'error-border' : ''"
                   placeholder="jane@example.com"
                   class="
                     appearance-none
@@ -110,11 +116,10 @@
                     focus:bg-white
                     focus:border-gray-500
                   "
-                  id="email"
                   type="email"
-                  v-model="email"
+                  @keypress="removeErrorEmail($event)"
                 />
-                <p class="text-red-500" v-if="errorsEmail">
+                <p v-if="errorsEmail" class="text-red-500">
                   Please correct the following error(s): {{ errorsEmail }}
                 </p>
               </div>
@@ -134,9 +139,10 @@
                   Message
                 </label>
                 <textarea
+                  id="message"
+                  v-model="message"
                   name="message"
-                  @keypress="removeErrorMessage($event)"
-                  v-bind:class="errorsMessage ? 'error-border' : ''"
+                  :class="errorsMessage ? 'error-border' : ''"
                   class="
                     no-resize
                     appearance-none
@@ -156,10 +162,9 @@
                     h-48
                     resize-none
                   "
-                  id="message"
-                  v-model="message"
+                  @keypress="removeErrorMessage($event)"
                 ></textarea>
-                <p class="text-red-500" v-if="errorsMessage">
+                <p v-if="errorsMessage" class="text-red-500">
                   Please correct the following error(s): {{ errorsMessage }}
                 </p>
               </div>
@@ -198,6 +203,7 @@ export default {
   data() {
     return {
       bgGreen: TextureGreen,
+      isSignedUp: false,
       name: '',
       email: '',
       message: '',
@@ -206,16 +212,28 @@ export default {
       errorsMessage: '',
     }
   },
+  computed: {
+    getBackgroundImage() {
+      return `url(${this.bgGreen})`
+    },
+  },
   methods: {
-    checkForm: function (e) {
+    async handleSubmit (e) {
       if (
         this.name &&
         this.message &&
         this.email &&
         this.validEmail(this.email)
       ) {
-        this.$refs.form.submit()
-        return true
+        // this.$refs.form.submit()
+        // return true
+        await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: this.encode({ 'form-name': 'contact', 'name': this.name, 'email': this.email, 'message': this.message }),
+        });
+
+        this.isSignedUp = true;
       }
       this.errorsName = ''
       this.errorsEmail = ''
@@ -235,24 +253,24 @@ export default {
 
       e.preventDefault()
     },
-    validEmail: function (email) {
-      var re =
+    encode(data) {
+      return Object.keys(data)
+        .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join('&');
+    },
+    validEmail (email) {
+      const re =
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
       return re.test(email)
     },
-    removeErrorName: function ($event) {
+    removeErrorName ($event) {
       this.errorsName = ''
     },
-    removeErrorEmail: function ($event) {
+    removeErrorEmail ($event) {
       this.errorsEmail = ''
     },
-    removeErrorMessage: function ($event) {
+    removeErrorMessage ($event) {
       this.errorsMessage = ''
-    },
-  },
-  computed: {
-    getBackgroundImage() {
-      return `url(${this.bgGreen})`
     },
   },
 }
