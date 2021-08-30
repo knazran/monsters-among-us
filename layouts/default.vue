@@ -10,7 +10,7 @@
           transition-opacity
           h-full
           min-h-screen
-          z-20
+          z-50
         "
         aria-hidden="true"
       ></div>

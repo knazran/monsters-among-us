@@ -12,12 +12,14 @@
         md:w-auto
         md:max-w-full
         flex
-        z-30
+        z-50
       "
     >
       <div class="w-screen max-w-md border-l-2 border-mau-primary-800">
         <!-- Panel -->
-        <div class="h-screen flex flex-col py-6 bg-mau-primary-700 shadow-xl">
+        <div
+          class="min-h-screen flex flex-col py-6 bg-mau-primary-700 shadow-xl"
+        >
           <div class="flex justify-end px-2">
             <button @click="closeMenu">
               <iconify-icon
@@ -29,7 +31,7 @@
           </div>
 
           <div class="mt-6 relative flex-1">
-            <MenuButton text="Home" to="index"></MenuButton>
+            <MenuButton text="Home" to="/index"></MenuButton>
             <MenuAccordion title="About Us">
               <MenuButton text="Our Story" to="/about-us"></MenuButton>
               <MenuButton text="Our Policies" to="/our-policies"></MenuButton>
