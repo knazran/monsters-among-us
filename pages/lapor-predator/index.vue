@@ -54,6 +54,7 @@
           v-for="partner in aboutContent.partners"
           :key="partner.name"
           class="
+          max-h-64
             bg-white
             rounded-lg
             shadow-lg
