@@ -26,16 +26,14 @@
           <form
             v-else
             id="app"
-            name="contact"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
-            method="post"
             @submit.prevent="handleSubmit"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
-                <input type="hidden" name="form-name" value="contact" />
+                
 
                 <label
                   class="
