@@ -31,7 +31,7 @@
           </div>
 
           <div class="mt-6 relative flex-1">
-            <MenuButton text="Home" to="/index"></MenuButton>
+            <MenuButton text="Home" to="/"></MenuButton>
             <MenuAccordion title="About Us">
               <MenuButton text="Our Story" to="/about-us"></MenuButton>
               <MenuButton text="Our Policies" to="/our-policies"></MenuButton>
