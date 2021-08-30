@@ -95,6 +95,8 @@
             ></a>
             <button
               class="
+                transform
+                hover:scale-105
                 rounded-xl
                 bg-mau-primary-700
                 text-center text-white
@@ -114,7 +116,7 @@
       <!-- BOT -->
       <div class="mx-auto mt-12 lg:mt-24">
         <div class="md:flex md:justify-center mb-8">
-          <PageTitle title="Gotta Read This" :center=true />
+          <PageTitle title="Gotta Read This" :center="true" />
         </div>
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 py-8">
           <div v-for="post of posts" :key="post.slug">

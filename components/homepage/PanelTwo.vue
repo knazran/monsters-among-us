@@ -91,6 +91,7 @@
                     xl:w-52
                     w-48
                     py-2
+                    transform hover:scale-105
                   "
                 >
                   Read More

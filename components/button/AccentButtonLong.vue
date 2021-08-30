@@ -9,6 +9,7 @@
       w-64
       py-2
       glow-button
+      transform hover:scale-105
     "
   >
     {{ text }}

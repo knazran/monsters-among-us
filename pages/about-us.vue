@@ -55,10 +55,18 @@
             <div
               v-for="(info, index) in timelineContent.milestone"
               :key="info.title"
-              class="sm:px-48 mx-24 px-2"
+              class="sm:px-48 mx-24 px-2 cursor-default"
             >
               <button
-                class="relative z-50 bg-mau-primary-700 rounded-md py-1 px-4"
+                class="
+                  cursor-default
+                  relative
+                  z-50
+                  bg-mau-primary-700
+                  rounded-md
+                  py-1
+                  px-4
+                "
               >
                 <p class="text-center text-white text-lg">{{ info.year }}</p>
               </button>
@@ -66,6 +74,7 @@
               <div
                 v-if="index < 4"
                 class="
+                  cursor-default
                   timeline
                   z-0
                   border-opacity-100 border-mau-primary-400 border
