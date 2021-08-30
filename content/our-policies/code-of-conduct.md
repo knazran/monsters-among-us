@@ -1,8 +1,8 @@
 ---
 id: 2
 title: Code of Conduct
-image: /img/advocate/discuss.jpg
-link: /our-policies/code-of-conduct
+image: /img/policy/Policy_COC.png
+link: https://drive.google.com/file/d/1-MvBvqkUszVBb89qtJHJH7D_S0vSXlYR/view
 ---
 
 ### PART A – MAU AS A NON-PROFIT YOUTH ORGANIZATION

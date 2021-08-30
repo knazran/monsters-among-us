@@ -1,7 +1,7 @@
 ---
 id: 1
 title: Child Protection Policy
-image: /img/advocate/forum.jpg
+image: /img/policy/Policy_CPP.png
 link: https://drive.google.com/file/d/1KT71HswjoZCDCZ34_jqrAAMmhPPAVQ9g/view
 ---
 
