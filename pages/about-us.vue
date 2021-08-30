@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-4 md:pt-8">
+  <div class="overflow-hidden pt-4 md:pt-8">
     <PageSection id="about-us">
       <PageSplitSection img="/img/about-us/About_Mission.jpg">
         <PageTitle title="About Monsters Among Us (MAU)" />
@@ -7,13 +7,26 @@
       <div class="w-full px-4 my-12">
         <PageTitle :title="missionContent.title" />
         <div
-          class="px-4 md:px-0 grid md:grid-cols-2 xl:grid-cols-3 gap-8 my-12"
+          class="px-4 md:px-0 grid md:grid-cols-2 gap-8 my-12"
         >
           <PointsPanel
             v-for="point in missionContent.points"
             :key="point.about"
             :title="point.about"
             :description="point.blurb"
+          />
+        </div>
+        <PageTitle :title="strategiesContent.title" />
+         <div
+          class="px-4 md:px-0 grid lg:grid-cols-5 md:grid-cols-3 gap-8 my-12"
+        >
+          <SimpleThumbnailCard
+            v-for="strategy in strategiesContent.points"
+            :key="strategy.about"
+            :is-button="false"
+            :text-top="strategy.about"
+            :image="strategy.image"
+
           />
         </div>
         <PageTitle :title="storyContent.title" />
@@ -50,6 +63,8 @@
             <button
               class="
               relative
+              
+           
                 z-50
                 bg-mau-primary-700
                 rounded-md
@@ -97,6 +112,8 @@ export default {
       const storyContent = await $content('about-us/story').fetch()
       const commitmentContent = await $content('about-us/commitment').fetch()
       const timelineContent = await $content('about-us/milestone').fetch()
+      const strategiesContent = await $content('about-us/strategies').fetch()
+
       const journeyInfo = await $content('lapor-predator/our-journeys')
         .sortBy('id')
         .fetch()
@@ -106,6 +123,7 @@ export default {
         commitmentContent,
         timelineContent,
         journeyInfo,
+        strategiesContent
       }
     } catch (e) {
       error({ message: 'Content not found' })

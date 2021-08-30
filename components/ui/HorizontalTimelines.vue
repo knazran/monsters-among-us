@@ -1,7 +1,7 @@
 <template>
   <!-- right timeline -->
-  <div class="my-5 w-full md:mx-1 mx-16 ">
-    <div class="w-96 flex justify-center items-center">
+  <div class="my-5 w-full md:mx-1 mx-2 ">
+    <div class="w-96 -mx-40">
       <div
         class="
           w-96
@@ -11,7 +11,7 @@
           overflow-hidden
           hover:shadow-xl
           transform
-          hover:scale-105
+          hover:scale-104
           duration-500
         "
       >
