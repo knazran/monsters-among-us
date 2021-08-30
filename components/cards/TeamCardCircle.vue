@@ -41,7 +41,7 @@
             hover:opacity-100
           "
         >
-          <h6 class="mb-4 tracking-wide text-left text-white">
+          <h6 class="mb-4 overflow-y-scroll tracking-wide text-left text-white">
             {{ description }}
           </h6>
         </div>
@@ -173,7 +173,7 @@ export default {
 <style scoped>
 h6 {
   font-size: 0.9rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 </style>
 
