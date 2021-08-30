@@ -42,7 +42,7 @@
             :document="beMemberContent"
           />
           <div class="py-4 -mx-2 flex md:justify-start justify-center">
-            <a href="https://github.com"><AccentButton text="Be A Member" /></a>
+            <a href="bit.ly/sayamaujoinmau "><AccentButton text="Be A Member" /></a>
           </div>
         </div>
         </PageSplitSection>
