@@ -1,7 +1,7 @@
 ---
 id: 3
 title: Privacy Policy
-image: /img/advocate/activity.jpg
+image: /img/policy/Privacy Policy.jpg
 link: /our-policies/privacy-policy
 ---
 
