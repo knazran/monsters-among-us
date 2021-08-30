@@ -8,7 +8,7 @@
       py-1
       mx-2
       hover:font-bold
-      hover:bg-mau-secondary-950
+      transform hover:scale-105
     "
   >
     {{ text }}

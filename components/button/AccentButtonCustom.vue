@@ -13,6 +13,7 @@
           xl:text-base
           hover:font-bold
           hover:bg-mau-secondary-950
+          transform hover:scale-105
         "
       >
         {{ text }}
@@ -31,6 +32,7 @@
           text-sm
           xl:text-base
           hover:font-bold
+          transform motion-safe:hover:scale-110
           hover:bg-mau-secondary-950
         "
       >

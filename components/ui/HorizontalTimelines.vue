@@ -1,10 +1,11 @@
 <template>
   <!-- right timeline -->
-  <div class="my-5 w-full md:mx-1 mx-2">
+  <div class="my-5 w-full md:mx-1 mx-2 cursor-default">
     <div class="w-96 -mx-40">
       <div
         class="
           w-96
+          cursor-default
           rounded-20x
           cursor-pointer
           shadow-lg
@@ -16,11 +17,11 @@
         "
       >
         <img
-          class="h-64 w-full object-cover rounded-t-20"
+          class="h-64 cursor-default w-full object-cover rounded-t-20"
           :src="image"
           alt=""
         />
-        <div class="h-96 p-4 bg-mau-primary-100">
+        <div class="cursor-default h-96 p-4 bg-mau-primary-100">
           <h1
             class="mt-4 font-normal text-justify text-base text-mau-primary-700"
           >

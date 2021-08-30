@@ -55,6 +55,7 @@
           >
             <button
               class="
+                          transform hover:scale-105
                 rounded-xl
                 bg-mau-primary-700
                 text-center text-white
