@@ -36,12 +36,12 @@
             text-center
             transition-opacity
             duration-300
-            bg-black bg-opacity-75
+            bg-mau-primary-700 bg-opacity-95
             opacity-0
             hover:opacity-100
           "
         >
-          <h6 class="mb-4 tracking-wide text-left text-gray-400">
+          <h6 class="mb-4 tracking-wide text-left text-white">
             {{ description }}
           </h6>
         </div>
@@ -173,7 +173,7 @@ export default {
 <style scoped>
 h6 {
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 </style>
 
