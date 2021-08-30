@@ -1,5 +1,5 @@
 <template>
-  <nav class="sticky top-0 bg-mau-primary-700  w-full z-40">
+  <nav class="sticky top-0 bg-mau-primary-700 w-full z-40">
     <div class="container mx-auto px-2 sm:px-6 lg:px-8">
       <div class="flex justify-between min-h-20 items-stretch">
         <div
@@ -26,14 +26,20 @@
             id="social-media"
             class="flex space-x-1 mb-4 md:mb-0 mx-4 items-start md:items-center"
           >
-            <a href="https://www.facebook.com/MonstersAmongUsMY" target="_blank">
+            <a
+              href="https://www.facebook.com/MonstersAmongUsMY"
+              target="_blank"
+            >
               <iconify-icon
                 :icon="icons.facebook"
                 height="28"
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.instagram.com/monstersamongus_my" target="_blank">
+            <a
+              href="https://www.instagram.com/monstersamongus_my"
+              target="_blank"
+            >
               <iconify-icon
                 :icon="icons.instagram"
                 height="28"
@@ -47,7 +53,10 @@
                 :style="{ color: 'white' }"
               />
             </a>
-            <a href="https://www.youtube.com/channel/UCvw1lAGU1waLvbyc2UHlJOA" target="_blank">
+            <a
+              href="https://www.youtube.com/channel/UCvw1lAGU1waLvbyc2UHlJOA"
+              target="_blank"
+            >
               <iconify-icon
                 :icon="icons.youtube"
                 height="28"
@@ -89,6 +98,33 @@
         </div>
       </div>
     </div>
+    <div id="panic-container" class="panic-button">
+      <span class="panic-button__text">Protect yourself online.</span>
+      <a
+        class="panic-button__link"
+        href="https://www.domesticshelters.org/safe-surfing"
+      >
+        Learn how to hide your browsing history.
+      </a>
+      <a
+        id="panic-button"
+        class="panic-button__button"
+        title="Google"
+        href="https://www.google.com/search?q=the+star"
+      >
+        <span class="panic-button__icon">&times;</span>
+        Quick exit (ESC)
+      </a>
+    </div>
+    <link
+      rel="stylesheet"
+      property="stylesheet"
+      href="https://cdn.rawgit.com/studiothick/panic-button/v1.2.0/dist/panic.css"
+    />
+    <script
+      async
+      src="https://cdn.rawgit.com/studiothick/panic-button/v1.2.0/dist/panic.min.js"
+    ></script>
   </nav>
 </template>
 

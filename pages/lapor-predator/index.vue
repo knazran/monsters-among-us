@@ -1,6 +1,13 @@
 <template>
   <div :style="{ backgroundImage: getBackgroundImage}">
-    <PageSection id="about-lapor-predator">
+    <div class="md:fixed md:bottom-0 md:left-0 py-16">
+        <img
+          class="object-contain h-56 lg:h-72 xl:h-96"
+          :src="aboutContent.bg_image"
+        />
+      </div>
+      <div class="relative z-10">
+        <PageSection id="about-lapor-predator">
       <PageSplitSection :img="aboutContent.main_poster">
         <PageTitleAlt
           :title="aboutContent.title"
@@ -22,12 +29,7 @@
       <!-- <div class="w-full flex justify-center md:justify-start md:transform md:-translate-y-20" >
         <img class='object-contain w-full md:w-1/2' :src="aboutContent.bg_image">
       </div> -->
-      <div class="md:fixed md:bottom-0 md:left-0 py-16">
-        <img
-          class="object-contain h-56 lg:h-72 xl:h-96"
-          :src="aboutContent.bg_image"
-        />
-      </div>
+      
     </PageSection>
     <PageSection id="our-journey">
       <PageTitleAlt title="Our Journey" />
@@ -77,6 +79,8 @@
         </div>
       </div>
     </PageSection>
+      </div>
+    
   </div>
 </template>
 
