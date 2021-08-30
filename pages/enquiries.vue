@@ -20,11 +20,10 @@
         />
 
         <div class="flex py-8">
-          <div v-if="isSignedUp" class="w-full max-w-lg">
+          <!-- <div v-if="isSignedUp" class="w-full max-w-lg">
             <h4 class='text-lg text-mau-primary-700'>Thank you - we'll be in touch shortly.</h4>
-          </div>
+          </div> -->
           <form
-            v-else
             id="app"
             name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
@@ -33,8 +32,6 @@
             <input type="hidden" name="form-name" value="contact" />
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full px-3">
-                
-
                 <label
                   class="
                     block
