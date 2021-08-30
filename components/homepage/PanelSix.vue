@@ -1,6 +1,7 @@
 <template>
-  <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
-    <div class="container mx-auto py-8 px-4 lg:px-8">
+  <div class="h-full">
+    <BackgroundWrapper color='beige'>
+      <div class="container mx-auto py-8 px-4 lg:px-8">
       <!-- TOP -->
 
       <div class="mx-auto flex md:flex-row md:my-8 flex-col-reverse">
@@ -111,10 +112,11 @@
           </div>
         </div>
       </div>
-      <!-- End Right -->
-      <!-- End TOP -->
-      <!-- BOT -->
-      <div class="mx-auto mt-12 lg:mt-24">
+    </div>
+    </BackgroundWrapper>
+    <BackgroundWrapper color='green'>
+      <div class="container mx-auto py-8 px-4 lg:px-8">
+      <div class="mx-auto mt-12 ">
         <div class="md:flex md:justify-center mb-8">
           <PageTitle title="Gotta Read This" :center="true" />
         </div>
@@ -136,6 +138,8 @@
       </div>
       <!-- END BOT -->
     </div>
+    </BackgroundWrapper>
+
   </div>
 </template>
 
