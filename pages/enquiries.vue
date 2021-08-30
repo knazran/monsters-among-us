@@ -20,11 +20,11 @@
         />
 
         <div class="flex py-8">
-          <!-- <div v-if="isSignedUp" class="w-full max-w-lg">
+          <div v-if="isSignedUp" class="w-full max-w-lg">
             <h4 class='text-lg text-mau-primary-700'>Thank you - we'll be in touch shortly.</h4>
-          </div> -->
+          </div>
           <form
-            id="app"
+            v-else
             name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
             class="w-full max-w-lg"
             @submit.prevent="handleSubmit"
