@@ -20,7 +20,9 @@ In 2018, the Guttmacher-Lancet Commission on Sexual and Reproductive Health and 
 
 This means that SRHR does not only include sexual practices and rights, but also includes issues like abortion, HIV and other sexually transmitted infections (STIs), maternal health and rights, contraceptive access, gender-based violence, discrimination and stigma, and more. As such, SRHR comprises the nine (9) sections below as depicted in the diagram found in the background document for the Nairobi Summit on ICPD25 - Accelerating the Promise, titled: Sexual Health and Reproductive Rights: An Essential Element of Universal Health Coverage.
 
-![Nairobi Summit](/img/issues/shrh.png)
+<div class='flex justify-center'>
+    <img class='w-full md:w-4/5 lg:w-1/2 object-contain' src='/img/issues/shrh.png'>
+</div>
 
 ### Analytical Definition
 
@@ -118,7 +120,7 @@ Evidently, PEERS discusses issues from a strict abstinence and moral perspective
 
 ## What we can do to uphold SRHR
 
-### 1 Volunteer/Work for organizations in Malaysia that advocate for SRHR such as the Federation of Reproductive Health Associations, Malaysia (FRHAM), which:
+### 1. Volunteer/Work for organizations in Malaysia that advocate for SRHR such as the Federation of Reproductive Health Associations, Malaysia (FRHAM), which:
 - Is an implementing partner of United Nations Population Fund (UNFPA) which organizes sexual and reproductive health programmes in Malaysia;
 - Has branches in all states; and
 - Educates and provides knowledge to difficult-to-reach communities by conducting health screenings, blood tests, pap smears and mammograms, as well as providing access to long-acting reversible contraceptives and general advice on sexual and reproductive healthcare.
