@@ -1,7 +1,7 @@
 ---
 title: Colour with MAU
-preview: A basic guide to comprehensive sexuality education children from all diversities.
-description: A basic guide to comprehensive sexuality education children from all diversities.
+preview: A basic guide to comprehensive sexuality education for children in all their diversity.
+description: A basic guide to comprehensive sexuality education for children in all their diversity.
 logo: /img/initiative/Colour with MAU.png
 main_poster: /img/initiative/Our Initiatives_CB.png
 link: /initiatives/colour-with-mau

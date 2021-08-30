@@ -1,8 +1,7 @@
 <template>
   <div class="h-full" :style="{ backgroundImage: getBackgroundImage }">
     <div class="container mx-auto py-8 lg:py-16 px-4 lg:px-8">
-     <PageTitle title="Advocate With Us" description=" We are always looking for volunteers, colaborators, and members to join
-        the cause"/>
+     <PageTitle title="Advocate With Us" description=" We are always looking for volunteers, collaborators and members to join the cause."/>
       <div
         class="
           mt-8
