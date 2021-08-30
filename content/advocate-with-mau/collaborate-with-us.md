@@ -1,6 +1,6 @@
 ---
 title: Collaborate With Us
-image: /img/advocate/activity.jpg
+image: /img/advocate/Advocate Collaorate.jpg
 description: Let’s create change! 
            
 ---
