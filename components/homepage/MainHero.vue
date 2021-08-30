@@ -10,7 +10,7 @@
         py-8
         lg:py-16
         px-4
-        lg:px-8
+        lg:px-1
         2xl:px-0
       "
     >
@@ -55,14 +55,16 @@
           >
             <button
               class="
-                          transform hover:scale-105
+                transform
+                hover:scale-105
                 rounded-xl
                 bg-mau-primary-700
                 text-center text-white
                 2xl:w-64
                 xl:w-52
                 w-64
-                xl:ml-5 xl:mt-0
+                xl:ml-5
+                xl:mt-0
                 mt-3
                 py-2
               "
@@ -80,7 +82,8 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="
-              lg:transform lg:translate-x-16
+              lg:transform
+              lg:translate-x-16
               -z-20
               object-cover
               xl:h-72
