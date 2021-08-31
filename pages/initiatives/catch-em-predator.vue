@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <BackgroundWrapper color='green'>
     <PageSection id="catch-em-predator">
       <PageSplitSection :img="content.main_poster">
         <PageTitle
@@ -14,7 +14,7 @@
     <div class="md:fixed md:bottom-0 md:right-0 px-8 py-16" style="z-index:-1">
       <img class='object-contain h-56 lg:h-72 xl:h-96' :src="content.bg_image">
     </div>
-  </div>
+  </BackgroundWrapper>
 </template>
 
 <script>
