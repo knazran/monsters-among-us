@@ -99,7 +99,8 @@
       </div>
     </div>
     <div id="panic-container" class="panic-button">
-      <span class="panic-button__text">Protect yourself online.</span>
+      <div class="hidden md:block">
+        <span class="panic-button__text">Protect yourself online.</span>
       <a
         class="panic-button__link"
         href="https://www.domesticshelters.org/safe-surfing"
@@ -115,12 +116,19 @@
         <span class="panic-button__icon">&times;</span>
         Quick exit (ESC)
       </a>
+      </div>
+      <div class="block md:hidden bg-red-500 text-white">
+        <a
+        id="panic-button"
+        class=""
+        title="Google"
+        href="https://www.google.com/search?q=the+star"
+      >
+        Quick exit (ESC)
+      </a>
+      </div>
+      
     </div>
-    <link
-      rel="stylesheet"
-      property="stylesheet"
-      href="https://cdn.rawgit.com/studiothick/panic-button/v1.2.0/dist/panic.css"
-    />
     <script
       async
       src="https://cdn.rawgit.com/studiothick/panic-button/v1.2.0/dist/panic.min.js"
@@ -155,3 +163,65 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.panic-button {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1em;
+  vertical-align: middle;
+  color: #000;
+  box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.05);
+  display: none;
+  overflow: hidden;
+}
+
+/* @media (min-width: 37.5em) { */
+  .panic-button {
+    display: block;
+  }
+/* } */
+
+.panic-button__link {
+  color: #666;
+  text-decoration: underline;
+}
+
+.panic-button__link:hover, .panic-button__link:active {
+  color: #444;
+}
+
+.panic-button__button {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  display: inline-block;
+  background-color: #ef0834;
+  color: #fff;
+  padding: 0 .7em;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+}
+
+@media (min-width: 64em) {
+  .panic-button__button {
+    padding: 0 1em;
+  }
+}
+
+.panic-button__button:hover, .panic-button__button:active {
+  color: #fff;
+  background-color: #d6072f;
+}
+
+.panic-button__icon {
+  margin-right: .5em;
+  font-size: 1.08em;
+}
+</style>
