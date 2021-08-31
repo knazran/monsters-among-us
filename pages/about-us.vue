@@ -66,6 +66,8 @@
                   rounded-md
                   py-1
                   px-4
+                  left-40
+                  sm:left-0
                 "
               >
                 <p class="text-center text-white text-lg">{{ info.year }}</p>
@@ -81,7 +83,7 @@
                   absolute
                   top-3
                   md:left-0
-                  left-12
+                  left-10
                 "
               ></div>
 
