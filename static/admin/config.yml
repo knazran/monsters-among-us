@@ -69,7 +69,7 @@ collections:
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
   - label: "Our Story"
     name: "story"
-    file: content/about-us/commitment.md
+    files: content/about-us/commitment.md
     widget: "object"
     fields:
       # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
