@@ -75,9 +75,9 @@ collections:
       # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: 
+      - label: "Commitment"
         folder: 'content/about-us/commitment'
-        name: board_members
+        name: commitment
         widget: object
         fields:
           - {label: Title, name: title, widget: string, default: "Emmet"}
