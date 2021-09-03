@@ -69,6 +69,7 @@ collections:
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
   - label: "Our Story"
     name: "story"
+    label_singular: 'Our Story'
     folder: 'content/about-us'
     nested: { depth: 100 } # accepts an optional summary template
     fields:
