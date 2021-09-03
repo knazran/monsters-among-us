@@ -69,7 +69,7 @@ collections:
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
   - label: "Our Commitment"
     name: "commitment"
-    folder: 'content/about-us/commitment'
+    folder: 'content/commitment'
     fields:
         - {label: Title, name: title, widget: string, default: "Emmet"}
         - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
