@@ -67,23 +67,65 @@ collections:
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
           - {label: Description, name: blurb, widget: string, default: "Emmet"}
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
-  # - label: "Our Story"
-  #   name: "story"
-  #   folder: 'content/about-us'
-  #   fields:
-  #     # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
-  #     # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
-  #     # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-  #     - label: "Commitment"
-  #       # folder: 'content/about-us/commitment'
-  #       name: commitment
-  #       widget: object
-  #       fields:
-  #         - {label: Title, name: title, widget: string, default: "Emmet"}
-  #         - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
-  #         - {label: Description, name: blurb, widget: string, default: "Emmet"}
-  #         - { label: 'Body', name: 'body', widget: 'markdown' }
-  #       meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  - label: "Our Commitment"
+    name: "commitment"
+    folder: 'content/about-us/commitment'
+    fields:
+      # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
+        - {label: Title, name: title, widget: string, default: "Emmet"}
+        - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: "Our Story"
+    name: "story"
+    folder: 'content/about-us/story'
+    fields:
+      # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
+        - {label: Title, name: title, widget: string, default: "Emmet"}
+        - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: "Our Mission & Vision"
+    name: "mission"
+    folder: 'content/about-us/mission'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - {label: 'Image', name: 'image', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Mission/Vision, name: about, widget: string, default: "Emmet"}
+          - {label: Description, name: blurb, widget: string, default: "/img/team/team-bg-2.png"}
+  - label: "Civic Engagement Strategies"
+    name: "mission"
+    folder: 'content/about-us/strategies'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Strategies, name: about, widget: string, default: "Emmet"}
+          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+   - label: "Our Milestone"
+    name: "milestone"
+    folder: 'content/about-us/milestone'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Year, name: year, widget: string, default: "Emmet"}
+          - {label: Description, name: blurb, widget: string, default: "Emmet"}
+          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+  
 
-   
+
           
