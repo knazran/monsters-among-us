@@ -43,19 +43,14 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'Meet The Team'
-    name: 'team'
+  - label: FAQS
     folder: 'content/meet-the-team'
-    fields:
-      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
-      - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
-      - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: 'Board Members'
-        name: 'board_members'
-        widget: 'object'
-        collapsed: true
-        fields:
-            - {label: 'Name', name: 'name', widget: 'string', default: "Emmet"}
-            - {label: 'Image', name: 'image', widget: 'image', default: "/img/emmet.jpg"}
-            - {label: 'Position', name: 'position', widget: 'string', default: "/img/emmet.jpg"}
-            - {label: 'Description', name: 'blurb', widget: 'string', default: "/img/emmet.jpg"}
+        name: faqs
+        widget: list
+        fields: 
+          - label: FAQ
+            name: faq
+            widget: object
+            fields:
+              - { label: Question, name: question, widget: string, default: "Question" }
+              - { label: Answer, name: answer, widget: string, default: "Answer" }
