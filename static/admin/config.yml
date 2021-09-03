@@ -82,6 +82,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        required: false
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
