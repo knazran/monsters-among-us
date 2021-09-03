@@ -81,10 +81,12 @@ collections:
         name: commitment
         widget: object
         fields:
-          - {label: Title, name: title, widget: string, default: "Emmet"}
-          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
-          - {label: Description, name: blurb, widget: string, default: "Emmet"}
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
         meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
