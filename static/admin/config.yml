@@ -77,7 +77,6 @@ collections:
       # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
       - label: "Commitment"
-        folder: 'content/about-us/commitment'
         name: commitment
         fields:
           - label: Title
@@ -86,7 +85,16 @@ collections:
           - label: Body
             name: body
             widget: markdown
-        meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+      - label: "Mission"
+        name: mission
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
           
