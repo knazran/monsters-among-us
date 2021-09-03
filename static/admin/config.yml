@@ -47,14 +47,16 @@ collections:
     name: "team"
     folder: 'content/meet-the-team'
     widget: "list"
-    summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: Author
-        name: author
+      - label: Board Members
+        name: board_members
         widget: object
         fields:
           - {label: Name, name: name, widget: string, default: "Emmet"}
-          - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+          - {label: Image, name: image, widget: image, default: "/img/emmet.jpg"}
+          - {label: Description, name: blurb, widget: string, default: "Emmet"}
+          - {label: Position, name: position, widget: string, default: "/img/emmet.jpg"}
+          
