@@ -85,15 +85,6 @@ collections:
           - label: Body
             name: body
             widget: markdown
-      - label: "Mission"
-        name: mission
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Image
-            name: image
-            widget: image
      meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
