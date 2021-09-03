@@ -48,7 +48,7 @@ collections:
     widget: 'list'
     folder: 'content/meet-the-team'
     fields:
-      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - {label: 'T', name: 't', widget: 'string', default: "Everything is awesome!"}
       - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
       - label: 'Board Members'
