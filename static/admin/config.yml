@@ -67,24 +67,23 @@ collections:
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
           - {label: Description, name: blurb, widget: string, default: "Emmet"}
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
-  - label: "Our Story"
-    name: "story"
-    label_singular: 'Our Story'
-    folder: 'content/about-us'
-    nested: { depth: 1000 } # accepts an optional summary template
-    fields:
-      # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
-      # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
-      # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: "Commitment"
-        name: commitment
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
+  # - label: "Our Story"
+  #   name: "story"
+  #   folder: 'content/about-us'
+  #   fields:
+  #     # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+  #     # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+  #     # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
+  #     - label: "Commitment"
+  #       # folder: 'content/about-us/commitment'
+  #       name: commitment
+  #       widget: object
+  #       fields:
+  #         - {label: Title, name: title, widget: string, default: "Emmet"}
+  #         - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+  #         - {label: Description, name: blurb, widget: string, default: "Emmet"}
+  #         - { label: 'Body', name: 'body', widget: 'markdown' }
+  #       meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
           
