@@ -45,6 +45,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: "Testimonials"
     name: "testimonials"
+    folder: 'content/meet-the-team'
     widget: "list"
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
