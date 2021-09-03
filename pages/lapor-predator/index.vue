@@ -89,17 +89,13 @@ import TextureGreen from '~/static/img/textures/texture-green-2.png'
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const aboutContent = await $content('lapor-predator/about').fetch()
-      const journeyContent = await $content(
-        'lapor-predator/our-journey'
-      ).fetch()
+      const aboutContent = await $content('lapor-predator/intro-content/about').fetch()
       const journeyInfo = await $content('lapor-predator/our-journeys')
         .sortBy('id')
         .fetch()
 
       return {
         aboutContent,
-        journeyContent,
         journeyInfo,
       }
     } catch (e) {

@@ -39,7 +39,7 @@ import TextureGreen from '~/static/img/textures/texture-green-2.png'
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const content = await $content('lapor-predator/how-to').fetch()
+      const content = await $content('lapor-predator/intro-content/how-to').fetch()
       return {
         content,
       }

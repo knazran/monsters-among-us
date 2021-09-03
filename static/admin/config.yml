@@ -115,8 +115,8 @@ collections:
     widget: "list"
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
-      - label: Points
-        name: points
+      - label: Milestone
+        name: milestone
         widget: list
         fields:
           - {label: Year, name: year, widget: string, default: "Emmet"}
@@ -126,7 +126,7 @@ collections:
     label: Our Policies
     label_singular: 'Our Policies'
     folder: content/our-policies
-    nested: { depth: 100 } # accepts an optional summary template
+    nested: { depth: 100 } 
     fields:
       - label: Title
         name: title
@@ -160,7 +160,36 @@ collections:
       - label:  Content 
         name:   body
         widget: markdown
-
+  - label: "Lapor Predator"
+    name: "lapor_predator"
+    folder: 'content/lapor-predator/intro-content'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - label: Milestone
+        name: milestone
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string, default: "Emmet"}
+          - {label: Description, name: description, widget: string, default: "Emmet"}
+          - {label: Main Poster, name: main_poster, widget: image, default: "/img/team/team-bg-2.png"}
+  - name: our_journey
+    label: Our Journey
+    label_singular: 'Our Journey'
+    folder: content/lapor-predator/our-journeys
+    nested: { depth: 100 } 
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Image
+        name: img
+        widget: image
+        choose_url: true
+        default: "/img/team/team-bg-1.png"
+      - label: Content
+        name: body
+        widget: markdown
     # meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
 
