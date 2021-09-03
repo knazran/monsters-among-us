@@ -25,7 +25,7 @@
                 style="position: relative; max-width: 400px; min-width: 100px"
               >
                 <iframe
-                  src="https://www.instagram.com/p/CTGrNElHxe1/embed/"
+                  src="https://www.instagram.com/p/CTRFbo6PpLZ/embed/"
                   allowtransparency="true"
                   allowfullscreen="true"
                   frameborder="0"
@@ -51,7 +51,7 @@
                 style="position: relative; max-width: 400px; min-width: 100px"
               >
                 <iframe
-                  src="https://www.instagram.com/p/CTFCsjhJ3s7/embed/"
+                  src="https://www.instagram.com/p/CTO6UbRP7cP/embed/"
                   allowtransparency="true"
                   allowfullscreen="true"
                   frameborder="0"
