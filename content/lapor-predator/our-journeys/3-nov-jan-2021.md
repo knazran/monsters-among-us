@@ -1,5 +1,5 @@
 ---
-title: 3-nov-jan-2021
+title: November 2020 - January 2021
 img:  /img/our-journey/LP_Protoype.jpeg
 id: 3
 ---

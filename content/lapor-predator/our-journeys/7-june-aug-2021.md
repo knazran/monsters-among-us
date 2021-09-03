@@ -1,5 +1,5 @@
 ---
-title: 7-jun-aug-2021
+title: Jun 2021 - August 2021
 img: /img/our-journey/LP_Catch Em Predator Workshop.png
 id: 7
 ---

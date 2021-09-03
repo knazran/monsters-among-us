@@ -147,7 +147,6 @@ collections:
       - {label: 'Content', name: 'body', widget: 'markdown'}
   - name: 'our_journey'
     label: '(Our Initiatives) Lapor Predator - Our Journey'
-    label_singular: 'Our Journey'
     folder: 'content/lapor-predator/our-journeys'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Null'}
