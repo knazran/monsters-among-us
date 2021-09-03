@@ -71,7 +71,7 @@ collections:
     name: "story"
     label_singular: 'Our Story'
     folder: 'content/about-us'
-    nested: { depth: 100 } # accepts an optional summary template
+    nested: { depth: 1000 } # accepts an optional summary template
     fields:
       # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
