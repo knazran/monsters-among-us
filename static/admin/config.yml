@@ -43,9 +43,9 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'Meet The Team'
+  - label: 'Meet The Team',
     name: 'team'
-    widget: 'list',
+    widget: 'list'
     folder: 'content/meet-the-team'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
