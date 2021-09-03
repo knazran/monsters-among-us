@@ -59,4 +59,12 @@ collections:
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
           - {label: Description, name: blurb, widget: string, default: "Emmet"}
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
+      - label: Lapor Predator Members
+        name: lapor_predator_members
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+          - {label: Description, name: blurb, widget: string, default: "Emmet"}
+          - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
           
