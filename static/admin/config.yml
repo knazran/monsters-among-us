@@ -43,14 +43,15 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'FAQS'
-    folder: 'content/meet-the-team'
-        name: faqs
-        widget: list
-        fields: 
-          - label: FAQ
-            name: faq
-            widget: object
-            fields:
-              - { label: Question, name: question, widget: string, default: "Question" }
-              - { label: Answer, name: answer, widget: string, default: "Answer" }
+  - label: "Testimonials"
+    name: "testimonials"
+    widget: "list"
+    summary: '{{fields.quote}} - {{fields.author.name}}'
+    fields:
+      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      - label: Author
+        name: author
+        widget: object
+        fields:
+          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
