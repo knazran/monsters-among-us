@@ -69,19 +69,20 @@ collections:
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
   - label: "Our Story"
     name: "story"
-    files: content/about-us/commitment.md
+    folder: 'content/about-us'
     widget: "object"
     fields:
       # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: Board Members
+      - label: 
+        folder: 'content/about-us/commitment'
         name: board_members
         widget: object
         fields:
-          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Title, name: title, widget: string, default: "Emmet"}
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
           - {label: Description, name: blurb, widget: string, default: "Emmet"}
-          - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
+          - { label: 'Body', name: 'body', widget: 'markdown' }
    
           
