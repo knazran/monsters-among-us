@@ -112,7 +112,7 @@ collections:
         fields:
           - {label: Strategies, name: about, widget: string, default: "Emmet"}
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
-   - label: "Our Milestone"
+  - label: "Our Milestone"
     name: "milestone"
     folder: 'content/about-us/milestone'
     widget: "list"
