@@ -76,18 +76,13 @@ collections:
       # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: "Commitment"
-        # folder: 'content/about-us/commitment'
-        name: commitment
-        widget: object
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
-        meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
    
           
