@@ -101,7 +101,7 @@ collections:
           - {label: Mission/Vision, name: about, widget: string, default: "Emmet"}
           - {label: Description, name: blurb, widget: string, default: "/img/team/team-bg-2.png"}
   - label: "Civic Engagement Strategies"
-    name: "mission"
+    name: "strategies"
     folder: 'content/about-us/strategies'
     widget: "list"
     fields:
