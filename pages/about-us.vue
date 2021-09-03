@@ -106,11 +106,11 @@ export default {
   async asyncData({ $content, params, error }) {
     //
     try {
-      const missionContent = await $content('about-us/mission').fetch()
-      const storyContent = await $content('about-us/story').fetch()
-      const commitmentContent = await $content('about-us/commitment').fetch()
-      const timelineContent = await $content('about-us/milestone').fetch()
-      const strategiesContent = await $content('about-us/strategies').fetch()
+      const missionContent = await $content('about-us/mission/').fetch()
+      const storyContent = await $content('about-us/story/').fetch()
+      const commitmentContent = await $content('about-us/commitment/').fetch()
+      const timelineContent = await $content('about-us/milestone/').fetch()
+      const strategiesContent = await $content('about-us/strategies/').fetch()
 
       const journeyInfo = await $content('lapor-predator/our-journeys')
         .sortBy('id')
