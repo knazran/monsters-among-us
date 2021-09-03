@@ -28,7 +28,7 @@ collections:
           choose_url: true,
           default: 'kid-hero.jpg',
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
   - name: 'advocate'
     label: 'Advocate With Us'
     folder: 'content/advocate-with-mau/editable'
@@ -42,21 +42,7 @@ collections:
           choose_url: true,
           default: 'kid-hero.jpg',
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'commitment'
-    label: 'Commitment'
-    folder: 'content/about-us/commitment'
-    delete: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Featured Image',
-          name: 'image',
-          widget: 'image',
-          choose_url: true,
-          default: 'kid-hero.jpg',
-        }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
   - label: "Meet The Team"
     name: "team"
     folder: 'content/meet-the-team'
@@ -81,4 +67,100 @@ collections:
           - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
           - {label: Description, name: blurb, widget: string, default: "Emmet"}
           - {label: Position, name: position, widget: string, default: "/img/team/team-bg-2.png"}
- 
+  - label: "Our Commitment"
+    name: "commitments"
+    folder: 'content/about-us/commitment'
+    fields:
+        - {label: Title, name: title, widget: string, default: "Emmet"}
+        - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+        - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: "Our Story"
+    name: "stories"
+    folder: 'content/about-us/story'
+    fields:
+      # - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      # - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      # - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
+        - {label: Title, name: title, widget: string, default: "Emmet"}
+        - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+        - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: "Our Mission & Vision"
+    name: "missions"
+    folder: 'content/about-us/mission'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - {label: 'Image', name: 'image', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Mission/Vision, name: about, widget: string, default: "Emmet"}
+          - {label: Description, name: blurb, widget: string, default: "/img/team/team-bg-2.png"}
+  - label: "Civic Engagement Strategies"
+    name: "strategy"
+    folder: 'content/about-us/strategies'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Strategies, name: about, widget: string, default: "Emmet"}
+          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+  - label: "Our Milestone"
+    name: "milestones"
+    folder: 'content/about-us/milestone'
+    widget: "list"
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - label: Points
+        name: points
+        widget: list
+        fields:
+          - {label: Year, name: year, widget: string, default: "Emmet"}
+          - {label: Description, name: blurb, widget: string, default: "Emmet"}
+          - {label: Image, name: image, widget: image, default: "/img/team/team-bg-2.png"}
+  - name: policies
+    label: Our Policies
+    label_singular: 'Our Policies'
+    folder: content/our-policies
+    nested: { depth: 100 } # accepts an optional summary template
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Image
+        name: image
+        widget: image
+        choose_url: true
+        default: "/img/team/team-bg-1.png"
+      - label: Link
+        name: link
+        widget: string
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  - name: initiative
+    label: Our Initiatives
+    label_singular: 'Our Initiatives'
+    folder: content/initiatives
+    nested: { depth: 100 } # accepts an optional summary template
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: string
+      - label: Main Poster
+        name: main_poster
+        widget: image
+        choose_url: true
+        default: "/img/team/team-bg-1.png"
+      - label:  Content 
+        name:   body
+        widget: markdown
+
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+
+
