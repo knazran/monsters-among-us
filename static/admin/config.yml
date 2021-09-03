@@ -43,7 +43,7 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: FAQS
+  - label: 'FAQS'
     folder: 'content/meet-the-team'
         name: faqs
         widget: list
