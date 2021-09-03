@@ -43,13 +43,15 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: "Testimonials"
-    name: "testimonials"
+  - label: "Meet The Team"
+    name: "team"
     folder: 'content/meet-the-team'
     widget: "list"
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
-      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
+      - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
+      - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
       - label: Author
         name: author
         widget: object
