@@ -51,8 +51,8 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', default: "Everything is awesome!"}
       - {label: 'Background Image 1', name: 'bg_image_1', widget: 'image',choose_url: true, default: "/img/team/team-bg-1.png"}
       - {label: 'Background Image 2', name: 'bg_image_2', widget: 'image',choose_url: true, default: "/img/team/team-bg-2.png"}
-      - label: Board Member
-        name: board_member
+      - label: Board Members
+        name: board_members
         widget: list
         fields:
           - {label: Name, name: name, widget: string, default: "Emmet"}
