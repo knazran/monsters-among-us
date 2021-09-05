@@ -6,7 +6,7 @@ description: This short write up discusses the political fatigue that we are all
 author: Loong Dien Min (Intern)
 image: /img/1.png
 ---
-With the drastically evolving state of our political landscape in Malaysia, Monsters Among Us (MAU) is aware that the uncertainty and doubt towards the future can lead to intense political stress among individuals. Regular consumption of news related to such political instability can hence lead to feelings of discomfort, anxiety and depression.
+With the drastically evolving state of our political landscape in Malaysia, Monsters Among Us (MAU) is aware that uncertainty and doubt towards the future can lead to intense political stress among individuals. Regular consumption of news related to such political instability can hence lead to feelings of discomfort, anxiety and depression.
 
 ![](/img/2.png)
 
