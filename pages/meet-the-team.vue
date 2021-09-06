@@ -50,7 +50,7 @@
             v-for="member in boardMembers"
             :key="member.name"
             :name="member.name"
-            :title="member.title"
+            :title="member.position"
             :img="member.image"
             :description="member.blurb"
           />
@@ -83,7 +83,7 @@
             v-for="member in lpMembers"
             :key="member.name"
             :name="member.name"
-            :title="member.title"
+            :title="member.position"
             :img="member.image"
             :description="member.blurb"
           />

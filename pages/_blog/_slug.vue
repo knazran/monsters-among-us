@@ -57,8 +57,9 @@
 
           <!-- Content -->
           <nuxt-content
-            class="prose prose-md lg:prose-lg max-w-none"
+            class="prose prose-md lg:prose-lg max-w-none img-class"
             :document="post"
+            id="img_blog"
           />
         </div>
       </div>
@@ -90,3 +91,8 @@ export default {
   },
 }
 </script>
+<style scoped>
+#img_blog img {
+   margin: auto;
+}
+</style>

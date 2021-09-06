@@ -81,10 +81,10 @@ export default {
     //
     try {
       const beMemberContent = await $content(
-        'advocate-with-mau/be-a-member'
+        'advocate-with-mau/editable/be-a-member'
       ).fetch()
       const collaborateContent = await $content(
-        'advocate-with-mau/collaborate-with-us'
+        'advocate-with-mau/editable/collaborate-with-us'
       ).fetch()
       const volunteersContent = await $content(
         'advocate-with-mau/editable/volunteers-and-vacancies'

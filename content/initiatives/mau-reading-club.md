@@ -6,7 +6,7 @@ logo: /img/initiative/MAU Reading Club.png
 main_poster: /img/initiative/Our Initiatives_RC.png
 bg_image: /img/initiative/read-mau-bg.png
 link: /initiatives/mau-reading-club
-order: 4
+order: 3
 ---
 
 MAU Reading Club is an ongoing initiative that began in 2020 to encourage members and our audience to read and openly speak about issues pertaining to Child Sexual Abuse and Online Child Sexual Exploitation and Abuse. It is held every Friday from 9 pm to 10 pm, an hour-long discussion where both the respective speakers and members of MAU have the opportunity to interact with one another in a safe and open space. 

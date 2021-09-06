@@ -1,5 +1,5 @@
 ---
-title: 8-future
+title: Future
 img: /img/advocate/activity.jpg
 id: 8
 ---
