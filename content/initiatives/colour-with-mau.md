@@ -14,7 +14,7 @@ link: /initiatives/colour-with-mau
 
 'My Body, My Rules' is a children’s colouring book that may serve as an initial guide for parents, guardians and educators as well as children who want to ease into sexuality education. 'My Body, My Rules' came into being to mitigate the lack of comprehensive sexuality education which is accessible to children from all backgrounds and which enables them to learn about topics such as intimacy, sexual abuse and navigating the legal protection that is available to them in Malaysia. The content of the book is tailored according to the social and cultural factors that affect children in Malaysia.
 
-'My Body, My Rules' has been in production since January 2021 and will be launched on 24th September 2021 in conjunction with World Youth Day. 9 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
+'My Body, My Rules' has been in production since January 2021 and is currently available for pre-orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
 
 ### The 9 artists contributing are:-
 
@@ -32,7 +32,7 @@ link: /initiatives/colour-with-mau
 
 The book would not have been made a reality without the talent of these artists, so check them out and support them as you do MAU!
 
-You can start to pre-order MAU Colouring Book now till the 21st of September 2021! The early bird price is RM38 (original price: RM45)! Click the button below to order the Colouring Book today!
+The early bird price is RM38 (original price: RM45) which ends on 26 September 2021! Click the button below to order the Colouring Book today!
 
 <a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='transform
                 hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Pre-Order </button> </a>
