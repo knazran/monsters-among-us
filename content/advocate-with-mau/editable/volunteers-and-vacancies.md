@@ -14,15 +14,12 @@ From our symposium days to helping children through our Lapor Predator chatbot, 
 
 We provide volunteering and job opportunities of varying levels of workload and challenges, and we promise there is something for everyone. If this sounds like a great opportunity, reach out to us so we can work together!
 
+
+
 **Job Opportunities**
 
-
-
 1. Crisis Officer (contract basis) [<button class='rounded-lg my-4 px-8 text-white bg-mau-primary-700 '> Apply </button>](https://forms.gle/tcZdgCCSHBKsNzys6)
-
 2. Social Media Officer (contract basis) [<button class='rounded-lg my-4 px-8 text-white bg-mau-primary-700 '> Apply </button>](https://forms.gle/YstxfnGPrZebKeWY7)
-
-
 
 **Volunteer Opportunities**
 
