@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: md-edit # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 #uncomment to test locally and run npx netlify-cms-proxy-server
 #local_backend: true
 
