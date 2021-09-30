@@ -16,7 +16,7 @@ link: /initiatives/colour-with-mau
 
 'My Body, My Rules' has been in production since January 2021 and is currently available for pre-orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
 
-### The 9 artists contributing are:-
+### The 10 artists contributing are:-
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
@@ -32,7 +32,7 @@ link: /initiatives/colour-with-mau
 
 The book would not have been made a reality without the talent of these artists, so check them out and support them as you do MAU!
 
-The early bird price is RM38 (original price: RM45) which ends on 26 September 2021! Click the button below to order the Colouring Book today!
+ Click the button below to order the Colouring Book today with special deals waiting for you!
 
 <a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='transform
                 hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Pre-Order </button> </a>
