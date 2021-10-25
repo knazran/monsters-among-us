@@ -4,7 +4,7 @@ date: 2021-09-05T05:27:58.823Z
 description: This short write up discusses the political fatigue that we are all
   subjected to during this pandemic. Stay safe, stay sane.
 author: Loong Dien Min (Intern)
-image: /img/1.png
+image: /img/2.png
 ---
 With the drastically evolving state of our political landscape in Malaysia, Monsters Among Us (MAU) is aware that uncertainty and doubt towards the future can lead to intense political stress among individuals. Regular consumption of news related to such political instability can hence lead to feelings of discomfort, anxiety and depression.
 
