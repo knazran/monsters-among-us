@@ -8,7 +8,7 @@ description: tw // Child Sexual Abuse For World Trauma Day, we are sharing a
   adds that if anything is taken away from her story, she hopes that it is that
   we all learn to empathise with each other. And of course, to always be kind.
 author: Fateen Ariff
-image: /img/1.png
+image: /img/world-trauma-day-2021.png
 ---
 <!--StartFragment-->
 
