@@ -1,38 +1,21 @@
 <template>
-   <div class="relative h-full w-full">
-                      <img class="h-72" :src="content.link">
-                     
-              <div class=" absolute w-80  flex items-center inset-0 mx-auto">
-                    <nuxt-content v-if="!isDescription"
-                class="
-                  px-4
-           prose prose-black prose-md 
-           prose-md
+  <div class="relative h-full w-full">
+    <img class="h-80" :src="content.link" />
 
-                  lg:prose-lg
-
-                  max-w-none
-                "
-                :document="content" 
-              /> 
-                <p v-if="isDescription"
-                class="
-                  px-4
-           prose prose-black prose-md 
-           prose-md
-
-                  lg:prose-lg
-
-                  max-w-none
-                "
-              > {{content.description}}
-              </p>
-
-
-              </div>
-           
-        </div>
-
+    <div class="absolute w-80  flex items-center inset-0 mx-auto">
+      <nuxt-content
+        v-if="!isDescription"
+        class="px-4 prose prose-black prose-md prose-md lg:prose-lg max-w-none"
+        :document="content"
+      />
+      <p
+        v-if="isDescription"
+        class="px-4 prose prose-black prose-md prose-md lg:prose-lg max-w-none"
+      >
+        {{ content.description }}
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -44,9 +27,8 @@ export default {
     },
     isDescription: {
       type: Boolean,
-      default: false
-    }
-   
+      default: false,
+    },
   },
 }
 </script>

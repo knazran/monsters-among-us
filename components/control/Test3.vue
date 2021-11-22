@@ -9,7 +9,7 @@
         <div class="">
           <slot name="left">
             <div class="flex justify-center">
-              <ParagraphHighlight :content="content" :isDescription="true" />
+              <ParagraphHighlight :content="content" :isDescription="false" />
               <!-- <nuxt-content
                 class="
                   md:px-4
