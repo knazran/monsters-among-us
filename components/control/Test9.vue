@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col md:flex-row py-4">
+
     <!-- Left Side-->
     <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">
       <div class="">
@@ -17,7 +18,7 @@
 
     <!-- Right Side with List and button -->
     <div class="md:w-1/2 px-8 md:py-0 py-8">
-      <div class=" xl:pr-12">
+      <div class=" ">
         <slot name="right">
           <div class="flex justify-center">
             <TextHighlight :title="content.title2" />

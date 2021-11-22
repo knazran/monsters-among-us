@@ -1,22 +1,23 @@
 <template>
-  <div>
+  <div class="h-screen  imgBg " :style="{ backgroundImage: bgImage }">
     <HeadingControl :title="content.title1" />
+    
     <div class="flex flex-col md:flex-row py-4">
       <!-- Left Side-->
-      <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">
+      <div class="md:w-2/3 text-mau-secondary-900  mb-2">
         <div class="">
           <slot name="left">
             <PageSplitSection :reverse="true" :img="content.image">
+              <div class="flex  justify-center md:justify-start">
               <nuxt-content
                 class="
-                  md:px-4
-                  px-3
                   prose prose-black prose-md
                   lg:prose-lg
                   max-w-none
                 "
                 :document="content"
               />
+              </div>
             </PageSplitSection>
           </slot>
         </div>
@@ -24,10 +25,10 @@
       <!-- End Left Side-->
 
       <!-- Right Side with List and button -->
-      <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
+      <div class="md:w-1/3 lg:px-0 px-8 md:py-0 py-14">
         <div class="2xl:pr-12 xl:pr-12">
           <slot name="right">
-            <div class="w-full">
+            <div class="w-full md:my-8">
               <ImageCarouselSingle :images="content.carousel2" />
             </div>
           </slot>
@@ -45,6 +46,9 @@ export default {
     content: {
       type: Object,
       required: true,
+    }, bgImage: {
+      type: String,
+      required: true,
     },
   },
 }
@@ -53,6 +57,13 @@ export default {
 <style scoped>
 #describe {
   font-size: 1.8rem;
+}
+.imgBg{
+   background-size: cover; 
+   height:100%;
+   
+   
+   
 }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-3 h-full">
+  <div class="py-12 relative h-full">
     <!-- Left Side-->
     <!-- <div class="flex justify-center pb-12">
           <img
@@ -17,7 +17,7 @@
 
     <div class="">
       <img
-        class="relative object-fill max-h-screen w-full"
+        class="max-h-screen w-full"
         src="../../static/img/in-control/yic_campaign.png"
         alt="MAU logo"
       />

@@ -1,6 +1,8 @@
 <template>
-  <div class="h-96 flex items-center">
-    <div class="">
+
+  <div class="h-80 " :style="{ backgroundImage: bgImage }">
+
+    <div class="flex h-80 justify-center items-center">
       <nuxt-content
         class="
           md:px-12
@@ -24,6 +26,10 @@ export default {
       type: Object,
       required: true,
     },
+    bgImage:{
+        type: String,
+        default:""
+    }
   },
 }
 </script>

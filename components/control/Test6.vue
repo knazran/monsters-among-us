@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+
     <HeadingControl :title="content.title" />
     <div class="flex justify-center">
       <p>{{ content.description }}</p>

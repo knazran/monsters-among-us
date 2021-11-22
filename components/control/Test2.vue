@@ -1,4 +1,5 @@
 <template>
+
   <div class="h-screen sm:my-0 my-12 mb-56">
 
 
@@ -13,8 +14,8 @@
 
     </div>
   </div>
-</template>
 
+</template>
 <script>
 export default {
 

@@ -6,7 +6,6 @@
     <div
       class="
         min-h-screen
-        py-12
         bg-scroll
         rotate-180
         lg:bg-contain
@@ -15,21 +14,25 @@
         bg-top
       "
     >
+      <!-- Element-specific configuration options can be passed like this -->
 
-    <!-- Element-specific configuration options can be passed like this -->
-   
       <ControlTest />
 
       <PageSection>
         <ControlTest2 :content="content1" />
       </PageSection>
 
-        <ControlTest3 :content="content2" :bgImage="getBackgroundImage2"/>
+      <ControlTest3 :content="content2" :bgImage="getBackgroundImage2" />
       <PageSection>
         <ControlTest4 :content="content3" />
       </PageSection>
       <PageSection>
-        <ControlTest5 :content="content2" :timelineContent="timelineContent" />
+        <ControlTest5
+          :igContent="igEvent"
+          :timelineContent="timelineEvent"
+          :titleContent="event"
+          :podcastContent="podcastEvent"
+        />
       </PageSection>
       <PageSection>
         <ControlTest6 :content="content5" />
@@ -37,18 +40,14 @@
       <PageSection>
         <ControlTest7 :content="content6" />
       </PageSection>
-      <PageSection>
-        <ControlTest8 :content="content6" />
-      </PageSection>
+      <ControlTest8 :content="content6" :bgImage="getBackgroundImage3" />
       <PageSection>
         <ControlTest9 :content="content7" />
       </PageSection>
       <PageSection id="our-partners">
         <ControlTest10 :content="content8" />
       </PageSection>
-      <PageSection id="our-partners">
-        <ControlTest11 :content="content9" />
-      </PageSection>
+        <ControlTest11 :content="content9" :bgImage="getBackgroundImage2"/>
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -57,15 +56,15 @@
 
 <script>
 import Radial from '~/static/img/textures/radial.png'
-  import Background from '~/static/img/in-control/Advocate.png'
-
+import Background from '~/static/img/in-control/Advocate.png'
+import GreenBg from '~/static/img/textures/texture-green-2.png'
 
 export default {
-
   data() {
     return {
       bgGreen: Radial,
-      background:Background
+      background: Background,
+      bgGreenTexture: GreenBg,
     }
   },
   async asyncData({ $content, params, error }) {
@@ -74,6 +73,8 @@ export default {
       const content2 = await $content('in-control/resources-section').fetch()
 
       const content3 = await $content('in-control/lp-chatbot').fetch()
+      const igEvent = await $content('in-control/event/ig-event').fetch()
+
       const content5 = await $content('in-control/predator-workshop').fetch()
       const content6 = await $content('in-control/background').fetch()
       const content7 = await $content(
@@ -84,19 +85,27 @@ export default {
       ).fetch()
       const content9 = await $content('in-control/ig-filter').fetch()
 
-      const timeline = await $content('about-us/milestone').fetch()
-      const timelineContent = timeline[0]
+      const podcastEvent = await $content(
+        'in-control/event/podcast-event'
+      ).fetch()
+      const event = await $content('in-control/event/event').fetch()
+      const timelineEvent = await $content(
+        'in-control/event/timeline-event'
+      ).fetch()
 
       return {
         content1,
         content2,
         content3,
+        igEvent,
         content5,
         content6,
         content7,
         content8,
         content9,
-        timelineContent,
+        podcastEvent,
+        event,
+        timelineEvent,
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -106,13 +115,15 @@ export default {
     getBackgroundImage() {
       return `url(${this.bgGreen})`
     },
-     getBackgroundImage2() {
+    getBackgroundImage2() {
       return `url(${this.background})`
+    },
+    getBackgroundImage3() {
+      return `url(${this.bgGreenTexture})`
     },
   },
 }
 </script>
 
 <style scoped>
-
 </style>

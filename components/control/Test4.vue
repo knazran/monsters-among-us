@@ -1,5 +1,7 @@
 <template>
   <div class="h-screen py-12">
+
+
     <HeadingControl :title="content.title" />
 
     <PageSplitSectionEdited  :img="content.image">

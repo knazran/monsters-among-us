@@ -15,7 +15,7 @@
         </div> -->
     <div class="">
       <img
-        class=" object-contain max-h-screen w-full"
+        class=" object-cover max-h-screen w-full"
         src="../../static/img/in-control/Banner.png"
         alt="MAU logo"
       />

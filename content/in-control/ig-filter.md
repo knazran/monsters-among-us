@@ -1,7 +1,7 @@
 ---
 title1: Other Ways To Support Us
 description: text
-image: /img/advocate/Advocate_Member.jpg
+image: /img/in-control/iphone.png
 carousel2:
   - image: /img/advocate/Advocate_1.jpg
   - image: /img/advocate/Advocate_2.jpg
@@ -14,5 +14,5 @@ carousel2:
 
 Try our filter on IG!
 
-#letslaporpredator
+#letslaporpredator    
 #catchempredator

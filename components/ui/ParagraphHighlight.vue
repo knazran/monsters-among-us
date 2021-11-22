@@ -1,6 +1,9 @@
 <template>
   <div class="relative h-full w-full">
-    <img class="h-80" :src="content.link" />
+    
+    <img v-if="isSize" class="h-36 mx-auto" :src="content.link" />
+    <img v-if="!isSize" class="h-80 mx-auto" :src="content.link" />
+
 
     <div class="absolute w-80  flex items-center inset-0 mx-auto">
       <nuxt-content
@@ -26,6 +29,10 @@ export default {
       required: true,
     },
     isDescription: {
+      type: Boolean,
+      default: false,
+    },
+    isSize: {
       type: Boolean,
       default: false,
     },

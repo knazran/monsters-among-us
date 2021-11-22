@@ -1,17 +1,22 @@
 <template>
   <div class="">
-    <HeadingControl :title="content.title" />
+
+    <HeadingControl title="Partners and Sponsors
+" />
+
 
     <div
       class="
-        grid
+        md:grid
         md:grid-cols-3
         xl:grid-cols-5
         md:gap-12
         gap-8
         md:px-0
         my-8
-        px-6
+       flex
+       flex-col
+       items-center
       "
     >
       <div

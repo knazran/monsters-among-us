@@ -1,16 +1,9 @@
 ---
-title: IG Live
-description: text
+title: Event
+description: We would like to invite you to join us in the journey of taking charge of your online safety.
 image: /img/advocate/Advocate_Member.jpg
+link: /img/in-control/blue-h2.png
 carousel:
-  - image: /img/advocate/Advocate_1.jpg
-  - image: /img/advocate/Advocate_2.jpg
-  - image: /img/advocate/Advocate_3.jpg
-  - image: /img/advocate/activity.jpg
-  - image: /img/advocate/discuss.jpg
-  - image: /img/advocate/forum.jpg
-  - image: /img/advocate/together.jpg
-carousel2:
   - image: /img/advocate/Advocate_1.jpg
   - image: /img/advocate/Advocate_2.jpg
   - image: /img/advocate/Advocate_3.jpg
@@ -20,6 +13,5 @@ carousel2:
   - image: /img/advocate/together.jpg
 ---
 
-If you find our work resonating with you, join the MAU team as a member today, you will receive exclusive opportunities for capacity building,leading projects, networking with subject matter experts in child protection, and also make friends with people who are also passionate about the cause.
+**IG Live -** We love the Internet, but there can be downsides to it. Discover what they are and more during our IG Live sessions. Our first topic is on online dating! 
 
-What are you waiting for? Join us!
