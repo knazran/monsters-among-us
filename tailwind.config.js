@@ -14,6 +14,7 @@ module.exports = {
     }
   },
   theme: {
+   
     screens: {
       xs: '531px',
       sm: '640px',
@@ -29,7 +30,10 @@ module.exports = {
     },
 
     fontFamily: {
-      nunito: ['nunito', 'sans-serif'],
+      'nunito': ['nunito', 'sans-serif'],
+      'display': ['Coco Gothic']
+
+      
     },
     fontSize: {
       xs: '.75rem',
@@ -159,6 +163,7 @@ module.exports = {
           700: '#46818A',
           800: '#34564F',
           900: '#031926',
+          950: '#4D2D52'
         },
         'mau-secondary': {
           DEFAULT: '#F7F06D',

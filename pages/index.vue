@@ -1,5 +1,6 @@
 <template>
   <div class="overflow-x-hidden">
+    <ControlCover />
 
     <MainHero />
     <PanelTwo />
