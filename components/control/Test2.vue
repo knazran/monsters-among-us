@@ -1,6 +1,6 @@
 <template>
 
-  <div class=" sm:min-h-screen  h-screenMobile sm:my-0   py-6">
+  <div class=" sm:min-h-screen  sm:my-0  sm:py-0 -mb-48">
 
 
     <HeadingControl :title="content.title" />
@@ -33,7 +33,9 @@ export default {
 </script>
 
 <style scoped>
-
+.heightMin{
+  min-height: 90vh;
+}
 </style>
 
 
