@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen  sm:my-0 mt-72 imgBg " :style="{ backgroundImage: bgImage }">
+  <div class="h-screen  sm:my-0 sm:mt-36 mt-4 imgBg " :style="{ backgroundImage: bgImage }">
     <HeadingControl :title="content.title1" />
     
     <div class=" flex flex-col md:flex-row py-4 px-16">

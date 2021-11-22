@@ -13,7 +13,7 @@
         md:gap-12
         gap-8
         md:px-0
-        my-8
+        
        flex
        flex-col
        items-center
