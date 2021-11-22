@@ -1,6 +1,6 @@
 <template>
 
-  <div class=" sm:min-h-screen  sm:my-0   py-6">
+  <div class=" sm:min-h-screen  h-screenMobile sm:my-0   py-6">
 
 
     <HeadingControl :title="content.title" />
@@ -10,7 +10,8 @@
       <nuxt-content
         class=" px-2
           prose prose-black 
-        lg:prose-2xl
+          prose-3xl
+        lg:prose-xl
           max-w-none"
         :document="content"
       />
