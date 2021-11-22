@@ -6,7 +6,8 @@
       <nuxt-content
         class="
           md:px-12
-          px-3
+          px-6
+          text-mau-primary-700
           prose prose-black prose-md
           lg:prose-lg
           md:py-0

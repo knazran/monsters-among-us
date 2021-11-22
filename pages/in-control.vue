@@ -18,9 +18,7 @@
 
       <ControlTest />
 
-      <PageSection>
-        <ControlTest2 :content="content1" />
-      </PageSection>
+       <ControlTest2 :content="content1" />
 
       <ControlTest3 :content="content2" :bgImage="getBackgroundImage2" />
       <PageSection>

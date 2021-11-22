@@ -133,7 +133,7 @@ module.exports = {
         100: '47rem',
         99: '39rem',
         98: '34rem',
-        97: '30rem',
+        screenMobile: '75vh',
       },
       borderRadius: {
         20: '20px',
