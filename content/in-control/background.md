@@ -1,6 +1,7 @@
 ---
 title: Background
 image: /img/BACA Workshop.png
+link: /img/in-control/blue-h2.png
 description: The Catch Em’ Predator Workshop is our ongoing community building initiative that discusses online safety and equips participants in dealing with potential and existing online threats.
 
 

@@ -6,7 +6,7 @@
     </div>
     <div class="py-4">
       <NuxtLink :to="content.link">
-        <div class="flex transform justify-center scale-75 hover:scale-100">
+        <div class="flex transform justify-center scale-100 hover:scale-75">
           <SimpleThumbnailCard :is-button="false" :image="content.image" />
         </div>
       </NuxtLink>

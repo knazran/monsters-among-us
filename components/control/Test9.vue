@@ -16,8 +16,8 @@
     <!-- End Left Side-->
 
     <!-- Right Side with List and button -->
-    <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
-      <div class="2xl:pr-12 xl:pr-12">
+    <div class="md:w-1/2 px-8 md:py-0 py-8">
+      <div class=" xl:pr-12">
         <slot name="right">
           <div class="flex justify-center">
             <TextHighlight :title="content.title2" />
