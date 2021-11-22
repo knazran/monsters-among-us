@@ -9,10 +9,10 @@
         class="
           px-4
           prose prose-black prose-md prose-md
-          text-mau-primary-700
+        
           lg:prose-lg
           max-w-none
-        "
+font-medium	        "
         :document="content"
       />
       <p
@@ -20,10 +20,10 @@
         class="
           px-4
           prose prose-black prose-md prose-base
-          text-mau-primary-700
+        
           lg:prose-lg
           max-w-none
-        "
+font-medium	        "
       >
         {{ content.description }}
       </p>
