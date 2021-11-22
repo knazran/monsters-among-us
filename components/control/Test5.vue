@@ -150,7 +150,7 @@
             </slot>
             <div class="md:hidden md:my-0 my-4">
               <ParagraphHighlight
-                :content="titleContent"
+                :content="liveContent"
                 :isDescription="false"
                 :isSize="false"
               />
@@ -165,7 +165,7 @@
             <slot name="right">
               <div class="md:block hidden md:my-0 my-4">
                 <ParagraphHighlight
-                  :content="titleContent"
+                  :content="liveContent"
                   :isDescription="false"
                   :isSize="false"
                 />
@@ -371,6 +371,10 @@ export default {
 
   props: {
     titleContent: {
+      type: Object,
+      required: true,
+    },
+    liveContent: {
       type: Object,
       required: true,
     },

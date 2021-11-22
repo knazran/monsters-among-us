@@ -30,6 +30,7 @@
           :timelineContent="timelineEvent"
           :titleContent="event"
           :podcastContent="podcastEvent"
+          :liveContent="liveEvent"
         />
       </PageSection>
       <PageSection>
@@ -90,6 +91,9 @@ export default {
       const timelineEvent = await $content(
         'in-control/event/timeline-event'
       ).fetch()
+           const liveEvent = await $content(
+        'in-control/event/title-event'
+      ).fetch()
 
       return {
         content1,
@@ -103,6 +107,7 @@ export default {
         content9,
         podcastEvent,
         event,
+        liveEvent,
         timelineEvent,
       }
     } catch (e) {

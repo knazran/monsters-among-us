@@ -4,14 +4,14 @@
     
     <div class=" flex flex-col md:flex-row py-4 px-16">
       <!-- Left Side-->
-      <div class="md:w-2/3 text-mau-secondary-900  mb-2">
+      <div class="md:w-2/3  mb-2">
         <div class="">
           <slot name="left">
             <PageSplitSection :reverse="true" :img="content.image">
               <div class="flex mt-4  justify-center md:justify-start">
               <nuxt-content
                 class="
-                  prose prose-black prose-md
+                  font-bold  prose-md
                   lg:prose-lg
                   max-w-none
                 "
