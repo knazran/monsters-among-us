@@ -74,7 +74,7 @@ export default {
       },
       {
       rel:'stylesheet',
-      href:'http://fonts.cdnfonts.com/css/coco-gothic'
+      href:'https://fonts.cdnfonts.com/css/coco-gothic'
       }
     ],
   },
