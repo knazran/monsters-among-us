@@ -1,14 +1,14 @@
 <template>
-  <div class="h-screen  imgBg " :style="{ backgroundImage: bgImage }">
+  <div class="h-screen  sm:my-0 mt-72 imgBg " :style="{ backgroundImage: bgImage }">
     <HeadingControl :title="content.title1" />
     
-    <div class="flex flex-col md:flex-row py-4">
+    <div class=" flex flex-col md:flex-row py-4 px-16">
       <!-- Left Side-->
       <div class="md:w-2/3 text-mau-secondary-900  mb-2">
         <div class="">
           <slot name="left">
             <PageSplitSection :reverse="true" :img="content.image">
-              <div class="flex  justify-center md:justify-start">
+              <div class="flex mt-4  justify-center md:justify-start">
               <nuxt-content
                 class="
                   prose prose-black prose-md
@@ -25,7 +25,7 @@
       <!-- End Left Side-->
 
       <!-- Right Side with List and button -->
-      <div class="md:w-1/3 lg:px-0 px-8 md:py-0 py-14">
+      <div class="md:w-1/3 lg:px-0 px-8 md:py-0 py-5">
         <div class="2xl:pr-12 xl:pr-12">
           <slot name="right">
             <div class="w-full md:my-8">
