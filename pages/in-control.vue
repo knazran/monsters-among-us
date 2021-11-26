@@ -19,7 +19,7 @@
       <ControlTest />
 
        <ControlTest2 :content="content1" />
-
+        <ControlMeetOurSupporters :content="supporter" />
       <ControlTest3 :content="content2" :bgImage="getBackgroundImage2" />
       <PageSection>
         <ControlTest4 :content="content3" />
@@ -46,7 +46,7 @@
       <PageSection id="our-partners">
         <ControlTest10 :content="content8" />
       </PageSection>
-        <ControlTest11 :content="content9" :bgImage="getBackgroundImage2"/>
+        <ControlTest11 :content="content9" :bgImage="getBackgroundImage4"/>
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -55,14 +55,18 @@
 
 <script>
 import Radial from '~/static/img/textures/radial.png'
-import Background from '~/static/img/in-control/Advocate.png'
+import Background from '~/static/img/in-control/resources_bg.jpg'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
+import Background2 from '~/static/img/in-control/resources_bg2.jpg'
+
 
 export default {
   data() {
     return {
       bgGreen: Radial,
       background: Background,
+      background2: Background2,
+
       bgGreenTexture: GreenBg,
     }
   },
@@ -94,6 +98,9 @@ export default {
            const liveEvent = await $content(
         'in-control/event/title-event'
       ).fetch()
+        const supporter = await $content(
+        'in-control/meet-our-supporters'
+      ).fetch()
 
       return {
         content1,
@@ -109,6 +116,7 @@ export default {
         event,
         liveEvent,
         timelineEvent,
+        supporter
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -123,6 +131,9 @@ export default {
     },
     getBackgroundImage3() {
       return `url(${this.bgGreenTexture})`
+    },
+      getBackgroundImage4() {
+      return `url(${this.background2})`
     },
   },
 }

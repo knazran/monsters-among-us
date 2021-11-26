@@ -1,6 +1,6 @@
 <template>
 
-  <div class=" sm:min-h-screen  sm:my-0  sm:py-0 -mb-48">
+  <div class=" min-h-screen  sm:my-0  sm:py-0 ">
 
 
     <HeadingControl :title="content.title" />

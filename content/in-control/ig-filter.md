@@ -1,5 +1,5 @@
 ---
-title1: Other Ways To Support Us
+title1: Goodies For You
 description: text
 image: /img/in-control/iphone.png
 carousel2:

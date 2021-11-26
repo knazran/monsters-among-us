@@ -1,22 +1,21 @@
 <template>
   <div>
-
     <HeadingControl :title="titleContent.title" />
     <div class="flex justify-center py-5">
-      <ParagraphHighlight
-        :content="titleContent"
-        :isDescription="true"
-        :isSize="true"
-      />
+      <p class="px-6 text-lg lg:text-xl font-medium">
+        {{ titleContent.description }}
+      </p>
     </div>
     <div class="py-4">
-      <div class="flex flex-col md:flex-row py-4">
+      <div class="flex flex-col md:flex-row -py-4">
         <!-- Left Side-->
-        <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">
+        <div class="md:w-1/2 text-mau-secondary-900 px-8 md:mb-8">
           <div class="">
             <slot name="left">
+              <div class="py-3">
+                <ParagraphHighlightAlt :content="igContent" />
+              </div>
               <div
-                class="md:block hidden"
                 style="
                   width: 100%;
                   height: 0;
@@ -25,7 +24,7 @@
                 "
               >
                 <iframe
-                  src="https://giphy.com/embed/kVlpotLorw3XSVlGuS"
+                  src="https://giphy.com/embed/l2dr7ckgYNdnJHRdYh"
                   width="100%"
                   height="100%"
                   style="position: absolute"
@@ -47,34 +46,26 @@
         <!-- End Left Side-->
 
         <!-- Right Side with List and button -->
-        <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
+        <div
+          class="
+            md:block
+            hidden
+            md:w-1/2
+            lg:px-0
+            px-8
+            md:py-0
+            py-8
+            md:flex md:items-center md:justify-center
+          "
+        >
           <div class="2xl:pr-12 xl:pr-12">
             <slot name="right">
-              <div class="md:block hidden md:my-0 my-4">
+              <div class="md:my-0 my-4">
                 <ParagraphHighlight
                   :content="igContent"
                   :isDescription="false"
                   :isSize="false"
                 />
-              </div>
-              <div
-                class="md:hidden block"
-                style="
-                  width: 100%;
-                  height: 0;
-                  padding-bottom: 100%;
-                  position: relative;
-                "
-              >
-                <iframe
-                  src="https://giphy.com/embed/kVlpotLorw3XSVlGuS"
-                  width="100%"
-                  height="100%"
-                  style="position: absolute"
-                  frameBorder="0"
-                  class="giphy-embed"
-                  allowFullScreen
-                ></iframe>
               </div>
             </slot>
           </div>
@@ -82,10 +73,19 @@
         <!--End Right side with Pic -->
       </div>
     </div>
+
+    <!-- Podcast -->
     <div class="py-4">
-      <div class="flex flex-col md:flex-row py-4">
+      <div class="flex md:flex-row py-4 flex-col-reverse">
         <!-- Left Side-->
-        <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">
+        <div
+          class="
+            md:w-1/2
+            text-mau-secondary-900
+            px-8
+            md:mb-8 md:flex md:items-center md:justify-center
+          "
+        >
           <div class="">
             <slot name="left">
               <div class="flex justify-center">
@@ -106,6 +106,9 @@
         <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
           <div class="2xl:pr-12 xl:pr-12">
             <slot name="right">
+              <div class="py-3">
+                <ParagraphHighlightAlt :content="podcastContent" />
+              </div>
               <iframe
                 src="https://open.spotify.com/embed/show/7svEuJevquU3hwOU3pEB1U?utm_source=generator&theme=0"
                 width="100%"
@@ -120,16 +123,21 @@
         <!--End Right side with Pic -->
       </div>
     </div>
-
+    <!-- FB live -->
     <!-- New Line -->
     <div class="py-4">
       <div class="flex flex-col md:flex-row py-4">
         <!-- Left Side-->
-        <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">
+        <div class="md:w-1/2 text-mau-secondary-900 px-8 md:mb-8">
           <div class="">
             <slot name="left">
+              <div class="py-3">
+                <ParagraphHighlightAlt
+                  :content="liveContent"
+                  :isLarger="true"
+                />
+              </div>
               <div
-                class="md:block hidden"
                 style="
                   width: 100%;
                   height: 0;
@@ -138,7 +146,7 @@
                 "
               >
                 <iframe
-                  src="https://giphy.com/embed/kVlpotLorw3XSVlGuS"
+                  src="https://giphy.com/embed/2sPA7Baytpmj1ca1y0"
                   width="100%"
                   height="100%"
                   style="position: absolute"
@@ -148,7 +156,7 @@
                 ></iframe>
               </div>
             </slot>
-            <div class="md:hidden md:my-0 my-4">
+            <div class="md:hidden block md:my-0 my-4">
               <ParagraphHighlight
                 :content="liveContent"
                 :isDescription="false"
@@ -160,7 +168,16 @@
         <!-- End Left Side-->
 
         <!-- Right Side with List and button -->
-        <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
+        <div
+          class="
+            md:w-1/2
+            lg:px-0
+            px-8
+            md:py-0
+            py-8
+            md:flex md:items-center md:justify-center
+          "
+        >
           <div class="2xl:pr-12 xl:pr-12">
             <slot name="right">
               <div class="md:block hidden md:my-0 my-4">
@@ -170,25 +187,6 @@
                   :isSize="false"
                 />
               </div>
-              <div
-                class="md:hidden block"
-                style="
-                  width: 100%;
-                  height: 0;
-                  padding-bottom: 100%;
-                  position: relative;
-                "
-              >
-                <iframe
-                  src="https://giphy.com/embed/kVlpotLorw3XSVlGuS"
-                  width="100%"
-                  height="100%"
-                  style="position: absolute"
-                  frameBorder="0"
-                  class="giphy-embed"
-                  allowFullScreen
-                ></iframe>
-              </div>
             </slot>
           </div>
         </div>
@@ -196,6 +194,7 @@
       </div>
     </div>
 
+    <!-- BUTTON -->
     <div class="flex flex-col">
       <div class="flex justify-center">
         <NuxtLink to="/in-control">
@@ -205,9 +204,9 @@
               bg-mau-primary-700
               text-center text-white
               2xl:w-64
-              xl:w-52
-              md:w-48
-              w-24
+              xl:w-56
+              w-48
+              h-12
               py-2
               bottom-4
               right-4
@@ -215,7 +214,7 @@
               transform
               hover:scale-105
               md:text-lg
-              text-xs
+              text-base
             "
           >
             Read More
@@ -231,7 +230,7 @@
             max-w-none
           "
         >
-          Stream the file on these
+          Stream the file on these platforms:
         </p>
       </div>
 
@@ -251,22 +250,23 @@
       >
         <a href="https://www.facebook.com/MonstersAmongUsMY" target="_blank">
           <iconify-icon
+            class="sample rotation-90"
             :icon="icons.facebook"
-            height="28"
+            height="48"
             :style="{ color: 'white' }"
           />
         </a>
         <a href="https://www.instagram.com/monstersamongus_my" target="_blank">
           <iconify-icon
             :icon="icons.instagram"
-            height="28"
+            height="48"
             :style="{ color: 'white' }"
           />
         </a>
         <a href="https://twitter.com/mau17_my" target="_blank">
           <iconify-icon
             :icon="icons.twitter"
-            height="28"
+            height="48"
             :style="{ color: 'white' }"
           />
         </a>
@@ -276,7 +276,7 @@
         >
           <iconify-icon
             :icon="icons.youtube"
-            height="28"
+            height="48"
             :style="{ color: 'white' }"
           />
         </a>
@@ -284,10 +284,16 @@
       <!-- Social Media -->
     </div>
 
-    <div class="w-full">
+    <div class="w-full py-12">
+     
       <PageSection id="milestone">
+        
         <div class="w-full">
-          <div class="py-12"></div>
+          <div class="py-12">
+             <div>
+        <ParagraphHighlightAlt :content="timelineContent" />
+      </div>
+          </div>
           <vue-horizontal class="horizontal" responsive :button="true">
             <div
               v-for="(info, index) in timelineContent.milestone"

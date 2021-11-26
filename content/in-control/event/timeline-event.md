@@ -1,5 +1,7 @@
 ---
-title: Schedule
+title: Timeline
+heading_title: Upcoming Event
+link_heading: /img/in-control/blue-h.png
 milestone: 
     - date: 17th Nov 2021
       type: IG Live

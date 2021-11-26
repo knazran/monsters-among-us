@@ -1,6 +1,6 @@
 <template>
 
-  <div class="h-80 " :style="{ backgroundImage: bgImage }">
+  <div class="h-88 " :style="{ backgroundImage: bgImage }">
 
     <div class="flex h-80 justify-center items-center">
       <nuxt-content

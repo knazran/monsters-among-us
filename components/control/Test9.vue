@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row py-4">
+  <div class="py-12 flex flex-col md:flex-row py-4">
 
     <!-- Left Side-->
     <div class="md:w-1/2 text-mau-secondary-900 px-8 mb-8">

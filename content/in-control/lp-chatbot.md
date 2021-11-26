@@ -2,6 +2,9 @@
 title: Hello, Chatbot, meet Whatsapp
 preview: Whatsapp
 image: /img/in-control/ws.png
+image2: /img/in-control/caricature.png
+
+
 
 ---
 

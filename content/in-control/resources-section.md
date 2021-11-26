@@ -13,7 +13,9 @@ carousel:
     - name: Pornography
       image: /img/in-control/resources/Pornography.png
     - name: References
-      image: /img/in-control/resources/References.png
+      image: /img/in-control/resources/3.png
+    - name: References
+      image: /img/in-control/resources/7.png
 ---
 
 Do you think kids in Malaysia are safe on the Internet?

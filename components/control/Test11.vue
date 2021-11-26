@@ -1,10 +1,10 @@
 <template>
-  <div class="h-screen  sm:my-0 sm:mt-36 mt-4 imgBg " :style="{ backgroundImage: bgImage }">
+  <div class="min-h-screen  sm:my-0 sm:mt-36 mt-4 imgBg " :style="{ backgroundImage: bgImage }">
     <HeadingControl :title="content.title1" />
     
-    <div class=" flex flex-col md:flex-row py-4 px-16">
+    <div class=" flex flex-col md:flex-row py-4 px-6">
       <!-- Left Side-->
-      <div class="md:w-2/3  mb-2">
+      <div class="md:w-3/5 mb-2">
         <div class="">
           <slot name="left">
             <PageSplitSection :reverse="true" :img="content.image">
@@ -25,7 +25,7 @@
       <!-- End Left Side-->
 
       <!-- Right Side with List and button -->
-      <div class="md:w-1/3 lg:px-0 px-8 md:py-0 py-5">
+      <div class="md:w-2/5 lg:px-0 px-8 md:py-0 py-5">
         <div class="2xl:pr-12 xl:pr-12">
           <slot name="right">
             <div class="w-full md:my-8">
@@ -58,12 +58,10 @@ export default {
 #describe {
   font-size: 1.8rem;
 }
-.imgBg{
-   background-size: cover; 
-   height:100%;
-   
-   
-   
+.imgBg {
+  background-size: cover;
+  height: 100%;
+  background-position: center;
 }
 </style>
 

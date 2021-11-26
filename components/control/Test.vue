@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 relative h-full">
+  <div class="py-8 h-full">
     <!-- Left Side-->
     <!-- <div class="flex justify-center pb-12">
           <img
@@ -13,11 +13,11 @@
             alt="MAU logo"
           />
         </div> -->
-                   <section v-scroll-reveal.reset="{ delay: 200 }">
+                   <section v-scroll-reveal.reset="{ delay: 100 }">
 
     <div class="">
       <img
-        class="max-h-screen w-full"
+        class=" h-full object-cover w-full"
         src="../../static/img/in-control/yic_campaign.png"
         alt="MAU logo"
       />

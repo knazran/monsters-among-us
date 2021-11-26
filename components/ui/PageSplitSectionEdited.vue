@@ -1,19 +1,21 @@
 <template>
-  <div class="container mx-auto md:flex my-8 md:my-18">
-    <div v-if="!reverse" class="w-full md:w-1/2 px-6 mb-4 md:mb-0">
+  <div class="container h-full mx-auto md:flex md:items-center my-8 md:my-18">
+    <div class="w-full md:w-1/2  px-6 mb-4 md:mb-0">
       <slot name="default"></slot>
     </div>
-    <div class="w-full md:w-1/2 px-6 md:px-12 flex flex-col">
+    <div class="w-full md:w-1/2 xl:px-6 py-12 justify-center flex flex-row">
       <img
+        v-if="img2 !== ''"
+        class=" object-contain  h-48 lg:h-64 rounded-lg"
+        :src="img2"
+      />
+       <img
         v-if="img !== ''"
-        class="w-full object-contain min-h-0 max-h-72 rounded-lg"
+        class=" object-contain   h-48 lg:h-64 rounded-lg"
         :src="img"
       />
-      <slot name="media"></slot>
     </div>
-    <div v-if="reverse" class="w-full md:w-1/2 px-6 mb-4 md:mb-0">
-      <slot name="default"></slot>
-    </div>
+    
   </div>
 </template>
 
@@ -24,10 +26,10 @@ export default {
       type: String,
       default: '',
     },
-    reverse: {
-      type: Boolean,
-      default: false,
-    },
+    img2: {
+      type: String,
+      default: '',
+    }
   },
   computed: {
     sectionImage() {

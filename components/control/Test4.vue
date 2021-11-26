@@ -1,12 +1,10 @@
 <template>
-  <div class="max-h-screen  py-2 m:py-12">
-
-
+  <div class="min-h-screen py-2 m:py-12">
     <HeadingControl :title="content.title" />
 
-    <PageSplitSectionEdited  :img="content.image">
+    <PageSplitSectionEdited :img="content.image" :img2="content.image2">
       <nuxt-content
-        class="md:px-4 px-3 prose prose-black prose-md lg:prose-lg max-w-none"
+        class=" px-3 prose prose-black prose lg:prose-lg max-w-none"
         :document="content"
       />
     </PageSplitSectionEdited>
@@ -28,7 +26,6 @@ export default {
 #describe {
   font-size: 1.8rem;
 }
-
 </style>
 
 

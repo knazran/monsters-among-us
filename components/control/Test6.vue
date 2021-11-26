@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container px-5">
 
     <HeadingControl :title="content.title" />
     <div class="flex justify-center">
@@ -7,7 +7,7 @@
     </div>
     <div class="py-4">
       <NuxtLink :to="content.link">
-        <div class="flex transform justify-center scale-100 hover:scale-75">
+        <div class="flex transform justify-center scale-100 hover:scale-105">
           <SimpleThumbnailCard :is-button="false" :image="content.image" />
         </div>
       </NuxtLink>
