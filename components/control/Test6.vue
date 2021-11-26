@@ -6,11 +6,15 @@
       <p>{{ content.description }}</p>
     </div>
     <div class="py-4">
-      <NuxtLink :to="content.link">
-        <div class="flex transform justify-center scale-100 hover:scale-105">
+        <div class="flex justify-center ">
+          <div class="transform  scale-100 hover:scale-105">
+                  <NuxtLink :to="content.link">
+
           <SimpleThumbnailCard :is-button="false" :image="content.image" />
+                </NuxtLink>
+
+          </div>
         </div>
-      </NuxtLink>
     </div>
   </div>
 </template>

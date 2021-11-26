@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen py-2 m:py-12">
+  <div class="max-h-screen py-2 m:py-12">
     <HeadingControl :title="content.title" />
 
     <PageSplitSectionEdited :img="content.image" :img2="content.image2">

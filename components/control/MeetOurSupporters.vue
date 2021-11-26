@@ -5,7 +5,7 @@
 
       <div class="flex my-12 flex-row">
         <!-- Left Side-->
-        <div class="w-1/2 px-2">
+        <div class="w-1/2 ">
           <slot name="left">
             <div class="flex justify-center">
               <SupporterCard

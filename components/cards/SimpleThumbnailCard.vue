@@ -5,7 +5,7 @@
       <img
         :src="image"
         alt="..."
-        class="object-scale-down w-full border-none rounded h-72"
+        class="object-scale-down w-full border-none rounded h-72 "
       />
     </div>
 
