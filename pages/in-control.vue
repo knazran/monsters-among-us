@@ -43,7 +43,7 @@
       <PageSection>
         <ControlWorkshopBackground :content="workshopBackgroundContent" />
       </PageSection>
-      <ControlWorkshopBackground
+      <ControlWorkshopBackground2
         :content="workshopBackgroundContent"
         :bgImage="getBackgroundImage3"
       />

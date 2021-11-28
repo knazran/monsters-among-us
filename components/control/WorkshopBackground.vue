@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="px-4">
 
     <HeadingControl :title="content.title" />
 

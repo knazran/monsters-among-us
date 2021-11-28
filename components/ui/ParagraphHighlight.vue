@@ -1,43 +1,41 @@
 <template>
   <div class="relative h-full w-full">
-    <img v-if="isSize" class="h-56 mx-auto" :src="content.link" />
-    <img v-if="!isSize" class="sm:h-88 h-72 mx-auto" :src="content.link" />
+    <img v-if="isSize" class="sm:min-h-56 h-64 mx-auto" :src="content.link" />
+    <img v-if="!isSize" class="sm:h-96 h-80 mx-auto" :src="content.link" />
 
     <div class="absolute w-80 flex items-center inset-0 mx-auto">
       <nuxt-content
         v-if="!isDescription && !isRow"
         class="
-          lg:px-2 lg:ml-7
+          font-body font-medium
+          lg:px-1
+          lg:mt-2
+          sm:px-0
+          px-6
           ml-1
-          px-9
           text-black
-         text-sm
-          text-xs
-          font-medium
+          lg:text-lg
+          text-sm
         "
         :document="content"
       />
       <nuxt-content
         v-if="!isDescription && isRow"
         class="
-          px-16
-          mt-3
-          prose prose-black prose-sm
-          lg:prose-base
+          font-body font-medium
+          lg:px-8 lg:mt-1
+          sm:px-8
+          px-8
+          text-black
+          lg:text-lg
+          text-sm
           max-w-none
-          font-medium
         "
         :document="content"
       />
       <p
         v-if="isDescription"
-        class="
-          px-12
-          lg:px-6
-         text-sm
-         lg:text-base
-          font-medium
-        "
+        class="font-body font-medium px-12 lg:px-6 text-sm lg:text-base"
       >
         {{ content.description }}
       </p>

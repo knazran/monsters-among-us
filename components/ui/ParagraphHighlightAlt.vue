@@ -5,7 +5,7 @@
 
 
     <div class="absolute w-80 flex justify-center items-center inset-0 mx-auto">
-      <p class="px-6 text-lg text-black lg:text-xl font-semibold">
+      <p class="px-6 text-lg text-black lg:text-xl font-body font-bold">
         {{ content.heading_title }}
       </p>
     </div>

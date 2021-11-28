@@ -51,7 +51,7 @@
             hover:opacity-100
           "
         >
-          <h6 class=" text-black	 mb-4 overflow-y-scroll sm:text-xs lg:text-base tracking-wide text-left text-white">
+          <h6 class=" text-black	 font-body mb-4 overflow-y-scroll sm:text-xs lg:text-base tracking-wide text-left text-white">
             {{ description }}
           </h6>
         </div>
@@ -60,7 +60,7 @@
       <!-- End Overlay -->
       <!--Name & Title -->
       <div class=" my-4 lg:w-96 sm:w-72 w-40">
-        <p class="text-xl text-center text-mau-primary-700 font-semibold">
+        <p class="text-xl text-center  font-body font-semibold ">
           {{ name }}
         </p>
       </div>
@@ -136,7 +136,7 @@
 
       <!-- Show modal -->
       <div class="flex flex-col items-center my-4  w-32">
-        <p class="text-xs text-mau-primary-700 text-center font-semibold">
+        <p class="text-xs  font-body font-medium text-center font-semibold">
           {{ name }}
         </p>
       </div>

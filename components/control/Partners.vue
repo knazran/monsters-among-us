@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="min-h-screen">
 
     <HeadingControl title="Partners and Sponsors
 " />
@@ -7,15 +7,15 @@
 
     <div
       class="
-        md:grid
-        md:grid-cols-3
-        xl:grid-cols-5
-        md:gap-12
+      
+        grid
+        sm:grid-cols-3
+        gap-12
         gap-8
-        md:px-0
-        
-       flex
-       flex-col
+        px-4
+        py-6
+        grid-cols-2
+      
        items-center
       "
     >
@@ -23,8 +23,10 @@
         v-for="partner in content.partners"
         :key="partner.name"
         class="
-          h-56
-          w-56
+          sm:h-56
+          h-48
+          w-48
+          sm:w-56
           bg-white
           rounded-full
           items-center

@@ -2,7 +2,7 @@
   <div>
     <HeadingControl :title="titleContent.title" />
     <div class="flex justify-center py-5">
-      <p class="px-6 text-lg lg:text-xl font-medium">
+      <p class="px-6 text-lg lg:text-xl font-body font-medium">
         {{ titleContent.description }}
       </p>
     </div>
@@ -134,7 +134,7 @@
                       md:bottom-12 md:right-12
                       transform
                       hover:scale-105
-                     
+                      font-body font-thin
                       text-sm
                     "
                   >
@@ -240,6 +240,7 @@
               hover:scale-105
               md:text-lg
               text-base
+              font-body font-thin
             "
           >
             Read More
@@ -253,6 +254,7 @@
             prose prose-black prose-md prose-md
             lg:prose-lg
             max-w-none
+            font-body font-medium
           "
         >
           Stream the file on these platforms:

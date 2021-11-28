@@ -1,11 +1,11 @@
 <template>
-  <div class="container px-5">
+  <div class="container px-4">
 
     <HeadingControl :title="content.title" />
-    <div class="flex justify-center">
+     <div class="py-4 px-4  text-center flex justify-center text-lg lg:text-xl font-body font-medium">
       <p>{{ content.description }}</p>
     </div>
-    <div class="py-4">
+    <div class="py-6">
         <div class="flex justify-center ">
           <div class="transform  scale-100 hover:scale-105">
                   <NuxtLink :to="content.link">
@@ -16,6 +16,7 @@
           </div>
         </div>
     </div>
+   
   </div>
 </template>
 

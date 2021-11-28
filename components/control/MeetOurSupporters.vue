@@ -2,7 +2,7 @@
   <div class="sm:h-full h-48 container mx-auto  py-8 lg:py-16 px-4 ">
       <HeadingControl :title="content.title" />
 
-      <div class="flex py-4 flex-row ">
+      <div class="flex py-6 flex-row ">
         <!-- Left Side-->
         <div class="w-1/2  py-4 px-2">
           <slot name="left">
