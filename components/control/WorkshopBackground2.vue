@@ -2,7 +2,7 @@
 
   <div class="h-88  " :style="{ backgroundImage: bgImage }">
 
-    <div class="flex h-80 justify-center items-center px-4">
+    <div class="flex h-80 justify-center items-center container px-4">
       <nuxt-content
         class="
           md:px-12

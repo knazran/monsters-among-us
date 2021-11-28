@@ -6,6 +6,8 @@
     <div class="flex justify-center">
       <div
         class="
+        w-full
+        px-4
           mb-8
           py-6
           grid
@@ -16,7 +18,7 @@
         "
       >
         <ul
-          class="class='list-outside font-body font-medium list-disc ml-6"
+          class="class=list-outside font-body font-medium list-disc"
           v-for="participant in content.participants"
           :key="participant.name"
         >

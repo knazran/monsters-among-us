@@ -138,9 +138,9 @@
                       text-sm
                     "
                   >
-                   Listen here!
+                    Listen here!
                   </button>
-                  </a>
+                </a>
               </div>
             </slot>
           </div>
@@ -311,7 +311,7 @@
       <!-- Social Media -->
     </div>
 
-    <div class="w-full py-12">
+    <div class="w-full py-4">
       <PageSection id="milestone">
         <div class="w-full">
           <div class="py-12">
