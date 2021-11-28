@@ -15,17 +15,21 @@
       "
     >
       <!-- Element-specific configuration options can be passed like this -->
-
-      <ControlTest />
-
-       <ControlTest2 :content="content1" />
-        <ControlMeetOurSupporters :content="supporter" />
-      <ControlTest3 :content="content2" :bgImage="getBackgroundImage2" />
       <PageSection>
-        <ControlTest4 :content="content3" />
+        <ControlHero />
+      </PageSection>
+
+      <ControlPurpose :content="purposeContent" />
+      <ControlMeetOurSupporters :content="supporter" />
+      <ControlInfographic
+        :content="infographicContent"
+        :bgImage="getBackgroundImage2"
+      />
+      <PageSection>
+        <ControlContact :content="contactContent" />
       </PageSection>
       <PageSection>
-        <ControlTest5
+        <ControlEvent
           :igContent="igEvent"
           :timelineContent="timelineEvent"
           :titleContent="event"
@@ -34,19 +38,22 @@
         />
       </PageSection>
       <PageSection>
-        <ControlTest6 :content="content5" />
+        <ControlWorkshop :content="workshopContent" />
       </PageSection>
       <PageSection>
-        <ControlTest7 :content="content6" />
+        <ControlWorkshopBackground :content="workshopBackgroundContent" />
       </PageSection>
-      <ControlTest8 :content="content6" :bgImage="getBackgroundImage3" />
+      <ControlWorkshopBackground
+        :content="workshopBackgroundContent"
+        :bgImage="getBackgroundImage3"
+      />
       <PageSection>
-        <ControlTest9 :content="content7" />
+        <ControlWorkshopParticipants :content="workshopParticipants" />
       </PageSection>
-      <PageSection id="our-partners">
-        <ControlTest10 :content="content8" />
+      <PageSection>
+        <ControlPartners :content="partnersContent" />
       </PageSection>
-        <ControlTest11 :content="content9" :bgImage="getBackgroundImage4"/>
+      <!-- <ControlTest11 :content="filterContent" :bgImage="getBackgroundImage4" /> -->
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -58,7 +65,6 @@ import Radial from '~/static/img/textures/radial.png'
 import Background from '~/static/img/in-control/resources_bg.jpg'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
 import Background2 from '~/static/img/in-control/resources_bg2.jpg'
-
 
 export default {
   data() {
@@ -72,21 +78,25 @@ export default {
   },
   async asyncData({ $content, params, error }) {
     try {
-      const content1 = await $content('in-control/the-issue').fetch()
-      const content2 = await $content('in-control/resources-section').fetch()
-
-      const content3 = await $content('in-control/lp-chatbot').fetch()
+      const purposeContent = await $content('in-control/the-purpose').fetch()
+      const infographicContent = await $content(
+        'in-control/resources-section'
+      ).fetch()
+      const contactContent = await $content('in-control/lp-chatbot').fetch()
       const igEvent = await $content('in-control/event/ig-event').fetch()
-
-      const content5 = await $content('in-control/predator-workshop').fetch()
-      const content6 = await $content('in-control/background').fetch()
-      const content7 = await $content(
+      const workshopContent = await $content(
+        'in-control/predator-workshop'
+      ).fetch()
+      const workshopBackgroundContent = await $content(
+        'in-control/background'
+      ).fetch()
+      const workshopParticipants = await $content(
         'in-control/background-participants'
       ).fetch()
-      const content8 = await $content(
-        'lapor-predator/intro-content/about'
+      const partnersContent = await $content(
+        'in-control/in-control-partners'
       ).fetch()
-      const content9 = await $content('in-control/ig-filter').fetch()
+      const filterContent = await $content('in-control/ig-filter').fetch()
 
       const podcastEvent = await $content(
         'in-control/event/podcast-event'
@@ -95,28 +105,24 @@ export default {
       const timelineEvent = await $content(
         'in-control/event/timeline-event'
       ).fetch()
-           const liveEvent = await $content(
-        'in-control/event/title-event'
-      ).fetch()
-        const supporter = await $content(
-        'in-control/meet-our-supporters'
-      ).fetch()
+      const liveEvent = await $content('in-control/event/title-event').fetch()
+      const supporter = await $content('in-control/meet-our-supporters').fetch()
 
       return {
-        content1,
-        content2,
-        content3,
+        purposeContent,
+        infographicContent,
+        contactContent,
         igEvent,
-        content5,
-        content6,
-        content7,
-        content8,
-        content9,
+        workshopContent,
+        workshopBackgroundContent,
+        workshopParticipants,
+        partnersContent,
+        filterContent,
         podcastEvent,
         event,
         liveEvent,
         timelineEvent,
-        supporter
+        supporter,
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -132,7 +138,7 @@ export default {
     getBackgroundImage3() {
       return `url(${this.bgGreenTexture})`
     },
-      getBackgroundImage4() {
+    getBackgroundImage4() {
       return `url(${this.background2})`
     },
   },

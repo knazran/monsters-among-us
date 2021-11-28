@@ -1,6 +1,6 @@
 ---
 title1: Past Participants
-title2: Updates On ECP
+title2: Workshop Photos
 description: text
 image: /img/advocate/Advocate_Member.jpg
 carousel:
@@ -12,13 +12,15 @@ carousel:
   - image: /img/advocate/forum.jpg
   - image: /img/advocate/together.jpg
 carousel2:
-  - image: /img/advocate/Advocate_1.jpg
-  - image: /img/advocate/Advocate_2.jpg
-  - image: /img/advocate/Advocate_3.jpg
-  - image: /img/advocate/activity.jpg
-  - image: /img/advocate/discuss.jpg
-  - image: /img/advocate/forum.jpg
-  - image: /img/advocate/together.jpg
+  - image: /img/in-control/workshop/1.png
+  - image: /img/in-control/workshop/2.png
+  - image: /img/in-control/workshop/3.png
+  - image: /img/in-control/workshop/Public YA.png
+  - image: /img/in-control/workshop/Solid Rock.png
+  - image: /img/in-control/workshop/SSV x MAU I.png
+  - image: /img/in-control/workshop/UIA & SR I.png
+  - image: /img/in-control/workshop/UPSI2.png
+
 participants:
   - name: The Peace Education Centre
   - name: Solid Rock Learning Centre

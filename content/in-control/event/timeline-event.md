@@ -7,6 +7,7 @@ milestone:
       type: IG Live
       title: Dangerously in Love
       time: 9pm
+      image: /img/in-control/schedule/lapor.jpeg
       platform: IG
     - date: 23rd Nov 2021
       type: Podcast
@@ -43,5 +44,6 @@ milestone:
       title: Mengambil balik kuasa
       time: 9pm
       platform: Podcast
+
     
 ---

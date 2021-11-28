@@ -75,7 +75,10 @@ export default {
       {
       rel:'stylesheet',
       href:'https://fonts.cdnfonts.com/css/coco-gothic'
-      }
+      },
+      { rel:'stylesheet',
+        href:'https://fonts.cdnfonts.com/css/hk-groteks'
+        },
     ],
   },
 

@@ -2,10 +2,15 @@
   <!-- right timeline -->
   <div class="my-5 w-full md:mx-1 mx-2 cursor-default">
     <div class=" w-64 sm:-mx-40 mx-9">
+      <img
+          class="sm:h-64 h-56 cursor-default w-full object-cover rounded-t-20"
+          :src="image"
+          alt=""
+        />
+      
       <div
         class="
          w-64
-    rounded-lg
           h-36
           cursor-default
           cursor-pointer
@@ -15,9 +20,9 @@
           transform
           hover:scale-104
           duration-500
+          rounded-b-20
         "
-      >
-      
+      >   
         <div class="cursor-default sm:h-96 h-36 p-4 bg-mau-primary-100">
                         <p class="text-mau-primary-700 text-base font-bold"> {{title}}</p>
                          <p class="text-mau-primary-700 text-sm font-bold"> {{date}}</p>
@@ -58,6 +63,10 @@ export default {
       type: String,
       required: true,
     },
+    image:{
+      type:String,
+      default:"/img/in-control/yic_campaign2.png"
+    }
   },
 }
 </script>

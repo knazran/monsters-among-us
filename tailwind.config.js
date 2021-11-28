@@ -31,7 +31,8 @@ module.exports = {
 
     fontFamily: {
       'nunito': ['nunito', 'sans-serif'],
-      'display': ['Coco Gothic']
+      'display': ['Coco Gothic','sans-serif'],
+      'body': ['HK Grotesk','sans-serif']
 
       
     },

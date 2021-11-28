@@ -1,21 +1,21 @@
 ---
-title: Resources Section
+title: Infographics
 description: text
 image: /img/advocate/Advocate_Member.jpg
 link: /img/in-control/blue-h2.png
 carousel:
-    - name: Child Sex Offender Registry
-      image: /img/in-control/resources/Child Sex Offender Registry.png
-    - name: CTA - Lapor Predator
-      image:  /img/in-control/resources/CTA - Lapor Predator.png
-    - name: IP Address
-      image: /img/in-control/resources/IP Address.png
     - name: Pornography
-      image: /img/in-control/resources/Pornography.png
-    - name: References
+      image: /img/in-control/resources/1.png
+    - name: IP Address CTA - Lapor Predator
+      image:  /img/in-control/resources/2.png
+    - name: Child Sex Offender
       image: /img/in-control/resources/3.png
-    - name: References
-      image: /img/in-control/resources/7.png
+    - name: Predatory Fishing
+      image: /img/in-control/resources/4.png
+    - name: Non Consensual
+      image: /img/in-control/resources/5.png
+    - name: How to lapor
+      image: /img/in-control/resources/6.png
 ---
 
 Do you think kids in Malaysia are safe on the Internet?

@@ -1,11 +1,10 @@
 <template>
-  <div class="sm:min-h-screen h-48 sm:my-0 my-12">
-    <div class="container mx-auto px-1">
+  <div class="sm:h-full h-48 container mx-auto  py-8 lg:py-16 px-4 ">
       <HeadingControl :title="content.title" />
 
-      <div class="flex my-12 flex-row">
+      <div class="flex py-4 flex-row ">
         <!-- Left Side-->
-        <div class="w-1/2 ">
+        <div class="w-1/2  py-4 px-2">
           <slot name="left">
             <div class="flex justify-center">
               <SupporterCard
@@ -28,7 +27,7 @@
                       justify-center
                     "
                   >
-                    <img class=" max-w-full object-contain rounded-lg" :src="content.organisation[0].image" />
+                    <img class=" max- object-contain rounded-lg" :src="content.organisation[0].image" />
                   </div> -->
             </div>
           </slot>
@@ -36,7 +35,7 @@
         <!-- End Left Side-->
 
         <!-- Right Side with List and button -->
-        <div class="w-1/2 px-2">
+        <div class="w-1/2  py-4 px-2">
           <slot name="right">
             <div class="flex justify-center">
               <SupporterCard
@@ -50,7 +49,6 @@
         <!--End Right side with Pic -->
       </div>
     </div>
-  </div>
 </template>
 
 <script>
