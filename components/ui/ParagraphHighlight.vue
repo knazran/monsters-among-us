@@ -9,9 +9,10 @@
         class="
           font-body font-medium
           lg:px-1
+          text-justify
           lg:mt-2
-          sm:px-0
-          px-6
+          sm:px-8
+          px-2
           ml-1
           text-black
           lg:text-lg
@@ -22,6 +23,7 @@
       <nuxt-content
         v-if="!isDescription && isRow"
         class="
+          text-justify
           font-body font-medium
           lg:px-8 lg:mt-1
           sm:px-8

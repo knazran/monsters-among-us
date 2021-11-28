@@ -1,8 +1,8 @@
 <template>
   <div>
     <HeadingControl :title="titleContent.title" />
-    <div class="flex justify-center py-5">
-      <p class="px-6 text-lg lg:text-xl font-body font-medium">
+    <div class="flex px-6 justify-center py-5">
+      <p class="px-6 text-center text-lg lg:text-xl font-body font-medium">
         {{ titleContent.description }}
       </p>
     </div>
