@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen">
+  <div class="max-h-screen py-4">
 
     <HeadingControl title="Partners and Sponsors
 " />
@@ -12,7 +12,8 @@
         sm:grid-cols-3
         gap-12
         gap-8
-        px-4
+        sm:px-0
+        px-6
         py-6
         grid-cols-2
       
@@ -23,10 +24,12 @@
         v-for="partner in content.partners"
         :key="partner.name"
         class="
-          sm:h-56
-          h-48
-          w-48
-          sm:w-56
+        sm:h-40
+        sm:h-40
+          lg:h-56
+          h-32
+          w-32
+          lg:w-56
           bg-white
           rounded-full
           items-center

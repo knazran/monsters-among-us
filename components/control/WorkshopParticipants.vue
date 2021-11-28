@@ -7,7 +7,8 @@
       <div
         class="
         w-full
-        px-4
+        sm:px-4
+        px-8
           mb-8
           py-6
           grid

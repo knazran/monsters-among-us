@@ -15,9 +15,7 @@
       "
     >
       <!-- Element-specific configuration options can be passed like this -->
-      <PageSection>
-        <ControlHero />
-      </PageSection>
+      <ControlHero />
 
       <ControlPurpose :content="purposeContent" />
       <ControlMeetOurSupporters :content="supporter" />
