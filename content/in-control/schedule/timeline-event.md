@@ -3,7 +3,7 @@ title: Timeline
 heading_title: Upcoming Event
 link_heading: /img/in-control/blue-h.png
 milestone: 
-    - date: 17th Nov 2021
+    - date: 05.21
       type: IG Live
       title: Dangerously in Love
       time: 9pm
@@ -46,5 +46,4 @@ milestone:
       time: 9pm
       platform: Podcast
 
-    
 ---
