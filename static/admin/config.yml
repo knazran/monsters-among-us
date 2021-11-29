@@ -119,7 +119,7 @@ collections:
           - {label: Year, name: year, widget: string, default: 'Null'}
           - {label: Description, name: blurb, widget: string, default: 'Null'}
           - {label: Image, name: image, widget: image, default: '/img/team/team-bg-2.png'}
-  - label: 'You're In Control Schedule'
+  - label: 'YIC Schedule'
     name: 'yic_campaign'
     folder: 'content/in-control/schedule'
     widget: 'list'
