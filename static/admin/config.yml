@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: control-branch # Branch to update (optional; defaults to master)
 #uncomment to test locally and run npx netlify-cms-proxy-server
-#local_backend: true
+  #local_backend: true
 
 media_folder: static/img
 public_folder: /img
@@ -152,9 +152,10 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Null'}
       - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/team/team-bg-1.png'}
       - {label: 'Content', name: 'body', widget: 'markdown'}
-  - name: 'yic_schedule'
-    label: 'Your In Control Campaign'
+  - label: 'Your In Control Campaign'
+    name: 'yic_schedule'
     folder: 'content/in-control/schedule'
+    widget: 'list'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Null'}
       - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
