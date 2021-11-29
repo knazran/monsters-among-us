@@ -59,7 +59,7 @@
                 </div>
                 <a
                   class="flex justify-center py-5"
-                  href="/MAU-Poster.pdf"
+                  href="/Lapor Predator Infographic Resources.zip"
                   download=""
                 >
                   <p

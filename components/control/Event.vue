@@ -221,7 +221,7 @@
 
     <!-- BUTTON -->
     <div class="flex flex-col">
-      <div class="flex justify-center">
+      <!-- <div class="flex justify-center">
         <NuxtLink to="/in-control">
           <button
             class="
@@ -246,7 +246,7 @@
             Read More
           </button>
         </NuxtLink>
-      </div>
+      </div> -->
       <div class="flex justify-center py-5">
         <p
           class="
