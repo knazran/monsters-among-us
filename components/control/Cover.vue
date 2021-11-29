@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-full ">
+  <div class="relative h-full">
     <!-- Left Side-->
     <!-- <div class="flex justify-center pb-12">
           <img
@@ -14,17 +14,26 @@
           />
         </div> -->
     <div class="">
-      <div  class="sm:w-1/3 w-1/3 absolute lg:bottom-40 lg:right-12 md:bottom-28 sm:bottom-24  bottom-12 right-4">
+      <div
+        class="
+          sm:w-1/3
+          w-1/3
+          absolute
+          lg:bottom-40 lg:right-12
+          md:bottom-28
+          sm:bottom-24
+          bottom-12
+          right-4
+        "
+      >
         <p
           class="
-          w-full
+            w-full
             font-semibold
             xl:text-xl
             lg:text-lg
             sm:text-base
-            text-2xs 
-            text-left
-            text-mau-primary-700
+            text-2xs text-left text-mau-primary-700
           "
         >
           Every child and young adult deserve to be able to safely surf the
