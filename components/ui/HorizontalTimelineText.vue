@@ -3,9 +3,9 @@
   <div class="my-5 w-full md:mx-1 mx-2 cursor-default">
     <div class=" w-64 sm:-mx-40 mx-9">
       <img
-          class="sm:h-64 h-56 cursor-default w-full object-cover rounded-t-20"
+          class="sm:h-64 h-56 cursor-default w-full object-cover rounded-t-md"
           :src="image"
-          alt=""
+          alt="/img/in-control/yic_campaign2.png"
         />
       
       <div
@@ -20,10 +20,10 @@
           transform
           hover:scale-104
           duration-500
-          rounded-b-20
+          rounded-b-md
         "
       >   
-        <div class="cursor-default sm:h-96 h-36 p-4 bg-mau-primary-100">
+        <div class="cursor-default sm:h-96 h-36 p-4 bg-mau-primary-100 rounded-b-md">
                         <p class="text-mau-primary-700 text-base font-body font-bold"> {{title}}</p>
                          <p class="text-mau-primary-700 text-sm font-body font-medium"> {{date}}</p>
                            <p class="text-mau-primary-700 font-body font-medium"> {{platform}}</p>
