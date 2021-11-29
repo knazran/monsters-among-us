@@ -25,8 +25,7 @@
       >   
         <div class="cursor-default sm:h-96 h-36 p-4 bg-mau-primary-100">
                         <p class="text-mau-primary-700 text-base font-body font-bold"> {{title}}</p>
-                         <p class="text-mau-primary-700 text-sm font-body font-bold"> {{date}}</p>
-                          <p class="text-mau-primary-700 font-body font-medium "> {{date}}</p>
+                         <p class="text-mau-primary-700 text-sm font-body font-medium"> {{date}}</p>
                            <p class="text-mau-primary-700 font-body font-medium"> {{platform}}</p>
                            
 
