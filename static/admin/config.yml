@@ -124,7 +124,7 @@ collections:
     folder: 'content/in-control/schedule'
     widget: 'list'
     fields:
-      - {label: 'Title', name: 'heading_title', widget: 'string', default: 'Everything is awesome!'}
+      - {label: 'Title', name: 'title', widget: 'string', default: 'Everything is awesome!'}
       - {label: 'Background Image', name: 'heading_title', widget: 'image', choose_url: true, default: '/img/in-control/blue-h.png'}
       - label: Milestone
         name: milestone

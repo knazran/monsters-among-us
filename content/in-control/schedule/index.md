@@ -1,5 +1,5 @@
 ---
-heading_title: Upcoming Event
+title: Upcoming Event
 link_heading: /img/in-control/blue-h.png
 milestone: 
     - date: November 21, 2021 09:00 PM
