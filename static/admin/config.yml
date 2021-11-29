@@ -162,7 +162,6 @@ collections:
       - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
       - {label: 'Platofrm', name: 'plaatform', widget: 'string'}
       - {label: 'Type', name: 'type', widget: 'string'}
-      - {label: 'Content', name: 'body', widget: 'markdown'}
 
 
 
