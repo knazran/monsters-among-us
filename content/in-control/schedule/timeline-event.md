@@ -14,6 +14,7 @@ milestone:
       title: You're In Control Campaign
       time: 9pm
       platform: Podcast
+      image: /img/in-control/lapor.mp4
     - date: 29th Nov 2021
       type: Podcast
       title: Parents selalu betul ke?

@@ -152,5 +152,18 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Null'}
       - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/team/team-bg-1.png'}
       - {label: 'Content', name: 'body', widget: 'markdown'}
+  - name: 'yic_schedule'
+    label: 'Your In Control Campaign'
+    folder: 'content/in-control/schedule'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: 'Null'}
+      - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: "false"}
+      - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
+      - {label: 'Platofrm', name: 'plaatform', widget: 'string'}
+      - {label: 'Type', name: 'type', widget: 'string'}
+      - {label: 'Content', name: 'body', widget: 'markdown'}
+
+
+
 
 
