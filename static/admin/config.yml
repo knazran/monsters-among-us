@@ -129,11 +129,11 @@ collections:
         name: milestone
         widget: list
         fields:
-         - {label: 'Description', name: 'description', widget: 'string', default: 'Null'}
-         - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
-         - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
-         - {label: 'Platform', name: 'plaatform', widget: 'string'}
-         - {label: 'Type', name: 'type', widget: 'string'}
+          - {label: 'Description', name: 'description', widget: 'string', default: 'Null'}
+          - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
+          - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
+          - {label: 'Platform', name: 'plaatform', widget: 'string'}
+          - {label: 'Type', name: 'type', widget: 'string'}
   - name: 'policies'
     label: 'Our Policies'
     label_singular: 'Our Policies'
