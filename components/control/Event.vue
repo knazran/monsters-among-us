@@ -363,7 +363,6 @@
                 :type="info.type"
                 :title="info.description"
                 :platform="info.platform"
-                :time="info.time"
                 :image="info.image"
               />
             </div>

@@ -101,7 +101,7 @@ export default {
       ).fetch()
       const event = await $content('in-control/event/event').fetch()
       const timelineEvent = await $content(
-        'in-control/schedule/timeline-event'
+        'in-control/schedule/index'
       ).fetch()
       const liveEvent = await $content('in-control/event/title-event').fetch()
       const supporter = await $content('in-control/meet-our-supporters').fetch()
