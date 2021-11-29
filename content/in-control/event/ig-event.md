@@ -15,5 +15,5 @@ carousel:
   - image: /img/advocate/together.jpg
 ---
 
-We love the Internet, but there can be downsides to it. Discover what they are and more during our IG Live sessions. Our first topic is on online dating! 
+We love the Internet, but there can be downsides to it. Discover what they are and more during our IG Live sessions. Our first topic is on online dating. Visit our Instagram <a href="https://instagram.com/monstersamongus_my?utm_medium=copy_link"> <u>here!</u> </a>
 

@@ -10,7 +10,6 @@ milestone:
       type: Podcast
       description: You're In Control Campaign
       platform: Podcast
-      image: /img/in-control/lapor.mp4
     - date: November 29, 2021 09:00 PM
       description: Parents selalu betul ke?
       platform: Podcast
