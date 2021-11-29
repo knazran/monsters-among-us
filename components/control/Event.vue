@@ -361,7 +361,7 @@
               <HorizontalTimelineText
                 :date="info.date"
                 :type="info.type"
-                :title="info.title"
+                :title="info.description"
                 :platform="info.platform"
                 :time="info.time"
                 :image="info.image"
