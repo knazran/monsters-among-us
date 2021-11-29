@@ -124,7 +124,7 @@ collections:
     folder: 'content/in-control/schedule'
     widget: 'list'
     fields:
-      - {label: 'Title', name: 'title', widget: 'string', default: 'Everything is awesome!'}
+      - {label: 'Title', name: 'heading_title', widget: 'string', default: 'Everything is awesome!'}
       - {label: 'Background Image', name: 'heading_title', widget: 'image', choose_url: true, default: '/img/in-control/blue-h.png'}
       - label: Milestone
         name: milestone
@@ -134,7 +134,6 @@ collections:
           - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
           - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
           - {label: 'Platform', name: 'plaatform', widget: 'string'}
-          - {label: 'Type', name: 'type', widget: 'string'}
   - name: 'policies'
     label: 'Our Policies'
     label_singular: 'Our Policies'
