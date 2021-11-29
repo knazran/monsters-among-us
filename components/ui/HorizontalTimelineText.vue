@@ -2,17 +2,12 @@
   <!-- right timeline -->
   <div class="my-5 w-full md:mx-1 mx-2 cursor-default">
     <div class=" w-64 sm:-mx-40 mx-9">
-      <!-- <img
+      <img
           class="sm:h-64 h-56 cursor-default w-full object-cover rounded-t-md"
           :src="image"
           alt="/img/in-control/yic_campaign2.png"
         />
-       -->
-        <Video
-              title="test"
-              src="https://www.youtube.com/embed/641nm_sDejU"
-                class="sm:h-64 h-56 cursor-default w-full object-cover rounded-t-md"
-            />
+      
       <div
         class="
          w-64
