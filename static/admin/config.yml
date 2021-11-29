@@ -119,21 +119,34 @@ collections:
           - {label: Year, name: year, widget: string, default: 'Null'}
           - {label: Description, name: blurb, widget: string, default: 'Null'}
           - {label: Image, name: image, widget: image, default: '/img/team/team-bg-2.png'}
-  - label: '(About Us) Our Milestones'
-    name: 'miles'
-    folder: 'content/in-control/schedule'
+  - label: 'grege'
+    name: 'testin'
+    folder: 'content/about-us/milestone'
     widget: 'list'
-      - {label: 'Title', name: 'heading_title', widget: 'string', default: 'Everything is awesome!'}
-      - {label: 'Background Image', name: 'heading_title', widget: 'image', choose_url: true, default: '/img/in-control/blue-h.png'}
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string', default: 'Everything is awesome!'}
       - label: Milestone
         name: milestone
         widget: list
         fields:
-          - {label: 'Description', name: 'description', widget: 'string', default: 'Null'}
-          - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
-          - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
-          - {label: 'Platform', name: 'plaatform', widget: 'string'}
-          - {label: 'Type', name: 'type', widget: 'string'}
+          - {label: Year, name: year, widget: string, default: 'Null'}
+          - {label: Description, name: blurb, widget: string, default: 'Null'}
+          - {label: Image, name: image, widget: image, default: '/img/team/team-bg-2.png'}
+  # - label: '(About Us) Our Milestones'
+  #   name: 'miles'
+  #   folder: 'content/in-control/schedule'
+  #   widget: 'list'
+  #     - {label: 'Title', name: 'heading_title', widget: 'string', default: 'Everything is awesome!'}
+  #     - {label: 'Background Image', name: 'heading_title', widget: 'image', choose_url: true, default: '/img/in-control/blue-h.png'}
+  #     - label: Milestone
+  #       name: milestone
+  #       widget: list
+  #       fields:
+  #         - {label: 'Description', name: 'description', widget: 'string', default: 'Null'}
+  #         - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
+  #         - {label: 'Image', name: img, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
+  #         - {label: 'Platform', name: 'plaatform', widget: 'string'}
+  #         - {label: 'Type', name: 'type', widget: 'string'}
   - name: 'policies'
     label: 'Our Policies'
     label_singular: 'Our Policies'
