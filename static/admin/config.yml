@@ -119,8 +119,8 @@ collections:
           - {label: Year, name: year, widget: string, default: 'Null'}
           - {label: Description, name: blurb, widget: string, default: 'Null'}
           - {label: Image, name: image, widget: image, default: '/img/team/team-bg-2.png'}
-  - label: 'Your In Control Campaign'
-    name: 'yic_schedule'
+  - label: '(About Us) Our Milestones'
+    name: 'miles'
     folder: 'content/in-control/schedule'
     widget: 'list'
       - {label: 'Title', name: 'heading_title', widget: 'string', default: 'Everything is awesome!'}
