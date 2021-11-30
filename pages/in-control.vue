@@ -51,7 +51,7 @@
       <PageSection>
         <ControlPartners :content="partnersContent" />
       </PageSection>
-      <!-- <ControlTest11 :content="filterContent" :bgImage="getBackgroundImage4" /> -->
+      <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" />
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>

@@ -1,10 +1,10 @@
 <template>
-  <div class="py-8 h-full">
+  <div class=" max-h-screen">
     <section v-scroll-reveal.reset="{ delay: 100 }">
       <div class="">
         <img
-          class="h-full object-cover w-full"
-          src="../../static/img/in-control/yic_campaign.png"
+          class="max-h-screen object-cover "
+          src="../../static/img/in-control/Website Banner.jpg"
           alt="MAU logo"
         />
       </div>
