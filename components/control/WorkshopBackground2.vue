@@ -1,6 +1,7 @@
 <template>
   <div class="h-88 py-8 " :style="{ backgroundImage: bgImage }">
-    <div class="flex h-80 justify-center items-center px-6 sm:px-24">
+    <PageSection>
+    <div class="flex h-80 justify-center items-center ">
       <nuxt-content
         class="
         
@@ -8,13 +9,15 @@
           font-body font-medium
           px-2
           
-         lg:text-2xl
+         lg:text-xl
+        md:text-lg
          text-base
           max-w-none
         "
         :document="content"
       />
     </div>
+    </PageSection>
   </div>
 </template>
 

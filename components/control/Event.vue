@@ -2,7 +2,9 @@
   <div>
     <HeadingControl :title="titleContent.title" />
     <div class="flex px-6 justify-center py-5">
-      <p class="px-6 text-center text-lg lg:text-xl font-body font-medium">
+      <p class="px-6 text-center lg:text-2xl
+        md:text-xl
+         text-base font-body font-medium">
         {{ titleContent.description }}
       </p>
     </div>

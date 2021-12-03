@@ -1,12 +1,13 @@
 <template>
-  <div>
+  <div class="sm:max-h-screen ">
+      <HeadingControl :title="content.title" />
+
     <div
-      class="min-h-screen sm:my-0 my-12 mt-72 imgBg"
+      class="sm:my-0  imgBg"
       :style="{ backgroundImage: bgImage }"
     >
       <div class=" container px-4 mx-auto py-2 md:py-18 px-2 lg:px-8">
-        <HeadingControl :title="content.title" />
-
+      
         <div class=" flex flex-col my-12  sm:flex-row py-4">
           <!-- Left Side-->
           <div class="  lg:w-2/5 sm:w-1/2 text-mau-secondary-900 px-8 mb-8">
@@ -66,8 +67,12 @@
                     class="
                       md:px-4
                       px-3
-                      prose prose-black prose-md
-                      lg:prose-lg
+                      font-display
+                      font-medium
+                      
+                       text-yellow-50 
+                      lg:text-lg
+                      text-base
                       hover:underline
                       max-w-none
                     "

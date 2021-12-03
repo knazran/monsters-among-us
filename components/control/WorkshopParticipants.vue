@@ -19,7 +19,9 @@
         "
       >
         <ul
-          class="class=list-outside font-body font-medium list-disc"
+          class="list-outside font-body font-medium list-disc  lg:text-xl
+        md:text-lg
+         text-base"
           v-for="participant in content.participants"
           :key="participant.name"
         >

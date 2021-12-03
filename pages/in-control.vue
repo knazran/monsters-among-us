@@ -60,7 +60,7 @@
 
 <script>
 import Radial from '~/static/img/textures/radial.png'
-import Background from '~/static/img/in-control/resources_bg.jpg'
+import Background from '~/static/img/in-control/resources_bg.png'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
 import Background2 from '~/static/img/in-control/resources_bg2.jpg'
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="lg:min-h-screen ">
-    <section class="lg:min-h-screen" v-scroll-reveal.reset="{ delay: 100 }">
+  <div class="h-full ">
+    <section class="" v-scroll-reveal.reset="{ delay: 100 }">
       <div class="">
         <img
           class="w-full object-contain "

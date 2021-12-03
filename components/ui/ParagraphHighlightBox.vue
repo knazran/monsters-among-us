@@ -1,8 +1,8 @@
 <template>
   <div class="relative  w-full">
-    <img  class="h-96   mx-auto" :src="content.link" />
+    <img  class="h-96  w-80 mx-auto" :src="content.link" />
 
-    <div class="absolute inset-0 h-full py-6 md:px-3 px-2">
+    <div class="absolute inset-0 h-full py-6 md:px-3 ">
       <ImageCarouselSingle  :images="content.purpose" :isText=true />
 
       <!-- <nuxt-content

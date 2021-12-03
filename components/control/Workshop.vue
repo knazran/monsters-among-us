@@ -8,8 +8,9 @@
         text-center
         flex
         justify-center
-        text-lg
-        lg:text-xl
+        lg:text-2xl
+        md:text-xl
+         text-base
         font-body font-medium
       "
     >
@@ -17,7 +18,7 @@
     </div>
       
     
-    <div class="py-6">
+    <div class="py-12">
       <div class="flex justify-center flex-row relative">
         <div class="transform h-32 sm:h-72 rounded-full scale-100 hover:scale-105">
           <NuxtLink :to="content.link">

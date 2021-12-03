@@ -4,7 +4,7 @@
 
     <div class="h-full py-6 md:px-3 px-2">
       <nuxt-content
-        class=" sm:block hidden font-body font-medium  px-2 prose prose-black prose-3xl lg:prose-xl max-w-none"
+        class=" sm:block hidden font-body font-medium  px-2 prose prose-black prose-xl lg:prose-2xl max-w-none"
         :document="content"
       />
       <div class="sm:hidden block">
