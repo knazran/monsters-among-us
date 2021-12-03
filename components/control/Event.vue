@@ -199,7 +199,6 @@
             lg:px-0
             px-8
             md:py-0
-            py-8
             md:flex md:items-center md:justify-center
           "
         >
@@ -247,7 +246,7 @@
           </button>
         </NuxtLink>
       </div> -->
-      <div class="flex justify-center py-5">
+      <div class="flex justify-center py-1">
         <p
           class="
             px-4
@@ -311,7 +310,7 @@
       <!-- Social Media -->
     </div>
 
-    <div class="w-full py-4">
+    <div class="w-full sm:py-4">
       <PageSection id="milestone">
         <div class="w-full">
           <div class="py-12">

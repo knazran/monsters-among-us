@@ -1,9 +1,9 @@
 <template>
-  <div class=" max-h-screen">
-    <section v-scroll-reveal.reset="{ delay: 100 }">
+  <div class="lg:min-h-screen ">
+    <section class="lg:min-h-screen" v-scroll-reveal.reset="{ delay: 100 }">
       <div class="">
         <img
-          class="max-h-screen object-cover "
+          class="w-full object-contain "
           src="../../static/img/in-control/Website Banner.jpg"
           alt="MAU logo"
         />

@@ -7,7 +7,7 @@
     </VueSlickCarousel>
     <VueSlickCarousel v-if="isText"  v-bind="settings">
       <div  class="h-full" v-for="(purpose,index) in images" :key="purpose.description">
-        <div class="px-4 font-display font-medium justify-center text-center flex">
+        <div class="px-6  font-medium justify-center text-left text-sm flex items-center">
           <p>{{purpose.description}}</p>
         </div>
         <div class="flex  justify-center ">

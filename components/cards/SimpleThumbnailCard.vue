@@ -3,11 +3,19 @@
     <!-- <div class="self-center"> -->
     <div class="w-full">
       <img
+       v-if="!isWorkshop" 
         :src="image"
         alt="..."
         class="object-scale-down w-full border-none rounded h-72 "
       />
+      <img
+       v-if="isWorkshop" 
+        :src="image"
+        alt="..."
+        class="object-scale-down w-full border-none rounded h-48 sm:h-72 "
+      />
     </div>
+    
 
     <div v-if="!isButton" class="my-4 flex-grow">
       <p class="text-center text-mau-primary-700 text-xl font-bold mb-2">
@@ -17,7 +25,7 @@
         {{ textBot }}
       </p>
     </div>
-    <div v-if="!isButton"></div>
+    
 
     <div v-if="isButton" class="">
       <AccentButtonCustom :long="isLong" :text="textButton" />
@@ -28,6 +36,10 @@
 <script>
 export default {
   props: {
+    isWorkshop:{
+      type:Boolean,
+      default:false
+    },
     isButton: {
       type: Boolean,
       required: true,

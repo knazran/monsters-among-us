@@ -8,13 +8,13 @@
         class="
         w-full
         sm:px-4
-        px-8
+        px-6
           mb-8
           py-6
           grid
           sm:grid-cols-3
           grid-cols-2 grid-flow-row
-          gap-6
+          gap-10
           auto-rows-auto
         "
       >

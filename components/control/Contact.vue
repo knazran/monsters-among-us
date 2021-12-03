@@ -4,7 +4,7 @@
 
     <PageSplitSectionEdited :img="content.image" :img2="content.image2">
       <nuxt-content
-        class="px-3  font-body font-medium  px-2 prose prose-black prose-3xl lg:prose-xl max-w-none"
+        class="  font-body font-medium  prose prose-black prose-3xl lg:prose-xl max-w-none"
         :document="content"
       />
     </PageSplitSectionEdited>

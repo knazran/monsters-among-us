@@ -8,7 +8,9 @@
         :document="content"
       />
       <div class="sm:hidden block">
-      <ImageCarouselSingle  :images="content.purpose" :isText=true />
+      <!-- <ImageCarouselSingle  :images="content.purpose" :isText=true /> -->
+        <ParagraphHighlightBox :content="content" />
+
       </div>
     </div>
   </div>

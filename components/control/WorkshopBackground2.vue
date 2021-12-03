@@ -1,15 +1,15 @@
 <template>
-  <div class="h-88 py-8" :style="{ backgroundImage: bgImage }">
-    <div class="flex h-80 justify-center items-center container px-4 ">
+  <div class="h-88 py-8 " :style="{ backgroundImage: bgImage }">
+    <div class="flex h-80 justify-center items-center px-6 sm:px-24">
       <nuxt-content
         class="
-          md:px-16
-          px-4
+        
           text-justify
           font-body font-medium
           px-2
-          prose prose-black prose-3xl
-          lg:prose-xl
+          
+         lg:text-2xl
+         text-base
           max-w-none
         "
         :document="content"
