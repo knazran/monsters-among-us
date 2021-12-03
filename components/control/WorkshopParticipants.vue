@@ -1,6 +1,6 @@
 <template>
-  <div class="py-5 px-4">
-    <div class="flex justify-center">
+  <div class="py-5 px-4 ">
+    <div class="flex justify-center mt-6">
       <TextHighlight :title="content.title1" />
     </div>
     <div class="flex justify-center">
@@ -31,7 +31,7 @@
         </ul>
       </div>
     </div>
-    <div class="flex justify-center px-5">
+    <div class="flex justify-center px-5 mt-6">
       <TextHighlight :title="content.title2" />
     </div>
     <div class="w-full py-6">

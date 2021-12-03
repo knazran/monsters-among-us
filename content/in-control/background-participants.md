@@ -3,6 +3,7 @@ title1: Past Participants
 title2: Workshop Photos
 description: text
 image: /img/advocate/Advocate_Member.jpg
+link_heading: /img/in-control/blue-h.png
 carousel:
   - image: /img/advocate/Advocate_1.jpg
   - image: /img/advocate/Advocate_2.jpg

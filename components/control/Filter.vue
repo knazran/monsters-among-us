@@ -1,24 +1,30 @@
 <template>
-  <div class="min-h-screen  sm:my-0 sm:mt-36 mt-4 imgBg " :style="{ backgroundImage: bgImage }">
-    <HeadingControl :title="content.title1" />
+<div>
+      <HeadingControl :title="content.title1" />
+
+  <div class="max-h-screen  sm:my-0   imgBg " :style="{ backgroundImage: bgImage }">
     
     <div class=" flex flex-col md:flex-row py-4 px-6">
       <!-- Left Side-->
       <div class="md:w-3/5 mb-2">
         <div class="">
           <slot name="left">
-            <PageSplitSection :reverse="true" :img="content.image">
-              <div class="flex mt-4  justify-center md:justify-start">
-              <nuxt-content
-                class="
-                  font-bold  prose-md
-                  lg:prose-lg
-                  max-w-none
-                "
-                :document="content"
-              />
+              <div class="flex mt-4  justify-center">
+                <div>
+                           <SimpleThumbnailCard  :image="content.image" />
+                </div>
+                <div class="px-5">
+                  <nuxt-content
+                    class="
+                      font-bold  prose-md
+                      lg:prose-lg
+                      max-w-none
+                    "
+                    :document="content"
+                  />
               </div>
-            </PageSplitSection>
+              </div>
+           
           </slot>
         </div>
       </div>
@@ -36,6 +42,8 @@
       </div>
       <!--End Right side with Pic -->
     </div>
+  </div>
+
   </div>
 </template>
 

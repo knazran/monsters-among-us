@@ -1,14 +1,13 @@
 <template>
-   <div class="relative h-24 w-72">
-                      <img class="h-16 w-full" src="~/static/img/in-control/blue-h.png">
-                     
-              <div class="  font-body font-bold absolute w-48 h-12 py-4 px-4 inset-0 mx-auto">
-                      <p class="text-white w-48 text-xl  "> {{title}} </p>
+  <div class="relative h-full w-full">
+    <img class="h-20 mx-auto" src="~/static/img/in-control/blue-h.png" />
 
-              </div>
-           
-        </div>
-
+    <div class="absolute flex justify-center items-center inset-0 mx-auto">
+      <p class="px-6 text-lg text-white lg:text-2xl font-body font-bold">
+        {{ title }}
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -18,7 +17,6 @@ export default {
       type: String,
       required: true,
     },
-   
   },
 }
 </script>
