@@ -1,16 +1,12 @@
 <template>
-  <div class="sm:max-h-screen ">
-      <HeadingControl :title="content.title" />
+  <div class="sm:max-h-screen my-2 ">
+    <HeadingControl :title="content.title" />
 
-    <div
-      class="sm:my-0  imgBg"
-      :style="{ backgroundImage: bgImage }"
-    >
-      <div class=" container px-4 mx-auto py-2 md:py-18 px-2 lg:px-8">
-      
-        <div class=" flex flex-col my-12  sm:flex-row py-4">
+    <div class="sm:my-0 imgBg " :style="{ backgroundImage: bgImage }">
+      <div class="container px-4 mx-auto py-2 md:py-18 px-2 lg:px-8">
+        <div class="flex flex-col my-12 sm:flex-row py-4">
           <!-- Left Side-->
-          <div class="  lg:w-2/5 sm:w-1/2 text-mau-secondary-900 px-8 mb-8">
+          <div class="lg:w-2/5 sm:w-1/2 text-mau-secondary-900 px-8 mb-8">
             <div class="">
               <slot name="left">
                 <div class="flex justify-center">
@@ -48,14 +44,11 @@
                     :key="partner.name"
                     class=""
                   >
-                    <img
-                      class="w-full object-cover rounded-sm h-full"
-                      :src="partner.image"
-                    />
+                    <ImageModal :image="partner.image" />
                   </div>
                 </div>
                 <!-- End Row -->
-                <div class="lg:hidden block mx-auto w-full">
+                <div class="lg:hidden  block mx-auto w-full">
                   <ImageCarouselSingle :images="content.carousel" />
                 </div>
                 <a
@@ -67,10 +60,8 @@
                     class="
                       md:px-4
                       px-3
-                      font-display
-                      font-medium
-                      
-                       text-yellow-50 
+                      font-display font-medium
+                      text-yellow-50
                       lg:text-lg
                       text-base
                       hover:underline

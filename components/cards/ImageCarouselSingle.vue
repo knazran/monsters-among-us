@@ -1,8 +1,13 @@
 <template>
   <div class="md:py-0">
     <VueSlickCarousel v-if="!isText" v-bind="settings">
-      <div class="sm:block hidden" v-for="specificImage in images" :key="specificImage.image">
-        <div><img class="w-full px-2" :src="specificImage.image" /></div>
+      <div class="sm:block hidden " v-for="specificImage in images" :key="specificImage.image">
+        <div>
+          
+         <a :href="specificImage.image"> <img class="w-full  cursor-pointer
+        transform
+        scale-100
+        hover:scale-105 px-2" :src="specificImage.image" /></a></div>
       </div>
     </VueSlickCarousel>
     <VueSlickCarousel v-if="isText"  v-bind="settings">

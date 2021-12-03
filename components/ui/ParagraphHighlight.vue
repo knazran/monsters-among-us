@@ -9,12 +9,15 @@
         class="
           lg:top-3
           md:top-2
+          sm:top-1
           top-1
+          lg:left-4
+          md:left-2
           font-body font-medium
           lg:px-0 lg:mt-2
           md:px-7
-          sm:px-7
-          px-1
+          sm:px-0
+          px-2
           ml-4
           text-black
           md:text-sm
@@ -27,9 +30,14 @@
       <nuxt-content
         v-if="!isDescription && isRow"
         class="
+        top-4
           font-body font-medium
+          sm:right-6
+          lg:left-2
+          md:left-1
           lg:px-2 lg:mt-1
-          sm:px-4
+          md:px-3
+          sm:px-9
           px-3
           ml-4
           text-black

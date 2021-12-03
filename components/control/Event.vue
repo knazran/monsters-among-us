@@ -85,7 +85,7 @@
             md:w-1/2
             text-mau-secondary-900
             px-8
-            md:mb-8 md:flex md:items-center md:justify-center
+            md:mb-0 md:flex md:items-center md:justify-center
           "
         >
           <div class="">
