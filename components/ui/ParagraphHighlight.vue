@@ -25,7 +25,7 @@
         v-if="!isDescription && isRow"
         class="
           font-body font-medium
-          lg:px-8 lg:mt-1
+          lg:px-2 lg:mt-1
           sm:px-4
           px-3
           ml-4
