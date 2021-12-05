@@ -4,7 +4,7 @@
       <div class="">
         <img
           class="w-full object-contain "
-          src="../../static/img/in-control/Website Banner.jpg"
+          src="../../static/img/in-control/Hero.png"
           alt="MAU logo"
         />
       </div>

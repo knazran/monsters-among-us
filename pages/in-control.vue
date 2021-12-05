@@ -19,14 +19,14 @@
 
       <ControlPurpose :content="purposeContent" />
       <ControlMeetOurSupporters :content="supporter" />
-      <!-- <ControlInfographic
+      <ControlInfographic
         :content="infographicContent"
         :bgImage="getBackgroundImage2"
-      /> -->
+      />
       <PageSection>
         <ControlContact :content="contactContent" />
       </PageSection>
-      <!-- <PageSection>
+      <PageSection>
         <ControlEvent
           :igContent="igEvent"
           :timelineContent="timelineEvent"
@@ -34,7 +34,7 @@
           :podcastContent="podcastEvent"
           :liveContent="liveEvent"
         />
-      </PageSection> -->
+      </PageSection>
       <PageSection>
         <ControlWorkshop :content="workshopContent" />
       </PageSection>
@@ -51,7 +51,7 @@
       <PageSection>
         <ControlPartners :content="partnersContent" />
       </PageSection>
-      <!-- <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" /> -->
+      <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" />
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -62,7 +62,7 @@
 import Radial from '~/static/img/textures/radial.png'
 import Background from '~/static/img/in-control/resources_bg.png'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
-import Background2 from '~/static/img/in-control/resources_bg2.jpg'
+import Background2 from '~/static/img/in-control/resources_bg2.png'
 
 export default {
   data() {
