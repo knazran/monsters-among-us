@@ -26,7 +26,7 @@
       <PageSection>
         <ControlContact :content="contactContent" />
       </PageSection>
-      <PageSection>
+      <!-- <PageSection>
         <ControlEvent
           :igContent="igEvent"
           :timelineContent="timelineEvent"
@@ -34,7 +34,7 @@
           :podcastContent="podcastEvent"
           :liveContent="liveEvent"
         />
-      </PageSection>
+      </PageSection> -->
       <PageSection>
         <ControlWorkshop :content="workshopContent" />
       </PageSection>
@@ -51,7 +51,7 @@
       <PageSection>
         <ControlPartners :content="partnersContent" />
       </PageSection>
-      <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" />
+      <!-- <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" /> -->
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -70,7 +70,6 @@ export default {
       bgGreen: Radial,
       background: Background,
       background2: Background2,
-
       bgGreenTexture: GreenBg,
     }
   },
