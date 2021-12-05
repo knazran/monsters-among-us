@@ -6,7 +6,7 @@
       class="max-h-screen sm:my-0 imgBg"
       :style="{ backgroundImage: bgImage }"
     >
-      <div class="flex flex-col md:flex-row py-4 px-6">
+      <div class="container flex flex-col md:flex-row py-4 px-6">
         <!-- Left Side-->
         <div class="md:w-3/5 mb-2">
           <div class="">
