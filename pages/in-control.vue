@@ -99,9 +99,9 @@ export default {
         'in-control/event/podcast-event'
       ).fetch()
       const event = await $content('in-control/event/event').fetch()
-      const timelineEvent = await $content(
-        'in-control/schedule/index'
-      ).fetch()
+      // const timelineEvent = await $content(
+      //   'in-control/schedule/index'
+      // ).fetch()
       const liveEvent = await $content('in-control/event/title-event').fetch()
       const supporter = await $content('in-control/meet-our-supporters').fetch()
 
@@ -118,7 +118,7 @@ export default {
         podcastEvent,
         event,
         liveEvent,
-        timelineEvent,
+        // timelineEvent,
         supporter,
       }
     } catch (e) {
