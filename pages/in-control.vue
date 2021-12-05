@@ -19,10 +19,10 @@
 
       <ControlPurpose :content="purposeContent" />
       <ControlMeetOurSupporters :content="supporter" />
-      <ControlInfographic
+      <!-- <ControlInfographic
         :content="infographicContent"
         :bgImage="getBackgroundImage2"
-      />
+      /> -->
       <PageSection>
         <ControlContact :content="contactContent" />
       </PageSection>
