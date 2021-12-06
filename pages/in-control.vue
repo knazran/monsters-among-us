@@ -19,14 +19,14 @@
 
       <ControlPurpose :content="purposeContent" />
       <ControlMeetOurSupporters :content="supporter" />
-      <!-- <ControlInfographic
+      <ControlInfographic
         :content="infographicContent"
         :bgImage="getBackgroundImage2"
-      /> -->
+      />
       <PageSection>
         <ControlContact :content="contactContent" />
       </PageSection>
-      <!-- <PageSection>
+      <PageSection>
         <ControlEvent
           :igContent="igEvent"
           :timelineContent="timelineEvent"
@@ -34,7 +34,7 @@
           :podcastContent="podcastEvent"
           :liveContent="liveEvent"
         />
-      </PageSection> -->
+      </PageSection>
       <PageSection>
         <ControlWorkshop :content="workshopContent" />
       </PageSection>
@@ -51,7 +51,7 @@
       <PageSection>
         <ControlPartners :content="partnersContent" />
       </PageSection>
-      <!-- <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" /> -->
+      <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" />
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -99,9 +99,9 @@ export default {
         'in-control/event/podcast-event'
       ).fetch()
       const event = await $content('in-control/event/event').fetch()
-      // const timelineEvent = await $content(
-      //   'in-control/schedule/index'
-      // ).fetch()
+      const timelineEvent = await $content(
+        'in-control/schedule/index'
+      ).fetch()
       const liveEvent = await $content('in-control/event/title-event').fetch()
       const supporter = await $content('in-control/meet-our-supporters').fetch()
 
