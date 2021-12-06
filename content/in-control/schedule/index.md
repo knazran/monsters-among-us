@@ -2,10 +2,11 @@
 title: Upcoming Event
 link_heading: /img/in-control/blue-h.png
 milestone: 
-    - date: November 17, 2021 09:00 PM
+    - date: November 21, 2021 09:00 PM
       description: Dangerously in Love
-      platform: IG Live
-    - date: November 24, 2021 09:00 PM
+      image: /img/in-control/schedule/lapor.jpeg
+      platform: IG
+    - date: November 23, 2021 09:00 PM
       type: Podcast
       description: You're In Control Campaign
       platform: Podcast
@@ -14,21 +15,19 @@ milestone:
       platform: Podcast
     - date: December 1, 2021 09:00 PM
       description: What to Know in Making Online Friends
-      platform: IG Live
-    - date: December 8, 2021 09:00 PM
-      description: "Parents" selalu betul ke?
+      platform: IG
+    - date: December 7, 2021 09:00 PM
+      description: Kene selalu ikut cakap pasangan ke?
       platform: Podcast
-    - date: December 15, 2021 09:00 PM
+    - date: December 14, 2021 09:00 PM
       description: Apa itu "consent"?
       platform: Podcast
-    - date: December 18, 2021 09:00 PM
-      description: Boleh ke kita cakap NO dekat partner kita?
-      platform: Podcast
-    - date: December 22, 2021 09:00 PM
-      description: 	Nudes, Threats and Stalking
-      platform: IG Live
+    - date: December 21, 2021 09:00 PM
+      description: Nudes, Threats and Stalking
+      platform: IG
     - date: December 28, 2021 09:00 PM
-      description: 	Kalau orang ugut dengan "nudes" nak buat apa?
+      description: Mengambil balik kuasa
       platform: Podcast
 
 ---
+
