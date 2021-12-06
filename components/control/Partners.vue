@@ -1,5 +1,5 @@
 <template>
-  <div class="max-h-screen py-4">
+  <div class="max-h-screen py-4 mb-2">
 
     <HeadingControl title="Partners and Sponsors
 " />

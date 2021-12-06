@@ -72,7 +72,8 @@ export default {
       required: true,
     },
     image: {
-      type: String
+      type: String,
+      default:"/img/in-control/yic_campaign2.png"
     },
   },
 }

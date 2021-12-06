@@ -118,7 +118,7 @@ export default {
         podcastEvent,
         event,
         liveEvent,
-        // timelineEvent,
+        timelineEvent,
         supporter,
       }
     } catch (e) {
