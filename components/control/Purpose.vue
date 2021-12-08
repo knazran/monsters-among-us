@@ -1,10 +1,10 @@
 <template>
-  <div class="h-full container mx-auto  py-8 lg:py-16 px-4 ">
+  <div class="h-full container mx-auto  py-8 lg:py-4 px-4 ">
     <HeadingControl :title="content.title" />
 
-    <div class="h-full py-6 md:px-3 px-2">
+    <div class="h-full py-4 md:px-3 px-2">
       <nuxt-content
-        class=" sm:block hidden font-body font-medium  px-2 prose prose-black prose-xl lg:prose-2xl max-w-none"
+        class=" sm:block hidden font-body font-medium  px-2 prose prose-black prose-lg lg:prose-xl max-w-none"
         :document="content"
       />
       <div class="sm:hidden block">

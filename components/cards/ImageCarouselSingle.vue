@@ -15,8 +15,8 @@
         <div class="px-6  font-medium justify-center text-left text-sm flex items-center">
           <p>{{purpose.description}}</p>
         </div>
-        <div class="flex  justify-center ">
-        <p v-if="index==0">Slide to read more</p>
+        <div class="flex justify-center ">
+        <p  v-if="index==0"><strong>Slide to read more </strong></p>
         </div>
       </div>
     </VueSlickCarousel>

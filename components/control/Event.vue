@@ -2,8 +2,8 @@
   <div>
     <HeadingControl :title="titleContent.title" />
     <div class="flex px-6 justify-center py-5">
-      <p class="px-6 text-center lg:text-2xl
-        md:text-xl
+      <p class="px-6 text-center  lg:text-xl
+                md:text-lg
          text-base font-body font-medium">
         {{ titleContent.description }}
       </p>
@@ -222,32 +222,6 @@
 
     <!-- BUTTON -->
     <div class="flex flex-col">
-      <!-- <div class="flex justify-center">
-        <NuxtLink to="/in-control">
-          <button
-            class="
-              rounded-xl
-              bg-mau-primary-700
-              text-center text-white
-              2xl:w-64
-              xl:w-56
-              w-48
-              h-12
-              py-2
-              bottom-4
-              right-4
-              md:bottom-12 md:right-12
-              transform
-              hover:scale-105
-              md:text-lg
-              text-base
-              font-body font-thin
-            "
-          >
-            Read More
-          </button>
-        </NuxtLink>
-      </div> -->
       <div class="flex justify-center py-1">
         <p
           class="

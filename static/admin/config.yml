@@ -130,9 +130,10 @@ collections:
         widget: list
         fields:
           - {label: 'Description', name: 'description', widget: 'string', default: 'Null'}
-          - {label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY",time_format: "HH:mm",format: "LLL", picker_utc: false}
+          - {label: 'Date', name: 'date', widget: 'date', date_format: "DD.MM.YYYY"}
           - {label: 'Image', name: image, widget: 'image', choose_url: true, default: '/img/in-control/yic_campaign2.png'}
           - {label: 'Platform', name: 'platform', widget: 'string'}
+          - {label: 'Link', name: 'link', widget: 'string', default: 'Null'}
   - name: 'policies'
     label: 'Our Policies'
     label_singular: 'Our Policies'

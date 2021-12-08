@@ -8,8 +8,8 @@
         text-center
         flex
         justify-center
-        lg:text-2xl
-        md:text-xl
+         lg:text-xl
+                md:text-lg
          text-base
         font-body font-medium
       "

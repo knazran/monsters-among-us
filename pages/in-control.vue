@@ -51,7 +51,10 @@
       <PageSection>
         <ControlPartners :content="partnersContent" />
       </PageSection>
-      <ControlFilter :content="filterContent" :bgImage="getBackgroundImage4" />
+      <ControlFilter :content="filterContent"  />
+
+      <ControlWallpaper :content="wallpaperContent"  />
+
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -62,14 +65,12 @@
 import Radial from '~/static/img/textures/radial.png'
 import Background from '~/static/img/in-control/resources_bg.png'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
-import Background2 from '~/static/img/in-control/resources_bg2.png'
 
 export default {
   data() {
     return {
       bgGreen: Radial,
       background: Background,
-      background2: Background2,
       bgGreenTexture: GreenBg,
     }
   },
@@ -104,6 +105,7 @@ export default {
       ).fetch()
       const liveEvent = await $content('in-control/event/title-event').fetch()
       const supporter = await $content('in-control/meet-our-supporters').fetch()
+      const wallpaperContent = await $content('in-control/wallpaper').fetch()
 
       return {
         purposeContent,
@@ -120,6 +122,7 @@ export default {
         liveEvent,
         timelineEvent,
         supporter,
+        wallpaperContent
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -134,10 +137,7 @@ export default {
     },
     getBackgroundImage3() {
       return `url(${this.bgGreenTexture})`
-    },
-    getBackgroundImage4() {
-      return `url(${this.background2})`
-    },
+    }
   },
 }
 </script>

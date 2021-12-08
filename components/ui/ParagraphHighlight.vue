@@ -8,17 +8,17 @@
         v-if="!isDescription && !isRow"
         class="
           lg:top-3
-          md:top-2
+          md:top-4
           sm:top-1
-          top-1
+          top-3
           lg:left-4
           md:left-2
           font-body font-medium
           lg:px-0 lg:mt-2
           md:px-7
           sm:px-0
-          px-2
-          ml-4
+          px-1
+          ml-5
           text-black
           md:text-sm
           lg:text-lg
