@@ -23,12 +23,12 @@ milestone:
       platform: IG Live
       link: https://www.instagram.com/monstersamongus_my/tv/CW8WsLOq38p/?utm_medium=copy_link
     - date: December 8, 2021
-      description: "Parents" selalu betul ke? (BM)
+      description: Parents selalu betul ke? (BM)
       image: /img/in-control/schedule/Podcast Episod 2.png
       platform: Podcast
       link: https://linktr.ee/YoureInControl_Podcast
     - date: December 17
-      description: Apa itu "consent"? (BM)
+      description: Apa itu consent? (BM)
       platform: Podcast
       link: https://linktr.ee/YoureInControl_Podcast
     - date: December 20, 2021
@@ -36,7 +36,7 @@ milestone:
       platform: IG Live
       link: https://www.instagram.com/monstersamongus_my/
     - date: December 22, 2021
-      description: Kalau orang ugut dengan "nudes" nak buat apa? (BM)
+      description: Kalau orang ugut dengan nudes nak buat apa? (BM)
       platform: Podcast
       link: https://linktr.ee/YoureInControl_Podcast
 
