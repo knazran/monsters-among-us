@@ -1,9 +1,9 @@
 <template>
-  <div class="h-full ">
+  <div class="h-full">
     <section class="" v-scroll-reveal.reset="{ delay: 100 }">
       <div class="">
         <img
-          class="w-full object-contain "
+          class="w-full object-contain"
           src="../../static/img/in-control/Hero.png"
           alt="MAU logo"
         />
