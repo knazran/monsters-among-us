@@ -11,7 +11,7 @@
         class="
           w-64
           h-36
-          cursor-default cursor-pointer
+          cursor-default 
           shadow-lg
           overflow-hidden
           hover:shadow-xl
@@ -40,17 +40,25 @@
           <p class="text-mau-primary-700 font-body font-medium">
             {{ platform }}
           </p>
-
-          <h1
-            class="
-              mt-4
-              font-normal
-              text-justify
-              sm:text-base
-              text-sm text-mau-primary-700
-            "
-          ></h1>
+          <div class="absolute bottom-0 right-0 p-4">
+           <a :href="link"><button class=" bg-mau-primary-700
+                      text-center text-white
+                      rounded-md
+                    
+                      w-20
+                      h-6
+                  
+                     
+                     
+                      transform
+                      hover:scale-105
+                      font-body font-medium
+                      text-xs">
+          Listen here
+          </button></a>
+          </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -74,6 +82,11 @@ export default {
     image: {
       type: String,
       default:"/img/in-control/yic_campaign2.png"
+    },
+     link: {
+      type: String,
+      default:"https://www.instagram.com/monstersamongus_my/"
+      
     },
   },
 }

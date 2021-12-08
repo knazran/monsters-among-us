@@ -11,7 +11,7 @@
           md:top-4
           sm:top-1
           top-3
-          lg:left-4
+          lg:left-6
           md:left-2
           font-body font-medium
           lg:px-0 lg:mt-2

@@ -339,6 +339,8 @@
                 :title="info.description"
                 :platform="info.platform"
                 :image="info.image"
+               :link="info.link"
+
               />
             </div>
           </vue-horizontal>
