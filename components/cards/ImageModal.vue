@@ -26,7 +26,7 @@
       v-if="showModal"
       v-on:click="toggleModal()"
       class="
-      my-4
+        my-4
         cursor-pointer
         align-middle
         overflow-x-hidden overflow-y-auto
@@ -62,7 +62,7 @@
                 <strong>Bio: </strong> {{ description }}
               </p>
             </div> -->
-          <img class=" object-cover rounded-sm max-h-screen" :src="image" />
+          <img class="object-cover rounded-sm max-h-screen" :src="image" />
           <!--end body -->
         </div>
         <!--end content-->
@@ -70,7 +70,6 @@
     </div>
 
     <!-- Show modal -->
-  
 
     <div v-if="showModal" class="opacity-50 fixed inset-0 z-40 bg-black"></div>
   </div>

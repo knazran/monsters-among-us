@@ -2,9 +2,16 @@
   <div>
     <HeadingControl :title="titleContent.title" />
     <div class="flex px-6 justify-center py-2">
-      <p class="px-6 text-center  lg:text-xl
-                md:text-lg
-         text-base font-body font-medium">
+      <p
+        class="
+          px-6
+          text-center
+          lg:text-xl
+          md:text-lg
+          text-base
+          font-body font-medium
+        "
+      >
         {{ titleContent.description }}
       </p>
     </div>
@@ -105,7 +112,7 @@
         <!-- End Left Side-->
 
         <!-- Right Side with List and button -->
-        <div class="md:w-1/2 lg:px-0 px-8 md:py-0 ">
+        <div class="md:w-1/2 lg:px-0 px-8 md:py-0">
           <div class="2xl:pr-12 xl:pr-12">
             <slot name="right">
               <div class="py-3">
@@ -200,8 +207,7 @@
             md:w-1/2
             lg:px-0
             px-8
-            md:py-0
-            md:flex md:items-center md:justify-center
+            md:py-0 md:flex md:items-center md:justify-center
           "
         >
           <div class="2xl:pr-12 xl:pr-12">
@@ -339,8 +345,7 @@
                 :title="info.description"
                 :platform="info.platform"
                 :image="info.image"
-               :link="info.link"
-
+                :link="info.link"
               />
             </div>
           </vue-horizontal>

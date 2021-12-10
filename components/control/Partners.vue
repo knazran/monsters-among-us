@@ -1,11 +1,10 @@
 <template>
   <div>
-   
     <div class="h-full py-4 mb-2" :style="{ backgroundImage: bgImage }">
-       <HeadingControl
-      title="Partners and Sponsors
+      <HeadingControl
+        title="Partners and Sponsors
 "
-    />
+      />
       <PageSection>
         <div
           class="
@@ -13,8 +12,7 @@
             md:grid-cols-3
             sm:gap-12
             gap-4
-            sm:px-6
-            sm:mx-12
+            sm:px-6 sm:mx-12
             mx-4
             py-6
             grid-cols-2

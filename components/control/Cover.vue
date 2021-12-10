@@ -1,69 +1,63 @@
 <template>
   <div class="relative max-h-screen">
-      <div
+    <div
+      class="
+        sm:w-1/3
+        w-2/5
+        absolute
+        xl:bottom-36
+        lg:right-18
+        md:right-12 md:bottom-24
+        sm:bottom-12
+        bottom-0
+        right-0
+      "
+    >
+      <p
         class="
-          sm:w-1/3
-          w-2/5
-          absolute
-          xl:bottom-36 lg:right-18
-          md:right-12
-          md:bottom-24
-          sm:bottom-12
-          bottom-0
-          right-0
+          w-full
+          font-semibold
+          xl:text-lgs
+          sm:text-xs
+          lg:text-base
+          text-3xs text-left text-mau-primary-700
+          px-1
         "
       >
-        <p
-          class="
-            w-full
-            font-semibold
-            xl:text-lgs
-            sm:text-xs
-            lg:text-base
-            text-3xs text-left text-mau-primary-700
-            px-1
-          "
-        >
-          Every child and young adult deserve to be able to safely surf the
-          Internet. Their online protection isn't a privilege - it's a right.
-          But for instances when that right is violated, what can be done? For
-          this, we encourage you to "Let's Lapor Predator".
-        </p>
-        <div class="my-2 flex justify-center">
+        Every child and young adult deserve to be able to safely surf the
+        Internet. Their online protection isn't a privilege - it's a right. But
+        for instances when that right is violated, what can be done? For this,
+        we encourage you to "Let's Lapor Predator".
+      </p>
+      <div class="my-2 flex justify-center">
         <NuxtLink to="/in-control">
-        <button
-          class="
-           
-            rounded-lg
-            bg-mau-primary-700
-            text-center text-white
-            2xl:w-48
-            xl:w-40
-            md:w-28
-            w-20
-            py-2
-          
-            transform
-            hover:scale-105
-            lg:text-base
-
-            sm:text-xs
-            text-2xs
-          "
-        >
-          Read More
-        </button>
-      </NuxtLink>
+          <button
+            class="
+              rounded-lg
+              bg-mau-primary-700
+              text-center text-white
+              2xl:w-48
+              xl:w-40
+              md:w-28
+              w-20
+              py-2
+              transform
+              hover:scale-105
+              lg:text-base
+              sm:text-xs
+              text-2xs
+            "
+          >
+            Read More
+          </button>
+        </NuxtLink>
       </div>
-      </div>
-      <img
-        class="object-cover h-full w-full"
-        src="../../static/img/in-control/Banner.jpg"
-        alt="MAU logo"
-        
-      />
-      
-      
+    </div>
+    <img
+      class="object-cover h-full w-full"
+      src="../../static/img/in-control/Banner.jpg"
+      alt="MAU logo"
+    />
 
     <!-- End Left Side-->
 

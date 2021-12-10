@@ -1,10 +1,8 @@
 <template>
   <div class="h-full mt-4 md:mt-2">
-    <!-- <HeadingControl :title="content.title1" /> -->
-
     <div class="flex flex-col items-center md:flex-row md:px-20">
       <!-- Left Side-->
-      <div class="md:w-1/2 px-6 ">
+      <div class="md:w-1/2 px-6">
         <div class="">
           <slot name="left">
             <div
@@ -37,13 +35,6 @@
                   "
                 />
               </div>
-
-              <!-- <div class="px-5 flex items-center">
-                  <nuxt-content
-                    class="font-bold prose-md lg:prose-lg max-w-none"
-                    :document="content"
-                  />
-                </div> -->
             </div>
             <div class="flex justify-center py-4">
               <a :href="content.link_sticker">
@@ -92,7 +83,7 @@
               <p>{{ content.title_wallpaper }}</p>
             </div>
 
-            <div class="w-full ">
+            <div class="w-full">
               <collage :images="content.carousel" height="20rem"> </collage>
               <div class="flex justify-center py-6">
                 <a href="/Desktop-Mobile Wallpapers.zip">

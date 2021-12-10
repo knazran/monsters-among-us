@@ -1,14 +1,14 @@
 <template>
-  <div class="py-5 px-4 " >
+  <div class="py-5 px-4">
     <div class="flex justify-center mt-6">
       <TextHighlight :title="content.title1" />
     </div>
     <div class="flex justify-center">
       <div
         class="
-        w-full
-        sm:px-4
-        px-6
+          w-full
+          sm:px-4
+          px-6
           mb-8
           py-6
           grid
@@ -19,9 +19,14 @@
         "
       >
         <ul
-          class="list-outside font-body font-medium list-disc  lg:text-xl
-        md:text-lg
-         text-base"
+          class="
+            list-outside
+            font-body font-medium
+            list-disc
+            lg:text-xl
+            md:text-lg
+            text-base
+          "
           v-for="participant in content.participants"
           :key="participant.name"
         >
@@ -35,8 +40,8 @@
       <TextHighlight :title="content.title2" />
     </div>
     <div class="w-full py-6">
-      <div class='w-3/4 mx-auto'>
-      <ImageCarouselSingle :images="content.carousel2" />
+      <div class="w-3/4 mx-auto">
+        <ImageCarouselSingle :images="content.carousel2" />
       </div>
     </div>
   </div>
@@ -49,7 +54,7 @@ export default {
     content: {
       type: Object,
       required: true,
-    }
+    },
   },
 }
 </script>

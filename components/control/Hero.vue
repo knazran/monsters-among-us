@@ -10,10 +10,6 @@
       </div>
     </section>
     <!-- End Left Side-->
-
-    <!-- Right Side Logo -->
-
-    <!--End Right side with Logo -->
   </div>
 </template>
 

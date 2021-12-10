@@ -48,11 +48,13 @@
       <PageSection>
         <ControlWorkshopParticipants :content="workshopParticipants" />
       </PageSection>
-        <ControlPartners :content="partnersContent"  :bgImage="getBackgroundImage4"/>
-      <ControlFilter :content="filterContent"  />
+      <ControlPartners
+        :content="partnersContent"
+        :bgImage="getBackgroundImage4"
+      />
+      <ControlFilter :content="filterContent" />
 
-      <ControlWallpaper :content="wallpaperContent"  />
-
+      <ControlWallpaper :content="wallpaperContent" />
 
       <!-- <TextHighlight title="IG Live" /> -->
     </div>
@@ -65,14 +67,13 @@ import Background from '~/static/img/in-control/resources_bg.png'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
 import TextureBeige from '~/static/img/textures/texture-beige-2.png'
 
-
 export default {
   data() {
     return {
       bgGreen: Radial,
       background: Background,
       bgGreenTexture: GreenBg,
-      bgBeige:TextureBeige
+      bgBeige: TextureBeige,
     }
   },
   async asyncData({ $content, params, error }) {
@@ -101,9 +102,7 @@ export default {
         'in-control/event/podcast-event'
       ).fetch()
       const event = await $content('in-control/event/event').fetch()
-      const timelineEvent = await $content(
-        'in-control/schedule/index'
-      ).fetch()
+      const timelineEvent = await $content('in-control/schedule/index').fetch()
       const liveEvent = await $content('in-control/event/title-event').fetch()
       const supporter = await $content('in-control/meet-our-supporters').fetch()
       const wallpaperContent = await $content('in-control/wallpaper').fetch()
@@ -123,7 +122,7 @@ export default {
         liveEvent,
         timelineEvent,
         supporter,
-        wallpaperContent
+        wallpaperContent,
       }
     } catch (e) {
       error({ message: 'Content not found' })
@@ -139,9 +138,9 @@ export default {
     getBackgroundImage3() {
       return `url(${this.bgGreenTexture})`
     },
-     getBackgroundImage4() {
+    getBackgroundImage4() {
       return `url(${this.bgBeige})`
-    }
+    },
   },
 }
 </script>

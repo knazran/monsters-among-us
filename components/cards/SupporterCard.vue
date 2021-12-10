@@ -1,7 +1,7 @@
 <template>
   <!-- isDesktop -->
-  <div class="  px-2 ">
-    <div class="hidden md:block ">
+  <div class="px-2">
+    <div class="hidden md:block">
       <!-- Overlay -->
       <div
         class="
@@ -51,7 +51,18 @@
             hover:opacity-100
           "
         >
-          <h6 class=" text-black	 font-body mb-4 overflow-y-scroll sm:text-xs lg:text-base tracking-wide text-left text-white">
+          <h6
+            class="
+              text-black
+              font-body
+              mb-4
+              overflow-y-scroll
+              sm:text-xs
+              lg:text-base
+              tracking-wide
+              text-left text-white
+            "
+          >
             {{ description }}
           </h6>
         </div>
@@ -59,8 +70,8 @@
 
       <!-- End Overlay -->
       <!--Name & Title -->
-      <div class=" my-4 lg:w-96 sm:w-72 w-40">
-        <p class="text-xl text-center  font-body font-semibold ">
+      <div class="my-4 lg:w-96 sm:w-72 w-40">
+        <p class="text-xl text-center font-body font-semibold">
           {{ name }}
         </p>
       </div>
@@ -69,7 +80,7 @@
     <!-- End isDesktop -->
     <!-- Not isDesktop -->
 
-    <div class="block md:hidden ">
+    <div class="block md:hidden">
       <img
         class="
           object-contain
@@ -82,7 +93,6 @@
           cursor-pointer
           border-2 border-mau-primary-700
           rounded-md
-          
         "
         :src="img"
         alt="Person"
@@ -135,8 +145,8 @@
       </div>
 
       <!-- Show modal -->
-      <div class="flex flex-col items-center my-4  w-32">
-        <p class="text-xs  font-body font-medium text-center font-semibold">
+      <div class="flex flex-col items-center my-4 w-32">
+        <p class="text-xs font-body font-medium text-center font-semibold">
           {{ name }}
         </p>
       </div>

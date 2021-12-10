@@ -1,8 +1,8 @@
 <template>
-  <div class="sm:min-h-screen  ">
+  <div class="sm:min-h-screen">
     <HeadingControl :title="content.title" />
 
-    <div class="sm:my-0 imgBg " :style="{ backgroundImage: bgImage }">
+    <div class="sm:my-0 imgBg" :style="{ backgroundImage: bgImage }">
       <div class="container px-4 mx-auto py-2 md:py-18 px-2 lg:px-8">
         <div class="flex flex-col my-12 sm:flex-row py-4">
           <!-- Left Side-->
@@ -48,7 +48,7 @@
                   </div>
                 </div>
                 <!-- End Row -->
-                <div class="lg:hidden  block mx-auto w-full">
+                <div class="lg:hidden block mx-auto w-full">
                   <ImageCarouselSingle :images="content.carousel" />
                 </div>
                 <a

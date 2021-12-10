@@ -1,10 +1,15 @@
 <template>
-  <div class="   px-4 py-2" >
+  <div class="px-4 py-2">
     <HeadingControl :title="content.title" />
 
     <PageSplitSectionEdited :img="content.image" :img2="content.image2">
       <nuxt-content
-        class="  font-body font-medium  prose prose-black prose-3xl lg:prose-xl max-w-none"
+        class="
+          font-body font-medium
+          prose prose-black prose-3xl
+          lg:prose-xl
+          max-w-none
+        "
         :document="content"
       />
     </PageSplitSectionEdited>
@@ -17,7 +22,7 @@ export default {
     content: {
       type: Object,
       required: true,
-    }
+    },
   },
 }
 </script>

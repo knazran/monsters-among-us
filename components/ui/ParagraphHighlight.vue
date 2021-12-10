@@ -3,7 +3,7 @@
     <img v-if="isSize" class="sm:h-80 h-72 mx-auto" :src="content.link" />
     <img v-if="!isSize" class="sm:h-96 h-80 mx-auto" :src="content.link" />
 
-    <div class="absolute sm:w-80  w-56 flex items-center inset-0 mx-auto">
+    <div class="absolute sm:w-80 w-56 flex items-center inset-0 mx-auto">
       <nuxt-content
         v-if="!isDescription && !isRow"
         class="
@@ -32,13 +32,10 @@
       <nuxt-content
         v-if="!isDescription && isRow"
         class="
-        top-4
+          top-4
           font-body font-medium
-          lg:left-3
-          lg:px-2 lg:mt-1
-          lg:mr-0
-          sm:px-12
-          sm:mr-8
+          lg:left-3 lg:px-2 lg:mt-1 lg:mr-0
+          sm:px-12 sm:mr-8
           lg:ml-6
           px-3
           md:ml-1
