@@ -36,14 +36,14 @@
             absolute
             -right-10
             xs:right-8
-            sm:-right-24
+            sm:-right-20
             md:-right-8
             top-10
             lg:right-24
             xl:right-56
             2xl:right-64 2xl:right-80
             h-36
-            sm:h-64 sm:h-80
+            sm:h-80
             rounded-lg
           "
           :src="content.image2"

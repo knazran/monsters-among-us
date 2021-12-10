@@ -86,8 +86,11 @@
           object-contain
           bg-white
           sm:h-40 sm:w-40
-          h-32
-          w-32
+          2xs:h-32
+          2xs:w-32
+          3xs:h-24
+                    3xs:w-24
+
           mb-2
           shadow
           cursor-pointer
@@ -145,8 +148,8 @@
       </div>
 
       <!-- Show modal -->
-      <div class="flex flex-col items-center my-4 w-32">
-        <p class="text-xs font-body font-medium text-center font-semibold">
+      <div class="flex flex-col items-center my-4 2xs:w-32 3xs:w-24">
+        <p class="3xs:text-2xs 2xs:text-xs font-body font-medium text-center font-semibold">
           {{ name }}
         </p>
       </div>

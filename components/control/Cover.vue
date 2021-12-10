@@ -6,10 +6,10 @@
         w-2/5
         absolute
         xl:bottom-40
-        lg:bottom-28
+        lg:bottom-24
         lg:right-18
         md:right-12 md:bottom-18
-        sm:bottom-6
+        sm:bottom-8
         sm:right-6
         bottom-2
         right-1
@@ -22,7 +22,7 @@
           font-semibold
           lg:text-lg
           sm:text-sm
-          text-2xs text-left text-mau-primary-700
+          2xs:text-3xs 3xs:text-4xs text-left text-mau-primary-700
           px-1
         "
       >

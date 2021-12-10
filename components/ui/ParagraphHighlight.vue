@@ -17,15 +17,18 @@
           lg:px-0 lg:mt-2
           md:px-7
           sm:px-0
-          px-0
+          2xs:px-0
+          3xs:px-6
           md:ml-4
-          ml-8
+          2xs:ml-8
+          3xs:ml-2
           lg:ml-8
           text-black
           md:text-sm
           lg:text-lg
           sm:text-base
-          text-xs
+          2xs:text-xs
+          3xs:text-2xs
         "
         :document="content"
       />
@@ -37,9 +40,11 @@
           lg:left-3 lg:px-2 lg:mt-1 lg:mr-0
           sm:px-12 sm:mr-8
           lg:ml-6
-          px-3
+          2xs:px-3
+          3xs:px-12
           md:ml-1
-          ml-4
+          2xs:ml-4
+          3xs:ml-0
           text-black
           lg:text-lg
           sm:text-base
@@ -52,12 +57,16 @@
         v-if="isDescription"
         class="
           font-body font-medium
-          px-8
-          ml-2
+          2xs:px-8
+          3xs:px-12
+          2xs:ml-2
+          3xs:ml-0
           lg:px-6
           text-xs
           lg:text-lg
           sm:text-base
+           2xs:text-xs
+          3xs:text-2xs
         "
       >
         {{ content.description }}

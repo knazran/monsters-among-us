@@ -9,7 +9,8 @@
             px-2
             lg:text-xl
             md:text-lg
-            text-base
+            2xs:text-base
+            3xs:text-xs
             max-w-none
             z-50
           "

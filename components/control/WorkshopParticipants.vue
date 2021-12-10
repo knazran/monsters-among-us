@@ -25,7 +25,8 @@
             list-disc
             lg:text-xl
             md:text-lg
-            text-base
+            2xs:text-base
+            3xs:text-xs
           "
           v-for="participant in content.participants"
           :key="participant.name"

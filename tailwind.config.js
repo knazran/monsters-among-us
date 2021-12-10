@@ -16,6 +16,8 @@ module.exports = {
   theme: {
    
     screens: {
+      "3xs": '280px',
+
       "2xs": '320px',
 
       xs: '531px',
@@ -39,7 +41,8 @@ module.exports = {
       
     },
     fontSize: {
-      '3xs': '.4rem',
+      '4xs':'.36rem',
+      '3xs': '.45rem',
       '2xs': '.5rem',
       xs: '.75rem',
       sm: '.875rem',
