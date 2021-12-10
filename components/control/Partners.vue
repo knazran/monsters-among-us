@@ -4,7 +4,7 @@
       title="Partners and Sponsors
 "
     />
-    <div class="max-h-screen py-4 mb-2" :style="{ backgroundImage: bgImage }">
+    <div class="h-full py-4 mb-2" :style="{ backgroundImage: bgImage }">
       <PageSection>
         <div
           class="

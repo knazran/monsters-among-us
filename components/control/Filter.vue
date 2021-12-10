@@ -1,5 +1,5 @@
 <template>
-  <div class="max-h-screen py-4 mb-2">
+  <div class="h-full py-4 mb-2">
     <HeadingControl :title="content.title" />
     <div
       class="
@@ -7,7 +7,7 @@
         flex
         justify-center
         lg:text-xl
-                md:text-lg
+        md:text-lg
         text-base
         font-body font-medium
       "
@@ -15,69 +15,63 @@
       <p>{{ content.description }}</p>
     </div>
 
-    
     <div
       class="
-        
-        md:grid
-        md:grid-cols-3
+        md:grid md:grid-cols-3
         hidden
-        gap-12
-        gap-8
+        gap-12 gap-8
         sm:px-0
         px-6
         py-6
         grid-cols-2
-      place-items-center
-       items-center
+        place-items-center
+        items-center
       "
     >
-      <div
-        v-for="video in content.media"
-        :key="video.link"
-        
-      >
-         <VideoFilter
-         class="  md:block
-                      hidden"
-              title="test"
-              :src="video.video_link"
-            />
-            <div class="flex justify-center my-3">
-                          <a :href="video.link">
-
-            <button class='   rounded-full
-                      bg-mau-primary-700
-                      text-center text-white
-                      2xl:w-56
-                      xl:w-40
-                      w-40
-                      h-10
-                      py-2
-                      bottom-4
-                      right-4
-                      md:bottom-12 md:right-12
-                      transform
-                      hover:scale-105
-                      font-body font-medium
-                      text-sm
-                        md:block
-                      hidden
-                '>
-              {{video.description}}
+      <div v-for="video in content.media" :key="video.link">
+        <VideoFilter
+          class="md:block hidden"
+          title="test"
+          :src="video.video_link"
+        />
+        <div class="flex justify-center my-3">
+          <a :href="video.link">
+            <button
+              class="
+                rounded-full
+                bg-mau-primary-700
+                text-center text-white
+                2xl:w-56
+                xl:w-40
+                w-40
+                h-10
+                py-2
+                bottom-4
+                right-4
+                md:bottom-12 md:right-12
+                transform
+                hover:scale-105
+                font-body font-medium
+                text-sm
+                md:block
+                hidden
+              "
+            >
+              {{ video.description }}
             </button>
-            </a>
-            
-            </div>
-
-
+          </a>
+        </div>
       </div>
     </div>
     <!-- Mobile -->
 
     <div class="md:hidden block w-full px-12 py-6">
       <VueSlickCarousel v-bind="settings">
-        <div class="flex flex-col" v-for="video in content.media" :key="video.link">
+        <div
+          class="flex flex-col"
+          v-for="video in content.media"
+          :key="video.link"
+        >
           <div class="flex justify-center">
             <VideoFilter title="test" :src="video.video_link" />
           </div>
@@ -88,7 +82,6 @@
                   rounded-full
                   bg-mau-primary-700
                   text-center text-white
-                
                   w-40
                   h-10
                   py-2
@@ -99,7 +92,6 @@
                   hover:scale-105
                   font-body font-medium
                   text-sm
-                 
                 "
               >
                 {{ video.description }}

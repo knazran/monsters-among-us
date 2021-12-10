@@ -5,12 +5,12 @@ image: /img/in-control/iphone.png
 media: 
     - video_link : /img/in-control/filter/Farisa.mp4
       description: Let's Lapor Predator
-      link: https://www.instagram.com/ar/1045632012676104/?ch=MTBkYzczNjAzYTczZGFlYTU0OGJiY2ZmNjVmZGMxYzE%3D
+      link: https://instagram.com/monstersamongus_my?utm_medium=copy_link
     - video_link : /img/in-control/filter/Jei.mp4
       description: You're In Control
-      link: https://www.instagram.com/ar/947540239531091/?ch=OTIyMzliNTU1YWQyYmFmNTc1YTcwOTMwODBmYmIwZTI%3D
+      link: https://instagram.com/monstersamongus_my?utm_medium=copy_link
     - video_link : /img/in-control/filter/Shreya Filter 1.mp4
       description: I AM IN CONTROL
-      link: https://www.instagram.com/ar/609589946947745/?ch=Y2U5NGJmMmU0MjA0MTdlMGZkOWNiOGJhZTlkZGIxNjE%3D
+      link: https://instagram.com/monstersamongus_my?utm_medium=copy_link
 
 ---

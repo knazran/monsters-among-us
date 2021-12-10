@@ -33,7 +33,7 @@
         top-4
           font-body font-medium
           sm:right-8
-          lg:left-3
+          lg:left-4
           md:left-1
           lg:px-2 lg:mt-1
           md:px-3

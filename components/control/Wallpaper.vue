@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:max-h-screen mt-4 md:mt-2">
+  <div class="h-full mt-4 md:mt-2">
     <!-- <HeadingControl :title="content.title1" /> -->
 
     <div class="flex flex-col items-center md:flex-row md:px-20">
@@ -46,7 +46,7 @@
                 </div> -->
             </div>
             <div class="flex justify-center py-4">
-              <a href="/Stickers.zip">
+              <a :href="content.link_sticker">
                 <button
                   class="
                     rounded-lg
