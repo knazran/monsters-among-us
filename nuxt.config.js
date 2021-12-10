@@ -72,6 +72,8 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap'
       },
+      {rel:"preconnect", href:"https://fonts.gstatic.com/" },
+
       {
       rel:'stylesheet',
       href:'https://fonts.cdnfonts.com/css/coco-gothic'

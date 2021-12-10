@@ -5,12 +5,12 @@
           sm:w-1/3
           w-2/5
           absolute
-          xl:bottom-48 lg:right-16
-          md:right-8
-          md:bottom-12
+          xl:bottom-24 lg:right-24
+          md:right-12
+          md:bottom-18
           sm:bottom-4
           bottom-2
-          right-1
+          right-8
         "
       >
         <p
@@ -18,8 +18,8 @@
             w-full
             font-semibold
             xl:text-lg
-            md:text-base
-            sm:text-xs
+            md:text-xs
+            lg:text-base
             text-2xs text-left text-mau-primary-700
           "
         >
@@ -57,7 +57,7 @@
       </div>
       <img
         class="object-cover h-full w-full"
-        src="../../static/img/in-control/Banner.png"
+        src="../../static/img/in-control/Banner.jpg"
         alt="MAU logo"
         
       />
