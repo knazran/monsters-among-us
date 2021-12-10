@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-96 py-8" :style="{ backgroundImage: bgImage }">
+  <div class="relative h-96 py-8 " :style="{ backgroundImage: bgImage }">
     <PageSection>
       <div class="flex h-80 justify-center items-center">
         <nuxt-content
@@ -17,7 +17,7 @@
         />
       </div>
       <img
-        class="absolute left-4 -bottom-8 z-30 sm:h-64 h-48 rounded-lg"
+        class="absolute left-4 lg:-bottom-16  sm:-bottom-12 -bottom-8 z-30 lg:h-80 sm:h-72 h-48 rounded-lg"
         :src="content.image2"
       />
     </PageSection>
