@@ -9,8 +9,8 @@
         {{ content.title }}
       </p>
     </div>
-        <div v-if="isLarger" class="absolute left-5 flex justify-center items-center  sm:px-28 md:px-0 px-3 xl:px-28 inset-0 mx-auto">
-      <p class="sm:text-lg text-base text-center text-white lg:text-xl font-body font-bold">
+        <div v-if="isLarger" class="absolute left-5 flex justify-center items-center  sm:px-28 md:px-0 px-3 xl:px-32 inset-0 mx-auto">
+      <p class="text-base text-center text-white lg:text-xl font-body font-bold">
         {{ content.title }}
       </p>
     </div>

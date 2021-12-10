@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-screen mt-4 md:mt-2">
+  <div class="lg:max-h-screen mt-4 md:mt-2">
     <!-- <HeadingControl :title="content.title1" /> -->
 
     <div class="flex flex-col items-center md:flex-row md:px-20">
       <!-- Left Side-->
-      <div class="md:w-1/2 px-6">
+      <div class="md:w-1/2 px-6 ">
         <div class="">
           <slot name="left">
             <div
@@ -46,7 +46,7 @@
                 </div> -->
             </div>
             <div class="flex justify-center py-4">
-              <a :href="content.link_sticker">
+              <a href="/Stickers.zip">
                 <button
                   class="
                     rounded-lg
@@ -74,7 +74,7 @@
       <!-- End Left Side-->
 
       <!-- Right Side with List and button -->
-      <div class="md:w-1/2 w-full lg:px-12 md:px-6 px-10">
+      <div class="md:w-1/2 w-full lg:px-24 md:px-6 px-10">
         <div class="">
           <slot name="right">
             <div
@@ -92,9 +92,9 @@
               <p>{{ content.title_wallpaper }}</p>
             </div>
 
-            <div class="w-full">
+            <div class="w-full ">
               <collage :images="content.carousel" height="20rem"> </collage>
-              <div class="flex justify-center py-4">
+              <div class="flex justify-center py-6">
                 <a href="/Desktop-Mobile Wallpapers.zip">
                   <button
                     class="

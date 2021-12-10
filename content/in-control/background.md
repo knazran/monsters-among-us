@@ -3,7 +3,7 @@ title: Background
 image: /img/in-control/workshop/UPSI2.png
 link: /img/in-control/blue-h2.png
 description: The Catch Em’ Predator Workshop is our ongoing community building initiative that discusses online safety and equips participants in dealing with potential and existing online threats.
-
+image2: img/in-control/caricature2.png
 
 ---
 

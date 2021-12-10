@@ -1,22 +1,25 @@
 <template>
-  <div class="h-88 py-8 " :style="{ backgroundImage: bgImage }">
+  <div class="relative h-96 py-8" :style="{ backgroundImage: bgImage }">
     <PageSection>
-    <div class="flex h-80 justify-center items-center ">
-      <nuxt-content
-        class="
-        
-          text-justify
-          font-body font-medium
-          px-2
-          
-         lg:text-xl
-        md:text-lg
-         text-base
-          max-w-none
-        "
-        :document="content"
+      <div class="flex h-80 justify-center items-center">
+        <nuxt-content
+          class="
+            text-justify
+            font-body font-medium
+            px-2
+            lg:text-xl
+            md:text-lg
+            text-base
+            max-w-none
+            z-50
+          "
+          :document="content"
+        />
+      </div>
+      <img
+        class="absolute left-4 -bottom-8 z-30 sm:h-64 h-48 rounded-lg"
+        :src="content.image2"
       />
-    </div>
     </PageSection>
   </div>
 </template>

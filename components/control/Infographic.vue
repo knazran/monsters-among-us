@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:max-h-screen my-2 ">
+  <div class="sm:min-h-screen  ">
     <HeadingControl :title="content.title" />
 
     <div class="sm:my-0 imgBg " :style="{ backgroundImage: bgImage }">
@@ -53,7 +53,7 @@
                 </div>
                 <a
                   class="flex justify-center py-5"
-                  href="/Lapor Predator Infographic Resources.zip"
+                  href="/Knowledge Keeps Us Safe - MAU Lapor Predator Infographic.pdf"
                   download=""
                 >
                   <p

@@ -32,8 +32,8 @@
         class="
         top-4
           font-body font-medium
-          sm:right-6
-          lg:left-2
+          sm:right-8
+          lg:left-3
           md:left-1
           lg:px-2 lg:mt-1
           md:px-3

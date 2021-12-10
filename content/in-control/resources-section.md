@@ -1,5 +1,5 @@
 ---
-title: Infographics
+title: Resources
 description: text
 image: /img/advocate/Advocate_Member.jpg
 link: /img/in-control/blue-h2.png

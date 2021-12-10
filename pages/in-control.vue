@@ -48,9 +48,7 @@
       <PageSection>
         <ControlWorkshopParticipants :content="workshopParticipants" />
       </PageSection>
-      <PageSection>
-        <ControlPartners :content="partnersContent" />
-      </PageSection>
+        <ControlPartners :content="partnersContent"  :bgImage="getBackgroundImage4"/>
       <ControlFilter :content="filterContent"  />
 
       <ControlWallpaper :content="wallpaperContent"  />
@@ -65,6 +63,8 @@
 import Radial from '~/static/img/textures/radial.png'
 import Background from '~/static/img/in-control/resources_bg.png'
 import GreenBg from '~/static/img/textures/texture-green-2.png'
+import TextureBeige from '~/static/img/textures/texture-beige-2.png'
+
 
 export default {
   data() {
@@ -72,6 +72,7 @@ export default {
       bgGreen: Radial,
       background: Background,
       bgGreenTexture: GreenBg,
+      bgBeige:TextureBeige
     }
   },
   async asyncData({ $content, params, error }) {
@@ -137,6 +138,9 @@ export default {
     },
     getBackgroundImage3() {
       return `url(${this.bgGreenTexture})`
+    },
+     getBackgroundImage4() {
+      return `url(${this.bgBeige})`
     }
   },
 }

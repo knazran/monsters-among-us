@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 px-4 ">
+  <div class="py-5 px-4 " >
     <div class="flex justify-center mt-6">
       <TextHighlight :title="content.title1" />
     </div>
@@ -47,7 +47,7 @@ export default {
     content: {
       type: Object,
       required: true,
-    },
+    }
   },
 }
 </script>

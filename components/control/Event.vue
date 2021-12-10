@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeadingControl :title="titleContent.title" />
-    <div class="flex px-6 justify-center py-5">
+    <div class="flex px-6 justify-center py-2">
       <p class="px-6 text-center  lg:text-xl
                 md:text-lg
          text-base font-body font-medium">
@@ -78,7 +78,7 @@
 
     <!-- Podcast -->
     <div class="py-4">
-      <div class="flex md:flex-row py-4 flex-col-reverse">
+      <div class="flex md:flex-row flex-col-reverse">
         <!-- Left Side-->
         <div
           class="
@@ -105,7 +105,7 @@
         <!-- End Left Side-->
 
         <!-- Right Side with List and button -->
-        <div class="md:w-1/2 lg:px-0 px-8 md:py-0 py-8">
+        <div class="md:w-1/2 lg:px-0 px-8 md:py-0 ">
           <div class="2xl:pr-12 xl:pr-12">
             <slot name="right">
               <div class="py-3">

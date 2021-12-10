@@ -1,5 +1,5 @@
 <template>
-  <div class=" max-h-screen  py-2 lg:py-4 lg:mt-16 px-4">
+  <div class="   px-4 py-2" >
     <HeadingControl :title="content.title" />
 
     <PageSplitSectionEdited :img="content.image" :img2="content.image2">
@@ -17,7 +17,7 @@ export default {
     content: {
       type: Object,
       required: true,
-    },
+    }
   },
 }
 </script>
