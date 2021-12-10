@@ -92,6 +92,12 @@
                 to="/advocate-with-mau"
               ></MenuButton>
             </div>
+              <div class="bg-mau-primary-700">
+              <MenuButton
+                text="YIC Campaign"
+                to="/in-control"
+              ></MenuButton>
+            </div>
           </div>
           <div
             class="py-2 justify-self-end flex justify-center bg-mau-primary-700"
