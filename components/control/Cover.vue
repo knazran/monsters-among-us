@@ -6,7 +6,8 @@
           w-2/5
           absolute
           xl:bottom-48 lg:right-16
-          md:bottom-4
+          md:right-8
+          md:bottom-12
           sm:bottom-4
           bottom-2
           right-1
