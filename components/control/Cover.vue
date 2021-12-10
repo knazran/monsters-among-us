@@ -9,7 +9,7 @@
           md:right-12
           md:bottom-18
           sm:bottom-4
-          bottom-2
+          bottom-0
           right-8
         "
       >
@@ -17,7 +17,7 @@
           class="
             w-full
             font-semibold
-            xl:text-lg
+            xl:text-lgs
             md:text-xs
             lg:text-base
             text-2xs text-left text-mau-primary-700
