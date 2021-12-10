@@ -5,23 +5,24 @@
         sm:w-1/3
         w-2/5
         absolute
-        xl:bottom-36
+        xl:bottom-40
+        lg:bottom-28
         lg:right-18
-        md:right-12 md:bottom-24
-        sm:bottom-12
+        md:right-12 md:bottom-18
+        sm:bottom-6
         sm:right-6
-        bottom-0
+        bottom-2
         right-1
+        2xs:-bottom-1
       "
     >
       <p
         class="
           w-full
           font-semibold
-          xl:text-lgs
-          sm:text-xs
-          lg:text-base
-          text-3xs text-left text-mau-primary-700
+          lg:text-lg
+          sm:text-sm
+          text-2xs text-left text-mau-primary-700
           px-1
         "
       >
