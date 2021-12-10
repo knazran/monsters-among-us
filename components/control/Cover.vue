@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-full">
+  <div class="relative max-h-screen">
       <div
         class="
           sm:w-1/3
@@ -56,7 +56,7 @@
       </div>
       </div>
       <img
-        class="object-cover max-h-screen w-full"
+        class="object-cover h-full w-full"
         src="../../static/img/in-control/Banner.png"
         alt="MAU logo"
         
