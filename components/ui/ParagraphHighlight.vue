@@ -18,7 +18,7 @@
           md:px-7
           sm:px-0
           px-0
-          md:ml-6
+          md:ml-4
           ml-8
           lg:ml-8
           text-black
