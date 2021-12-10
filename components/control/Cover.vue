@@ -5,12 +5,12 @@
           sm:w-1/3
           w-2/5
           absolute
-          xl:bottom-24 lg:right-24
+          xl:bottom-36 lg:right-18
           md:right-12
-          md:bottom-18
-          sm:bottom-4
+          md:bottom-24
+          sm:bottom-12
           bottom-0
-          right-8
+          right-1
         "
       >
         <p
@@ -18,7 +18,7 @@
             w-full
             font-semibold
             xl:text-lgs
-            md:text-xs
+            sm:text-xs
             lg:text-base
             text-2xs text-left text-mau-primary-700
           "
