@@ -136,7 +136,7 @@ collections:
           - {label: 'Link', name: 'link', widget: 'string', default: 'https://www.instagram.com/monstersamongus_my/'}
   - label: 'Partners Logo'
     name: 'partners_logo'
-    folder: 'content/in-control/in-control-partners'
+    folder: 'content/in-control/partners'
     widget: 'list'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Everything is awesome!'}

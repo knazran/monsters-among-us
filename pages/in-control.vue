@@ -93,7 +93,7 @@ export default {
         'in-control/background-participants'
       ).fetch()
       const partnersContent = await $content(
-        'in-control/in-control-partners'
+        'in-control/partners/index'
       ).fetch()
       const filterContent = await $content('in-control/ig-filter').fetch()
 
