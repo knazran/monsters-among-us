@@ -10,7 +10,7 @@
           md:bottom-24
           sm:bottom-12
           bottom-0
-          right-1
+          right-0
         "
       >
         <p
@@ -20,7 +20,8 @@
             xl:text-lgs
             sm:text-xs
             lg:text-base
-            text-2xs text-left text-mau-primary-700
+            text-3xs text-left text-mau-primary-700
+            px-1
           "
         >
           Every child and young adult deserve to be able to safely surf the
