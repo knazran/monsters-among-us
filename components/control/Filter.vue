@@ -41,14 +41,12 @@
                 rounded-full
                 bg-mau-primary-700
                 text-center text-white
-                2xl:w-56
-                xl:w-40
+                lg:w-48
                 w-40
                 h-10
                 py-2
-                bottom-4
-                right-4
-                md:bottom-12 md:right-12
+
+             
                 transform
                 hover:scale-105
                 font-body font-medium
