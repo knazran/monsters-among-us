@@ -35,7 +35,9 @@
       <TextHighlight :title="content.title2" />
     </div>
     <div class="w-full py-6">
+      <div class='w-3/4 mx-auto'>
       <ImageCarouselSingle :images="content.carousel2" />
+      </div>
     </div>
   </div>
 </template>

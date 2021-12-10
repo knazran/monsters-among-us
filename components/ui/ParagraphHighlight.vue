@@ -17,7 +17,7 @@
           lg:px-0 lg:mt-2
           md:px-7
           sm:px-0
-          px-1
+          px-0
           md:ml-6
           ml-8
           lg:ml-8
