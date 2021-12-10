@@ -9,8 +9,9 @@
         lg:right-18
         md:right-12 md:bottom-24
         sm:bottom-12
+        sm:right-6
         bottom-0
-        right-0
+        right-1
       "
     >
       <p
@@ -38,9 +39,10 @@
               text-center text-white
               2xl:w-48
               xl:w-40
-              md:w-28
-              w-20
-              py-2
+              sm:w-28
+              w-16
+              py-1
+              sm:py-2
               transform
               hover:scale-105
               lg:text-base
