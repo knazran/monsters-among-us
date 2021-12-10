@@ -1,10 +1,11 @@
 <template>
   <div>
-    <HeadingControl
+   
+    <div class="h-full py-4 mb-2" :style="{ backgroundImage: bgImage }">
+       <HeadingControl
       title="Partners and Sponsors
 "
     />
-    <div class="h-full py-4 mb-2" :style="{ backgroundImage: bgImage }">
       <PageSection>
         <div
           class="

@@ -32,15 +32,15 @@
         class="
         top-4
           font-body font-medium
-          sm:right-8
           lg:left-3
-          md:left-1
           lg:px-2 lg:mt-1
-          md:px-3
-          sm:px-9
+          lg:mr-0
+          sm:px-12
+          sm:mr-8
+          lg:ml-6
           px-3
-          md:ml-6
-          ml-3
+          md:ml-1
+          ml-4
           text-black
           lg:text-lg
           sm:text-base

@@ -40,7 +40,7 @@ milestone:
       platform: Podcast
       link: https://linktr.ee/YoureInControl_Podcast
     - date: December 28, 2021 6:00PM
-      description:  Kalau orang ugut dengan nudes nak buat apa?
+      description:  Kalau orang ugut dengan nudes nak buat apa? (BM)
       platform: Podcast
       link: https://linktr.ee/YoureInControl_Podcast
 

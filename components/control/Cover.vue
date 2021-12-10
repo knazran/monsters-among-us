@@ -1,38 +1,24 @@
 <template>
   <div class="relative h-full">
-    <!-- Left Side-->
-    <!-- <div class="flex justify-center pb-12">
-          <img
-            class="relative object-contain  md:px-2 px-4 md:h-32 md:w-32 2xl:h-36 h-24"
-            src="../../static/img/initiative/Lapor Predator Logo.png"
-            alt="MAU logo"
-          />
-          <img
-            class="relative object-contain md:px-2 px-4 md:h-32 md:w-32 2xl:h-36 h-24"
-            src="../../static/mau-logo.png"
-            alt="MAU logo"
-          />
-        </div> -->
-    <div class="">
       <div
         class="
           sm:w-1/3
-          w-1/3
+          w-2/5
           absolute
-          lg:bottom-40 lg:right-12
-          md:bottom-28
-          sm:bottom-24
-          bottom-12
-          right-4
+          xl:bottom-48 lg:right-16
+          md:bottom-4
+          sm:bottom-4
+          bottom-2
+          right-1
         "
       >
         <p
           class="
             w-full
             font-semibold
-            xl:text-xl
-            lg:text-lg
-            sm:text-base
+            xl:text-lg
+            md:text-base
+            sm:text-xs
             text-2xs text-left text-mau-primary-700
           "
         >
@@ -41,37 +27,41 @@
           But for instances when that right is violated, what can be done? For
           this, we encourage you to "Let's Lapor Predator".
         </p>
-      </div>
-      <img
-        class="object-cover max-h-screen w-full"
-        src="../../static/img/in-control/Banner.png"
-        alt="MAU logo"
-      />
-      <NuxtLink to="/in-control">
+        <div class="my-2 flex justify-center">
+        <NuxtLink to="/in-control">
         <button
           class="
-            absolute
-            rounded-xl
+           
+            rounded-lg
             bg-mau-primary-700
             text-center text-white
-            2xl:w-64
-            xl:w-52
-            md:w-48
-            w-24
+            2xl:w-48
+            xl:w-40
+            md:w-28
+            w-20
             py-2
-            bottom-4
-            right-4
-            md:bottom-12 md:right-12
+          
             transform
             hover:scale-105
-            md:text-lg
+            lg:text-base
+
+            sm:text-xs
             text-2xs
           "
         >
           Read More
         </button>
       </NuxtLink>
-    </div>
+      </div>
+      </div>
+      <img
+        class="object-contain max-h-screen w-full"
+        src="../../static/img/in-control/Banner.png"
+        alt="MAU logo"
+        
+      />
+      
+      
 
     <!-- End Left Side-->
 
