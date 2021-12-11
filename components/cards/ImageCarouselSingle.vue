@@ -33,13 +33,13 @@
             px-6
             font-medium
             justify-center
-            test-justify
-            text-sm
+            3xs:text-xs
+            2xs:text-sm
             flex
             items-center
           "
         >
-          <p>{{ purpose.description }}</p>
+          <p class="text-justify">{{ purpose.description }}</p>
         </div>
         <div class="flex justify-center">
           <p v-if="index == 0"><strong>Slide to read more </strong></p>
@@ -69,7 +69,6 @@ export default {
   data: function () {
     return {
       settings: {
-        dots: true,
         focusOnSelect: true,
         infinite: true,
         slidesToShow: 1,
