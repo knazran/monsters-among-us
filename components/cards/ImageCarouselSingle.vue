@@ -33,7 +33,8 @@
             px-6
             font-medium
             justify-center
-            text-left text-sm
+            test-justify
+            text-sm
             flex
             items-center
           "
