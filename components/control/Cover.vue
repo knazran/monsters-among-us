@@ -61,6 +61,7 @@
       src="../../static/img/in-control/Banner.jpg"
       alt="MAU logo"
     />
+    
 
     <!-- End Left Side-->
 

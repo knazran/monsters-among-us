@@ -28,7 +28,7 @@
         items-center
       "
     >
-      <div v-for="video in content.media" :key="video.link">
+      <div v-for="video in content.media" :key="video.description">
         <VideoFilter
           class="md:block hidden"
           title="test"

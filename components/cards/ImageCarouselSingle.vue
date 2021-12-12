@@ -41,8 +41,19 @@
         >
           <p class="text-justify">{{ purpose.description }}</p>
         </div>
-        <div class="flex justify-center">
-          <p v-if="index == 0"><strong>Slide to read more </strong></p>
+        <div v-if="index == 0" >
+          <div class="flex justify-center"><p><strong>Slide to read more </strong></p></div>
+          <div class="flex justify-center items-center py-12">
+          <img
+            class="
+              
+              h-40
+            
+              
+            "
+            :src="purpose.image"
+          />
+          </div>
         </div>
       </div>
     </VueSlickCarousel>
