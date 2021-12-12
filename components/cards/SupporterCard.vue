@@ -184,6 +184,12 @@ export default {
   methods: {
     toggleModal: function () {
       this.showModal = !this.showModal
+        if (this.showModal) {
+        document.body.style.overflow = 'hidden'
+      }
+      if (!this.showModal) {
+        document.body.style.overflow = 'visible'
+      }
     },
   },
 }

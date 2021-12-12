@@ -56,12 +56,6 @@
             focus:outline-none
           "
         >
-          <!--body-->
-          <!-- <div class="relative p-6 flex-auto">
-              <p class="my-4 text-xs leading-relaxed">
-                <strong>Bio: </strong> {{ description }}
-              </p>
-            </div> -->
           <img class="object-cover rounded-sm max-h-screen" :src="image" />
           <!--end body -->
         </div>

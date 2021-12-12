@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeadingControl :title="titleContent.title" />
-    <div class="flex px-6 justify-center py-2">
+    <div class="flex px-6 justify-center py-4">
       <p
         class="
           px-6

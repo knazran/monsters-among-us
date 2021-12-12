@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="h-full py-4 mb-2" :style="{ backgroundImage: bgImage }">
+    <div class="h-full py-4 " :style="{ backgroundImage: bgImage }">
       <HeadingControl
         title="Partners and Sponsors
 "

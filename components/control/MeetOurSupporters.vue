@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:h-full h-96 container mx-auto py-8 lg:py-16 px-4">
+  <div class="sm:h-full h-96 container mx-auto py-4 px-4">
     <HeadingControl :title="content.title" />
 
     <div class="flex py-6 flex-row">

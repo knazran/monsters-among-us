@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4">
+  <div class="px-4 py-4">
     <HeadingControl :title="content.title" />
 
     <PageSplitSection :reverse="true" :img="content.image">

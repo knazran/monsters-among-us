@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full container mx-auto py-8 lg:py-4 px-4">
+  <div class="h-full container mx-auto py-4 px-4">
     <HeadingControl :title="content.title" />
 
     <div class="h-full py-4 md:px-3 px-2">

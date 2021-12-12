@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:min-h-screen">
+  <div class="sm:max-h-screen">
     <HeadingControl :title="content.title" />
 
     <div class="sm:my-0 imgBg" :style="{ backgroundImage: bgImage }">
@@ -16,16 +16,6 @@
                     :isDescription="false"
                     :isRow="true"
                   />
-                  <!-- <nuxt-content
-                class="
-                  md:px-4
-                  px-3
-                  prose prose-black prose-md
-                  lg:prose-lg
-                  max-w-none
-                "
-                :document="content" 
-              /> !-->
                 </div>
               </slot>
             </div>

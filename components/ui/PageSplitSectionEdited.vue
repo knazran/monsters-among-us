@@ -1,9 +1,9 @@
 <template>
-  <div class="container h-full mx-auto md:flex md:items-center my-8 md:my-18">
-    <div class="w-full md:w-1/2  px-6 mb-4 md:mb-0">
+  <div class="container h-full mx-auto md:flex md:items-center">
+    <div class="w-full md:w-1/2  px-6 md:mb-0">
       <slot name="default"></slot>
     </div>
-    <div class="w-full md:w-1/2 xl:px-6 py-12 justify-center flex flex-row">
+    <div class="w-full md:w-1/2 xl:px-6 md:py-12 py-2 justify-center flex flex-row">
       <img
         v-if="img2 !== ''"
         class=" object-contain  h-36 sm:h-48 lg:h-64 rounded-lg"
