@@ -12,6 +12,7 @@
         bg-no-repeat
         lg:bg-right
         bg-top
+        overflow-x-hidden
       "
     >
       <!-- Element-specific configuration options can be passed like this -->
