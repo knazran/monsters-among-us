@@ -43,7 +43,7 @@
           sm:px-6 sm:flex sm:justify-center
           2xs:px-3
           3xs:px-12
-          md:ml-1
+          md:ml-2
           2xs:ml-4
           3xs:ml-0
           text-black
