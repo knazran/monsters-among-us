@@ -35,15 +35,12 @@
       <nuxt-content
         v-if="!isDescription && isRow"
         class="
-        sm:w-3/4
-        md:w-full
+          sm:w-3/4
+          md:w-full
           top-4
           font-body font-medium
           lg:left-3 lg:px-8 lg:mt-1 lg:mx-2
-         sm:px-6 sm:flex
-
-          sm:justify-center
-          
+          sm:px-6 sm:flex sm:justify-center
           2xs:px-3
           3xs:px-12
           md:ml-1
@@ -69,7 +66,7 @@
           text-xs
           lg:text-lg
           sm:text-base
-           2xs:text-xs
+          2xs:text-xs
           3xs:text-2xs
         "
       >
