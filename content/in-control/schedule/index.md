@@ -27,16 +27,16 @@ milestone:
     image: /img/in-control/schedule/Podcast Episod 2.png
     platform: Podcast
     link: https://linktr.ee/YoureInControl_Podcast
-  - date: December 23, 2021 6:00 PM
-    description: Apa itu consent? (BM)
-    platform: Podcast
-    link: https://linktr.ee/YoureInControl_Podcast
-    image: /img/igtv-episod-3.2-.png
   - date: December 22, 2021 9:00PM
     description: Child Online Protection in Malaysia (Eng)
     platform: Podcast
     link: https://linktr.ee/YoureInControl_Podcast
     image: /img/yic_campaign_2-copy.png
+  - date: December 23, 2021 6:00 PM
+    description: Apa itu consent? (BM)
+    platform: Podcast
+    link: https://linktr.ee/YoureInControl_Podcast
+    image: /img/igtv-episod-3.2-.png
   - date: December 29, 2021 6:00 PM
     description: Boleh ke kita cakap NO dekat partner kita? (BM)
     platform: IG Live
