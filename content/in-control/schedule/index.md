@@ -32,15 +32,15 @@ milestone:
     platform: Podcast
     link: https://linktr.ee/YoureInControl_Podcast
     image: /img/igtv-episod-3.2-.png
-  - date: December 29, 2021 6:00 PM
-    description: Boleh ke kita cakap NO dekat partner kita? (BM)
-    platform: IG Live
-    link: https://www.instagram.com/monstersamongus_my/
-    image: /img/yic_campaign_2-copy.png
   - date: December 22, 2021 9:00PM
     description: Child Online Protection in Malaysia (Eng)
     platform: Podcast
     link: https://linktr.ee/YoureInControl_Podcast
+    image: /img/yic_campaign_2-copy.png
+  - date: December 29, 2021 6:00 PM
+    description: Boleh ke kita cakap NO dekat partner kita? (BM)
+    platform: IG Live
+    link: https://www.instagram.com/monstersamongus_my/
     image: /img/yic_campaign_2-copy.png
   - date: January 4, 2022 6:00 PM
     description: Kalau orang ugut dengan nudes nak buat apa? (BM)
