@@ -32,7 +32,7 @@ milestone:
     platform: Podcast
     link: https://linktr.ee/YoureInControl_Podcast
     image: /img/igtv-episod-3.2-.png
-  - date: December 20, 2021 06:00 PM
+  - date: December 29, 2021 6:00 PM
     description: Boleh ke kita cakap NO dekat partner kita? (BM)
     platform: IG Live
     link: https://www.instagram.com/monstersamongus_my/
