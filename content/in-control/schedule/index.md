@@ -19,7 +19,7 @@ milestone:
     link: https://www.instagram.com/tv/CXDVU9RDqNj/?utm_medium=copy_link
   - date: December 1, 2021 09:00 PM
     description: What to Know When Making Friends Online - Part 2 (Eng)
-    image: /img/in-control/schedule/Marissa.png
+    image: /img/marissa-de-rozario-1-.png
     platform: IG Live
     link: https://www.instagram.com/monstersamongus_my/tv/CW8WsLOq38p/?utm_medium=copy_link
   - date: December 8, 2021 06:00 PM
