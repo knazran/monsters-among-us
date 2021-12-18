@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:max-h-screen">
+  <div class="sm:h-full">
     <HeadingControl :title="content.title" />
 
     <div class="sm:my-0 imgBg" :style="{ backgroundImage: bgImage }">
