@@ -41,7 +41,7 @@ milestone:
     description: Boleh ke kita cakap NO dekat partner kita? (BM)
     platform: IG Live
     link: https://www.instagram.com/monstersamongus_my/
-    image: /img/yic_campaign_2-copy.png
+    image: /img/igtv_episod_4.png
   - date: January 4, 2022 6:00 PM
     description: Kalau orang ugut dengan nudes nak buat apa? (BM)
     platform: Podcast
