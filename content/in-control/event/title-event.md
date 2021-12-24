@@ -14,4 +14,4 @@ carousel:
   - image: /img/advocate/forum.jpg
   - image: /img/advocate/together.jpg
 ---
-The Internet is a great learning tool for kids, but how do we make sure they’re safe while they’re surfing? Let’s find out. Enjoy a short film that explores the vulnerabilities children in Malaysia when surfing online 
+The Internet is a great learning tool for kids, but how do we make sure they’re safe while they’re surfing? Let’s find out. Enjoy a short film that explores the vulnerabilities children in Malaysia face when surfing online.
