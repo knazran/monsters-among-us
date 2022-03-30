@@ -30,4 +30,4 @@ What are you waiting for? Join us!
     "
   >
     Join Us!
-  </button>](https://forms.gle/YstxfnGPrZebKeWY7)
+  </button>](https:google.com)
