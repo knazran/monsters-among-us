@@ -33,7 +33,6 @@
                   data-instgrm-payload-id="instagram-media-payload-0"
                   scrolling="yes"
                   style="
-                    background: white;
                     max-width: 540px;
                     width: calc(100% - 2px);
                     border-radius: 3px;
@@ -59,7 +58,6 @@
                   data-instgrm-payload-id="instagram-media-payload-0"
                   scrolling="yes"
                   style="
-                    background: white;
                     max-width: 540px;
                     width: calc(100% - 2px);
                     border-radius: 3px;
