@@ -21,8 +21,8 @@
           >
             <div class="md:flex">
               <div
-                class="mx-2"
-                style="position: relative; max-width: 400px; min-width: 100px"
+                class="mx-4"
+                style="position: relative; width: 400px"
               >
                 <iframe
                   src="https://www.instagram.com/p/Ca4DWluviIb/embed/"
@@ -33,7 +33,7 @@
                   data-instgrm-payload-id="instagram-media-payload-0"
                   scrolling="yes"
                   style="
-                    max-width: 540px;
+                    width: 400px;
                     width: calc(100% - 2px);
                     border-radius: 3px;
                     border: 1px solid rgb(219, 219, 219);
@@ -46,8 +46,8 @@
                 ></iframe>
               </div>
               <div
-                class="mx-2"
-                style="position: relative; max-width: 400px; min-width: 100px"
+                class="mx-4"
+                style="position: relative; width: 400px"
               >
                 <iframe
                   src="https://www.instagram.com/p/Ca1s--mvnlD/embed/"
@@ -58,7 +58,7 @@
                   data-instgrm-payload-id="instagram-media-payload-0"
                   scrolling="yes"
                   style="
-                    max-width: 540px;
+                    width: 400px;
                     width: calc(100% - 2px);
                     border-radius: 3px;
                     border: 1px solid rgb(219, 219, 219);
