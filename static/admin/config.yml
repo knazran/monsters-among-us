@@ -43,7 +43,6 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Content', name: 'body', widget: 'markdown' }
-      - { label: 'Link', name: 'link', widget: 'markdown', default: 'None', }
   - label: '(About Us) Meet The Team'
     name: 'team'
     folder: 'content/meet-the-team'
