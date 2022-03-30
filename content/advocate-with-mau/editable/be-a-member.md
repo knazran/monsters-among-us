@@ -29,4 +29,4 @@ What are you waiting for? Join us!
     "
   >
     Join Us!
-  </button>]
+  </button>](https://forms.gle/YstxfnGPrZebKeWY7)
