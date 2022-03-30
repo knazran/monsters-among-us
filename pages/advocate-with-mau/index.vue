@@ -59,7 +59,7 @@
                 :document="beMemberContent"
               />
               <div class="py-4 -mx-2 flex md:justify-start justify-center">
-                <a href="bit.ly/sayamaujoinmau "
+                <a :href="beMemberContent.link"
                   ><AccentButton text="Be A Member"
                 /></a>
               </div>
