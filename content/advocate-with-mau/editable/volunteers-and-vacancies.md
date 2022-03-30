@@ -16,7 +16,7 @@ We provide volunteering and job opportunities of varying levels of workload and 
 
 **Job Opportunities**
 
-[<button class='rounded-lg my-4 px-8 text-white bg-mau-primary-700 '> No vacancies </button>](https://forms.gle/tcZdgCCSHBKsNzys6)
+[<button class='rounded-lg my-4 px-8 text-white bg-mau-primary-700 '> No Vacancies </button>](https://forms.gle/tcZdgCCSHBKsNzys6)
 
 **Volunteer Opportunities**
 
