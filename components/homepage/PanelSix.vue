@@ -21,7 +21,7 @@
           >
             <div class="md:flex">
               <div
-                class="mx-4"
+                class="mx-2"
                 style="position: relative; max-width: 400px; min-width: 100px"
               >
                 <iframe
@@ -46,7 +46,7 @@
                 ></iframe>
               </div>
               <div
-                class="mx-4"
+                class="mx-2"
                 style="position: relative; max-width: 400px; min-width: 100px"
               >
                 <iframe
