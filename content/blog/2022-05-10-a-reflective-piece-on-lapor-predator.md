@@ -7,7 +7,7 @@ description: Thivya started her child protection journey with MAU in late 2021.
   Lapor Predator. Join her journey as she opens up about the shift that she
   experienced.
 author: Thivya Devi Sivakumar
-image: /img/7.png
+image: /img/6.png
 ---
 At the beginning of this project, I had a very idealistic perspective of the kind of impact that  I would be creating as part of the Child Protection Department. The Case Managers I worked with shared similar sentiments - we used to (at the beginning of our respective tenures with MAU) believe that we would be making an immediate difference for survivors of child sexual abuse (CSA)  by receiving reports, pinning perpetrators and duly bringing them to justice on behalf of our child clients.
 
