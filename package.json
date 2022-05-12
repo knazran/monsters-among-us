@@ -20,8 +20,10 @@
     "es-dirname": "^0.1.0",
     "nuxt": "^2.15.7",
     "vue-gtag": "^2.0.1",
+    "vue-collage": "^0.1.6",
     "vue-horizontal": "^0.8.10",
     "vue-horizontal-timeline": "^0.10.0",
+    "vue-scroll-reveal": "^1.0.11",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {

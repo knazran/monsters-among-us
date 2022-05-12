@@ -71,7 +71,16 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap'
-      }
+      },
+      {rel:"preconnect", href:"https://fonts.gstatic.com/" },
+
+      {
+      rel:'stylesheet',
+      href:'https://fonts.cdnfonts.com/css/coco-gothic'
+      },
+      { rel:'stylesheet',
+        href:'https://fonts.cdnfonts.com/css/hk-groteks'
+        },
     ],
   },
 
@@ -79,10 +88,15 @@ export default {
   css: [
     '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css',
     '~/node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css',
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [ 
+
+    { src: '~/plugins/vue-scroll-reveal', ssr: false }
+
+],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   // components: true,

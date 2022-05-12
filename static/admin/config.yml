@@ -43,5 +43,306 @@ collections:
           choose_url: true,
           default: 'kid-hero.jpg',
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
- 
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: '(About Us) Meet The Team'
+    name: 'team'
+    folder: 'content/meet-the-team'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - {
+          label: 'Background Image 1',
+          name: 'bg_image_1',
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-1.png',
+        }
+      - {
+          label: 'Background Image 2',
+          name: 'bg_image_2',
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-2.png',
+        }
+      - label: 'Board Members'
+        name: 'board_members'
+        widget: 'list'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string', default: 'Null' }
+          - {
+              label: ;Image,
+              name: image,
+              widget: image,
+              default: '/img/team/team-bg-2.png',
+            }
+          - { label: Description, name: blurb, widget: string, default: 'Null' }
+          - {
+              label: Position,
+              name: position,
+              widget: string,
+              default: '/img/team/team-bg-2.png',
+            }
+      - label: Lapor Predator Members
+        name: lapor_predator_members
+        widget: list
+        fields:
+          - { label: Name, name: name, widget: string, default: 'Null' }
+          - {
+              label: Image,
+              name: image,
+              widget: image,
+              default: '/img/team/team-bg-2.png',
+            }
+          - { label: Description, name: blurb, widget: string, default: 'Null' }
+          - {
+              label: Position,
+              name: position,
+              widget: string,
+              default: '/img/team/team-bg-2.png',
+            }
+  - label: '(About Us) Our Commitment'
+    name: 'commitments'
+    folder: 'content/about-us/commitment'
+    fields:
+      - { label: Title, name: title, widget: string, default: 'Null' }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: '/img/team/team-bg-2.png',
+        }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: '(About Us) Our Story'
+    name: 'stories'
+    folder: 'content/about-us/story'
+    fields:
+      - { label: Title, name: title, widget: string, default: 'Null' }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: '/img/team/team-bg-2.png',
+        }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: '(About Us) Our Mission & Vision'
+    name: 'missions'
+    folder: 'content/about-us/mission'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-1.png',
+        }
+      - label: 'Points'
+        name: 'points'
+        widget: 'list'
+        fields:
+          - {
+              label: 'Mission/Vision',
+              name: 'about',
+              widget: 'string',
+              default: 'Null',
+            }
+          - {
+              label: 'Description',
+              name: 'blurb',
+              widget: 'string',
+              default: '/img/team/team-bg-2.png',
+            }
+  - label: '(About Us) Civic Engagement Strategies'
+    name: 'strategy'
+    folder: 'content/about-us/strategies'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - label: 'Points'
+        name: 'points'
+        widget: 'list'
+        fields:
+          - {
+              label: 'Strategies',
+              name: 'about',
+              widget: 'string',
+              default: 'Null',
+            }
+          - {
+              label: 'Image',
+              name: 'image',
+              widget: 'image',
+              default: '/img/team/team-bg-2.png',
+            }
+  - label: '(About Us) Our Milestone'
+    name: 'milestones'
+    folder: 'content/about-us/milestone'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - label: Milestone
+        name: milestone
+        widget: list
+        fields:
+          - { label: Year, name: year, widget: string, default: 'Null' }
+          - { label: Description, name: blurb, widget: string, default: 'Null' }
+          - {
+              label: Image,
+              name: image,
+              widget: image,
+              default: '/img/team/team-bg-2.png',
+            }
+  - label: 'YIC Schedule'
+    name: 'yic_campaign'
+    folder: 'content/in-control/schedule'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - label: Milestone
+        name: milestone
+        widget: list
+        fields:
+          - {
+              label: 'Description',
+              name: 'description',
+              widget: 'string',
+              default: '-',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'datetime',
+              date_format: 'DD.MM.YYYY',
+              time_format: 'HH:mm',
+              format: 'LLL',
+              picker_utc: false,
+            }
+          - {
+              label: 'Image',
+              name: image,
+              widget: 'image',
+              choose_url: true,
+              default: '/img/in-control/yic_campaign2.png',
+            }
+          - { label: 'Platform', name: 'platform', widget: 'string' }
+          - {
+              label: 'Link',
+              name: 'link',
+              widget: 'string',
+              default: 'https://www.instagram.com/monstersamongus_my/',
+            }
+  - label: 'Partners Logo'
+    name: 'partners_logo'
+    folder: 'content/in-control/partners'
+    widget: 'list'
+    fields:
+      - {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+          default: 'Everything is awesome!',
+        }
+      - label: Partners
+        name: partners
+        widget: list
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string', default: '-' }
+          - {
+              label: 'Image',
+              name: image,
+              widget: 'image',
+              choose_url: true,
+              default: '/img/in-control/yic_campaign2.png',
+            }
+  - name: 'policies'
+    label: 'Our Policies'
+    label_singular: 'Our Policies'
+    folder: 'content/our-policies'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Null' }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-1.png',
+        }
+      - { label: 'Link', name: 'link', widget: 'string', default: 'Null' }
+    # meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  - name: 'initiative'
+    label: 'Our Initiatives'
+    label_singular: 'Our Initiatives'
+    folder: 'content/initiatives'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Null' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          default: 'Null',
+        }
+      - {
+          label: 'Main Poster',
+          name: 'main_poster',
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-1.png',
+        }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - label: '(Our Initiatives) Lapor Predator - Content'
+    name: 'lapor_predator'
+    folder: 'content/lapor-predator/intro-content'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Null' }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'string',
+          default: 'Null',
+        }
+      - {
+          label: 'Main Poster',
+          name: 'main_poster',
+          widget: 'image',
+          default: '/img/team/team-bg-2.png',
+        }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - name: 'our_journey'
+    label: '(Our Initiatives) Lapor Predator - Our Journey'
+    folder: 'content/lapor-predator/our-journeys'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Null' }
+      - {
+          label: 'Image',
+          name: img,
+          widget: 'image',
+          choose_url: true,
+          default: '/img/team/team-bg-1.png',
+        }
+      - { label: 'Content', name: 'body', widget: 'markdown' }

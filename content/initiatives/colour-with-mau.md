@@ -7,14 +7,14 @@ order: 3
 title: My Body, My Rules!
 description: A basic guide to comprehensive sexuality education for children in
   all their diversity.
-main_poster: /img/initiative/Our Initiatives_CB.png
+main_poster: /img/catalogue-1-square-final.png
 link: /initiatives/colour-with-mau
 ---
 ## Background
 
 'My Body, My Rules' is a children’s colouring book that may serve as an initial guide for parents, guardians and educators as well as children who want to ease into sexuality education. 'My Body, My Rules' came into being to mitigate the lack of comprehensive sexuality education which is accessible to children from all backgrounds and which enables them to learn about topics such as intimacy, sexual abuse and navigating the legal protection that is available to them in Malaysia. The content of the book is tailored according to the social and cultural factors that affect children in Malaysia.
 
-'My Body, My Rules' has been in production since January 2021 and is currently available for pre-orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
+'My Body, My Rules' has been in production since January 2021 and is currently available for orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
 
 ### The 10 artists contributing are:-
 
@@ -35,4 +35,4 @@ The book would not have been made a reality without the talent of these artists,
  Click the button below to order the Colouring Book today with special deals waiting for you!
 
 <a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='transform
-                hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Pre-Order </button> </a>
+                hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Order </button> </a>

@@ -14,7 +14,12 @@ module.exports = {
     }
   },
   theme: {
+   
     screens: {
+      "3xs": '280px',
+
+      "2xs": '320px',
+
       xs: '531px',
       sm: '640px',
       md: '768px',
@@ -29,9 +34,16 @@ module.exports = {
     },
 
     fontFamily: {
-      nunito: ['nunito', 'sans-serif'],
+      'nunito': ['nunito', 'sans-serif'],
+      'display': ['Coco Gothic','sans-serif'],
+      'body': ['HK Grotesk','sans-serif']
+
+      
     },
     fontSize: {
+      '4xs':'.36rem',
+      '3xs': '.45rem',
+      '2xs': '.5rem',
       xs: '.75rem',
       sm: '.875rem',
       tiny: '.875rem',
@@ -129,7 +141,7 @@ module.exports = {
         100: '47rem',
         99: '39rem',
         98: '34rem',
-        97: '30rem',
+        screenMobile: '75vh',
       },
       borderRadius: {
         20: '20px',
@@ -159,6 +171,7 @@ module.exports = {
           700: '#46818A',
           800: '#34564F',
           900: '#031926',
+          950: '#4D2D52'
         },
         'mau-secondary': {
           DEFAULT: '#F7F06D',
