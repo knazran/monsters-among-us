@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   ssr: false,
@@ -137,7 +139,14 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
   generate: {
-    routes: ['blog/2022-05-10-a-reflective-piece-on-lapor-predator']
+    async routes($content) {
+      {
+        const posts = await $content('blog').sortBy('date', 'desc').fetch()
+        return posts.map(blog => {
+          return '/blog/' + blog.slug
+        })
+      }
+    }
   },
 
   'google-gtag': {
