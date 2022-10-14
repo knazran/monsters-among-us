@@ -136,6 +136,9 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+  generate: {
+    routes: ['blog/2022-05-10-a-reflective-piece-on-lapor-predator']
+  },
 
   'google-gtag': {
     // Options
