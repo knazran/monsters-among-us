@@ -143,7 +143,7 @@ export default {
       {
         const posts = await $content('blog').sortBy('date', 'desc').fetch()
         return posts.map(blog => {
-          return '/blog/' + blog.slug
+          return 'blog/' + blog.slug
         })
       }
     }
