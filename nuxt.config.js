@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   ssr: false,
@@ -136,6 +138,18 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+  // solution for dynamic route: https://github.com/nuxt/content/issues/511, https://nuxtjs.org/docs/configuration-glossary/configuration-generate/#routes
+  generate: {
+    async routes() {
+      {
+        const { $content } = require('@nuxt/content')
+        const posts = await $content('blog').sortBy('date', 'desc').fetch()
+        return posts.map(blog => {
+          return 'blog/' + blog.slug
+        })
+      }
+    }
+  },
 
   'google-gtag': {
     // Options
