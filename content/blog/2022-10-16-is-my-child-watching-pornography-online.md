@@ -13,11 +13,11 @@ Before the conversation
 
 1. Stay calm.
 
-\- Different families have different views on porn and sex - and that’s ok! Let's figure out an effective method to have a conversation with them.
+* Different families have different views on porn and sex - and that’s ok! Let's figure out an effective method to have a conversation with them.
 
 2. Conversation works both ways
 
-\- While we understand that as a parent this may be shocking - it is equally important to give them a chance and listen to your child's perspective.
+* While we understand that as a parent this may be shocking - it is equally important to give them a chance and listen to your child's perspective.
 
 ### \#2: What can I tell my child?
 
