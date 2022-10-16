@@ -72,5 +72,3 @@ Wrap it up on a positive note
 * Updating security levels on devices (child protection)
 * Avoiding friends, relatives, and neighbours who are viewing pornography unsafely
 * Having regular conversations about what your child is viewing.
-*
-*
