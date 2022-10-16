@@ -11,69 +11,66 @@ When children are exposed to pornography at a young age, it can have many harmfu
 
 Before the conversation
 
-1. 1. Stay calm.
+1. Stay calm.
 
-* \- Different families have different views on porn and sex - and that’s ok! Let's figure out an effective method to have a conversation with them.
+\- Different families have different views on porn and sex - and that’s ok! Let's figure out an effective method to have a conversation with them.
 
-2. 2. Conversation works both ways
+2. Conversation works both ways
 
-* \- While we understand that as a parent this may be shocking - it is equally important to give them a chance and listen to your child's perspective.
+\- While we understand that as a parent this may be shocking - it is equally important to give them a chance and listen to your child's perspective.
 
 ### \#2: What can I tell my child?
 
 During the conversation
 
-1. 3. Reassure your child that they are safe and not in trouble!
+2. Reassure your child that they are safe and not in trouble!
 
-* \- Avoid punishing your child  -  it will reduce the likelihood that your child would approach you in the future with difficult problems. 
-* \- We are aware of how distressing it might be to see things of this nature, we must be encouraging and understanding.
+* Avoid punishing your child  -  it will reduce the likelihood that your child would approach you in the future with difficult problems.
+* We are aware of how distressing it might be to see things of this nature, we must be encouraging and understanding.
 
-2. 4. “How did you feel?”
+3. “How did you feel?”
 
-* \- Address their emotions
-* * \- good, bad, safe, scared, uncomfortable, curious, or something else? 
+* Address their emotions
 
-  \- Validate their emotions
+  * good, bad, safe, scared, uncomfortable, curious, or something else? 
+* Validate their emotions
 
-3. 5. Make a safe environment for them
+4. Make a safe environment for them
 
-* \- We understand that having this conversation may be difficult (and awkward too!) It is important to make your child feel comfortable and safe!
+* We understand that having this conversation may be difficult (and awkward too!) It is important to make your child feel comfortable and safe!
 
 ### \#3 : Tips for Effective Discussion
 
 Initiate discussion
 
-1. 6. Talk about sex
+5. Talk about sex
 
-* \- You may wish to talk to them about what sex is and why we have sex. 
-* \- Make it imaginative, modest and appropriate for them, if you have to! However, having this discussion and creating a door for them to be open to you is crucial.
+* You may wish to talk to them about what sex is and why we have sex. 
+* Make it imaginative, modest and appropriate for them, if you have to! However, having this discussion and creating a door for them to be open to you is crucial.
 
-2. 7. Discuss about boundaries and rules
+6. Discuss about boundaries and rules
 
-* \- Boundaries, appropriate age, timing for intimacy, and other personal values related to sex and love are equally (if not more) important!
+* Boundaries, appropriate age, timing for intimacy, and other personal values related to sex and love are equally (if not more) important!
 
-3. 8. Discuss with them about online safety
+7. Discuss with them about online safety
 
-* \- Creation of boundaries 
-* \- Make a plan as a family on how to deal with porn
+* Creation of boundaries 
+* Make a plan as a family on how to deal with porn
 
 ### \#4: “It is not okay to watch porn…”
 
 Wrap it up on a positive note
 
-1. 9. Teamwork makes Dreamwork! Discuss why…
+8. Teamwork makes Dreamwork! Discuss why…
 
-* \- …It’s not okay to continue watching porn
-* \- …it is not a good idea to look for those kinds of things on the Internet again.
+* …It’s not okay to continue watching porn
+* …it is not a good idea to look for those kinds of things on the Internet again.
 
-2. 10. Encourage them to think of ways to stay safe. Answers might include
+9. Encourage them to think of ways to stay safe. Answers might include
 
-* \- Avoiding using keywords that lead to these kinds of images
-* \- Updating security levels on devices (child protection)
-* \- Avoiding friends, relatives, and neighbours who are viewing pornography unsafely
-* \- Having regular conversations about what your child is viewing.
+* Avoiding using keywords that lead to these kinds of images
+* Updating security levels on devices (child protection)
+* Avoiding friends, relatives, and neighbours who are viewing pornography unsafely
+* Having regular conversations about what your child is viewing.
 *
-
-
-
 *
