@@ -24,7 +24,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const content = await $content('initiatives/colour-with-mau').fetch()
+      const content = await $content('initiatives/my-body-my-rules').fetch()
       return {
         content,
       }

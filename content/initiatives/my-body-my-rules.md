@@ -8,7 +8,7 @@ title: My Body, My Rules!
 description: A basic guide to comprehensive sexuality education for children in
   all their diversity.
 main_poster: /img/catalogue-1-square-final.png
-link: /initiatives/colour-with-mau
+link: /initiatives/my-body-my-rules
 ---
 ## Background
 
