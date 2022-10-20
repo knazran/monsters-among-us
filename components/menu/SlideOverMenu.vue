@@ -47,8 +47,8 @@
                 to="/initiatives/catch-em-predator"
               ></MenuButton>
               <MenuButton
-                text="Colour With MAU"
-                to="/initiatives/colour-with-mau"
+                text="My Body My Rules"
+                to="/initiatives/my-body-my-rules"
               ></MenuButton>
               <MenuButton
                 text="MAU Reading Club"
