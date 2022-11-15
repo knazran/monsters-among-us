@@ -1,6 +1,6 @@
 ---
 title: "'Through Our Lens' : Fighting child sexual abuse together with children!"
-author: Farisa and Firzaan
+author: Farisa and Firzana
 date: 2022-11-15T10:07:19.023Z
 description: “To all of the adults that don’t believe that children should have
   a voice; weren’t they a child once?”  Ain Husniza
