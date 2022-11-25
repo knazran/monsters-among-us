@@ -43,7 +43,7 @@ import bgBlog from '~/static/img/img_bg/gotta_read_this_bg.png'
 export default {
   async asyncData({ $content }) {
     const posts = await $content('blog').sortBy('date', 'desc').fetch()
-    console.log("posts ",posts)
+    console.log("postss ",posts)
     return {
       posts,
     }
