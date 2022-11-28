@@ -58,33 +58,14 @@
               class="sm:px-48 mx-24 px-2 cursor-default"
             >
               <button
-                class="
-                  cursor-default
-                  relative
-                  z-50
-                  bg-mau-primary-700
-                  rounded-md
-                  py-1
-                  px-4
-                  left-40
-                  sm:left-0
-                "
+                class="cursor-default relative z-50 bg-mau-primary-700 rounded-md py-1 px-4 left-40 sm:left-0"
               >
                 <p class="text-center text-white text-lg">{{ info.year }}</p>
               </button>
 
               <div
                 v-if="index < 4"
-                class="
-                  cursor-default
-                  timeline
-                  z-0
-                  border-opacity-100 border-mau-primary-400 border
-                  absolute
-                  top-3
-                  md:left-0
-                  left-10
-                "
+                class="cursor-default timeline z-0 border-opacity-100 border-mau-primary-400 border absolute top-3 md:left-0 left-10"
               ></div>
 
               <HorizontalTimelines :blurb="info.blurb" :image="info.image" />
@@ -99,23 +80,30 @@
 <script>
 import VueHorizontal from 'vue-horizontal'
 import TextureBeige from '~/static/img/textures/texture-beige-2.png'
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
 export default {
   components: {
     VueHorizontal,
+    VueSlickCarousel,
   },
+
   async asyncData({ $content, params, error }) {
     //
     try {
-      const mission= await $content('about-us/mission').fetch()
+      const mission = await $content('about-us/mission').fetch()
       const story = await $content('about-us/story').fetch()
       const commitment = await $content('about-us/commitment').fetch()
       const timeline = await $content('about-us/milestone').fetch()
       const strategies = await $content('about-us/strategies').fetch()
-      const missionContent= mission[0]
-      const storyContent= story[0]
-      const commitmentContent= commitment[0]
-      const timelineContent= timeline[0]
-      const strategiesContent= strategies[0]
+      const missionContent = mission[0]
+      const storyContent = story[0]
+      const commitmentContent = commitment[0]
+      const timelineContent = timeline[0]
+      const strategiesContent = strategies[0]
 
       const journeyInfo = await $content('lapor-predator/our-journeys')
         .sortBy('id')

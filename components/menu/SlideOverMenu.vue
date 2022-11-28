@@ -54,6 +54,10 @@
                 text="MAU Reading Club"
                 to="/initiatives/mau-reading-club"
               ></MenuButton>
+              <MenuButton
+                text="Through Our Lens"
+                to="/initiatives/through-our-lens"
+              ></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Focus Areas">
               <MenuButton
