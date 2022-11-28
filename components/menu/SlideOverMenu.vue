@@ -68,10 +68,10 @@
                 text="Sexual and Reproductive Health Rights"
                 to="/focus-area/sexual-and-reproductive-health-rights"
               ></MenuButton>
-              <!-- <MenuButton
+              <MenuButton
                 text="Child Rights"
                 to="/focus-area/child-rights"
-              ></MenuButton> -->
+              ></MenuButton>
             </MenuAccordion>
             <div class="bg-mau-primary-700">
               <MenuButton text="MAU Blog" to="/blog"></MenuButton>
