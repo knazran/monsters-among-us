@@ -74,7 +74,7 @@
               ></MenuButton> -->
             </MenuAccordion>
             <div class="bg-mau-primary-700">
-              <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
+              <MenuButton text="MAU Blog" to="/blog"></MenuButton>
             </div>
             <MenuAccordion title="Lapor Predator">
               <MenuButton
