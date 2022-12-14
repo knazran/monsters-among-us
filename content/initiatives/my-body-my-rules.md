@@ -5,9 +5,9 @@ preview: A basic guide to comprehensive sexuality education for children in all
 logo: /img/initiative/Colour with MAU.png
 order: 3
 title: My Body, My Rules!
-description: A basic guide to comprehensive sexuality education for children in
-  all their diversity.
-main_poster: /img/catalogue-1-square-final.png
+description: "Ongoing Campaign: Celebrating bodies and experiences for a
+  child-friendly community"
+main_poster: /img/whatsapp-image-2022-12-13-at-8.27.35-pm.jpeg
 link: /initiatives/my-body-my-rules
 ---
 ## Background
