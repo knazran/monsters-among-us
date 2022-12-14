@@ -7,7 +7,7 @@ order: 3
 title: My Body, My Rules!
 description: "Ongoing Campaign: Celebrating bodies and experiences for a
   child-friendly community"
-main_poster: /img/whatsapp-image-2022-12-13-at-8.27.35-pm.jpeg
+main_poster: /img/catalogue-1-square-final.png
 link: /initiatives/my-body-my-rules
 ---
 ## Background
@@ -18,7 +18,8 @@ link: /initiatives/my-body-my-rules
 
 ## Happening Now
 
-## \
+![](/img/whatsapp-image-2022-12-13-at-8.27.35-pm.jpeg)
+
 ***MY BODY, MY RULES: Celebrating Bodies And Experiences For A Child-Friendly Community*** 
 
 In 2021, we released a locally-illustrated sex-ed colouring book, 'MY BODY, MY RULES',  to mitigate the lack of comprehensive sexuality education (CSE) in Malaysia.
