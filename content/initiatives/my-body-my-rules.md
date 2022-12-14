@@ -18,7 +18,7 @@ link: /initiatives/my-body-my-rules
 
 ## Happening Now
 
-![](/img/whatsapp-image-2022-12-13-at-8.27.35-pm.jpeg)
+![](/img/mbmr-logo-white-border.png)
 
 ***MY BODY, MY RULES: Celebrating Bodies And Experiences For A Child-Friendly Community*** 
 
