@@ -16,9 +16,9 @@ link: /initiatives/my-body-my-rules
 
 'My Body, My Rules' is currently available for orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways. Special shoutout to Shamrizan Jamaludin Indasya Zubir, Aida Masturina, Dizrieana Izrin, Shuhufan Shukardi, Daniel Norazman, Atsmara, Rasyid and Sook Kuan.
 
-## Happening Now
+## Happening Now: 5-Days Art Exhibition 28 Dec 2022 - 1 Jan 2023
 
-![](/img/mbmr-logo-white-border.png)
+![](/img/screenshot-2022-12-14-at-1.51.49-pm.png)
 
 ***MY BODY, MY RULES: Celebrating Bodies And Experiences For A Child-Friendly Community*** 
 
