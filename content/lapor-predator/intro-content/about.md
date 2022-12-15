@@ -19,12 +19,15 @@ partners:
       image: /img/in-control/supporter/embassy.png
 ---
 
-Welcome aboard our mission to fight online sexual crimes against children. We hereby introduce our automated Chatbot. The chatbot functions as a convenient online reporting medium for online sexual exploitation and abuse of children (OCSEA).
+Welcome aboard our mission to fight online sexual crimes against children. Lapor Predator is an automated chatbot which functions as a convenient online reporting medium for online sexual exploitation and abuse of children (OCSEA).
 
-> “The first of its kind in Malaysia, anyone - from children to adults - can access and report suspected sexual abuse, online AND offline in Malaysia via our Lapor Predator chatbot.”
+Children have increasing access to the Internet and social media sites. While the use of such platforms is beneficial for growth, it also leaves children vulnerable to negative exposure, a risk which is exacerbated by the pandemic forcing children to spend prolonged periods of time online.
 
+Perpetrators make use of technological advances to target, groom and abuse children. This is made easier by a lack of parental control on the use of devices and a lack of awareness among children about the risks of their online behavior. 
 
-Children increasingly have access to the internet and social media platforms as a younger age and for greater proportions of their time. While it is beneficial for their growth, it has also put them at risk of negative exposures; risks accentuated by the Covid-19 pandemic forcing children to spend extensive times on the internet for educational purposes. 
+Figures demonstrate that 117 Malaysian children were sexually assaulted by perpetrators they met through the Internet between January and May 2017. Malaysia also scored 0/100 in the Out of the Shadows index, indicating a severe lack of Internet protection for our children. Although Malaysia is equipped with some forms of legal framework to combat online sexual crimes against children, there remains no real collaboration between stakeholders to utilize the platforms and legislations. Further worsening matters, reporters face many challenges when it comes to lodging a complaint in view of unclear procedures, the lack of moral support by authorities and at times, the outright neglect of responsible parties.
+
+Therefore, Lapor Predator in acting as an online platform through which online CSA concerns can be reported aims to remove the obstacles in reporting and assist reporters through each step of the reporting process.
 
 <!-- <div class='flex items-center h-96 px-4 my-4 md:px-12 rounded-md' :style="{ 'background-image': `url('/img/lapor-predator/lp-header-1.png')`, 'background-size': 'cover' }">
   <div class='w-full md:w-1/2'>

@@ -10,12 +10,47 @@
 
     <div class="relative z-10">
       <PageSection id="about-lapor-predator">
-      
-        <ControlPurpose :content="aboutContent" />
+        <PageSplitSection>
+          <PageTitleAlt
+            :title="aboutContent.title"
+            :description="aboutContent.description"
+          />
+        </PageSplitSection>
+        <!-- <ControlPurpose :content="aboutContent" /> -->
+        <div class="w-full  px-4 my-8 md:mb-20 relative z-10">
+          <nuxt-content
+            class="w-full prose prose-lp prose-sm lg:prose-lg max-w-none"
+            :document="aboutContent"
+          />
+        </div>
+      </PageSection>
+      <PageSection id="how-to">
+        <PageSplitSection>
+          <PageTitleAlt
+            :title="content.title"
+            :description="content.description"
+          />
+        </PageSplitSection>
+        <div class="flex justify-center items-center relative z-10">
+          <div class="w-full lg:w-1/2 h-96">
+            <Video
+              title="test"
+              src="https://www.youtube.com/embed/641nm_sDejU"
+            />
+          </div>
+        </div>
 
+        <div class="w-full  px-4 my-8 md:mb-20 relative z-10">
+          <nuxt-content
+            class="w-full prose prose-lp prose-sm lg:prose-lg max-w-none"
+            :document="content"
+          />
+        </div>
       </PageSection>
       <PageSection id="our-journey">
-        <HeadingControl title="Our Journey" />
+        <PageTitleAlt
+            title="Our Journey"
+          />
 
         <div class="relative wrap overflow-hidden px-6 my-6 h-full">
           <div
@@ -33,21 +68,21 @@
         </div>
       </PageSection>
 
-        <ControlInfographicMin
+        <!-- <ControlInfographicMin
           :content="infographicContent"
           :bgImage="getBackgroundImage2"
-        />
+        /> -->
       <!-- <PageSection  id="contact">
         <ControlContact :content="contactContent" />
       </PageSection> -->
-      <PageSection  id="event">
+      <!-- <PageSection  id="event">
         <ControlEventMin
           :podcastContent="podcastEvent"
         />
       </PageSection>
       <PageSection  id="filter">
       <ControlFilter :content="filterContent" />
-    </PageSection>
+    </PageSection> -->
 
       <PageSection id="our-partners">
         <PageTitleAlt title="Our Partners" />
@@ -83,19 +118,21 @@ export default {
       const infographicContent = await $content(
         'in-control/resources-section'
       ).fetch()
-      const podcastEvent = await $content(
-        'in-control/event/podcast-event'
-      ).fetch()
-      const contactContent = await $content('in-control/lp-chatbot').fetch()
-      const filterContent = await $content('in-control/ig-filter').fetch()
+      // const podcastEvent = await $content(
+      //   'in-control/event/podcast-event'
+      // ).fetch()
+      // const contactContent = await $content('in-control/lp-chatbot').fetch()
+      // const filterContent = await $content('in-control/ig-filter').fetch()
+      const content = await $content('lapor-predator/intro-content/how-to').fetch()
 
       return {
         aboutContent,
         journeyInfo,
         infographicContent,
-        podcastEvent,
-        contactContent,
-        filterContent
+        // podcastEvent,
+        // contactContent,
+        // filterContent,
+        content
       }
     } catch (e) {
       error({ message: 'Content not found' })

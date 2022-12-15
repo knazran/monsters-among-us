@@ -7,7 +7,7 @@
         class="
           font-body font-medium
           px-2
-          prose prose-black prose-lg
+          prose prose-lp prose-lg
           lg:prose-xl
           max-w-none
         "
