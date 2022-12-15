@@ -9,7 +9,7 @@
                 2xl:w-64
                 xl:w-52
                 w-64
-                xl:ml-5
+                xl:ml-4
                 xl:mt-0
                 mt-3
                 py-2

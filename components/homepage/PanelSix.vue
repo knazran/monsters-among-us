@@ -24,7 +24,7 @@
               >
                 <blockquote
                   class="instagram-media"
-                  data-instgrm-permalink="https://www.instagram.com/p/Ca1s--mvnlD/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-permalink="https://www.instagram.com/p/Cl0-C9dJZy0/?utm_source=ig_embed&amp;utm_campaign=loading"
                   data-instgrm-version="14"
                   style="
                     background: #fff;
@@ -43,7 +43,7 @@
                 >
                   <div style="padding: 16px">
                     <a
-                      href="https://www.instagram.com/p/Ca1s--mvnlD/?utm_source=ig_embed&amp;utm_campaign=loading"
+                      href="https://www.instagram.com/p/Cl0-C9dJZy0/?utm_source=ig_embed&amp;utm_campaign=loading"
                       style="
                         background: #ffffff;
                         line-height: 0;
@@ -287,7 +287,7 @@
                       "
                     >
                       <a
-                        href="https://www.instagram.com/p/Ca1s--mvnlD/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        href="https://www.instagram.com/p/Cl0-C9dJZy0/?utm_source=ig_embed&amp;utm_campaign=loading"
                         style="
                           color: #c9c8cd;
                           font-family: Arial, sans-serif;
@@ -312,7 +312,7 @@
               >
                 <blockquote
                   class="instagram-media"
-                  data-instgrm-permalink="https://www.instagram.com/p/Ca4DWluviIb/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CmIr3TQp3dQ/?utm_source=ig_embed&amp;utm_campaign=loading"
                   data-instgrm-version="14"
                   style="
                     background: #fff;
@@ -331,7 +331,7 @@
                 >
                   <div style="padding: 16px">
                     <a
-                      href="https://www.instagram.com/p/Ca4DWluviIb/?utm_source=ig_embed&amp;utm_campaign=loading"
+                      href="https://www.instagram.com/reel/CmIr3TQp3dQ/?utm_source=ig_embed&amp;utm_campaign=loading"
                       style="
                         background: #ffffff;
                         line-height: 0;
@@ -575,7 +575,7 @@
                       "
                     >
                       <a
-                        href="https://www.instagram.com/p/Ca4DWluviIb/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        href="https://www.instagram.com/reel/CmIr3TQp3dQ/?utm_source=ig_embed&amp;utm_campaign=loading"
                         style="
                           color: #c9c8cd;
                           font-family: Arial, sans-serif;
@@ -700,3 +700,4 @@ export default {
   },
 }
 </script>
+

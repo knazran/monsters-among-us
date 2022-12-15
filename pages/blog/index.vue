@@ -3,7 +3,7 @@
     <div class="py-12">
       <div class="md:py-4 relative z-10">
         <PageSection id="blog-posts">
-          <PageTitle title="MAU Blog" />
+          <PageTitle title="Blog" />
           <div
             class="
               grid

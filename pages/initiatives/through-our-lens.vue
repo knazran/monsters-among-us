@@ -4,7 +4,7 @@
         <PageSplitSection img="/img/carousell/through-our-lens.png">
           <PageTitle title="Through Our Lens" description="A mentoring project where we develop child advocates who can protect themselves and their peers from sexual violence against children" />
         </PageSplitSection>
-        <div class="w-full lg:w-4/5 px-4 my-8 md:mb-20 relative z-10">
+        <div class="w-full  px-4 my-8 md:mb-20 relative z-10">
           <nuxt-content
             class="prose prose-mau prose-md lg:prose-lg max-w-none"
             :document="content"
