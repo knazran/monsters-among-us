@@ -80,16 +80,16 @@
             <div class="bg-mau-primary-700">
               <MenuButton text="Blog" to="/blog"></MenuButton>
             </div>
-            <MenuAccordion title="Lapor Predator">
+            <!-- <MenuAccordion title="Lapor Predator"> -->
               <MenuButton
-                text="About Lapor Predator"
+                text="Lapor Predator"
                 to="/lapor-predator"
               ></MenuButton>
-              <MenuButton
+              <!-- <MenuButton
                 text="How to Lapor Predator"
                 to="/lapor-predator/how-to"
               ></MenuButton>
-            </MenuAccordion>
+            </MenuAccordion> -->
             <div class="bg-mau-primary-700">
               <MenuButton
                 text="Advocate with MAU"
