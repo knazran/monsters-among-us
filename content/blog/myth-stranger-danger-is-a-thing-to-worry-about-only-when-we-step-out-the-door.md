@@ -4,7 +4,9 @@ title: >
 image: /img/blog/blog-myth.png
 author: Farzana
 date: 2021-05-16T17:16:31.032Z
-keyword: ['Abuse','Awareness']
+keyword:
+  - Awareness
+  - Abuse
 
      
 

@@ -4,7 +4,8 @@ author: Tanish Tanjil
 date: 2022-11-25T15:40:15.688Z
 description: Posted by Tanish Tanjil
 image: /img/first-interns-diary-min.png
-keyword: ['General']
+keyword:
+  - General
 
 ---
 **Interns Diary** 

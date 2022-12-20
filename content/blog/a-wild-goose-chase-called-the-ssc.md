@@ -4,8 +4,9 @@ title: >
 image: /img/blog/blog-ssc.png
 author: Firzana Redzuan, Shreya Menon
 date: 2021-01-17T17:16:31.032Z
-keyword: ['Law', 'Harassment', 'Law']
-
+keyword:
+  - Law
+  - Harassment
 
 ---
 

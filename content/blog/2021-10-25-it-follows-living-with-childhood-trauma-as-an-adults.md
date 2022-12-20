@@ -9,7 +9,9 @@ description: tw // Child Sexual Abuse For World Trauma Day, we are sharing a
   we all learn to empathise with each other. And of course, to always be kind.
 author: Fateen Ariff
 image: /img/world-trauma-day-2021.png
-keyword: ['Abuse','Awareness']
+keyword:
+  - Awareness
+  - Abuse
 
 ---
 <!--StartFragment-->

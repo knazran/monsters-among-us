@@ -4,7 +4,9 @@ title: >
 image: /img/blog/blog-woman.png
 author: Farzana
 date: 2021-05-15T17:16:31.032Z
-keyword: ['Equality']
+keyword:
+  - Equality
+
 
 ---
 

@@ -5,7 +5,8 @@ description: Our intern, Loong Dien Min pinned down her thoughts on
   sexualisation of children cartoons.
 author: Loong Dien Min & Fathul Jannah
 image: /img/image2.png
-keyword: ['Awareness']
+keyword:
+  - Awareness
 
 ---
 Cartoons are made for children so it should be safe for them to watch, right?
