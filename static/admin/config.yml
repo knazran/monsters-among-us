@@ -29,6 +29,10 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+<<<<<<< Updated upstream
+=======
+      - { label: "Keyword", name: 'keyword', widget: 'list', default: ['General']}
+>>>>>>> Stashed changes
   - name: 'advocate'
     label: 'Advocate With Us'
     folder: 'content/advocate-with-mau/editable'
