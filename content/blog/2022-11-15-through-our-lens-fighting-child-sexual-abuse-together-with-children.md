@@ -5,6 +5,8 @@ date: 2022-11-15T10:07:19.023Z
 description: “To all of the adults that don’t believe that children should have
   a voice; weren’t they a child once?”  Ain Husniza
 image: /img/mau-graduation-ceremony.png
+keyword: ['Abuse','Awareness']
+
 ---
 On 30th October 2022, Through Our Lens Graduation Ceremony was held at Gaia Space, Shah Alam for 17 of our child advocates aged between 12 to 18 years old. The event was hosted to celebrate the important and impressive work that our child advocates have organised amongst themselves including developing their advocacy skills through child rights workshops, contributing at consultations and executing their very own
 micro-projects.

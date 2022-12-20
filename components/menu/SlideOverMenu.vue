@@ -39,10 +39,6 @@
             </MenuAccordion>
             <MenuAccordion title="Our Initiatives">
               <MenuButton
-                text="Lapor Predator"
-                to="/lapor-predator"
-              ></MenuButton>
-              <MenuButton
                 text="Catch Em' Predator"
                 to="/initiatives/catch-em-predator"
               ></MenuButton>

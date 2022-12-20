@@ -4,7 +4,8 @@ title: >
 image: /img/blog/blog-iwd.png
 author: Nurzahra Rusdi
 date: 2021-05-15T17:16:31.032Z
-     
+keyword: ['Equality','Gender']
+
 
 ---
 

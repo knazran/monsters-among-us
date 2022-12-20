@@ -26,9 +26,10 @@ collections:
           name: 'image',
           widget: 'image',
           choose_url: true,
-          default: 'kid-hero.jpg',
+          default: '/img/2-yic_campaign_2-.png',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Keyword", name: "keyword", widget: "list", default: ["All"]}
   - name: 'advocate'
     label: 'Advocate With Us'
     folder: 'content/advocate-with-mau/editable'
