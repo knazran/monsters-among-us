@@ -1,10 +1,12 @@
 <template>
   <BackgroundWrapper color='beige'>
-    <div class="py-12">
+    <div class="py-12 ">
+      <PageTitle class="px-6 sm:px-24 lg:px-36"  title="Blog" />
+
       <div class="md:py-4 relative z-10">
-        <div class="px-6 sm:px-24 lg:px-36" id="blog-posts">
-          <PageTitle title="Blog" />
-          <div class="py-4 lg:space-x-4 ">
+
+        <div id="blog-posts">
+          <div class="lg:py-2 pt-4 px-2 sm:px-20 lg:px-32  ">
                     <button @click="setTopics('All')" :class='buttonProperties("All")'>
                       <p class="text-gray-500 font-light text-xs md:text-base"> All</p>
 
@@ -102,10 +104,10 @@ export default {
   buttonProperties(topic){
     if (this.selectedTopic===topic)
     {
-      return ' bg-gray-300 active:bg-violet-100 focus:outline-none focus:ring focus:ring-violet-100 hover:bg-gray-200 text-white font-bold py-2 px-4 rounded-lg'
+      return ' mx-1 bg-gray-300 active:bg-violet-100 focus:outline-none focus:ring focus:ring-violet-100 hover:bg-gray-200 text-white font-bold py-2 px-4 rounded-lg'
     }
     else {
-      return ' hover:bg-gray-300 text-white font-bold py-2 px-4  focus:outline-none rounded-lg	 '
+      return ' mx-1 hover:bg-gray-300 text-white font-bold py-2 px-4  focus:outline-none rounded-lg	 '
 
     }
   }
