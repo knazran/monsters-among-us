@@ -1,9 +1,9 @@
 <template>
   <div
-    class="border-t border-black text-mau-primary-700 flex flex-col "
+    class="border-b border-gray-400 text-mau-primary-700 flex flex-col "
   >
-    <div class="container mx-auto flex  mt-4  md:my-18">
-      <div class="w-2/3 md:px-6 mb-4 md:mb-0">
+    <div class="md:container md:mx-auto flex  mt-5  md:my-18">
+      <div class="w-2/3  mb-4 md:mb-0">
         <NuxtLink :to="`blog/${slug}`">
           <div class="font-bold hover:underline text-base md:text-xl mb-2">
             {{ title }}

@@ -6,33 +6,33 @@
           <PageTitle title="Blog" />
           <div class="py-4 lg:space-x-4 ">
                     <button @click="setTopics('All')" :class='buttonProperties("All")'>
-                      <p class="text-black font-light text-xs md:text-base"> All</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base"> All</p>
 
                       
                     </button>
                     <button  @click="setTopics('General')" :class='buttonProperties("General")'>
-                      <p class="text-black font-light text-xs md:text-base">General</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">General</p>
                     </button>
                     <button  @click="setTopics('Law')" :class='buttonProperties("Law")'>
-                      <p class="text-black font-light text-xs md:text-base"> Law</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base"> Law</p>
                     </button>
                     <button  @click="setTopics('Harassment')" :class='buttonProperties("Harassment")'>
-                      <p class="text-black font-light text-xs md:text-base"> Harassment</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base"> Harassment</p>
                     </button>
                     <button  @click="setTopics('Abuse')" :class='buttonProperties("Abuse")'>
-                      <p class="text-black font-light text-xs md:text-base">Abuse</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">Abuse</p>
                     </button>
                     <button  @click="setTopics('Awareness')" :class='buttonProperties("Awareness")'>
-                      <p class="text-black font-light text-xs md:text-base">Awareness</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">Awareness</p>
                     </button>
                     <button  @click="setTopics('Equality')" :class='buttonProperties("Equality")'>
-                      <p class="text-black font-light text-xs md:text-base">Equality</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">Equality</p>
                     </button>
                     <button  @click="setTopics('Gender')" :class='buttonProperties("Gender")'>
-                      <p class="text-black font-light text-xs md:text-base">Gender</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">Gender</p>
                     </button>
                     <button  @click="setTopics('Survivor')" :class='buttonProperties("Survivor")'>
-                      <p class="text-black font-light text-xs md:text-base">Survivor</p>
+                      <p class="text-gray-500 font-light text-xs md:text-base">Survivor</p>
                     </button>
             </div>    
         </div>
