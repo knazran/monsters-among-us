@@ -5,8 +5,8 @@ preview: A basic guide to comprehensive sexuality education for children in all
 logo: /img/initiative/Colour with MAU.png
 order: 3
 title: My Body, My Rules!
-description: A basic guide to comprehensive sexuality education for children in
-  all their diversity.
+description: "Ongoing Campaign: Celebrating bodies and experiences for a
+  child-friendly community"
 main_poster: /img/catalogue-1-square-final.png
 link: /initiatives/my-body-my-rules
 ---
@@ -14,25 +14,25 @@ link: /initiatives/my-body-my-rules
 
 'My Body, My Rules' is a children’s colouring book that may serve as an initial guide for parents, guardians and educators as well as children who want to ease into sexuality education. 'My Body, My Rules' came into being to mitigate the lack of comprehensive sexuality education which is accessible to children from all backgrounds and which enables them to learn about topics such as intimacy, sexual abuse and navigating the legal protection that is available to them in Malaysia. The content of the book is tailored according to the social and cultural factors that affect children in Malaysia.
 
-'My Body, My Rules' has been in production since January 2021 and is currently available for orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways.
+'My Body, My Rules' is currently available for orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways. Special shoutout to Shamrizan Jamaludin Indasya Zubir, Aida Masturina, Dizrieana Izrin, Shuhufan Shukardi, Daniel Norazman, Atsmara, Rasyid and Sook Kuan.
 
-### The 10 artists contributing are:-
+## Happening Now: 5-Days Art Exhibition 28 Dec 2022 - 1 Jan 2023
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+![](/img/screenshot-2022-12-14-at-1.51.49-pm.png)
 
-* Shamrizan Jamaludin - <a href="https://www.instagram.com/shamrizan/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Indasya Zubir - <a href="https://www.instagram.com/indasya/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Aida Masturina - <a href="https://www.instagram.com/milkhue/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Dizrieana Izrin - <a href=" https://www.instagram.com/kacangkecik/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Shuhufan Shukardi - <a href="https://www.instagram.com/shuhufan.art/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Daniel Norazman - <a href=" https://www.instagram.com/dannyzmn/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Atsmara - <a href=" https://www.instagram.com/_atsmarawr/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Rasyid - <a href="https://www.instagram.com/someonedoesdoodle/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
-* Sook Kuan - <a href="https://www.instagram.com/be_circle_/"><i class=" text-mau-primary-500 hover:text-mau-primary-700 fab fa-instagram"></i></a>
+***MY BODY, MY RULES: Celebrating Bodies And Experiences For A Child-Friendly Community*** 
 
-The book would not have been made a reality without the talent of these artists, so check them out and support them as you do MAU!
+In 2021, we released a locally-illustrated sex-ed colouring book, 'MY BODY, MY RULES',  to mitigate the lack of comprehensive sexuality education (CSE) in Malaysia.
 
- Click the button below to order the Colouring Book today with special deals waiting for you!
+THIS year, in partnership with German Embassy KL we’re delighted to share an extension of that: our ‘MY BODY MY RULES’ (MBMR) community-driven initiative — an art-based sex education workshops for kids AND a 5-DAYS physical art exhibition, that will include a bunch of other exciting activities!
 
-<a href='https://docs.google.com/forms/d/e/1FAIpQLSdy_MNa6339OcZ_FiYrawhQFH-z1FnzjUT2q3BaJ7rt9hDxjg/viewform?usp=sf_link' target='_blank'> <button class='transform
-                hover:scale-105 rounded-lg my-4 px-8 text-white bg-mau-secondary-900'>Order </button> </a>
+Joining hand with intersectional community leaders, we hope to centre those most susceptible to sexual violence, as we make space for more gender-just education on sexuality in Malaysia, for a child-friendly community. 
+
+Come celebrate your bodies and experiences with us!
+
+**Date: 28 Dec 2022 - 01 Jan 2023
+Time: 12.00pm-10.00pm
+Location: @22.hub, PJ** \
+**R﻿egister: Click [here](https://bit.ly/mybodymyrules_reg)**
+
+Partners: @klinik_kenit, @legaldignity @myfatsquad @psthechildren @sekolahislamiyah @ainsaifulnizam @msiandocs4women @hannahnazri @sistersinislam.my
