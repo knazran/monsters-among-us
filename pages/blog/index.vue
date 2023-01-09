@@ -72,7 +72,7 @@
             </div>
           </div>
       </div>
-      <div class="md:block hidden md:fixed md:bottom-0 md:right-0">
+      <!-- <div class="md:block hidden md:fixed md:bottom-0 md:right-0"> -->
         <img class="object-contain h-56 lg:h-72 xl:h-96 2xl:h-100" :src="bgBlog" />
       </div>
     </div>

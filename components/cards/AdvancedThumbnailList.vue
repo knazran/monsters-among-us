@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-b border-gray-400 text-mau-primary-700 flex flex-col "
+    class=" border-gray-400 text-mau-primary-700 flex flex-col "
   >
     <div class="md:container md:mx-auto flex  mt-5  md:my-18">
       <div class="w-2/3  mb-4 md:mb-0">
@@ -38,18 +38,19 @@
           </div>
         </div>
       </div>
-      <div class="w-1/3  mb-6 md:px-12 flex flex-col">
+      <div class="w-1/3 pl-10 xl:pl-36 mb-6 flex flex-col">
         <NuxtLink :to="`blog/${slug}`">
           <img
             v-if="img !== ''"
             
-            class="object-cover ml-6 h-20 lg:h-40 w-20  sm:h-36 sm:w-full"
+            class="object-cover h-20 lg:h-40   sm:h-36 w-full"
             alt="/img/2-yic_campaign_2-.png"
             :src="img"
           />
         </NuxtLink>
       </div>
     </div>
+    <hr  class=" border-gray-400 text-mau-primary-700  ">
   </div>
 </template>
 
