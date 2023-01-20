@@ -2,13 +2,13 @@
 title: Intern's Diary Episode 2
 author: Tanish Tanjil
 date: 2023-01-20T13:35:58.915Z
-description: "Disclaimer: The Interns Diary is a compilation of several
+description: "*Disclaimer: The Interns Diary is a compilation of several
   bi-weekly journal entries penned by MAU’s current Intern, Tanish Tanjil. Her
   internship period lies between September 2022 - January 2023. The purpose of
   this diary is to allow the readers a ‘Behind the Scene’ perspective of how MAU
   works! The MAU team hopes you will enjoy reading these bite-sized,
   broken-humour & fire-cracker-filled journal entries by our quirky 17-year-old
-  intern. Bon Appetit!"
+  intern. Bon Appetit!*"
 image: /img/intern-s-diary.png
 ---
 **Interns Diary** 
@@ -17,9 +17,11 @@ image: /img/intern-s-diary.png
 
 Episode 02
 
+*Disclaimer: The Interns Diary is a compilation of several bi-weekly journal entries penned by MAU’s current Intern, Tanish Tanjil. Her internship period lies between September 2022 - January 2023. The purpose of this diary is to allow the readers a ‘Behind the Scene’ perspective of how MAU works! The MAU team hopes you will enjoy reading these bite-sized, broken-humour & fire-cracker-filled journal entries by our quirky 17-year-old intern. Bon Appetit!* 
+
 **Title of the episode: “My Month Anniversary”**
 
-***Week 3:** 17th October - 21st October*
+**\*Week 3:** 17th October - 21st October*
 
 Dear Diary, 
 
@@ -28,8 +30,6 @@ Dear Diary, 
 was a quote I read while making MAU's poster for World Mental Health Day 2022. This week was eventful because we had consecutive posts on Mental Health, Deepavali, and Child Sexual Abuse Material (CSAM). Furthermore, we were preparing for the ultimate "Through Our Lens" Graduation Ceremony! The week started with me doing experimental design on mental health posters for MAU. Since fir wasn't here, I had no design guru. Hence, I had to make a poster, which was quite challenging as this was my first design for MAU. Then, we posted the CSAM content, and I wrote it! I especially enjoyed this post because it intrigued me to explore how a parent would deal with their child coming across explicit content. Reading multiple articles on this topic taught me how we can effectively and calmly handle the situation. (Head on to our Instagram post to read more...). The articles spoke about the importance of communication with the child and educating them about it. I had MAU's volunteer, Henry, help me design the poster. Henry aided with the Deepavali poster as well!
 
 The next thing I worked on that week was emcee scripts for the Through Our Lens (TOL) Graduation ceremony! It was a hell lot of fun! Our child advocates were energetic and incredibly passionate about their project, and their dedication to planning the content for the scripts was fun to watch. We had Farisa from MAU supporting us through this process. The script had to be entertaining but straightforward so our audience could stay energised. With my limited stage experience and content writing skills, I tried helping them with speech starters, presentations, and smooth-flow tips. Sense of humour wasn't my cup of tea, though, haha! And with a blink of an eye, this week ended. 
-
-
 
 *Week 4: 24th October - 28th October*
 
