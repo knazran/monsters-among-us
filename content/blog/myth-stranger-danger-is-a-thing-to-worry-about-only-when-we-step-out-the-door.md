@@ -1,11 +1,14 @@
 ---
 title: >
-    MYTH: ‘Stranger danger is a thing to worry about only when we step out the door.’
-image: /img/blog/blog-myth.png
+  MYTH: ‘Stranger danger is a thing to worry about only when we step out the
+  door.’
 author: Farzana
 date: 2021-05-16T17:16:31.032Z
-     
-
+description: Studies shown that 40% of teens around the world began using the
+  internet before they were 13 years old. As youths in Malaysia are amongst the
+  most digitally connected in the world, what do we do about the online child
+  predators? How do we protect ourselves?
+image: /img/blog/blog-myth.png
 ---
 
 Sad to break it to everyone, but the above statement is a thing of the past. Studies shown that 40% of teens around the world began using the internet before they were 13 years old*. As youths in Malaysia are amongst the most digitally connected in the world while the number of online predators are rising day by day, we need to start educating one another on ending child exploitation online.
