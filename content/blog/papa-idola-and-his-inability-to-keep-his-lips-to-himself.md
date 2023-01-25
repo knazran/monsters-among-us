@@ -1,11 +1,13 @@
 ---
-title: >
-    Papa Idola and His Inability to Keep his lips to himself.
-image: /img/blog/blog-papa.png
+title: |
+  Papa Idola and His Inability to Keep his lips to himself.
 author: Admin
 date: 2021-05-15T17:16:31.032Z
-     
-
+description: Recently, a few TikTok videos of a Malaysian public figure known as
+  Papa Idola Semalaya have been going viral online and its definitely not for
+  the right reasons. This individual was seen to be kissing his adopted child on
+  the lips. Can this be considered as an innocent or 'socially accepted' act?
+image: /img/blog/blog-papa.png
 ---
 
 Recently, a few TikTok videos of a Malaysian public figure known as Papa Idola Semalaya have been going viral online and its definitely not for the right reasons. Just like our title states, this individual was seen to be kissing his adopted child on the lips. While some may think it’s innocent (like why can’t a dad kiss their kids right?), you might be surprised to learn that it’s absolutely unacceptable for you as an adult to be encroaching the physical privacy of a child (even if you’re the parent of said-child).
