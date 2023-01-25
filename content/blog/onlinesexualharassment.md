@@ -1,11 +1,13 @@
 ---
-title: >
-    “JUST MAKE A REPORT FOR GOD SAKE!”
-image: /img/blog/blog-report.png
+title: |
+  “JUST MAKE A REPORT FOR GOD SAKE!”
 author: Dheveena Manokaran, Firzana Redzuan
 date: 2021-01-03T17:16:31.032Z
-     
-
+description: Online sexual harassment is becoming an alarming issue as days go
+  by. Sexual predators prefer to prey on their ‘targets’ online primarily due to
+  the convenience provided by social media platforms. How can we protest against
+  this? When will they stop?
+image: /img/blog/blog-report.png
 ---
 
 Recently, an allegation was made against a celebrity with reference to online sexual harassment, sexual assault and rape. The allegations took social media by storm with more & more survivors coming forward with their stories on their own encounters with this alleged individual. The story took its sharp turn when the alleged individual made a police report against the person who exposed this story. But it reached its acme when a survivor decided to make a report on the same individual with allegations of rape.
