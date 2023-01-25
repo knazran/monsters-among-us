@@ -1,11 +1,12 @@
 ---
-title: >
-    Safer Internet Day 2021 Tribute
-image: /img/blog/blog-safer.png
+title: |
+  Safer Internet Day 2021 Tribute
 author: Shreya Menon
 date: 2021-05-15T17:16:31.032Z
-     
-
+description: "Is releasing personal details online safe? How about posting
+  pictures of everything we do on social media? Where can we draw the fine line
+  between our 'social media life' and 'real life'? "
+image: /img/blog/blog-safer.png
 ---
 
 It’s 1am, you’re searching for the stream link for the upcoming Manchester United match that’s supposed to start at 1.30am. You find one that was recommended to you by your classmate. You click on it and it turns out to be a phishing site. Well with pandemic drowning us like the giant iceberg in Titanic, this situation is inexplicably unavoidable now that the internet has become a crucial part of our lives. From education to work and even emotional solace, there is possibly no way for anyone to escape internet use today and its multitudes of boogeymen that exist there. So, the question then arises, what can you actually do to prevent detrimental mishaps from donning your or your family’s web usage?
