@@ -2,13 +2,8 @@
 title: Intern's Diary Episode 2
 author: Tanish Tanjil
 date: 2023-01-20T13:35:58.915Z
-description: "*Disclaimer: The Interns Diary is a compilation of several
-  bi-weekly journal entries penned by MAU’s current Intern, Tanish Tanjil. Her
-  internship period lies between September 2022 - January 2023. The purpose of
-  this diary is to allow the readers a ‘Behind the Scene’ perspective of how MAU
-  works! The MAU team hopes you will enjoy reading these bite-sized,
-  broken-humour & fire-cracker-filled journal entries by our quirky 17-year-old
-  intern. Bon Appetit!*"
+description: The Intern's Diary is a compilation of several bi-weekly journal
+  entries penned by MAU’s current Intern, Tanish Tanjil.
 image: /img/intern-s-diary.png
 ---
 **Interns Diary** 
