@@ -2,7 +2,8 @@
 title: Is My Child Watching Pornography Online?
 author: Tanish Tanjil & Henry Ho
 date: 2022-10-16T04:44:30.726Z
-description: Posted for IG
+description: Our top 4 techniques to effectively manage the situation and to
+  develop a deeper understanding with your child :)
 image: /img/screenshot-2022-10-16-at-1.01.50-pm.png
 ---
 When children are exposed to pornography at a young age, it can have many harmful effects towards their mental health as well as their physical health. Watching pornography could also change one’s views about sex. Talking to your child about pornography can be tough, however, it is a necessary thing to do. Let’s discuss what we can do when our children is exposed to pornography.
