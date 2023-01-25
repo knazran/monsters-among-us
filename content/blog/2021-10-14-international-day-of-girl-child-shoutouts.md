@@ -7,6 +7,9 @@ description: International Day of Girl Child is celebrated to raise awareness on
   participate in STEM
 author: "Jannah "
 image: /img/internatiol-girl-child.png
+keyword:
+  - Equality
+
 ---
 <!--StartFragment-->
 

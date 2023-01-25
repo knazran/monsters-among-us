@@ -20,7 +20,7 @@
           <PageTitle :title="content.title" />
         </PageSplitSection>
 
-        <!-- <TextSplitSection>
+        <TextSplitSection>
         <template #left>
           <h2 class="font-medium lg:text-4xl text-3xl text-left">
             {{ fiveFacts.title }}
@@ -32,7 +32,7 @@
             :document="fiveFacts"
           />
         </template>
-      </TextSplitSection> -->
+      </TextSplitSection>
 
         <!-- Content -->
         <div class="flex flex-col-reverse md:flex-row md:py-12">

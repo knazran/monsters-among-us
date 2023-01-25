@@ -1,6 +1,7 @@
 <template>
   <div class="overflow-x-hidden">
     <!-- <ControlCover /> -->
+    <PanelCarousel />
 
     <MainHero />
     <PanelTwo />

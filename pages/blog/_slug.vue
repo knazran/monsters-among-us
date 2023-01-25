@@ -1,17 +1,18 @@
 <template>
   <BackgroundWrapper color="beige">
-    <div class="container mx-auto">
-      <div class="px-4 my-4 flex flex-col items-center">
+    <div class="md:container px-5 py-5 mx-auto ">
+      <div class="md:px-4 my-4 flex flex-col items-center">
         <!-- Image -->
         <div
           class="mx-auto rounded-lg flex justify-center w-full xl:h-96 2xl:h-99"
         >
-          <img :src="post.image" class="my-5 object-cover w-full h-full" />
+
+          <img :src="post.image" alt="/img/2-yic_campaign_2-.png" class="sm:my-5 object-cover w-full h-full" />
         </div>
 
         <div
           class="
-            my-2
+            sm:my-2
             md:my-4
             px-4
             pb-8

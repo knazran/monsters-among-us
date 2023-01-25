@@ -39,10 +39,6 @@
             </MenuAccordion>
             <MenuAccordion title="Our Initiatives">
               <MenuButton
-                text="Lapor Predator"
-                to="/lapor-predator"
-              ></MenuButton>
-              <MenuButton
                 text="Catch Em' Predator"
                 to="/initiatives/catch-em-predator"
               ></MenuButton>
@@ -53,6 +49,10 @@
               <MenuButton
                 text="MAU Reading Club"
                 to="/initiatives/mau-reading-club"
+              ></MenuButton>
+              <MenuButton
+                text="Through Our Lens"
+                to="/initiatives/through-our-lens"
               ></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Focus Areas">
@@ -68,36 +68,36 @@
                 text="Sexual and Reproductive Health Rights"
                 to="/focus-area/sexual-and-reproductive-health-rights"
               ></MenuButton>
-              <!-- <MenuButton
+              <MenuButton
                 text="Child Rights"
                 to="/focus-area/child-rights"
-              ></MenuButton> -->
+              ></MenuButton>
             </MenuAccordion>
             <div class="bg-mau-primary-700">
-              <MenuButton text="Gotta Read This" to="/blog"></MenuButton>
+              <MenuButton text="Blog" to="/blog"></MenuButton>
             </div>
-            <MenuAccordion title="Lapor Predator">
+            <!-- <MenuAccordion title="Lapor Predator"> -->
               <MenuButton
-                text="About Lapor Predator"
+                text="Lapor Predator"
                 to="/lapor-predator"
               ></MenuButton>
-              <MenuButton
+              <!-- <MenuButton
                 text="How to Lapor Predator"
                 to="/lapor-predator/how-to"
               ></MenuButton>
-            </MenuAccordion>
+            </MenuAccordion> -->
             <div class="bg-mau-primary-700">
               <MenuButton
                 text="Advocate with MAU"
                 to="/advocate-with-mau"
               ></MenuButton>
             </div>
-              <div class="bg-mau-primary-700">
+              <!-- <div class="bg-mau-primary-700">
               <MenuButton
                 text="YIC Campaign"
                 to="/in-control"
               ></MenuButton>
-            </div>
+            </div> -->
           </div>
           <div
             class="py-2 justify-self-end flex justify-center bg-mau-primary-700"
