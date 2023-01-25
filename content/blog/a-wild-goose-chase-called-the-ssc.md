@@ -1,11 +1,11 @@
 ---
-title: >
-    A Wild-Goose Chase called the SSC
-image: /img/blog/blog-ssc.png
+title: |
+  A Wild-Goose Chase called the SSC
 author: Firzana Redzuan, Shreya Menon
 date: 2021-01-17T17:16:31.032Z
-     
-
+description: Is the Parliamentary Special Select Committee (SSC) for women and
+  children’s affairs a great protection attempt for child molestation cases?
+image: /img/blog/blog-ssc.png
 ---
 
 The Parliamentary Special Select Committee (SSC) for women and children’s affairs is SADLY a worthless attempt when you enable an alleged child molester disguised as a protector to be sitting in the committee.
