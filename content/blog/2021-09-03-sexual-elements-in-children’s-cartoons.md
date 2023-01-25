@@ -1,9 +1,10 @@
 ---
 title: Sexual Elements in Children’s Cartoons
-date: 2021-09-03T07:20:42.331Z
-description: Our intern, Loong Dien Min pinned down her thoughts on
-  sexualisation of children cartoons.
 author: Loong Dien Min & Fathul Jannah
+date: 2021-09-03T07:20:42.331Z
+description: Cartoons are made for children so it should be safe for them to
+  watch, right? Our intern, Loong Dien Min pinned down her thoughts on
+  sexualization of children cartoons. Click to find out more.
 image: /img/image2.png
 ---
 Cartoons are made for children so it should be safe for them to watch, right?
