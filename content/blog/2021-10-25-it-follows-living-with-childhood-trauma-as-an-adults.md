@@ -1,13 +1,13 @@
 ---
 title: "It Follows : Living with Childhood trauma as an Adults"
+author: Fateen Ariff
 date: 2021-10-25T08:00:48.841Z
-description: tw // Child Sexual Abuse For World Trauma Day, we are sharing a
+description: TW // Child Sexual Abuse For World Trauma Day, we are sharing a
   short story about a traumatic childhood incident. Written by our Content
   Writer, Fateen Ariff, it's a story that was shared by a friend, who was brave
   and generous enough to give us permission to share it on our platforms. She
   adds that if anything is taken away from her story, she hopes that it is that
   we all learn to empathise with each other. And of course, to always be kind.
-author: Fateen Ariff
 image: /img/world-trauma-day-2021.png
 ---
 <!--StartFragment-->
