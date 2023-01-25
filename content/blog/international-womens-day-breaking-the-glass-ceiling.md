@@ -1,11 +1,12 @@
 ---
-title: >
-    International Women’s Day: Breaking the Glass Ceiling
-image: /img/blog/blog-iwd.png
+title: |
+  International Women’s Day: Breaking the Glass Ceiling
 author: Nurzahra Rusdi
 date: 2021-05-15T17:16:31.032Z
-     
-
+description: Jo March in Little Women once said "women have minds, ambitions,
+  and talents". No one can deny that. Let's celebrate International Womens Day
+  together!
+image: /img/blog/blog-iwd.png
 ---
 
 In conjunction with International Women’s Day, we would like to celebrate Malaysian women who have paved their way to ensure women deserve to live lives free of violence and oppression. 
