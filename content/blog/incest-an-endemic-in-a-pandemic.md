@@ -1,11 +1,10 @@
 ---
-title: >
-    Incest – An Endemic in a Pandemic
-image: /img/blog/blog-incest.jpeg
+title: |
+  Incest – An Endemic in a Pandemic
 author: Firzana Redzuan
 date: 2021-01-03T17:16:31.032Z
-     
-
+description: "\"Child predators\"? Are we safe? Who are the 'MONSTERS' among us?"
+image: /img/blog/blog-incest.jpeg
 ---
 
 The anticipation of the recent Prime Minister’s national announcement regarding the proliferate of COVID-19 cases stung our friends with sharp and piercing pain. The possibility of MCO 2.0 gave them cold sweat above their lips and at the back of their necks. The image of being trapped in their homes, once again, made their hearts dropped. Thankfully to them, there isn’t another lockdown anytime soon.
