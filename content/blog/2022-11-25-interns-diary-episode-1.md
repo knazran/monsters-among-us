@@ -2,7 +2,8 @@
 title: Intern's Diary Episode 1
 author: Tanish Tanjil
 date: 2022-11-25T15:40:15.688Z
-description: Posted by Tanish Tanjil
+description: The Intern's Diary is a compilation of several bi-weekly journal
+  entries penned by MAU’s current Intern, Tanish Tanjil.
 image: /img/first-interns-diary-min.png
 keyword:
   - Law
