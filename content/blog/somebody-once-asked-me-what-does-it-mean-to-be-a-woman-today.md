@@ -1,10 +1,10 @@
 ---
-title: >
-    Somebody once asked me, ‘what does it mean to be a woman today?’
-image: /img/blog/blog-woman.png
+title: Somebody once asked me, ‘What does it mean to be a woman today?’
 author: Farzana
 date: 2021-05-15T17:16:31.032Z
-
+description: "\"Women are like onions. The more you peel, the more colours you
+  see. And maybe you understand better.''"
+image: /img/blog/blog-woman.png
 ---
 
 To keep it short, I still don’t have the answer to her question.
