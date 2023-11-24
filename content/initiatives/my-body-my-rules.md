@@ -5,34 +5,29 @@ preview: A basic guide to comprehensive sexuality education for children in all
 logo: /img/initiative/Colour with MAU.png
 order: 3
 title: My Body, My Rules!
-description: "Ongoing Campaign: Celebrating bodies and experiences for a
-  child-friendly community"
 main_poster: /img/catalogue-1-square-final.png
 link: /initiatives/my-body-my-rules
+description: "Ongoing Campaign: Celebrating bodies and experiences for a
+  child-friendly community"
 ---
 ## Background
 
-'My Body, My Rules' is a children’s colouring book that may serve as an initial guide for parents, guardians and educators as well as children who want to ease into sexuality education. 'My Body, My Rules' came into being to mitigate the lack of comprehensive sexuality education which is accessible to children from all backgrounds and which enables them to learn about topics such as intimacy, sexual abuse and navigating the legal protection that is available to them in Malaysia. The content of the book is tailored according to the social and cultural factors that affect children in Malaysia.
+'My Body, My Rules' is a children’s colouring book that may serve as an initial guide for parents, guardians and educators as well as children aged 13 - 17 years old who want to ease into sexuality education. 'My Body, My Rules' came into being to mitigate the lack of comprehensive sexuality education which is accessible to children from all backgrounds and which enables them to learn about topics such as intimacy, sexual abuse and navigating the legal protection that is available to them in Malaysia. The content of the book is tailored according to the social and cultural factors that affect children in Malaysia.
 
-'My Body, My Rules' is currently available for orders. 10 local artists were commissioned to realise the content of the book in each of their unique and distinctive ways. Special shoutout to Shamrizan Jamaludin Indasya Zubir, Aida Masturina, Dizrieana Izrin, Shuhufan Shukardi, Daniel Norazman, Atsmara, Rasyid and Sook Kuan.
+'My Body, My Rules' was first launched in 2021 through a small grant awarded by SEAFAM. With the support of the German Embassy in Kuala Lumpur and the Canadian Fund for Local Initiatives (CFLI), MAU is able to expand the spirit of 'My Body My Rules' to further develop and sustain children-led, gender just and safe communities through addressing intersecting identities of the children and youth population in Malaysia. From a colouring book, 'My Body My Rules' has manifested in different forms to engage and touch the hearts of children from diverse background.
 
-## Happening Now: 5-Days Art Exhibition 28 Dec 2022 - 1 Jan 2023
+**Ini Cerita Kami // This is Our Story Art by Children of Malaysia**
 
-![](/img/screenshot-2022-12-14-at-1.51.49-pm.png)
+![](/img/img_4249-2.jpg)
 
-***MY BODY, MY RULES: Celebrating Bodies And Experiences For A Child-Friendly Community*** 
+![](/img/img_3606.jpg)
 
-In 2021, we released a locally-illustrated sex-ed colouring book, 'MY BODY, MY RULES',  to mitigate the lack of comprehensive sexuality education (CSE) in Malaysia.
+Monsters Among Us organised Ini Cerita Kami // This is Our Story: Art by Children of Malaysia. We engaged with 29 young people aged between 10 to 18 years old as we explored topics such as growing up, sex and sexuality, consent and safety and many more. We shared a space where they could ask about things that probably sounded “too sensitive”, “too offensive” and “too adult for them”.
 
-THIS year, in partnership with German Embassy KL we’re delighted to share an extension of that: our ‘MY BODY MY RULES’ (MBMR) community-driven initiative — an art-based sex education workshops for kids AND a 5-DAYS physical art exhibition, that will include a bunch of other exciting activities!
+The children chose matters closest to them. They created art about their homes, their hobbies and their aspirations. We invite you to listen to their stories. This is an experience that we welcome you to embark on with an intention to revisit your own personal childhood experiences; were you ever heard? Did the adults around you take you seriously? And did you feel safe as a child?
 
-Joining hand with intersectional community leaders, we hope to centre those most susceptible to sexual violence, as we make space for more gender-just education on sexuality in Malaysia, for a child-friendly community. 
+ We hope that through the stories that these children have entrusted us with inspire us to be adults that celebrate children in all of their diversities to grow, flourish and achieve their full potential.
 
-Come celebrate your bodies and experiences with us!
+**What now?**
 
-**Date: 28 Dec 2022 - 01 Jan 2023
-Time: 12.00pm-10.00pm
-Location: @22.hub, PJ** \
-**R﻿egister: Click [here](https://bit.ly/mybodymyrules_reg)**
-
-Partners: @klinik_kenit, @legaldignity @myfatsquad @psthechildren @sekolahislamiyah @ainsaifulnizam @msiandocs4women @hannahnazri @sistersinislam.my
+We are training 25 young community leaders as CSE providers, using the colouring book as a module so that different communities are able to sustain a CSE module that is rights-based, age and gender responsive. The programme is supported CFLI
